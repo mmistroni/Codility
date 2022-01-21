@@ -16,18 +16,18 @@ from pprint import pprint
 
 def install_filters(A):
     # removing zeros, they don tcount
-    A = [n for n in A if n > 0]
+    A = [n for n in A]
 
     res = list(product(range(0, len(A)+1), repeat=len(A)))
     filtered = [tpl for tpl in res if sum(tpl) <= 4]
 
     result = []
     for idx, tpl in enumerate(filtered):
-        x1, x2, x3, x4 = tpl
-        fun = (19 * 0.5 ** x1) + (8 * .5 ** x2) + (5 * .5 ** x3) + (2 * .5 ** x4)  #to standardize
-        result.append((tpl, fun))
+        tpls = list(zip(A, tpl))
+        fun = [tpl[0] * (.5**tpl[1]) for tpl in tpls]
+        result.append((tpl, sum(fun)))
 
-    good_ones = [tpl for tpl in result if tpl[1] <= 16.5]
+    good_ones = [tpl for tpl in result if tpl[1] <= sum(A)/ 2]
     sorted_tpls = sorted(good_ones, key=lambda t: sum(t[0]))
 
     print(sorted_tpls)
