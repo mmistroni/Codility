@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/count_div.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/min_avg_two_sums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/passing_cars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prefix_sums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_count_div.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_missing_perm.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_missing_perm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/min_avg_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/min_avg_two_sums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_min_avg_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_min_avg_two_sums.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +61,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_min_avg_two_sums.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -94,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/count_div.py" />
         <option value="$PROJECT_DIR$/src/prefix_sums.py" />
         <option value="$PROJECT_DIR$/test/test_count_div.py" />
+        <option value="$PROJECT_DIR$/test/test_min_avg_two_sums.py" />
         <option value="$PROJECT_DIR$/src/min_avg_two_sums.py" />
       </list>
     </option>
@@ -115,11 +123,6 @@
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codility" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
@@ -148,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_count_div.MyTestCase.test_prefixsums">
+  <component name="RunManager" selected="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something">
     <configuration name="pytest for test_count_div.MyTestCase.test_prefixsums" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,6 +179,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_count_div.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_min_avg_two_sums.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -211,6 +229,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_count_div.MyTestCase.test_prefixsums" />
         <item itemvalue="Python tests.pytest for test_count_div.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_missing_perm.MyTestCase.test_something" />
@@ -232,21 +251,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_missing_perm_MyTestCase_test_something - 2022.02.01 at 19h 02m 59s.xml">
-      <configuration name="pytest for test_missing_perm.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_something - 2022.02.01 at 19h 07m 58s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_prefixsums - 2022.02.01 at 19h 24m 36s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_prefixsums" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_prefixsums - 2022.02.01 at 19h 25m 42s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_prefixsums" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_prefixsums - 2022.02.01 at 19h 27m 39s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_prefixsums" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_count_div_MyTestCase_test_prefixsums - 2022.02.01 at 19h 28m 21s.xml">
       <configuration name="pytest for test_count_div.MyTestCase.test_prefixsums" configurationId="tests" />
     </history-entry>
@@ -262,13 +266,28 @@
     <history-entry file="pytest_for_test_count_div_MyTestCase_test_prefixsums - 2022.02.01 at 19h 33m 49s.xml">
       <configuration name="pytest for test_count_div.MyTestCase.test_prefixsums" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.02.01 at 20h 14m 29s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.02.01 at 20h 15m 11s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.02.01 at 20h 15m 27s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.02.01 at 20h 15m 51s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.02.01 at 20h 16m 20s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -277,7 +296,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42716858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59410805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,10 +361,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_min_avg_two_sums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
