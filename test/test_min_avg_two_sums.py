@@ -1,10 +1,9 @@
 import unittest
-from src.missing_perm import sol
 
+from src.min_avg_two_sums import solution
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        A = [2, 3, 1 ,5]
-        self.assertEqual(4, sol(A))
+        self.assertEqual(True, False)
 
 
 if __name__ == '__main__':
