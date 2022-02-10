@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
     def test_something(self):
         A = [4, 2, 2, 5, 1, 5, 8]
         res = solution(A)
-        pprint(res)
+        #pprint(res)
 
         '''
         
