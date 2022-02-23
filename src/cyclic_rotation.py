@@ -1,4 +1,6 @@
 
+
+
 def sol(A, K):
 
     with_idx = [(item, idx) for idx, item in enumerate(A)]
