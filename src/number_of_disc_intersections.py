@@ -1,0 +1,2 @@
+# check this link
+# https://www.bbc.co.uk/bitesize/guides/z9pssbk/revision/4#:~:text=Two%20circles%20will%20touch%20if%20the%20distance%20between,%28d%20%3D%20%7Br_1%7D%29%20or%20%20%28d%20%3D%20%7Br_2%7D%29.
