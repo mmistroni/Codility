@@ -28,7 +28,6 @@ def num_of_intersections(tpl1, tpl2):
 def Solution(A):
     centersAndRadius = [(idx, item) for idx, item in enumerate(A)]
 
-    print(centersAndRadius)
     intersections = 0
     for t1, t2 in combinations(centersAndRadius, 2):
 
@@ -36,10 +35,9 @@ def Solution(A):
         res = num_of_intersections(t1, t2)
         if res > 0:
             intersections += 1
-        print(f'We got {res} intersection between {t1} and {t2}')
 
-        if intersections >=1000:
-            return 0
+        if intersections >=10000000.:
+            return -1
     return intersections
 
 
