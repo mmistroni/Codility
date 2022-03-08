@@ -9,10 +9,12 @@ def prefix_sums(A):
         P[k] = P[k - 1] + A[k - 1]
     return P
 
-def map_to_array(S):
-    return [MAP_DICT[item] for item in S]
+MAP_DICT = dict(A=1,C=2,G=3, T=4)
+
+def compute_factors(S, start_idx, end_idx):
+    return sorted([MAP_DICT[item] for item in S[start_idx:end_idx]], key=lambda x:x)[0]
 
 
-def solution(S):
-    A = map_to_array(S)
-    return 0
+def solution(S, P, Q):
+    return [compute_factors(S, one, two+1) for one, two in zip(P, Q)]
+
