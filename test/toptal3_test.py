@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.toptal3 import install_filters
+from src.toptal3 import install_filters
 
 class MyTestCase(unittest.TestCase):
     def test_something1(self):

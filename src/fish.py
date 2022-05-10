@@ -3,8 +3,15 @@
 https://app.codility.com/c/run/training7XEK8F-27D/
 '''
 
-def check(container, size_and_dir_tpl):
-    pass
+def cross(container, size, dir, top_size, top_dir):
+    if size >= top_size:
+        container.pop()
+        container.append((size, dir))
+    else:
+        # removing
+        pass
+    return container
+
 def solution(A, B):
     # write your code in Python 3.6
     # https://app.codility.com/c/run/trainingUPYQM8-5MH/
@@ -21,18 +28,12 @@ def solution(A, B):
     for idx, tpl in enumerate(zip(A, B)):
         size, dir = tpl
         if not holder:
-            holder.append((idx, size, dir))
+            holder.append((size, dir))
         else:
-            current_idx, current_size, current_dir = holder[-1]
-            if current_idx < idx and current_dir == 1 and dir == 0:
-                if current_size > size:
-                    print(f'Eating {idx},{size}, {dir}')
-
-                else:
-                    print(f'crossing each other:{current_idx},{current_size}, {current_dir} vs {idx},{size}, {dir}')
-
-                    holder.pop(-1)
-                    holder.append((current_idx, current_size, current_dir))
+            top_size, top_dir = holder[-1]
+            if top_dir == 0 and dir == 1:
+                continue
+            elif top_dir == dir:
+                holder.append((size, dir))
             else:
-                holder.append((idx, size, dir))
-    return len(holder)
+                holder = cross(holder, size, dir, top_size, top_dir)
