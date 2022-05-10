@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test_stonewall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stonewall.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stonewall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/toptal3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/toptal3_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fish.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fish.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="4" />
+            <state relative-caret-position="322">
+              <caret line="38" column="22" lean-forward="true" selection-start-line="5" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -28,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_fish.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="373">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -73,13 +70,13 @@
         <option value="$PROJECT_DIR$/src/genomic_range_query.py" />
         <option value="$PROJECT_DIR$/test/test_brackets.py" />
         <option value="$PROJECT_DIR$/src/brackets.py" />
-        <option value="$PROJECT_DIR$/test/test_fish.py" />
         <option value="$PROJECT_DIR$/src/nesting.py" />
         <option value="$PROJECT_DIR$/test/test_nesting.py" />
         <option value="$PROJECT_DIR$/test/toptal3_test.py" />
         <option value="$PROJECT_DIR$/src/stonewall.py" />
         <option value="$PROJECT_DIR$/test/test_stonewall.py" />
         <option value="$PROJECT_DIR$/src/fish.py" />
+        <option value="$PROJECT_DIR$/test/test_fish.py" />
       </list>
     </option>
   </component>
@@ -238,18 +235,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_stonewall_MyTestCase_test_wrong - 2022.05.10 at 20h 24m 28s.xml">
-      <configuration name="pytest for test_stonewall.MyTestCase.test_wrong" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_stonewall_MyTestCase_test_wrong - 2022.05.10 at 20h 25m 23s.xml">
-      <configuration name="pytest for test_stonewall.MyTestCase.test_wrong" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_stonewall_MyTestCase_test_something - 2022.05.10 at 20h 25m 48s.xml">
-      <configuration name="pytest for test_stonewall.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_stonewall_MyTestCase_test_wrong - 2022.05.10 at 20h 30m 37s.xml">
-      <configuration name="pytest for test_stonewall.MyTestCase.test_wrong" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_stonewall_MyTestCase_test_something - 2022.05.10 at 20h 30m 45s.xml">
       <configuration name="pytest for test_stonewall.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
@@ -268,18 +253,29 @@
     <history-entry file="pytest_for_test_fish_MyTestCase_test_something - 2022.05.10 at 21h 19m 43s.xml">
       <configuration name="pytest for test_fish.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_fish_MyTestCase_test_something - 2022.05.10 at 21h 20m 04s.xml">
+      <configuration name="pytest for test_fish.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fish_MyTestCase_test_something - 2022.05.10 at 21h 23m 33s.xml">
+      <configuration name="pytest for test_fish.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fish_MyTestCase_test_something - 2022.05.10 at 21h 23m 59s.xml">
+      <configuration name="pytest for test_fish.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fish_MyTestCase_test_something - 2022.05.10 at 21h 24m 25s.xml">
+      <configuration name="pytest for test_fish.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23288691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20949264" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33387887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.60229135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -308,12 +304,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/fish.py</url>
-          <line>29</line>
+          <line>27</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/fish.py</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -581,15 +577,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fish.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="4" />
+        <state relative-caret-position="322">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="5" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fish.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="373">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

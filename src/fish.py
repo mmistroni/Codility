@@ -21,8 +21,6 @@ def solution(A, B):
     # we need to bear in mind direction
 
     # this might give a reference
-
-
     holder = []
 
     for idx, tpl in enumerate(zip(A, B)):
@@ -31,9 +29,11 @@ def solution(A, B):
             holder.append((size, dir))
         else:
             top_size, top_dir = holder[-1]
-            if top_dir == 0 and dir == 1:
-                continue
+            if top_dir == 0 and dir == 1: # top is upstrea, we cannot catch it
+                holder.append((size, dir))
             elif top_dir == dir:
                 holder.append((size, dir))
             else:
                 holder = cross(holder, size, dir, top_size, top_dir)
+
+    return len(holder)
