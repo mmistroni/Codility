@@ -1,7 +1,6 @@
 # https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/
 # https://www.geeksforgeeks.org/the-skyline-problem-set-2/
 def emptyStack(stack, item):
-    print(f'----Empty stack for {item}')
     if stack and stack[-1] == item:
         stack.pop()
         return emptyStack(stack, item)
@@ -12,7 +11,6 @@ def solution(H):
     stack = []
     counter = 0
     for item in H:
-        print(f'item:{item}, stack:[{stack}]')
         if not stack:
             stack.append(item)
         elif item > stack[-1]:
@@ -22,8 +20,8 @@ def solution(H):
             counter +=1
             stack.append(item)
         else:
-            print('Same element. ignoring')
-    counter += len(stack)
+            pass
+    counter += len(set(stack))
     return counter
 
 

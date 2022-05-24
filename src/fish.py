@@ -3,14 +3,20 @@
 https://app.codility.com/c/run/training7XEK8F-27D/
 '''
 
-def cross(container, size, dir, top_size, top_dir):
-    if size >= top_size:
-        container.pop()
-        container.append((size, dir))
+def cross_check(container, incoming_size, incoming_dir):
+    top_size, top_dir = container[-1]
+    if top_dir == 1 and incoming_dir == 0:
+        #the two cross
+        if incoming_size > top_size:
+            container.pop()
+            if not container:
+                container.append((incoming_size, incoming_dir))
+            else:
+                cross_check(container, incoming_size, incoming_dir)
+        else:
+            print(f'top of stack bigger than incoming')
     else:
-        # removing
-        pass
-    return container
+        container.append((incoming_size, incoming_dir))
 
 def solution(A, B):
     # write your code in Python 3.6
@@ -22,18 +28,12 @@ def solution(A, B):
 
     # this might give a reference
     holder = []
-
+    # change strategy
     for idx, tpl in enumerate(zip(A, B)):
         size, dir = tpl
         if not holder:
             holder.append((size, dir))
         else:
-            top_size, top_dir = holder[-1]
-            if top_dir == 0 and dir == 1: # top is upstrea, we cannot catch it
-                holder.append((size, dir))
-            elif top_dir == dir:
-                holder.append((size, dir))
-            else:
-                holder = cross(holder, size, dir, top_size, top_dir)
+            cross_check(holder, tpl[0], tpl[1])
 
     return len(holder)
