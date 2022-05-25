@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dominator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_dominator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equileader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_equileader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stonewall.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stonewall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_stonewall.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_stonewall.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,60 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stonewall.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dominator.py">
+        <entry file="file://$PROJECT_DIR$/src/equileader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array_split.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brackets.py">
+        <entry file="file://$PROJECT_DIR$/test/test_equileader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="12" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/count_div.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#556#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/odd_occurrences.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_dominator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="106">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -124,6 +80,8 @@
         <option value="$PROJECT_DIR$/src/stonewall.py" />
         <option value="$PROJECT_DIR$/test/test_dominator.py" />
         <option value="$PROJECT_DIR$/src/dominator.py" />
+        <option value="$PROJECT_DIR$/test/test_equileader.py" />
+        <option value="$PROJECT_DIR$/src/equileader.py" />
       </list>
     </option>
   </component>
@@ -168,6 +126,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\marco\Codility\Codility\test" />
+      <recent name="C:\Users\marco\Codility\Codility\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_dominator.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.pytest for test_equileader.MyTestCase.test_broken">
     <configuration name="pytest for test_dominator.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,7 +157,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_fish.MyTestCase.test_wrong3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_equileader.MyTestCase.test_broken" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,11 +168,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fish.MyTestCase.test_wrong3&quot;" />
+      <option name="_new_target" value="&quot;test_equileader.MyTestCase.test_broken&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_stonewall.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_equileader.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,7 +183,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stonewall.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_equileader.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -260,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_equileader.MyTestCase.test_broken" />
+        <item itemvalue="Python tests.pytest for test_equileader.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_dominator.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_stonewall.MyTestCase.test_wrong" />
         <item itemvalue="Python tests.pytest for test_stonewall.MyTestCase.test_wrong2" />
-        <item itemvalue="Python tests.pytest for test_stonewall.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_fish.MyTestCase.test_wrong3" />
       </list>
     </recent_temporary>
   </component>
@@ -282,35 +241,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 16m 35s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 02m 32s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 18m 54s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 03m 05s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 19m 18s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 05m 34s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 19m 37s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 06m 21s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 27m 49s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 07m 51s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 27m 59s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 08m 21s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 28m 33s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 09m 08s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 29m 12s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_broken - 2022.05.25 at 21h 11m 52s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_broken" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 29m 43s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_broken - 2022.05.25 at 21h 12m 21s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_broken" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_dominator_MyTestCase_test_something - 2022.05.24 at 21h 30m 12s.xml">
-      <configuration name="pytest for test_dominator.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_broken - 2022.05.25 at 21h 12m 37s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_broken" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -322,8 +281,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31751227" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38952535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45499182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38952535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -359,11 +318,6 @@
           <url>file://$PROJECT_DIR$/src/fish.py</url>
           <line>33</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/dominator.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -603,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stonewall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_stonewall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -617,6 +564,22 @@
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toptal1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toptal3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toptal2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stonewall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -632,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/count_div.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="339">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#556#572#0" expanded="true" />
@@ -641,15 +604,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/odd_occurrences.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toptal1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toptal3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toptal2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_dominator.py">
@@ -664,8 +618,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dominator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="356">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_equileader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/equileader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
