@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/equileader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_equileader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equileader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/equileader.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/equileader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="112">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -26,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_equileader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="150">
               <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -141,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_equileader.MyTestCase.test_broken">
+  <component name="RunManager" selected="Python tests.pytest for test_equileader.MyTestCase.test_something">
     <configuration name="pytest for test_dominator.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_equileader.MyTestCase.test_broken" />
         <item itemvalue="Python tests.pytest for test_equileader.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_equileader.MyTestCase.test_broken" />
         <item itemvalue="Python tests.pytest for test_dominator.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_stonewall.MyTestCase.test_wrong" />
         <item itemvalue="Python tests.pytest for test_stonewall.MyTestCase.test_wrong2" />
@@ -241,24 +239,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 02m 32s.xml">
-      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 03m 05s.xml">
-      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 05m 34s.xml">
-      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 06m 21s.xml">
-      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 07m 51s.xml">
-      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 08m 21s.xml">
-      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 09m 08s.xml">
       <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
@@ -271,6 +251,24 @@
     <history-entry file="pytest_for_test_equileader_MyTestCase_test_broken - 2022.05.25 at 21h 12m 37s.xml">
       <configuration name="pytest for test_equileader.MyTestCase.test_broken" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_broken - 2022.05.25 at 21h 17m 49s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_broken" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 24m 02s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 24m 54s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 25m 49s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 26m 33s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_equileader_MyTestCase_test_something - 2022.05.25 at 21h 27m 17s.xml">
+      <configuration name="pytest for test_equileader.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -281,7 +279,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45499182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.64811784" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38952535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_equileader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="150">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -635,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/equileader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="112">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
     </entry>

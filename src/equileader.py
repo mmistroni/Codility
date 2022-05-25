@@ -34,9 +34,13 @@ def solution( A):
     holder = []
     for i in range(1, len(A)):
         first = A[0:i]
+        # Refactor. We jsut need to find the leader in the first.
+        # once we find leader in first, we count the element on second
         second = A[i:]
         l1 = _gl2(first)
-        l2 = _gl2(second)
+        tester = second.count(l1)
+
+        l2 = l1 if tester > (len(second) //2)  else -1
         if l1 == l2 and l1 !=-1:
             holder.append(1)
 
