@@ -1,4 +1,5 @@
 import unittest
+
 from Codility.src.max_profit import solution
 
 class MyTestCase(unittest.TestCase):
