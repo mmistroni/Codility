@@ -1,5 +1,5 @@
 from collections import Counter
-#https://app.codility.com/programmers/lessons/8-leader/equi_leader/
+#https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
 
 def _generateLeader(A):
 
@@ -28,23 +28,22 @@ def _gl2(A):
         leader = candidate
     return leader
 
-
+def golden_max_slice(A):
+    max_ending = max_slice = 0
+    for idx, a in enumerate(A):
+        max_ending = max(0, max_ending + a)
+        max_slice = max(max_slice, max_ending)
+    return max_slice
 
 def solution( A):
-    holder = []
-    for i in range(1, len(A)):
-        first = A[0:i]
-        # Refactor. We jsut need to find the leader in the first.
-        # once we find leader in first, we count the element on second
-        second = A[i:]
-        l1 = _gl2(first)
-        from collections import Counter
-        tester = Counter(second) # Not good. try with counter in
-        res = tester.get(l1, -1)
-        l2 = l1 if res > (len(second) //2)  else -1
-        if l1 == l2 and l1 !=-1:
-            holder.append(1)
-
-
-    return len(holder)
-
+    return golden_max_slice(A)
+    import itertools
+    combinations = itertools.combinations(A, 2)
+    mx = 0
+    for tpl in combinations:
+        if tpl[0] > tpl[1]:
+            continue
+        diff = tpl[1] - tpl[0]
+        if diff > mx:
+            mx = diff
+    return mx
