@@ -33,6 +33,7 @@ def golden_max_slice(A):
     for idx, a in enumerate(A):
         max_ending = max(0, max_ending + a)
         max_slice = max(max_slice, max_ending)
+        print(f'a:{a}, maxEnding:{max_ending}, Max slice:{max_slice}')
     return max_slice
 
 def solution( A):

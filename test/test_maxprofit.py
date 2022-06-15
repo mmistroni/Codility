@@ -1,5 +1,5 @@
 import unittest
-from src.maxprofit import solution
+from src.maxprofit import solution, golden_max_slice
 
 #https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
 '''
@@ -39,7 +39,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_something(self):
         A = [5, -7, 3, 5, -2, 4, -1]
-        self.assertEquals(10, solution(A))
+        self.assertEquals(10, golden_max_slice(A))
 
 
 if __name__ == '__main__':
