@@ -30,10 +30,18 @@ def _gl2(A):
 
 def golden_max_slice(A):
     max_ending = max_slice = 0
+    min_start = None
     for idx, a in enumerate(A):
-        max_ending = max(0, max_ending + a)
-        max_slice = max(max_slice, max_ending)
-        print(f'a:{a}, maxEnding:{max_ending}, Max slice:{max_slice}')
+        if not min_start:
+            min_start = a
+        else:
+            if a < min_start:
+                min_start = a
+                max_ending = 0
+            else:
+                max_ending = a - min_start
+            max_slice = max(max_slice, max_ending)
+            print(f'a:{a}, maxEnding:{max_ending}, Max slice:{max_slice}')
     return max_slice
 
 def solution( A):

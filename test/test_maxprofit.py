@@ -1,5 +1,5 @@
 import unittest
-from src.maxprofit import solution, golden_max_slice
+from Codility.src.maxprofit import solution, golden_max_slice
 
 #https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
 '''
@@ -35,9 +35,9 @@ the function should return 356, as explained above.
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         A = [23171, 21011, 21123, 21366, 21013,  21367]
-        self.assertEquals(356, solution(A))
+        self.assertEquals(356, golden_max_slice(A))
 
-    def test_something(self):
+    def test_something2(self):
         A = [5, -7, 3, 5, -2, 4, -1]
         self.assertEquals(10, golden_max_slice(A))
 
