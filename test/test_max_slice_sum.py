@@ -3,7 +3,7 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        A = [0,3,2,-6,4,0]
+        A = [3,2,-6,4,0]
         self.assertEquals(5, solution(A))
 
     def test_something2(self):
