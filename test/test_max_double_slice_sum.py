@@ -32,8 +32,10 @@ class MyTestCase(unittest.TestCase):
 
     def test_something(self):
         A = [3, 2, 6, -1, 4, 5, -1,  2]
-        self.assertEquals(17, solution(A))
-
+        best, allRes = solution(A)
+        from pprint import pprint
+        pprint(allRes)
+        self.assertEqual(17, best)
 
 if __name__ == '__main__':
     unittest.main()

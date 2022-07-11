@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/max_double_slice_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_max_double_slice_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/max_slice_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/max_slice_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_max_slice_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_max_slice_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/max_double_slice_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/max_double_slice_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_max_double_slice_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_max_double_slice_sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/max_double_slice_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
+            <state relative-caret-position="194">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_max_double_slice_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -89,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/maxprofit.py" />
         <option value="$PROJECT_DIR$/test/test_max_slice_sum.py" />
         <option value="$PROJECT_DIR$/src/max_slice_sum.py" />
-        <option value="$PROJECT_DIR$/src/max_double_slice_sum.py" />
         <option value="$PROJECT_DIR$/test/test_max_double_slice_sum.py" />
+        <option value="$PROJECT_DIR$/src/max_double_slice_sum.py" />
       </list>
     </option>
   </component>
@@ -250,21 +244,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 19m 34s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 19m 48s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 20m 34s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 20m 59s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 23m 11s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_maxprofit_MyTestCase - 2022.06.28 at 20h 26m 36s.xml">
       <configuration name="pytest for test_maxprofit.MyTestCase" configurationId="tests" />
     </history-entry>
@@ -280,16 +259,32 @@
     <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.06.29 at 21h 10m 30s.xml">
       <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 23m 51s.xml">
+      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 28m 31s.xml">
+      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 31m 06s.xml">
+      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 32m 27s.xml">
+      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 33m 01s.xml">
+      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26350245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5155483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.512275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -691,20 +686,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/max_double_slice_sum.py">
+    <entry file="file://$PROJECT_DIR$/test/test_max_double_slice_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
+        <state relative-caret-position="135">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_max_double_slice_sum.py">
+    <entry file="file://$PROJECT_DIR$/src/max_double_slice_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
         </state>
       </provider>
     </entry>
