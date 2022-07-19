@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/max_double_slice_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/max_double_slice_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_max_double_slice_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_max_double_slice_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jurassic_challenge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jurassic_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/jurassic_challenge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_jurassic_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_jurassic_challenge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/max_double_slice_sum.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="99">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_jurassic_challenge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_max_double_slice_sum.py">
+        <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="247">
+              <caret line="36" column="105" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -38,6 +52,7 @@
       <list>
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,6 +100,9 @@
         <option value="$PROJECT_DIR$/src/max_slice_sum.py" />
         <option value="$PROJECT_DIR$/test/test_max_double_slice_sum.py" />
         <option value="$PROJECT_DIR$/src/max_double_slice_sum.py" />
+        <option value="$PROJECT_DIR$/src/jurassic_challenge.html" />
+        <option value="$PROJECT_DIR$/src/jurassic_challenge.py" />
+        <option value="$PROJECT_DIR$/test/test_jurassic_challenge.py" />
       </list>
     </option>
   </component>
@@ -99,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,10 +139,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -144,8 +163,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_max_double_slice_sum.MyTestCase.test_something">
-    <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_jurassic_challenge.MyTestCase">
+    <configuration name="pytest for test_jurassic_challenge.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +175,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_double_slice_sum.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_jurassic_challenge.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +190,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_slice_sum.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_jurassic_challenge.MyTestCase.test_case2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,11 +205,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_slice_sum.MyTestCase.test_something2&quot;" />
+      <option name="_new_target" value="&quot;test_jurassic_challenge.MyTestCase.test_case3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_maxprofit.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +220,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_maxprofit.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_jurassic_challenge.MyTestCase.test_case4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_maxprofit.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,17 +235,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_maxprofit.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_jurassic_challenge.MyTestCase.test_case5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_max_double_slice_sum.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_max_slice_sum.MyTestCase.test_something2" />
-        <item itemvalue="Python tests.pytest for test_max_slice_sum.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_maxprofit.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_maxprofit.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case5" />
+        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case4" />
+        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case3" />
+        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case2" />
       </list>
     </recent_temporary>
   </component>
@@ -244,48 +263,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_maxprofit_MyTestCase - 2022.06.28 at 20h 26m 36s.xml">
-      <configuration name="pytest for test_maxprofit.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 32m 41s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 34m 22s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 33m 03s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something - 2022.06.28 at 20h 36m 57s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 33m 36s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_slice_sum_MyTestCase_test_something2 - 2022.06.28 at 20h 37m 18s.xml">
-      <configuration name="pytest for test_max_slice_sum.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 38m 43s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.06.29 at 21h 10m 30s.xml">
-      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 38m 46s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 23m 51s.xml">
-      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 39m 19s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 28m 31s.xml">
-      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case2 - 2022.07.19 at 20h 39m 28s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 31m 06s.xml">
-      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case3 - 2022.07.19 at 20h 39m 34s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 32m 27s.xml">
-      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case4 - 2022.07.19 at 20h 39m 43s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_max_double_slice_sum_MyTestCase_test_something - 2022.07.11 at 20h 33m 01s.xml">
-      <configuration name="pytest for test_max_double_slice_sum.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case5 - 2022.07.19 at 20h 39m 48s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case5" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5155483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.512275" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06382979" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5319149" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -322,20 +341,15 @@
           <line>33</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/jurassic_challenge.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_passing_cars.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_missing_perm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -445,13 +459,6 @@
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/genomic_range_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="11" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -686,17 +693,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/max_double_slice_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="11" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_max_double_slice_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="356">
           <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/max_double_slice_sum.py">
+    <entry file="file://$PROJECT_DIR$/src/genomic_range_query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="105" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_jurassic_challenge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

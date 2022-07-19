@@ -25,10 +25,31 @@ Given X = [5, −5, 5], Y = [1, −1, −3] and colors = "GRG", your function sh
 Given X = [3000, −3000, 4100, −4100, −3000], Y = [5000, −5000, 4100, −4100, 5000] and colors = "RRGRG", your function should return 2.
 
 '''
+import math
+def distanceFromCentre(tpl):
+    x = tpl[0]
+    y = tpl[1]
+    return (x, y, tpl[2], math.sqrt(x**2 + y**2))
+
+def evaluate(points):
+    redCount = 0
+    greenCount = 0
+    for _,_, flag, distance in points:
+        if 'G' in flag:
+            greenCount +=1
+        else:
+            redCount +=1
+
+    return min([redCount, greenCount]) * 2
 
 def solution(X, Y, colors):
     # write your code in Python 3.6
     # Tentative. sort the points from closest to origin and keep track of colors
     # loop thru all points and keep track of how many greens and how many reds
     # We need to have even green and even red
-    pass
+    whole =  zip(X, Y, colors)
+
+    distances = map(lambda tpl: distanceFromCentre(tpl), whole)
+    sorted_points = sorted(distances, key= lambda x: x[3])
+
+    return evaluate(list(sorted_points))
