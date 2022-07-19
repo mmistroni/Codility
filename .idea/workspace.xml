@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jurassic_challenge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jurassic_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/jurassic_challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_jurassic_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_jurassic_challenge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="64">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_jurassic_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="527">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="36" column="105" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="105" />
+            <state relative-caret-position="98">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -101,8 +99,8 @@
         <option value="$PROJECT_DIR$/test/test_max_double_slice_sum.py" />
         <option value="$PROJECT_DIR$/src/max_double_slice_sum.py" />
         <option value="$PROJECT_DIR$/src/jurassic_challenge.html" />
-        <option value="$PROJECT_DIR$/src/jurassic_challenge.py" />
         <option value="$PROJECT_DIR$/test/test_jurassic_challenge.py" />
+        <option value="$PROJECT_DIR$/src/jurassic_challenge.py" />
       </list>
     </option>
   </component>
@@ -242,9 +240,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case5" />
         <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case4" />
         <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case3" />
+        <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case5" />
         <item itemvalue="Python tests.pytest for test_jurassic_challenge.MyTestCase.test_case2" />
       </list>
     </recent_temporary>
@@ -263,47 +261,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 32m 41s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 33m 03s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 33m 36s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 38m 43s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 38m 46s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case1 - 2022.07.19 at 20h 39m 19s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case2 - 2022.07.19 at 20h 39m 28s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case3 - 2022.07.19 at 20h 39m 34s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case4 - 2022.07.19 at 20h 39m 43s.xml">
-      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case5 - 2022.07.19 at 20h 39m 48s.xml">
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case5 - 2022.07.19 at 20h 59m 19s.xml">
       <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase_test_case5 - 2022.07.19 at 21h 01m 09s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase.test_case5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 01m 25s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 03m 04s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 04m 17s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 04m 50s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 05m 12s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 05m 32s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 05m 42s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_jurassic_challenge_MyTestCase - 2022.07.19 at 21h 05m 51s.xml">
+      <configuration name="pytest for test_jurassic_challenge.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28199404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06382979" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60556465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5319149" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,11 +338,6 @@
           <url>file://$PROJECT_DIR$/src/fish.py</url>
           <line>33</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/jurassic_challenge.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -714,27 +707,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="105" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="105" />
+        <state relative-caret-position="98">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_jurassic_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="527">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jurassic_challenge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
     </entry>

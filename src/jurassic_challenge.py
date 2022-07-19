@@ -34,12 +34,20 @@ def distanceFromCentre(tpl):
 def evaluate(points):
     redCount = 0
     greenCount = 0
-    for _,_, flag, distance in points:
-        if 'G' in flag:
-            greenCount +=1
+    idx = 0
+    distances = set()
+    for idx, tpl in enumerate(points):
+        #excluding same points
+        _, _, flag, distance = tpl
+        print(f'Current Dist:{distance}, Distances:{distances}')
+        if distance in distances:
+            continue
         else:
-            redCount +=1
-
+            distances.add(distance)
+            if 'G' in flag:
+                greenCount +=1
+            else:
+                redCount +=1
     return min([redCount, greenCount]) * 2
 
 def solution(X, Y, colors):
