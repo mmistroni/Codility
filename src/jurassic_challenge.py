@@ -36,19 +36,21 @@ def evaluate(points):
     greenCount = 0
     idx = 0
     distances = set()
+    lastEqual = 0;
     for idx, tpl in enumerate(points):
         #excluding same points
         _, _, flag, distance = tpl
         print(f'Current Dist:{distance}, Distances:{distances}')
-        if distance in distances:
-            continue
+        if 'G' in flag:
+            greenCount +=1
         else:
-            distances.add(distance)
-            if 'G' in flag:
-                greenCount +=1
-            else:
-                redCount +=1
-    return min([redCount, greenCount]) * 2
+            redCount +=1
+        if greenCount == redCount:
+            lastEqual = greenCount +redCount
+
+    if lastEqual % 2 == 0:
+        return lastEqual
+    return 0
 
 def solution(X, Y, colors):
     # write your code in Python 3.6
