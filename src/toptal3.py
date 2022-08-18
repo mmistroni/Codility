@@ -11,25 +11,39 @@ Below are the usecsaes
 '''
 
 from itertools import product
-from math import exp
-from pprint import pprint
+
+def calculate_emission(emission_vs_filter_tpl):
+    '''
+    Calculate emissions
+    :param tuple emission_vs_filter_tpl: a tuple of ([factory_emissions], [filter combinations]
+    :return int: the reduced emissions after applying filters
+    '''
+    reduced_emissions = [tpl[0] * (.5 ** tpl[1]) for tpl in
+                         emission_vs_filter_tpl]
+    return sum(reduced_emissions)
+
 
 def install_filters(A):
     # removing zeros, they don tcount
-    A = [n for n in A]
+    no_zeros = [n for n in A if n > 0]
 
-    res = list(product(range(0, len(A)+1), repeat=len(A)))
-    filtered = [tpl for tpl in res if sum(tpl) <= 4]
+    # All possible combination of filters we can install, from 0
+    # until 1 * len(no_zeors)
+    # We have an upper bound which is installing 1 filter per factory to
+    # to reduce emissions by half.
+    # This is what we are trying to beat
+    res = list(product(range(0, len(no_zeros)+1), repeat=len(A)))
 
+    filtered = [tpl for tpl in res if sum(tpl) <= len(A)] # No point having more filters than minimum(1 x len(A))
     result = []
     for idx, tpl in enumerate(filtered):
-        tpls = list(zip(A, tpl))
-        fun = [tpl[0] * (.5**tpl[1]) for tpl in tpls]
-        result.append((tpl, sum(fun)))
+        emission_vs_filter_tuple = list(zip(no_zeros, tpl)) # zipping emissions and filter_combination
+        result.append((tpl, calculate_emission(emission_vs_filter_tuple)))
 
     good_ones = [tpl for tpl in result if tpl[1] <= sum(A)/ 2]
     sorted_tpls = sorted(good_ones, key=lambda t: sum(t[0]))
-
-    print(sorted_tpls)
     return sum([i for i in sorted_tpls[0][0]])
+
+def solution(A):
+    return install_filters(A)
 
