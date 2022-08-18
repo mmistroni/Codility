@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/count_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count_factors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_count_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_count_factors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/min_perimeter_rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/min_perimeter_rectangle.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/count_factors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="21" lean-forward="true" selection-end-line="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="105" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+            <state relative-caret-position="34">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -164,16 +163,16 @@
         <option value="$PROJECT_DIR$/test/test_jurassic_challenge.py" />
         <option value="$PROJECT_DIR$/src/jurassic_challenge.py" />
         <option value="$PROJECT_DIR$/test/test_counting_elements.py" />
-        <option value="$PROJECT_DIR$/src/min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/test/test_min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/test/test_count_factors.py" />
         <option value="$PROJECT_DIR$/src/count_factors.py" />
+        <option value="$PROJECT_DIR$/src/min_perimeter_rectangle.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="165" />
-    <option name="y" value="374" />
+    <option name="y" value="285" />
     <option name="width" value="1241" />
     <option name="height" value="630" />
   </component>
@@ -360,7 +359,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="329" width="1241" height="630" extended-state="0" />
+    <frame x="165" y="285" width="1241" height="630" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2817955" />
@@ -762,10 +761,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
+    <entry file="file://$PROJECT_DIR$/test/test_count_factors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="105" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/count_factors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" lean-forward="true" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -779,23 +791,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_count_factors.py">
+    <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/count_factors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
