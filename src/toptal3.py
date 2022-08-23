@@ -11,38 +11,39 @@ Below are the usecsaes
 '''
 
 from itertools import product
-
-def calculate_emission(emission_vs_filter_tpl):
+import heapq
+def calculate_emission(input_array):
     '''
     Calculate emissions
     :param tuple emission_vs_filter_tpl: a tuple of ([factory_emissions], [filter combinations]
     :return int: the reduced emissions after applying filters
     '''
-    reduced_emissions = [tpl[0] * (.5 ** tpl[1]) for tpl in
-                         emission_vs_filter_tpl]
-    return sum(reduced_emissions)
+    minimized_list = [item * -1 for item in input_array if item !=0]
+
+    target_sum = sum(minimized_list) / 2
+
+    max_filters = len(minimized_list)
+
+    heapq.heapify(minimized_list)
+
+    start_sum = target_sum -1
+
+    filters = 0
+
+    while start_sum < target_sum:
+        smallest = heapq.heappop(minimized_list)
+        smallest *= 0.5
+        filters += 1
+        heapq.heappush(minimized_list, smallest)
+        start_sum = sum(minimized_list)
+
+
+    return min(filters, max_filters)
 
 
 def install_filters(A):
-    # removing zeros, they don tcount
-    no_zeros = [n for n in A if n > 0]
+    return calculate_emission(A)
 
-    # All possible combination of filters we can install, from 0
-    # until 1 * len(no_zeors)
-    # We have an upper bound which is installing 1 filter per factory to
-    # to reduce emissions by half.
-    # This is what we are trying to beat
-    res = list(product(range(0, len(no_zeros)+1), repeat=len(A)))
-
-    filtered = [tpl for tpl in res if sum(tpl) <= len(A)] # No point having more filters than minimum(1 x len(A))
-    result = []
-    for idx, tpl in enumerate(filtered):
-        emission_vs_filter_tuple = list(zip(no_zeros, tpl)) # zipping emissions and filter_combination
-        result.append((tpl, calculate_emission(emission_vs_filter_tuple)))
-
-    good_ones = [tpl for tpl in result if tpl[1] <= sum(A)/ 2]
-    sorted_tpls = sorted(good_ones, key=lambda t: sum(t[0]))
-    return sum([i for i in sorted_tpls[0][0]])
 
 def solution(A):
     return install_filters(A)
