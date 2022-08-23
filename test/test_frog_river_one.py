@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.frog_river_one import solution
+from src.frog_river_one import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

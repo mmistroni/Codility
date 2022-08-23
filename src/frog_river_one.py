@@ -18,5 +18,13 @@ def solution(X, A):
     # every position in range(0,n-1)up to N
     # we need to keep a set of element from 1 to n
     # and while we scan we need to keep track of the index
-    avail = list(range(1, X+ 1))
-    return _loop(X, A, avail, 0)
+    holder = [0] * X
+    for idx, leaf in enumerate(A):
+        holder[leaf-1] += 1
+        if all(holder):
+            return idx
+    return -1
+
+
+
+    return _loop(X, A)
