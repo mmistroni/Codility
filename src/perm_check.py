@@ -1,9 +1,15 @@
-from itertools import permutations
+from itertools import permutations, filterfalse
 def solution(A):
-    tpls = tuple(A)
-    if max(A) != len(A):
+
+    maxN = max(A)
+
+    if len(A) != maxN:
         return 0
-    for x in permutations(A): # we just sum all the chars. 
-        if x == tpls:
-            return 1
-    return 0
+    else:
+
+        for i in range(1, maxN+1):
+            try:
+                A.remove(i)
+            except Exception as e:
+                return 0
+        return 1
