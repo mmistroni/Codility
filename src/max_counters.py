@@ -12,14 +12,12 @@ if A[K] = N + 1 then operation K is max counter.
 def solution(N, A):
     holder = [0] * N
 
-    maxCount = None
-    for idx, item in enumerate(A):
+    maxCount = 0
+    for item in A:
         if 1 <= item <= N:
             holder[item-1] += 1
-            if maxCount:
-                maxCount = max(maxCount, holder[item-1])
+            maxCount = max(maxCount, holder[item-1])
         else:
-            maxCount =max(holder)
             holder = [maxCount] * N
 
 
