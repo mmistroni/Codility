@@ -21,7 +21,14 @@ import itertools
 from collections import deque
 def solution(A, B, K):
 
-    divs = (i for i in range(A, B+1) if i % K == 0)
+    startiterator = itertools.dropwhile(lambda i: i % K != 0, range(A, B+1))
+
+    try:
+        start = next(startiterator)
+    except Exception as e:
+        return 0
+
+    divs = range(start, B+1, K)
     counter = itertools.count()
     deque(zip(divs, counter), maxlen=0)  # (consume at C speed)
     return next(counter)
