@@ -17,18 +17,28 @@ A ≤ B.
 
 
 '''
+
 import itertools
 from collections import deque
-def solution(A, B, K):
 
-    startiterator = itertools.dropwhile(lambda i: i % K != 0, range(A, B+1))
+
+def solution(A, B, K):
+    ## exclusion method. range of number is n(n+1)/2
+
+    if K == B:
+        return 1
+    if K == 1:
+        return B-A
+
+    startiterator = itertools.dropwhile(lambda i: i % K != 0, range(A, B + 1))
 
     try:
         start = next(startiterator)
     except Exception as e:
         return 0
 
-    divs = range(start, B+1, K)
+    divs = range(start, B + 1, K)
     counter = itertools.count()
     deque(zip(divs, counter), maxlen=0)  # (consume at C speed)
     return next(counter)
+
