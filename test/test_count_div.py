@@ -20,6 +20,20 @@ class MyTestCase(unittest.TestCase):
         K = 17
         self.assertEqual(20, solution(A, B, K))
 
+    def test_supertes(self):
+        import time
+        A = 100
+        B = 123000000
+        K = 2
+        start = time.time()
+        res = solution(A, B, K)
+        print(f'Res is {res}')
+        end = time.time()
+        print(f'We got:{start}, {end}, {end-start}')
+
+
+
+
 
 if __name__ == '__main__':
     unittest.main()
