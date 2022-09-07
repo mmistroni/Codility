@@ -7,6 +7,15 @@ class MyTestCase(unittest.TestCase):
         A = [4, 2, 2, 5, 1, 5, 8]
         res = solution(A)
         pprint(res)
+        self.assertEqual(1, res)
+
+    def test_something2(self):
+        A = [4, 2, 2, 5, 1, 5, 8]
+        res = solution2(A)
+
+        [0,     4,    6,    8,     13,    14,  19, 27]
+        (0,0), (0,1) (0,2)  (0,3) (0,4) (0,5) (0,6), (0,7)
+        print(res)
 
         '''
         

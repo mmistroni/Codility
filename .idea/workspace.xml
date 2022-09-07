@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genomic_range_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/genomic_range_query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/min_avg_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/min_avg_two_sums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_min_avg_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_min_avg_two_sums.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +15,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/genomic_range_query.py">
+        <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="196">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_genomic_range_query.py">
+        <entry file="file://$PROJECT_DIR$/test/test_min_avg_two_sums.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="55">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -56,11 +58,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_min_avg_two_sums.py" />
         <option value="$PROJECT_DIR$/src/distinct.py" />
         <option value="$PROJECT_DIR$/test/test_distinct.py" />
         <option value="$PROJECT_DIR$/src/test_maximize.py" />
-        <option value="$PROJECT_DIR$/src/min_avg_two_sums.py" />
         <option value="$PROJECT_DIR$/src/maximize.py" />
         <option value="$PROJECT_DIR$/test/test_triangular_triplets.py" />
         <option value="$PROJECT_DIR$/src/triangular_triplets.py" />
@@ -107,6 +107,8 @@
         <option value="$PROJECT_DIR$/test/test_count_div.py" />
         <option value="$PROJECT_DIR$/src/count_div.py" />
         <option value="$PROJECT_DIR$/src/genomic_range_query.py" />
+        <option value="$PROJECT_DIR$/test/test_min_avg_two_sums.py" />
+        <option value="$PROJECT_DIR$/src/min_avg_two_sums.py" />
       </list>
     </option>
   </component>
@@ -167,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_genomic_range_query.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something">
     <configuration name="pytest for test_count_div.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,21 +182,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_count_div.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_count_div.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_div.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -213,21 +200,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_count_div.MyTestCase.test_wrong" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_div.MyTestCase.test_wrong&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,13 +215,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_min_avg_two_sums.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_min_avg_two_sums.MyTestCase.test_something2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something2" />
         <item itemvalue="Python tests.pytest for test_genomic_range_query.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_count_div.MyTestCase.test_supertes" />
         <item itemvalue="Python tests.pytest for test_count_div.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_count_div.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_count_div.MyTestCase.test_wrong" />
       </list>
     </recent_temporary>
   </component>
@@ -267,35 +269,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_supertes - 2022.09.06 at 20h 20m 50s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_supertes" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something2 - 2022.09.07 at 20h 32m 35s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_supertes - 2022.09.06 at 20h 21m 16s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_supertes" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 34m 01s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_supertes - 2022.09.06 at 20h 22m 47s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_supertes" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something2 - 2022.09.07 at 20h 34m 08s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_supertes - 2022.09.06 at 20h 23m 27s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_supertes" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 38m 31s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_div_MyTestCase_test_supertes - 2022.09.06 at 20h 28m 12s.xml">
-      <configuration name="pytest for test_count_div.MyTestCase.test_supertes" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something2 - 2022.09.07 at 20h 45m 10s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_genomic_range_query_MyTestCase_test_something - 2022.09.06 at 20h 35m 40s.xml">
-      <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 51m 00s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_genomic_range_query_MyTestCase_test_something - 2022.09.06 at 20h 44m 41s.xml">
-      <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 51m 02s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_genomic_range_query_MyTestCase_test_something - 2022.09.06 at 20h 46m 44s.xml">
-      <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 52m 57s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_genomic_range_query_MyTestCase_test_something - 2022.09.06 at 20h 47m 48s.xml">
-      <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 53m 25s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_genomic_range_query_MyTestCase_test_something - 2022.09.06 at 20h 48m 19s.xml">
-      <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 54m 12s.xml">
+      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +309,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32242227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.512275" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4222586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,29 +353,15 @@
           <line>10</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/min_avg_two_sums.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_nesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/toptal1_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/toptal2_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -494,13 +482,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/max_slice_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -727,6 +708,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/genomic_range_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_genomic_range_query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -736,10 +724,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/genomic_range_query.py">
+    <entry file="file://$PROJECT_DIR$/src/max_slice_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_min_avg_two_sums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
