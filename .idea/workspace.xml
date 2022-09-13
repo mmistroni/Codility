@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/min_avg_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/min_avg_two_sums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_min_avg_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_min_avg_two_sums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triangular_triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/triangular_triplets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_triangular_triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_triangular_triplets.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +15,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
+        <entry file="file://$PROJECT_DIR$/src/triangular_triplets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_min_avg_two_sums.py">
+        <entry file="file://$PROJECT_DIR$/test/test_triangular_triplets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="51">
+              <caret line="3" column="10" selection-start-column="7" selection-end-line="3" selection-end-column="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,8 +62,6 @@
         <option value="$PROJECT_DIR$/test/test_distinct.py" />
         <option value="$PROJECT_DIR$/src/test_maximize.py" />
         <option value="$PROJECT_DIR$/src/maximize.py" />
-        <option value="$PROJECT_DIR$/test/test_triangular_triplets.py" />
-        <option value="$PROJECT_DIR$/src/triangular_triplets.py" />
         <option value="$PROJECT_DIR$/test/test_number_of_disc_intersections.py" />
         <option value="$PROJECT_DIR$/src/number_of_disc_intersections.py" />
         <option value="$PROJECT_DIR$/test/test_genomic_range_query.py" />
@@ -109,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/genomic_range_query.py" />
         <option value="$PROJECT_DIR$/test/test_min_avg_two_sums.py" />
         <option value="$PROJECT_DIR$/src/min_avg_two_sums.py" />
+        <option value="$PROJECT_DIR$/test/test_triangular_triplets.py" />
+        <option value="$PROJECT_DIR$/src/triangular_triplets.py" />
       </list>
     </option>
   </component>
@@ -123,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +144,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,52 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something">
-    <configuration name="pytest for test_count_div.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_div.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_count_div.MyTestCase.test_supertes" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_div.MyTestCase.test_supertes&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_genomic_range_query.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_genomic_range_query.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_triangular_triplets.MyTestCase.test_something">
     <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,13 +200,58 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_triangular_triplets.MyTestCase.test_empty" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_triangular_triplets.MyTestCase.test_empty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_triangular_triplets.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_triangular_triplets.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_triangular_triplets.MyTestCase.test_try" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_triangular_triplets.MyTestCase.test_try&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_triangular_triplets.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_triangular_triplets.MyTestCase.test_empty" />
+        <item itemvalue="Python tests.pytest for test_triangular_triplets.MyTestCase.test_try" />
         <item itemvalue="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_min_avg_two_sums.MyTestCase.test_something2" />
-        <item itemvalue="Python tests.pytest for test_genomic_range_query.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_count_div.MyTestCase.test_supertes" />
-        <item itemvalue="Python tests.pytest for test_count_div.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -269,35 +269,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something2 - 2022.09.07 at 20h 32m 35s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 34m 01s.xml">
+    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 54m 34s.xml">
       <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something2 - 2022.09.07 at 20h 34m 08s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_try - 2022.09.13 at 20h 26m 32s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_try" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 38m 31s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_try - 2022.09.13 at 20h 27m 24s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_try" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something2 - 2022.09.07 at 20h 45m 10s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_try - 2022.09.13 at 20h 30m 02s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_try" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 51m 00s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_something - 2022.09.13 at 20h 32m 07s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 51m 02s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_something - 2022.09.13 at 20h 32m 30s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 52m 57s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_empty - 2022.09.13 at 20h 36m 39s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_empty" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 53m 25s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_empty - 2022.09.13 at 20h 41m 03s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_empty" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_min_avg_two_sums_MyTestCase_test_something - 2022.09.07 at 20h 54m 12s.xml">
-      <configuration name="pytest for test_min_avg_two_sums.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_empty - 2022.09.13 at 20h 41m 47s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_triangular_triplets_MyTestCase_test_something - 2022.09.13 at 20h 43m 48s.xml">
+      <configuration name="pytest for test_triangular_triplets.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -362,22 +362,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/toptal2_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/toptal3_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fish.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -731,6 +715,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" selection-start-line="2" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_min_avg_two_sums.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -741,10 +732,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/min_avg_two_sums.py">
+    <entry file="file://$PROJECT_DIR$/test/test_triangular_triplets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-column="7" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triangular_triplets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
