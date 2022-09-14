@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/national_code_challenge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/national_code_week.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_national_code_challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +19,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="136">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -45,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_national_code_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -146,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="56" />
     <option name="y" value="96" />
     <option name="width" value="1241" />
@@ -303,12 +298,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 37m 12s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 37m 55s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 38m 56s.xml">
       <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
     </history-entry>
@@ -333,6 +322,12 @@
     <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_one - 2022.09.14 at 21h 06m 07s.xml">
       <configuration name="pytest for test_national_code_challenge.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_one - 2022.09.14 at 21h 07m 09s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_one - 2022.09.14 at 21h 12m 58s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_one" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -343,8 +338,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7561375" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6661211" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42880523" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6661211" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,6 +386,11 @@
           <url>file://$PROJECT_DIR$/src/min_avg_two_sums.py</url>
           <line>21</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/national_code_week.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -763,22 +763,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_national_code_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
