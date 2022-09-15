@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="" />
+    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/national_code_week.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/national_code_week.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_national_code_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_national_code_challenge.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="60" column="29" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="383">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -34,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/national_code_challenge.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
+            <state relative-caret-position="1054">
               <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_national_code_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            <state relative-caret-position="75">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -79,6 +83,8 @@
     <findStrings>
       <find>count</find>
       <find>prefix</find>
+      <find>Distance between</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +204,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_national_code_challenge.MyTestCase.test_one">
+  <component name="RunManager" selected="Python tests.pytest for test_national_code_challenge.MyTestCase">
+    <configuration name="pytest for test_national_code_challenge.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_national_code_challenge.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,7 +250,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_triangular_triplets.MyTestCase.test_empty" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_national_code_challenge.MyTestCase.test_three" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,11 +261,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_triangular_triplets.MyTestCase.test_empty&quot;" />
+      <option name="_new_target" value="&quot;test_national_code_challenge.MyTestCase.test_three&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_triangular_triplets.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,32 +276,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_triangular_triplets.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_triangular_triplets.MyTestCase.test_try" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_triangular_triplets.MyTestCase.test_try&quot;" />
+      <option name="_new_target" value="&quot;test_national_code_challenge.MyTestCase.test_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_national_code_challenge.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_national_code_challenge.MyTestCase.test_two" />
         <item itemvalue="Python tests.pytest for test_national_code_challenge.MyTestCase.test_one" />
+        <item itemvalue="Python tests.pytest for test_national_code_challenge.MyTestCase.test_three" />
         <item itemvalue="Python tests.pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" />
-        <item itemvalue="Python tests.pytest for test_triangular_triplets.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_triangular_triplets.MyTestCase.test_empty" />
-        <item itemvalue="Python tests.pytest for test_triangular_triplets.MyTestCase.test_try" />
       </list>
     </recent_temporary>
   </component>
@@ -298,35 +304,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 38m 56s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 29m 51s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 44m 17s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 32m 06s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 54m 41s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 32m 27s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 55m 18s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 32m 40s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 55m 28s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 33m 22s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 55m 47s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 34m 37s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_buildAdjacency - 2022.09.14 at 20h 58m 33s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_buildAdjacency" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 38m 10s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_one - 2022.09.14 at 21h 06m 07s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 41m 39s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_one - 2022.09.14 at 21h 07m 09s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 43m 21s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_one - 2022.09.14 at 21h 12m 58s.xml">
-      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_national_code_challenge_MyTestCase_test_two - 2022.09.15 at 20h 45m 55s.xml">
+      <configuration name="pytest for test_national_code_challenge.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -338,8 +344,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42880523" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6661211" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13747954" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34697217" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -389,8 +395,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/national_code_week.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="20" />
+          <line>28</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -729,10 +735,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_min_perimeter_rectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/triangular_triplets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/national_code_challenge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -746,39 +769,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/national_code_challenge.txt">
+    <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_min_perimeter_rectangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="383">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_national_code_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        <state relative-caret-position="75">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="60" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

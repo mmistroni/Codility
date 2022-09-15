@@ -11,14 +11,17 @@ class MyTestCase(unittest.TestCase):
     def test_two(self):
         A = [0, 4, 4, 2, 7, 6, 3]
         B = [3, 5, 1, 3, 4, 3, 4]
-        self.assertEqual(16, solution(A, B))
+        res = solution(A, B)
+        #from pprint  import pprint
+        #pprint(res)
+        self.assertEqual(16, res )
 
     def test_three(self):
         A = [0, 4, 2, 2, 4]
         B = [1, 3, 1, 3, 5]
         self.assertEqual(9, solution(A, B))
 
-    def test_buildAdjacency(self):
+    def xtest_buildAdjacency(self):
         A = [0, 3, 4, 2, 6, 3]
         B = [3, 1, 3, 3, 3, 5]
 
