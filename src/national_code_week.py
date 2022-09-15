@@ -2,6 +2,9 @@ from itertools import combinations
 from collections import defaultdict
 import logging
 
+# Test Results https://app.codility.com/cert/view/certA74S4Y-9QNC6BSJ6ZXBZJ95/details/
+
+
 from collections import defaultdict
 
 class Graph:
@@ -50,7 +53,7 @@ def build_graph(A, B):
 def calculate_distances(A, B, graph):
     base_tpls = list(zip(A, B))
     odd_distances = len(base_tpls)
-
+    # Need to replace the combis and perhaps fetch tuples from graph
     combis = [c for c in combinations(set(A+B), 2) if c not in base_tpls]
     for start, end in combis:
         if (end, start) in base_tpls:
