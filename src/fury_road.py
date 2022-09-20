@@ -29,6 +29,9 @@ SCOOTER = {'A' : 5,
 def solution(A):
     # Constraint here. Once you switch mean of transport,
     # you cannot go back to the previous
+    # Idea1. Start with the Fastest, and go till the end
+    # Then loop from the end and replace one by one until
+    # you beat the original
     time = 0
     for surface in A:
         t_mean =  min(TRANSPORT_DICT[surface])
