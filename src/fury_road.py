@@ -18,7 +18,7 @@ https://app.codility.com/c/run/trainingXEV9SP-2CS/
 '''
 
 TRANSPORT_DICT = {'A' : [5, 20],
-                  'S' : [30, 40]}
+                  'S' : [40, 30]}
 FOOT= {'A' : 20,
        'S' : 30}
 
@@ -33,12 +33,38 @@ def solution(A):
     # Then loop from the end and replace one by one until
     # you beat the original
     time = 0
-    for surface in A:
-        t_mean =  min(TRANSPORT_DICT[surface])
-        print(f'Min time for {surface}={t_mean}')
-        time += t_mean
 
-    return time
+    first_surface = A[0]
+
+
+    min_time = min(TRANSPORT_DICT[first_surface])
+
+    idx = TRANSPORT_DICT[first_surface].index(min_time)
+
+    indexes = [idx] * len(A)
+
+    # base idxs
+    transport_array = [TRANSPORT_DICT[surface][idx] for surface in A]
+
+
+    max_time = sum(transport_array)
+
+    better_one = transport_array[::-1]
+
+    end = len(A)-1
+    for idx in range(end,-1, -1):
+        sf = A[idx]
+
+        lst = TRANSPORT_DICT[sf]
+        tmp_repl_idx = 0 if idx == 1 else 1
+        tmp_repl = lst[tmp_repl_idx]
+        if tmp_repl < transport_array[idx]:
+            better_one[idx] = tmp_repl
+            t_time = sum(better_one)
+            if t_time < max_time:
+                max_time = t_time
+            return max_time
+
 
 
 
