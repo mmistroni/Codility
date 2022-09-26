@@ -26,45 +26,41 @@ SCOOTER = {'A' : 5,
            'S' : 40}
 
 
+def compute_time(idx_array, surfaces):
+    zipped = list(zip(idx_array, surfaces))
+    print(f'Computing:{zipped}')
+
+
+    return sum([TRANSPORT_DICT[surface][idx] for idx,surface in zipped])
+
+
 def solution(A):
     # Constraint here. Once you switch mean of transport,
     # you cannot go back to the previous
-    # Idea1. Start with the Fastest, and go till the end
-    # Then loop from the end and replace one by one until
-    # you beat the original
+    #
     time = 0
 
     first_surface = A[0]
-
-
     min_time = min(TRANSPORT_DICT[first_surface])
 
     idx = TRANSPORT_DICT[first_surface].index(min_time)
 
     indexes = [idx] * len(A)
 
-    # base idxs
-    transport_array = [TRANSPORT_DICT[surface][idx] for surface in A]
+    minnow  = compute_time(indexes, A)
 
+    for i in range(1,len(A)):
+        alt_idx = 1 if idx == 0 else 0
+        new_arr = indexes[0:i] + [alt_idx]* (len(A)-i)
 
-    max_time = sum(transport_array)
+        mxtime = compute_time(new_arr, A)
 
-    better_one = transport_array[::-1]
+        if mxtime < minnow:
+            minnow = mxtime
 
-    end = len(A)-1
-    for idx in range(end,-1, -1):
-        sf = A[idx]
+        print(f'{i}|{new_arr}|{mxtime}|{minnow}')
 
-        lst = TRANSPORT_DICT[sf]
-        tmp_repl_idx = 0 if idx == 1 else 1
-        tmp_repl = lst[tmp_repl_idx]
-        if tmp_repl < transport_array[idx]:
-            better_one[idx] = tmp_repl
-            t_time = sum(better_one)
-            if t_time < max_time:
-                max_time = t_time
-            return max_time
-
+    return minnow
 
 
 
