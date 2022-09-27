@@ -41,7 +41,7 @@ def solution(A):
     time = 0
 
     first_surface = A[0]
-    min_time = min(TRANSPORT_DICT[first_surface])
+    min_time = TRANSPORT_DICT[first_surface][0]
 
     idx = TRANSPORT_DICT[first_surface].index(min_time)
 
