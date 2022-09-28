@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/largest_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tiger_year.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_largest_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_tiger_year.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fury_road.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fury_road.py" afterDir="false" />
     </list>
@@ -15,25 +11,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Codility" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/largest_string.py">
+        <entry file="file://$PROJECT_DIR$/src/fury_road.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="96">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_largest_string.py">
+        <entry file="file://$PROJECT_DIR$/test/test_fury_road.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -109,11 +105,11 @@
         <option value="$PROJECT_DIR$/src/order.py" />
         <option value="$PROJECT_DIR$/src/order_book.py" />
         <option value="$PROJECT_DIR$/src/equileader.py" />
-        <option value="$PROJECT_DIR$/src/fury_road.py" />
         <option value="$PROJECT_DIR$/src/tiger_year.py" />
         <option value="$PROJECT_DIR$/test/test_tiger_year.py" />
         <option value="$PROJECT_DIR$/test/test_largest_string.py" />
         <option value="$PROJECT_DIR$/src/largest_string.py" />
+        <option value="$PROJECT_DIR$/src/fury_road.py" />
       </list>
     </option>
   </component>
@@ -174,7 +170,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_largest_string.MyTestCase.test_something3">
+  <component name="RunManager" selected="Python tests.pytest for test_fury_road.MyTestCase">
+    <configuration name="pytest for test_fury_road.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fury_road.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_fury_road.MyTestCase.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fury_road.MyTestCase.test_one&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_fury_road.MyTestCase.test_three" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,36 +231,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_largest_string.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_largest_string.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_largest_string.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_largest_string.MyTestCase.test_something2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_largest_string.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_largest_string.MyTestCase.test_something3" />
-        <item itemvalue="Python tests.pytest for test_largest_string.MyTestCase.test_something2" />
-        <item itemvalue="Python tests.pytest for test_largest_string.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_three" />
         <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_two" />
+        <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_one" />
+        <item itemvalue="Python tests.pytest for test_largest_string.MyTestCase.test_something3" />
       </list>
     </recent_temporary>
   </component>
@@ -274,48 +270,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 53m 14s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 20m 16s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 53m 41s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 20m 30s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 54m 00s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 21m 25s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 55m 05s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 22m 10s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 55m 40s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 22m 33s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 55m 53s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 23m 37s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 57m 05s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase - 2022.09.28 at 20h 23m 45s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something - 2022.09.27 at 20h 57m 21s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 31m 03s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something2 - 2022.09.27 at 20h 57m 25s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_two - 2022.09.28 at 20h 31m 16s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_largest_string_MyTestCase_test_something3 - 2022.09.27 at 20h 57m 31s.xml">
-      <configuration name="pytest for test_largest_string.MyTestCase.test_something3" configurationId="tests" />
+    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_three - 2022.09.28 at 20h 31m 24s.xml">
+      <configuration name="pytest for test_fury_road.MyTestCase.test_three" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24032739" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.24032739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.502994" side_tool="true" visible="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.56301147" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6415712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45335516" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40589198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,7 +387,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/fury_road.py</url>
-          <line>51</line>
+          <line>42</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -403,6 +399,11 @@
           <url>file://$PROJECT_DIR$/src/largest_string.py</url>
           <line>3</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/fury_road.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -749,20 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_fury_road.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fury_road.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tiger_year.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -787,6 +774,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/largest_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_largest_string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -797,10 +791,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/largest_string.py">
+    <entry file="file://$PROJECT_DIR$/test/test_fury_road.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fury_road.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>

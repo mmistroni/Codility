@@ -28,39 +28,35 @@ SCOOTER = {'A' : 5,
 
 def compute_time(idx_array, surfaces):
     zipped = list(zip(idx_array, surfaces))
-    print(f'Computing:{zipped}')
-
-
     return sum([TRANSPORT_DICT[surface][idx] for idx,surface in zipped])
 
 
-def solution(A):
+def _solve(A, start_idx, available_idx):
     # Constraint here. Once you switch mean of transport,
     # you cannot go back to the previous
     #
-    time = 0
-
     first_surface = A[0]
-    min_time = TRANSPORT_DICT[first_surface][0]
-
-    idx = TRANSPORT_DICT[first_surface].index(min_time)
-
-    indexes = [idx] * len(A)
+    indexes = [start_idx] * len(A)
 
     minnow  = compute_time(indexes, A)
 
     for i in range(1,len(A)):
-        alt_idx = 1 if idx == 0 else 0
+        alt_idx = 1 if start_idx == 0 else 0
+        if alt_idx not in available_idx:
+            alt_idx = start_idx
         new_arr = indexes[0:i] + [alt_idx]* (len(A)-i)
-
         mxtime = compute_time(new_arr, A)
-
         if mxtime < minnow:
             minnow = mxtime
-
-        print(f'{i}|{new_arr}|{mxtime}|{minnow}')
-
     return minnow
 
+def _solution(A):
+    scooter = _solve(A, 0, [0,1])
+    foot = _solve(A, 1, [1])
+    mins = [scooter, foot]
+    return min(mins)
+
+def solution(A):
+    return _solution(A)
 
 
