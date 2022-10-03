@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/max_counters2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_maxcounter2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/min_perimeter_rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/min_perimeter_rectangle.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,19 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fury_road.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/distinct_elems.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="9" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -39,36 +29,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/itertools.pyi">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/max_counters.py">
+        <entry file="file://$PROJECT_DIR$/test/test_min_perimeter_rectangle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/max_counters2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_maxcounter2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -77,10 +41,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_fury_road.py">
+        <entry file="file://$PROJECT_DIR$/src/count_factors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="152">
+              <caret line="14" lean-forward="true" selection-start-line="4" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -130,7 +106,6 @@
         <option value="$PROJECT_DIR$/test/test_min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/test/test_count_factors.py" />
         <option value="$PROJECT_DIR$/src/count_factors.py" />
-        <option value="$PROJECT_DIR$/src/min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/test/test_tape_equilibrium.py" />
         <option value="$PROJECT_DIR$/src/tape_equlibrium.py" />
         <option value="$PROJECT_DIR$/test/test_frog_river_one.py" />
@@ -161,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/max_counters.py" />
         <option value="$PROJECT_DIR$/test/test_maxcounter2.py" />
         <option value="$PROJECT_DIR$/src/max_counters2.py" />
+        <option value="$PROJECT_DIR$/src/min_perimeter_rectangle.py" />
       </list>
     </option>
   </component>
@@ -221,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_maxcounter2.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.pytest for test_min_perimeter_rectangle.MyTestCase.test_something">
     <configuration name="pytest for test_fury_road.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,21 +210,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_fury_road.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_fury_road.MyTestCase.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fury_road.MyTestCase.test_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -297,13 +258,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_min_perimeter_rectangle.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_min_perimeter_rectangle.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_maxcounter2.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_three" />
         <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_two" />
-        <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_one" />
       </list>
     </recent_temporary>
   </component>
@@ -321,24 +297,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 22m 10s.xml">
-      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 22m 33s.xml">
-      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 23m 37s.xml">
-      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fury_road_MyTestCase - 2022.09.28 at 20h 23m 45s.xml">
-      <configuration name="pytest for test_fury_road.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_one - 2022.09.28 at 20h 31m 03s.xml">
-      <configuration name="pytest for test_fury_road.MyTestCase.test_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fury_road_MyTestCase_test_two - 2022.09.28 at 20h 31m 16s.xml">
-      <configuration name="pytest for test_fury_road.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_fury_road_MyTestCase_test_three - 2022.09.28 at 20h 31m 24s.xml">
       <configuration name="pytest for test_fury_road.MyTestCase.test_three" configurationId="tests" />
     </history-entry>
@@ -351,6 +309,24 @@
     <history-entry file="pytest_for_test_maxcounter2_MyTestCase_test_something - 2022.09.28 at 20h 55m 46s.xml">
       <configuration name="pytest for test_maxcounter2.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_maxcounter2_MyTestCase_test_something - 2022.09.28 at 20h 56m 00s.xml">
+      <configuration name="pytest for test_maxcounter2.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 03m 41s.xml">
+      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 06m 49s.xml">
+      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 11m 23s.xml">
+      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 11m 27s.xml">
+      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 11m 48s.xml">
+      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -361,8 +337,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.65957445" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40589198" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3502455" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33060557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,6 +422,11 @@
           <line>3</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/min_perimeter_rectangle.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -473,23 +454,6 @@
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/count_factors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_min_perimeter_rectangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/national_code_challenge.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -793,8 +747,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fury_road.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="935">
           <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/distinct_elems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/itertools.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/max_counters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_maxcounter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,43 +789,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/max_counters.py">
+    <entry file="file://$PROJECT_DIR$/src/max_counters2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/itertools.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/distinct_elems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_maxcounter2.py">
+    <entry file="file://$PROJECT_DIR$/src/count_factors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="152">
+          <caret line="14" lean-forward="true" selection-start-line="4" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_min_perimeter_rectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/max_counters2.py">
+    <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="269">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
