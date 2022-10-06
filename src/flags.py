@@ -1,25 +1,21 @@
 #https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/flags/
-
-
+# A peak is an array element which is larger than its neighbours.
+# More precisely, it is an index P such that 0 < P < N − 1 and A[P − 1] < A[P] > A[P + 1].
+from collections import namedtuple
 def solution(N):
-    current_min = (N[0], 0)
-    current_max = (N[0], 0)
-    holder = []
-    for idx, item in enumerate(N[1:]):
-        if not current_min:
-            current_min = (item, idx)
+    peaks = []
+    bottom =  (N[0], 0)
+    for idx, item in enumerate(N[1:-1]):
+        if N[idx-1] < N[idx] > N[idx+1]:
+            peaks.append((idx, item, bottom[1]))
+            bottom = (N[idx+1], idx+1)
+        elif N[idx] < N[idx-1]:
+            # we have a bottom
+            bottom =  (N[idx], idx)
+        else:
+            # nothing to do
             continue
-        if not current_max:
-            current_max  = (item, idx)
-        if item < current_max[0]:
-            holder.append(current_max)
-            current_min = None
-            current_max = None
-        elif item > current_max[0]:
-            current_max =(item, idx)
-        elif item < current_min[0]:
-            current_min = (item, idx)
 
-    return len(holder)
+    return peaks
 
 

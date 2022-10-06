@@ -19,6 +19,8 @@ class MyTestCase(unittest.TestCase):
         A[10] = 6
         A[11] = 2
 
+        peaks = solution(A)
+        print(peaks)
         self.assertEqual(3, solution(A))
 
 

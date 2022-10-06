@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/flags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/flags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_flags.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/flags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_flags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="61">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -274,18 +273,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_maxcounter2_MyTestCase_test_something - 2022.09.28 at 20h 56m 00s.xml">
-      <configuration name="pytest for test_maxcounter2.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 03m 41s.xml">
-      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 06m 49s.xml">
-      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 11m 23s.xml">
-      <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_min_perimeter_rectangle_MyTestCase_test_something - 2022.10.03 at 20h 11m 27s.xml">
       <configuration name="pytest for test_min_perimeter_rectangle.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
@@ -304,6 +291,18 @@
     <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.06 at 20h 56m 19s.xml">
       <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.06 at 20h 56m 33s.xml">
+      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.06 at 21h 11m 46s.xml">
+      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.06 at 21h 11m 58s.xml">
+      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.06 at 21h 12m 34s.xml">
+      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -314,7 +313,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34860885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57937807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33060557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -776,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_flags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="61">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -786,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/flags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
