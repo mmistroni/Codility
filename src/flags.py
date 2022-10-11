@@ -4,18 +4,19 @@
 from collections import namedtuple
 def solution(N):
     peaks = []
-    bottom =  (N[0], 0)
-    for idx, item in enumerate(N[1:-1]):
-        if N[idx-1] < N[idx] > N[idx+1]:
-            peaks.append((idx, item, bottom[1]))
-            bottom = (N[idx+1], idx+1)
-        elif N[idx] < N[idx-1]:
-            # we have a bottom
-            bottom =  (N[idx], idx)
+    start_idx = None
+    peak_idx = None
+    for idx in range(0, len(N)-1):
+        if start_idx is None:
+            start_idx = idx
         else:
-            # nothing to do
-            continue
-
+            current = N[idx]
+            if N[start_idx] < N[idx] > N[idx+1]:
+                peaks.append(idx)
+                start_idx = idx+1
+            else:
+                if N[idx] > N[start_idx]:
+                    continue
     return peaks
 
 
