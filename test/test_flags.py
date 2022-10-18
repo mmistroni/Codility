@@ -3,6 +3,9 @@ from flags import solution
 
 
 class MyTestCase(unittest.TestCase):
+
+
+
     def test_something(self):
 
         A = [None]* 12
@@ -20,9 +23,7 @@ class MyTestCase(unittest.TestCase):
         A[11] = 2
 
         peaks = solution(A)
-        print(peaks)
-        self.assertEqual(3, solution(A))
-
+        self.assertEqual(3, peaks)
 
 if __name__ == '__main__':
     unittest.main()
