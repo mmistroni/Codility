@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/flags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_flags.py" afterDir="false" />
-    </list>
+    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +13,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/flags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="52" lean-forward="true" selection-start-line="4" selection-end-line="52" />
+            <state relative-caret-position="279">
+              <caret line="49" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/peaks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/count_factors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" lean-forward="true" selection-start-line="4" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_peaks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_flags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="156">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/stonewall.py" />
-        <option value="$PROJECT_DIR$/test/test_dominator.py" />
         <option value="$PROJECT_DIR$/src/dominator.py" />
         <option value="$PROJECT_DIR$/test/test_equileader.py" />
         <option value="$PROJECT_DIR$/src/maxslice.py" />
@@ -113,10 +141,12 @@
         <option value="$PROJECT_DIR$/src/min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/src/flags.py" />
         <option value="$PROJECT_DIR$/test/test_flags.py" />
+        <option value="$PROJECT_DIR$/src/peaks.py" />
+        <option value="$PROJECT_DIR$/test/test_peaks.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="56" />
     <option name="y" value="96" />
     <option name="width" value="1241" />
@@ -173,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_flags.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.pytest for test_peaks.MyTestCase.test_something">
     <configuration name="pytest for test_flags.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,21 +231,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_fury_road.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_fury_road.MyTestCase.test_three" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fury_road.MyTestCase.test_three&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -249,13 +264,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_peaks.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_peaks.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_peaks.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_flags.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_min_perimeter_rectangle.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_maxcounter2.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_fury_road.MyTestCase.test_three" />
       </list>
     </recent_temporary>
   </component>
@@ -273,47 +303,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.11 at 20h 45m 38s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 20h 45m 44s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.11 at 20h 47m 23s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 00m 21s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.11 at 20h 48m 11s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 00m 52s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.11 at 20h 57m 36s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 01m 42s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.12 at 20h 03m 08s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 03m 08s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.12 at 20h 04m 08s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 03m 23s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.12 at 20h 05m 50s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 03m 49s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.12 at 20h 23m 01s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 05m 32s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.12 at 20h 23m 49s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 06m 04s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_flags_MyTestCase_test_something - 2022.10.12 at 20h 25m 37s.xml">
-      <configuration name="pytest for test_flags.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_peaks_MyTestCase_test_something - 2022.10.19 at 21h 06m 38s.xml">
+      <configuration name="pytest for test_peaks.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.24032739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46644846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49590835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33060557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,20 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/counting_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/813269858/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="538" column="4" selection-start-line="538" selection-start-column="4" selection-end-line="538" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_tape_equilibrium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -725,16 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/count_factors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="4" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/min_perimeter_rectangle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -754,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_flags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="156">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -764,8 +769,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/flags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="52" lean-forward="true" selection-start-line="4" selection-end-line="52" />
+        <state relative-caret-position="279">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/count_factors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="4" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peaks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_peaks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
