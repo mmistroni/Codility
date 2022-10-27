@@ -1,15 +1,13 @@
-#
-
+# https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/
+import math
 def divisors(n):
-    i = 1
-    result = []
-    while (i * i < n):
-        if (n % i == 0):
-            result.append(i)
-        i += 1
-    if (i * i == n):
-        result.append(i)
-    return result
+  lis =[1]
+  s = math.ceil(math.sqrt(n))
+  for g in range(s,1, -1):
+     if n % g == 0:
+        lis.append(g)
+        lis.append(int(n / g))
+  return (set(lis))
 
 def find_peaks(N):
     peaks = []
@@ -30,13 +28,30 @@ def find_peaks(N):
     return peaks
 
 
+def peaks_in_slices(peaks, divs, A):
+    maxdivs = 0
+    for subListLength in divs:
+        if subListLength == 1:
+            slists = [A]
+        else:
+            slists = [A[i:i + subListLength] for i in range(0, len(A), subListLength)]
+        for sublist in slists:
+            checks = set(peaks)-set(sublist)
+            if len(checks) < len(peaks):
+                maxdivs = max(maxdivs, subListLength)
+
+    return maxdivs
+
+
+
+
+
+
 def solution(A):
     from itertools import islice
-    peaks = find_peaks(A)
-    n_divisors = divisors(len(A))[::-1]
+    peaks = [A[idx] for idx in find_peaks(A)]
+    n_divisors = divisors(len(A))
 
-
-
-
-
-    return None
+    if n_divisors:
+        return peaks_in_slices(peaks, n_divisors, A)
+    return 0
