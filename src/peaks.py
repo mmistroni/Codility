@@ -30,20 +30,21 @@ def find_peaks(N):
 
 def peaks_in_slices(peaks, divs, A):
     maxdivs = 0
+    slists = []
     for subListLength in divs:
         if subListLength == 1:
             slists = [A]
         else:
             slists = [A[i:i + subListLength] for i in range(0, len(A), subListLength)]
+        peaksCount = 0
         for sublist in slists:
-            checks = set(peaks)-set(sublist)
-            if len(checks) < len(peaks):
-                maxdivs = max(maxdivs, subListLength)
-
+            uniques = set(sublist)
+            checks = set(sublist)-set(peaks)
+            if len(checks) < len(uniques):
+                peaksCount +=1
+        if peaksCount == len(slists):
+            maxdivs = max(maxdivs, peaksCount)
     return maxdivs
-
-
-
 
 
 
