@@ -11,6 +11,9 @@ def from_end(start, p, counter):
     return from_end( start - 2, p, counter+1)
 
 def solution(n, p):
+
+    # Use while loop instead/ mayb instead of while loop we divide by 2
+
     if p == n or p == 1:
         return 0
 
