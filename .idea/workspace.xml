@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/valleys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_valleys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawing_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawing_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_drawing_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_drawing_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valleys.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/valleys.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,52 +18,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_peaks.py">
+        <entry file="file://$PROJECT_DIR$/src/valleys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="314">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="25" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/drawing_book.py">
+        <entry file="file://$PROJECT_DIR$/test/test_valleys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/valleys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_drawing_book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/peaks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="84" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -75,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -94,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/test/test_count_factors.py" />
         <option value="$PROJECT_DIR$/src/count_factors.py" />
         <option value="$PROJECT_DIR$/test/test_tape_equilibrium.py" />
@@ -142,15 +110,16 @@
         <option value="$PROJECT_DIR$/src/kangaroo.py" />
         <option value="$PROJECT_DIR$/test/test_between_two_sets.py" />
         <option value="$PROJECT_DIR$/src/between_two_sets.py" />
-        <option value="$PROJECT_DIR$/src/valleys.py" />
         <option value="$PROJECT_DIR$/test/test_drawing_book.py" />
         <option value="$PROJECT_DIR$/src/drawing_book.py" />
+        <option value="$PROJECT_DIR$/src/valleys.py" />
+        <option value="$PROJECT_DIR$/test/test_valleys.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-97" />
-    <option name="y" value="144" />
+    <option name="x" value="62" />
+    <option name="y" value="237" />
     <option name="width" value="1241" />
     <option name="height" value="630" />
   </component>
@@ -205,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_drawing_book.MyTestCase.test_something5">
+  <component name="RunManager" selected="Python tests.pytest for test_valleys.MyTestCase.test_something">
     <configuration name="pytest for test_drawing_book.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,21 +187,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_drawing_book.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_drawing_book.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_drawing_book.MyTestCase.test_something2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -281,13 +235,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_valleys.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_valleys.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_valleys.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase.test_something5" />
         <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase.test_something4" />
         <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase.test_something3" />
-        <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase.test_something2" />
       </list>
     </recent_temporary>
   </component>
@@ -305,35 +274,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase_test_something4 - 2022.11.15 at 20h 37m 27s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase.test_something4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase - 2022.11.15 at 20h 37m 39s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase_test_something4 - 2022.11.15 at 20h 37m 46s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase.test_something4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase_test_something4 - 2022.11.15 at 20h 38m 21s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase.test_something4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase - 2022.11.15 at 20h 38m 28s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase - 2022.11.15 at 20h 39m 13s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase - 2022.11.15 at 20h 39m 22s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_drawing_book_MyTestCase - 2022.11.15 at 20h 40m 36s.xml">
-      <configuration name="pytest for test_drawing_book.MyTestCase" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_drawing_book_MyTestCase - 2022.11.15 at 20h 40m 41s.xml">
       <configuration name="pytest for test_drawing_book.MyTestCase" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_drawing_book_MyTestCase_test_something5 - 2022.11.15 at 20h 42m 25s.xml">
       <configuration name="pytest for test_drawing_book.MyTestCase.test_something5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 08m 33s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 09m 02s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 09m 23s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 10m 02s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 12m 50s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 13m 57s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 14m 16s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 15m 51s.xml">
+      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -345,8 +314,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54664487" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5662848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21276596" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6710311" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -444,13 +413,20 @@
           <line>21</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/valleys.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/valleys.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/toptal2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_count_div.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -821,17 +797,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peaks.py">
+    <entry file="file://$PROJECT_DIR$/src/drawing_book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="84" selection-end-line="58" />
+        <state relative-caret-position="56">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/valleys.py">
+    <entry file="file://$PROJECT_DIR$/src/peaks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -845,10 +821,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing_book.py">
+    <entry file="file://$PROJECT_DIR$/src/valleys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="314">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="25" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_valleys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
