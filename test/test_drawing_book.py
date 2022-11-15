@@ -16,6 +16,13 @@ class MyTestCase(unittest.TestCase):
     def test_something3(self):
         self.assertEqual(3810, solution(37455, 29835))
 
+    def test_something4(self):
+        self.assertEqual(1, solution(6, 2))
+
+    def test_something5(self):
+        self.assertEqual(1, solution(6, 5))
+
+
 
 
 if __name__ == '__main__':
