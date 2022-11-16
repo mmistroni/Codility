@@ -13,7 +13,7 @@ def find_valleys(lst):
     num_valleys = 0
     in_valley = False
     while lst:
-        item = lst.pop()
+        item = lst.pop(0)
         if item < 0:
             in_valley = True
         else:
@@ -24,6 +24,7 @@ def find_valleys(lst):
 
 
 def solution(steps, path):
+    # Try to do this in only one go
     state = SEA
     mapped = []
     tolist = list(path)
@@ -34,5 +35,4 @@ def solution(steps, path):
         else:
             state -=1
         mapped.append(state)
-    print(mapped)
     return find_valleys(mapped)

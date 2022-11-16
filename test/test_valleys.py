@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
         path = "UDDDUDUU"
         self.assertEqual(1, solution(steps, path))
 
-    def test_something(self):
+    def test_something2(self):
         steps = 12
         path = "DDUUDDUDUUUD"
         self.assertEqual(2, solution(steps, path))
