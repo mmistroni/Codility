@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bon_appetit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/picking_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_bon_appetit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_picking_numbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/valleys.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/valleys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_valleys.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_valleys.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/valleys.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bon_appetit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="1" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/picking_numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_valleys.py">
+        <entry file="file://$PROJECT_DIR$/test/test_picking_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_bon_appetit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -63,10 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_count_factors.py" />
-        <option value="$PROJECT_DIR$/src/count_factors.py" />
-        <option value="$PROJECT_DIR$/test/test_tape_equilibrium.py" />
-        <option value="$PROJECT_DIR$/src/tape_equlibrium.py" />
         <option value="$PROJECT_DIR$/test/test_frog_river_one.py" />
         <option value="$PROJECT_DIR$/src/frog_river_one.py" />
         <option value="$PROJECT_DIR$/src/perm_check.py" />
@@ -114,12 +133,16 @@
         <option value="$PROJECT_DIR$/src/drawing_book.py" />
         <option value="$PROJECT_DIR$/test/test_valleys.py" />
         <option value="$PROJECT_DIR$/src/valleys.py" />
+        <option value="$PROJECT_DIR$/test/test_bon_appetit.py" />
+        <option value="$PROJECT_DIR$/src/bon_appetit.py" />
+        <option value="$PROJECT_DIR$/test/test_picking_numbers.py" />
+        <option value="$PROJECT_DIR$/src/picking_numbers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="237" />
+    <option name="x" value="56" />
+    <option name="y" value="76" />
     <option name="width" value="1241" />
     <option name="height" value="630" />
   </component>
@@ -174,8 +197,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_valleys.MyTestCase.test_something2">
-    <configuration name="pytest for test_drawing_book.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_picking_numbers.MyTestCase.test_something">
+    <configuration name="pytest for test_bon_appetit.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,22 +209,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_drawing_book.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_drawing_book.MyTestCase.test_something4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_drawing_book.MyTestCase.test_something4&quot;" />
+      <option name="_new_target" value="&quot;test_bon_appetit.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -217,6 +225,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_drawing_book.MyTestCase.test_something5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_picking_numbers.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_picking_numbers.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -252,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_picking_numbers.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_bon_appetit.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_valleys.MyTestCase.test_something2" />
         <item itemvalue="Python tests.pytest for test_valleys.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase.test_something5" />
-        <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_drawing_book.MyTestCase.test_something4" />
       </list>
     </recent_temporary>
   </component>
@@ -274,35 +297,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 12m 50s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 13m 57s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 14m 16s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.15 at 21h 15m 51s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.16 at 20h 20m 44s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something - 2022.11.16 at 20h 21m 10s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something2 - 2022.11.16 at 20h 21m 18s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_valleys_MyTestCase_test_something2 - 2022.11.16 at 20h 25m 32s.xml">
-      <configuration name="pytest for test_valleys.MyTestCase.test_something2" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_valleys_MyTestCase_test_something2 - 2022.11.16 at 20h 26m 17s.xml">
       <configuration name="pytest for test_valleys.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_valleys_MyTestCase_test_something2 - 2022.11.16 at 20h 27m 18s.xml">
       <configuration name="pytest for test_valleys.MyTestCase.test_something2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bon_appetit_MyTestCase_test_something - 2022.11.16 at 20h 50m 30s.xml">
+      <configuration name="pytest for test_bon_appetit.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bon_appetit_MyTestCase_test_something - 2022.11.16 at 20h 50m 51s.xml">
+      <configuration name="pytest for test_bon_appetit.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bon_appetit_MyTestCase_test_something - 2022.11.16 at 20h 52m 21s.xml">
+      <configuration name="pytest for test_bon_appetit.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bon_appetit_MyTestCase_test_something - 2022.11.16 at 20h 52m 51s.xml">
+      <configuration name="pytest for test_bon_appetit.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_picking_numbers_MyTestCase_test_something - 2022.11.22 at 20h 30m 01s.xml">
+      <configuration name="pytest for test_picking_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_picking_numbers_MyTestCase_test_something - 2022.11.22 at 20h 32m 37s.xml">
+      <configuration name="pytest for test_picking_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_picking_numbers_MyTestCase_test_something - 2022.11.22 at 20h 33m 03s.xml">
+      <configuration name="pytest for test_picking_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_picking_numbers_MyTestCase_test_something - 2022.11.22 at 20h 34m 45s.xml">
+      <configuration name="pytest for test_picking_numbers.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -314,7 +337,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.507365" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5253683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46644846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,46 +436,20 @@
           <line>21</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/picking_numbers.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/picking_numbers.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_count_div.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/count_div.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="41" lean-forward="true" selection-start-line="20" selection-end-line="41" />
-          <folding>
-            <element signature="e#557#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/genomic_range_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_genomic_range_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/max_slice_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -825,6 +822,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bon_appetit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="1" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_bon_appetit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_picking_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/picking_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
