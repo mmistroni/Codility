@@ -6,7 +6,7 @@ def solution(arr):
     counter_holder = []
     counter = 0
     current_min = None
-    for idx, item in enumerate(arr):
+    for idx, item in enumerate(sorted_arr):
         if idx == 0:
             current_min=item
             counter +=1
@@ -17,6 +17,7 @@ def solution(arr):
             counter_holder.append(counter)
             counter = 1
             current_min=item
+    counter_holder.append(counter)
     return max(counter_holder)
 
 
