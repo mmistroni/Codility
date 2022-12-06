@@ -15,10 +15,10 @@ class MyTestCase(unittest.TestCase):
         first = np.matrix([2,9,4],
                           [7,5,3],
                           [6,1,8])
-        first_ = np.matrix([6,1,8],
+        rowswap_ = np.matrix([6,1,8],
                           [7,5,3],
                           [2, 9,4])
-        first__ = np.matrix([4, 9, 2],
+        colswap__ = np.matrix([4, 9, 2],
                             [3, 5, 7],
                             [8, 1, 6])
 
@@ -43,6 +43,37 @@ class MyTestCase(unittest.TestCase):
 
         # Then we swap first col and last col and rotate
 
+    def _rotate_clockwise(self, input_array):
+        first_row = input_array[:,0][::-1]
+        second_row = input_array[:,1][::-1]
+        third_row = input_array[:, 2][::-1]
+        return np.array([first_row, second_row, third_row])
+
+    def test_generate_all_rotations(self):
+        holder = []
+        first = np.array([[2, 9, 4],
+                          [7, 5, 3],
+                          [6, 1, 8]])
+        holder.append(first)
+        for i in range(0,3):
+            first = self._rotate_clockwise(first)
+            holder.append(first)
+
+        first_row = first[:, 0][::1]
+        second_row = first[:, 1][::1]
+        third_row = first[:, 2][::1]
+
+        first = np.array([first_row,
+                          second_row,
+                          third_row])
+        holder.append(first)
+        for i in range(0,3):
+            first = self._rotate_clockwise(first)
+            holder.append(first)
+
+
+        from pprint import pprint
+        pprint(holder)
 
 
 if __name__ == '__main__':
