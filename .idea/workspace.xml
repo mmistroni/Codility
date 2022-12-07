@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/break_records.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_break_records.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_magic_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_magic_square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/magic_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/magic_square.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/magic_square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="231">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -28,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_magic_square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -65,9 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/count_div.py" />
-        <option value="$PROJECT_DIR$/src/genomic_range_query.py" />
-        <option value="$PROJECT_DIR$/test/test_min_avg_two_sums.py" />
         <option value="$PROJECT_DIR$/src/min_avg_two_sums.py" />
         <option value="$PROJECT_DIR$/test/test_triangular_triplets.py" />
         <option value="$PROJECT_DIR$/src/triangular_triplets.py" />
@@ -114,14 +113,17 @@
         <option value="$PROJECT_DIR$/test/magic_square.py" />
         <option value="$PROJECT_DIR$/src/carol_of_code.py" />
         <option value="$PROJECT_DIR$/test/test_carol_of_code.py" />
-        <option value="$PROJECT_DIR$/src/magic_square.py" />
         <option value="$PROJECT_DIR$/test/test_magic_square.py" />
+        <option value="$PROJECT_DIR$/test/break_records.py" />
+        <option value="$PROJECT_DIR$/src/break_records.py" />
+        <option value="$PROJECT_DIR$/test/test_break_records.py" />
+        <option value="$PROJECT_DIR$/src/magic_square.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="302" />
-    <option name="y" value="120" />
+    <option name="x" value="31" />
+    <option name="y" value="67" />
     <option name="width" value="880" />
     <option name="height" value="630" />
   </component>
@@ -141,7 +143,7 @@
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,11 +156,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\marco\Codility\Codility\test" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marco\Codility\Codility\src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marco\Codility\Codility\test" />
       <recent name="C:\Users\marco\Codility\Codility\src" />
     </key>
   </component>
@@ -175,7 +177,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_magic_square.MyTestCase.test_generate_all_rotations">
-    <configuration name="pytest for test_magic_square.MyTestCase.test_combi" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_break_records.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,7 +188,52 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_magic_square.MyTestCase.test_combi&quot;" />
+      <option name="_new_target" value="&quot;test_break_records.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_break_records.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_break_records.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_break_records.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_break_records.MyTestCase.test_something2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_break_records.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_break_records.MyTestCase.test_something3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -205,58 +252,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_magic_square.MyTestCase.test_rotation" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_magic_square.MyTestCase.test_rotation&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_magic_square.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_magic_square.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_picking_numbers.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_picking_numbers.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_magic_square.MyTestCase.test_generate_all_rotations" />
-        <item itemvalue="Python tests.pytest for test_magic_square.MyTestCase.test_rotation" />
-        <item itemvalue="Python tests.pytest for test_magic_square.MyTestCase.test_combi" />
-        <item itemvalue="Python tests.pytest for test_magic_square.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_picking_numbers.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_break_records.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_break_records.MyTestCase.test_something3" />
+        <item itemvalue="Python tests.pytest for test_break_records.MyTestCase.test_something2" />
+        <item itemvalue="Python tests.pytest for test_break_records.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -274,24 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_combi - 2022.12.05 at 19h 14m 13s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_combi" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_combi - 2022.12.05 at 19h 14m 28s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_combi" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_rotation - 2022.12.06 at 20h 19m 29s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_rotation" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_rotation - 2022.12.06 at 20h 20m 06s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_rotation" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_rotation - 2022.12.06 at 20h 20m 48s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_rotation" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_rotation - 2022.12.06 at 20h 33m 29s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_rotation" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_magic_square_MyTestCase_test_rotation - 2022.12.06 at 20h 34m 32s.xml">
       <configuration name="pytest for test_magic_square.MyTestCase.test_rotation" configurationId="tests" />
     </history-entry>
@@ -304,17 +288,35 @@
     <history-entry file="pytest_for_test_magic_square_MyTestCase_test_generate_all_rotations - 2022.12.06 at 20h 39m 13s.xml">
       <configuration name="pytest for test_magic_square.MyTestCase.test_generate_all_rotations" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_generate_all_rotations - 2022.12.06 at 20h 40m 30s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_generate_all_rotations" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_break_records_MyTestCase_test_something - 2022.12.07 at 20h 51m 55s.xml">
+      <configuration name="pytest for test_break_records.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_break_records_MyTestCase_test_something2 - 2022.12.07 at 20h 52m 13s.xml">
+      <configuration name="pytest for test_break_records.MyTestCase.test_something2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_break_records_MyTestCase_test_something3 - 2022.12.07 at 20h 52m 19s.xml">
+      <configuration name="pytest for test_break_records.MyTestCase.test_something3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_break_records_MyTestCase - 2022.12.07 at 20h 53m 00s.xml">
+      <configuration name="pytest for test_break_records.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_generate_all_rotations - 2022.12.07 at 20h 56m 41s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_generate_all_rotations" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.2827381" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2827381" />
+      <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.2827381" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48281506" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1767594" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.42062193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,27 +432,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/magic_square.py</url>
-          <line>46</line>
+          <line>61</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/triangular_triplets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number_of_disc_intersections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="73" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/order_book.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -829,22 +817,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/magic_square.py">
+    <entry file="file://$PROJECT_DIR$/test/test_break_records.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="64">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/break_records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="true" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_magic_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/magic_square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
