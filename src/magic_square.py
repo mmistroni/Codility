@@ -47,31 +47,6 @@ def solution(array_of_array):
 
 
 
-    
-
-
-    first, second, third = array_of_array
-
-    magic_sum = 15
-
-    # place 5 in central cell
-    # then remove 5 and find pairs up to 10
-    # place it 'somewhere' and see if you can sum up 10
-    # carry on doing it
-
-
-    holder = []
-    for one in permutations(first, 3):
-        for two in permutations(second, 3):
-            for three in permutations(third, 3):
-                arr = [one, two, three]
-                if check(arr, magic_sum):
-                    holder.append(sum(one))
-
-    return sum(holder)
 
 
 
-
-
-    return 0
