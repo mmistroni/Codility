@@ -15,7 +15,7 @@ class MyTestCase(unittest.TestCase):
             [[6, 1, 8], [7, 5, 3], [2, 9, 4]],
             [[2, 7, 6], [9, 5, 1], [4, 3, 8]]]
 
-        input = [[5, 3, 4], [1, 5, 8], [6, 4, 2]]
+        input = [[4, 8, 2], [4, 5, 7], [6, 1, 6,]]
 
         tmp = np.array(input)
 
