@@ -6,24 +6,22 @@ import numpy as np
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         magixboxes = [
-            [[2, 9, 4], [7, 5, 3], [6, 1, 8]],
-            [[6, 7, 2], [1, 5, 9], [8, 3, 4]],
-            [[8, 1, 6], [3, 5, 7], [4, 9, 2]],
-            [[4, 3, 8], [9, 5, 1], [2, 7, 6]],
-            [[4, 9, 2], [3, 5, 7], [8, 1, 6]],
+            #[[2, 9, 4], [7, 5, 3], [6, 1, 8]],
+            #[[6, 7, 2], [1, 5, 9], [8, 3, 4]],
+            #[[8, 1, 6], [3, 5, 7], [4, 9, 2]],
+            #[[4, 3, 8], [9, 5, 1], [2, 7, 6]],
+            #[[4, 9, 2], [3, 5, 7], [8, 1, 6]],
             [[8, 3, 4], [1, 5, 9], [6, 7, 2]],
-            [[6, 1, 8], [7, 5, 3], [2, 9, 4]],
-            [[2, 7, 6], [9, 5, 1], [4, 3, 8]]]
+            #[[6, 1, 8], [7, 5, 3], [2, 9, 4]],
+            #[[2, 7, 6], [9, 5, 1], [4, 3, 8]]]
+            ]
 
-        input = [[4, 8, 2], [4, 5, 7], [6, 1, 6,]]
+        inp = [[5, 3, 4], [1, 5, 8], [6, 4, 2]]
 
-        tmp = np.array(input)
+        res = solution(inp)
+        self.assertEquals(7, res)
 
-        for idx, item in enumerate(magixboxes):
-            itemarray = np.array(item)
-            diffs = np.sum(itemarray - tmp)
 
-            print(f'Item {idx} has diff={diffs}')
 
 
     def test_combi(self):

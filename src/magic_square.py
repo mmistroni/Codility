@@ -18,17 +18,17 @@ def solution(array_of_array):
         [[6, 1, 8], [7, 5, 3], [2, 9, 4]],
         [[2, 7, 6], [9, 5, 1], [4, 3, 8]]]
 
-    tmp = np.array(array_of_array)
-
+    tmp = array_of_array
     holder = []
-
     for item in magixboxes:
-
-        d = sum([tmp[idx]-item[idx] for idx in range(0,3)])
-        holder.append(sum(d))
+        diffs = []
+        for i in range(0, 3):
+            for j in range(0, 3):
+                mx = tmp[i][j]
+                oth = item[i][j]
+                diffs.append(abs(mx - oth))
+        holder.append(sum(diffs))
 
     return min(holder)
-
-
 
 

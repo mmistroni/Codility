@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/climbing_leaderboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_climbing_leaderboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/magic_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/magic_square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_magic_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_magic_square.py" afterDir="false" />
     </list>
@@ -17,27 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/magic_square.py">
+        <entry file="file://$PROJECT_DIR$/src/climbing_leaderboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="98" selection-start-column="98" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array_split.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/test/test_climbing_leaderboard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_magic_square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="300">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -70,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/min_avg_two_sums.py" />
-        <option value="$PROJECT_DIR$/test/test_triangular_triplets.py" />
         <option value="$PROJECT_DIR$/src/triangular_triplets.py" />
         <option value="$PROJECT_DIR$/src/national_code_challenge.txt" />
         <option value="$PROJECT_DIR$/test/test_national_code_challenge.py" />
@@ -121,6 +123,8 @@
         <option value="$PROJECT_DIR$/test/test_break_records.py" />
         <option value="$PROJECT_DIR$/test/test_magic_square.py" />
         <option value="$PROJECT_DIR$/src/magic_square.py" />
+        <option value="$PROJECT_DIR$/test/test_climbing_leaderboard.py" />
+        <option value="$PROJECT_DIR$/src/climbing_leaderboard.py" />
       </list>
     </option>
   </component>
@@ -135,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,10 +151,16 @@
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codility" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,34 +288,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_generate_all_rotations - 2022.12.06 at 20h 39m 13s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_generate_all_rotations" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_generate_all_rotations - 2022.12.06 at 20h 40m 30s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_generate_all_rotations" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_break_records_MyTestCase_test_something - 2022.12.07 at 20h 51m 55s.xml">
-      <configuration name="pytest for test_break_records.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_break_records_MyTestCase_test_something2 - 2022.12.07 at 20h 52m 13s.xml">
-      <configuration name="pytest for test_break_records.MyTestCase.test_something2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_break_records_MyTestCase_test_something3 - 2022.12.07 at 20h 52m 19s.xml">
-      <configuration name="pytest for test_break_records.MyTestCase.test_something3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_break_records_MyTestCase - 2022.12.07 at 20h 53m 00s.xml">
-      <configuration name="pytest for test_break_records.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_generate_all_rotations - 2022.12.07 at 20h 56m 41s.xml">
-      <configuration name="pytest for test_magic_square.MyTestCase.test_generate_all_rotations" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.08 at 20h 56m 05s.xml">
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 30m 02s.xml">
       <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.08 at 20h 56m 37s.xml">
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 30m 47s.xml">
       <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.08 at 21h 06m 56s.xml">
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 31m 36s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 32m 24s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 34m 58s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 37m 22s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 37m 46s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 42m 53s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 44m 38s.xml">
+      <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_square_MyTestCase_test_something - 2022.12.12 at 20h 45m 00s.xml">
       <configuration name="pytest for test_magic_square.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
@@ -314,13 +323,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2827381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2827381" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.2827381" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5237316" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.42062193" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46972176" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.61374795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -437,20 +446,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/equileader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_equileader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -827,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_magic_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -837,11 +832,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/magic_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="239">
+          <caret line="32" lean-forward="true" selection-start-line="7" selection-end-line="32" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_climbing_leaderboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/climbing_leaderboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="98" selection-start-column="98" selection-end-column="98" />
         </state>
       </provider>
     </entry>
