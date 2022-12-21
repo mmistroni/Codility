@@ -18,6 +18,11 @@ class MyTestCase(unittest.TestCase):
         b = [24, 48]
         self.assertEqual(2, solution(a, b))
 
+    def test_something3(self):
+        a = [1]
+        b = [100]
+        self.assertEqual(9, solution(a, b))
+
 
 if __name__ == '__main__':
     unittest.main()

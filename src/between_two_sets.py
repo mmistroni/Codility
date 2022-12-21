@@ -35,15 +35,21 @@ def find_all_factors_in_b(b):
         for f in first_factors:
             if item % f != 0:
                 first_factors.remove(f)
-    return [f for f in first_factors if f > 1]
+    return [f for f in first_factors]
 
 
 def solution(a, b):
 
     factors_to_consider = find_all_factors_in_b(b)
+    if a.index(1) < 0 and b.index(1) < 0:
+        factors_to_consider.remove(1)
 
-    for f in factors_to_consider:
-        check = [i % f ==0 for i in a]
+
+
+    sorted_f = sorted(factors_to_consider, key=lambda x:x)
+
+    for f in sorted_f:
+        check = [f % i ==0 for i in a]
         if not all(check):
             factors_to_consider.remove(f)
     return len(factors_to_consider)
