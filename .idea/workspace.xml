@@ -4,7 +4,6 @@
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/between_two_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/between_two_sets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_between_two_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_between_two_sets.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_between_two_sets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="84">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -32,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/between_two_sets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="220">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -223,6 +222,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_between_two_sets.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_between_two_sets.MyTestCase.test_something3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_carol_of_code.MyTestCase.test_rotate" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,28 +252,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_magic_square.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_magic_square.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something2" />
         <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something3" />
+        <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something2" />
         <item itemvalue="Python tests.pytest for test_carol_of_code.MyTestCase.test_rotate" />
-        <item itemvalue="Python tests.pytest for test_magic_square.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -277,21 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 23m 28s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 24m 18s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 25m 25s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something2 - 2022.12.21 at 21h 26m 07s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 27m 11s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 27m 36s.xml">
       <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
@@ -305,6 +289,21 @@
       <configuration name="pytest for test_between_two_sets.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 29m 24s.xml">
+      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 33m 47s.xml">
+      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something3 - 2022.12.21 at 21h 36m 46s.xml">
+      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 36m 53s.xml">
+      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 37m 01s.xml">
+      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 38m 27s.xml">
       <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
@@ -838,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_between_two_sets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="84">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -848,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/between_two_sets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="220">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>

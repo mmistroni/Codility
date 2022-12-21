@@ -41,7 +41,7 @@ def find_all_factors_in_b(b):
 def solution(a, b):
 
     factors_to_consider = find_all_factors_in_b(b)
-    if a.index(1) < 0 and b.index(1) < 0:
+    if 1 not in a :
         factors_to_consider.remove(1)
 
 
