@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/test_day_of_programmer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/between_two_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/between_two_sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_of_programmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_of_programmer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_between_two_sets.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day_of_programmer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="81">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_day_of_programmer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/between_two_sets.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_distinct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="3" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -62,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/triangular_triplets.py" />
-        <option value="$PROJECT_DIR$/src/national_code_challenge.txt" />
         <option value="$PROJECT_DIR$/test/test_national_code_challenge.py" />
         <option value="$PROJECT_DIR$/src/national_code_week.py" />
         <option value="$PROJECT_DIR$/test/test_fury_road.py" />
@@ -113,13 +124,14 @@
         <option value="$PROJECT_DIR$/test/test_carol_of_code.py" />
         <option value="$PROJECT_DIR$/test/test_between_two_sets.py" />
         <option value="$PROJECT_DIR$/src/between_two_sets.py" />
+        <option value="$PROJECT_DIR$/test/test_day_of_programmer.py" />
+        <option value="$PROJECT_DIR$/src/day_of_programmer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="31" />
-    <option name="y" value="67" />
-    <option name="width" value="880" />
+    <option name="x" value="201" />
+    <option name="width" value="1146" />
     <option name="height" value="630" />
   </component>
   <component name="ProjectView">
@@ -127,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_between_two_sets.MyTestCase">
+  <component name="RunManager" selected="Python tests.pytest for test_day_of_programmer.MyTestCase.test_julian_year">
     <configuration name="pytest for test_between_two_sets.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,21 +219,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_between_two_sets.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_between_two_sets.MyTestCase.test_something2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_between_two_sets.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +234,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_carol_of_code.MyTestCase.test_rotate" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_day_of_programmer.MyTestCase.test_is_leap" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,17 +245,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_carol_of_code.MyTestCase.test_rotate&quot;" />
+      <option name="_new_target" value="&quot;test_day_of_programmer.MyTestCase.test_is_leap&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_day_of_programmer.MyTestCase.test_julian_year&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_day_of_programmer.MyTestCase.test_julian_year" />
+        <item itemvalue="Python tests.pytest for test_day_of_programmer.MyTestCase.test_is_leap" />
         <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something3" />
-        <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something2" />
-        <item itemvalue="Python tests.pytest for test_carol_of_code.MyTestCase.test_rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -276,35 +288,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 27m 36s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 06m 21s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something2 - 2022.12.21 at 21h 28m 37s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 16m 33s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something2 - 2022.12.21 at 21h 29m 07s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 16m 36s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something2 - 2022.12.21 at 21h 29m 13s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 18m 16s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 29m 24s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 18m 24s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 33m 47s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 18m 50s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something3 - 2022.12.21 at 21h 36m 46s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something3" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 19m 46s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 36m 53s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 20m 39s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase_test_something - 2022.12.21 at 21h 37m 01s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 21m 27s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_between_two_sets_MyTestCase - 2022.12.21 at 21h 38m 27s.xml">
-      <configuration name="pytest for test_between_two_sets.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 22m 15s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -316,8 +328,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5008183" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.62520456" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5581015" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.56301147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -325,7 +337,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.42062193" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.2913257" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.35679215" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -440,37 +452,20 @@
           <line>54</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/day_of_programmer.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/day_of_programmer.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_equileader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tiger_year.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_tiger_year.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/national_code_week.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-385">
@@ -835,6 +830,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/between_two_sets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_between_two_sets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -845,10 +847,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/between_two_sets.py">
+    <entry file="file://$PROJECT_DIR$/test/test_distinct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="3" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_day_of_programmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day_of_programmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
