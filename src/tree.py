@@ -68,13 +68,16 @@ class Node:
     # of its children.
     # Return a number that is th eheight.
     def height(self):
-        if self.left is None and self.right is None:
+        if self is None:
+            return 0
+        elif self.left is None and self.right is None:
             return 1
-        elif self.left is None:
-            return 1 + self.right.height()
-        elif self.right is None:
-            return 1 + self.right.height()
-        return 1 + max(self.left.height(), self.right.height())
+        else:
+            left_height = self.left.heigth()
+            right_height = self.right.height
+
+            return 1 + max(left_height, right_height)
+
     # TODO: Write an algorithm to delete a key in the tree.
     # First, find the node in the tree with the key.
     # Recommend drawing pictures to visualize these cases below before
