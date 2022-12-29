@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test_day_of_programmer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day_of_programmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_of_programmer.py" afterDir="false" />
-    </list>
+    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/day_of_programmer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="64">
+              <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -288,9 +284,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 06m 21s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 16m 33s.xml">
       <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
@@ -318,17 +311,19 @@
     <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 22m 15s.xml">
       <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 30m 06s.xml">
+      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2827381" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.2827381" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5581015" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.67757773" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.56301147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -869,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day_of_programmer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="64">
+          <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>
