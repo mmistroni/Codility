@@ -2,8 +2,8 @@
 
 day_of_programmer = 256
 
-calendar_dict = {'Julian' :  ([29, 28, 31, 29, 31, 29, 31, 29],
-                              [29, 23, 27, 31, 29, 31, 29, 31, 29]),
+calendar_dict = {'Julian' :  ([31, 28, 31, 30, 31, 30, 31, 31],
+                                [31, 29, 31, 30, 31, 30, 31, 31]),
                  'Interim':  ([31, 14, 31, 30, 31, 30, 31, 31],
                               [31, 14, 31, 30, 31, 30, 31, 31]),
                  'Gregorian' : ([31, 28, 31, 30, 31, 30, 31, 31],
@@ -43,8 +43,12 @@ def solution(year):
         item = tpls[0]
 
     all_dt = 256 - sum(item)
+    from datetime import date
 
-    return f'{all_dt}.9.{year}'
+    res = date(year, 9, all_dt)
+
+
+    return f"{res.strftime('%d.%m.%Y')}"
 
 
 
