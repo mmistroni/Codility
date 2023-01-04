@@ -1,11 +1,14 @@
 import unittest
 from climbing_leaderboard import solution
+from heapq import  heappush, heapify, nlargest
+
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
 
         ranked = [100, 100, 50, 40, 40, 20, 10]
-        player = [5, 25, 50, 120 ]
+
+        player =   [5, 25, 50, 120 ]
 
         expected =  [6, 4, 2, 1]
 

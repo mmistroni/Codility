@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/birthday_bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_birthday_bar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/climbing_leaderboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/climbing_leaderboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_climbing_leaderboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_climbing_leaderboard.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,55 +18,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_day_of_programmer.py">
+        <entry file="file://$PROJECT_DIR$/test/test_climbing_leaderboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_distinct.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day_of_programmer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="51" lean-forward="true" selection-start-line="33" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/birthday_bar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_birthday_bar.py">
+        <entry file="file://$PROJECT_DIR$/src/climbing_leaderboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/order_book.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="27" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -88,6 +64,8 @@
       <find>Distance between</find>
       <find>print</find>
       <find>count</find>
+      <find>heap</find>
+      <find>heappush</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,8 +115,6 @@
         <option value="$PROJECT_DIR$/test/test_break_records.py" />
         <option value="$PROJECT_DIR$/test/test_magic_square.py" />
         <option value="$PROJECT_DIR$/src/magic_square.py" />
-        <option value="$PROJECT_DIR$/test/test_climbing_leaderboard.py" />
-        <option value="$PROJECT_DIR$/src/climbing_leaderboard.py" />
         <option value="$PROJECT_DIR$/src/carol_of_code.py" />
         <option value="$PROJECT_DIR$/test/test_carol_of_code.py" />
         <option value="$PROJECT_DIR$/test/test_between_two_sets.py" />
@@ -147,12 +123,14 @@
         <option value="$PROJECT_DIR$/src/day_of_programmer.py" />
         <option value="$PROJECT_DIR$/src/birthday_bar.py" />
         <option value="$PROJECT_DIR$/test/test_birthday_bar.py" />
+        <option value="$PROJECT_DIR$/test/test_climbing_leaderboard.py" />
+        <option value="$PROJECT_DIR$/src/climbing_leaderboard.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="274" />
-    <option name="y" value="241" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="224" />
     <option name="width" value="1146" />
     <option name="height" value="630" />
   </component>
@@ -161,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,13 +150,17 @@
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codility" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_day_of_programmer.MyTestCase.test_2017">
+  <component name="RunManager" selected="Python tests.pytest for test_climbing_leaderboard.MyTestCase.test_something">
     <configuration name="pytest for test_between_two_sets.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,7 +204,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_between_two_sets.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,7 +215,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_between_two_sets.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_climbing_leaderboard.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -283,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_climbing_leaderboard.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_day_of_programmer.MyTestCase.test_2017" />
         <item itemvalue="Python tests.pytest for test_day_of_programmer.MyTestCase.test_julian_year" />
         <item itemvalue="Python tests.pytest for test_day_of_programmer.MyTestCase.test_is_leap" />
         <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_between_two_sets.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -305,48 +288,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 18m 50s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 16m 59s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 19m 46s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 17m 18s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 20m 39s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 17m 43s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 21m 27s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 17m 58s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 22m 15s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 18m 10s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2022.12.29 at 22h 30m 06s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 18m 21s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2023.01.03 at 20h 19m 37s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 18m 56s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_2017 - 2023.01.03 at 20h 20m 40s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_2017" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 19m 23s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_julian_year - 2023.01.03 at 20h 30m 10s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_julian_year" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 23m 44s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_day_of_programmer_MyTestCase_test_2017 - 2023.01.03 at 20h 31m 03s.xml">
-      <configuration name="pytest for test_day_of_programmer.MyTestCase.test_2017" configurationId="tests" />
+    <history-entry file="pytest_for_test_climbing_leaderboard_MyTestCase_test_something - 2023.01.04 at 20h 23m 57s.xml">
+      <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="274" y="241" width="1146" height="630" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.3429603" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2827381" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.2827381" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43661973" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.56301147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5057283" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.59738135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -483,13 +466,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fury_road.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/itertools.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -792,20 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_climbing_leaderboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/climbing_leaderboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="98" selection-start-column="98" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_carol_of_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -847,19 +809,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_distinct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_day_of_programmer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="459">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -867,10 +819,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_distinct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day_of_programmer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="51" lean-forward="true" selection-start-line="33" selection-end-line="51" />
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="33" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -883,11 +845,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_birthday_bar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="373">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_climbing_leaderboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/climbing_leaderboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
