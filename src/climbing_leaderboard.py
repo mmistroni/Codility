@@ -3,18 +3,14 @@
 from heapq import heappush, heapify, nlargest
 
 
-def repackage_list(input):
-    ranked = [i * -1 for i in input]
-
-    heapify(ranked)
-
-    return ranked
-
 def solution(ranked, player):
-    tst =repackage_list(ranked)
+    tst =  [i * -1 for i in set(input)]
+    heapify(tst)
     holder = []
     for item in player:
         new_item = item *-1
         heappush(tst, new_item)
-        holder.append(tst.index(new_item) + 1)
+        idx = tst.index(new_item) + 1
+        holder.append(idx)
+        tst.remove(new_item)
     return holder
