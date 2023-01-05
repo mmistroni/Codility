@@ -10,7 +10,10 @@ def solution(ranked, player):
         heapify(tst)
         new_item = item * -1
         heappush(tst, new_item)
-        idx = tst.index(new_item) + 1
+
+        elems = nlargest(tst, len(tst))
+
+        idx = elems.index(new_item) + 1
         holder.append(idx)
 
     return holder
