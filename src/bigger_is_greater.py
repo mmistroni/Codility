@@ -1,5 +1,5 @@
 #https://www.hackerrank.com/challenges/bigger-is-greater/problem?isFullScreen=true
-from itertools import combinations
+from itertools import combinations, permutations
 
 from string import ascii_lowercase
 
@@ -11,12 +11,12 @@ def get_all_combos(word):
     return sorted(holder, key=lambda x:x)
 
 def solution(w):
-
-    items = get_all_combos(w)
-
-    if len(set(items)) == 1:
-        return "no answer"
-
-    idx = items.index(w)
-    return items[idx+1]
+    found = False
+    for i in permutations(list(w), len(w)):
+        x = ''.join(i)
+        if found:
+            return x
+        if x == w:
+            found= True
+    return "no answer"
 

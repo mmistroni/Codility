@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bigger_is_greater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="72">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
                 <element signature="e#83#117#0" expanded="true" />
               </folding>
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="77">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -276,9 +275,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.17 at 20h 48m 21s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 20h 48m 40s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
     </history-entry>
@@ -306,18 +302,21 @@
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 21h 02m 31s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 21h 05m 22s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80306906" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.19693094" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6711111" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.3288889" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49590835" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.36006546" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.63175124" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -459,11 +458,6 @@
           <url>file://$PROJECT_DIR$/src/climbing_leaderboard.py</url>
           <line>14</line>
           <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/bigger_is_greater.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -859,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="77">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -869,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="e#83#117#0" expanded="true" />
           </folding>
