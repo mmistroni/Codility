@@ -1,16 +1,22 @@
 #https://www.hackerrank.com/challenges/bigger-is-greater/problem?isFullScreen=true
+from itertools import combinations
 
-def solution(x):
+from string import ascii_lowercase
 
-    w = list(x)
-    for i in range(0, len(w)):
-        if i < len(w)-1:
-            prev = ord(w[i])
-            nxt = ord(w[i+1])
-            if prev > nxt:
-                w[i], w[i+1] = w[i+1], w[i]
-                return ''.join(w)
+def get_all_combos(word):
+    holder = []
+    for item in combinations(list(word), len(word)):
+        holder.append(''.join(item))
 
+    return sorted(holder, key=lambda x:x)
 
+def solution(w):
 
-    return "not possible"
+    items = get_all_combos(w)
+
+    if len(set(items)) == 1:
+        return "no answer"
+
+    idx = items.index(w)
+    return items[idx+1]
+
