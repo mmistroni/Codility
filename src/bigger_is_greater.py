@@ -5,7 +5,7 @@ from string import ascii_lowercase
 
 def get_all_combos(word):
     holder = {}
-    for item in permutations(list(word), len(word)):
+    for item in permutations(list(word), len(word)): # not the right choice
         it = ''.join(item)
         holder[it] = it
 
