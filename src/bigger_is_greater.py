@@ -4,19 +4,27 @@ from itertools import combinations, permutations
 from string import ascii_lowercase
 
 def get_all_combos(word):
-    holder = []
-    for item in combinations(list(word), len(word)):
-        holder.append(''.join(item))
+    holder = {}
+    for item in permutations(list(word), len(word)):
+        it = ''.join(item)
+        holder[it] = it
 
-    return sorted(holder, key=lambda x:x)
+    return sorted(holder.values(), key=lambda x:x)
 
 def solution(w):
     found = False
-    for i in permutations(list(w), len(w)):
-        x = ''.join(i)
-        if found:
-            return x
-        if x == w:
-            found= True
-    return "no answer"
+
+    combos = get_all_combos(w)
+    from pprint import pprint
+
+    res = "no answer"
+    for idx, item in enumerate(combos):
+        if item == w:
+            try:
+                res = combos[idx + 1]
+            except Exception as e:
+                return "no answer"
+    if res == w:
+        return "no answer"
+    return res
 

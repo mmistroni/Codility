@@ -26,7 +26,13 @@ class MyTestCase(unittest.TestCase):
         res = solution('dkhc')
         self.assertEqual('hcdk', res)
 
+    def test_something6(self):
+        res = solution('abcd')
+        self.assertEqual('abdc', res)
 
+    def test_something7(self):
+        res = solution('dcbb')
+        self.assertEqual('no answer', res)
 
 
 if __name__ == '__main__':

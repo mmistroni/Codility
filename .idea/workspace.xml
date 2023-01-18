@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bigger_is_greater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bigger_is_greater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding>
-                <element signature="e#83#117#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="82">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -131,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something5">
+  <component name="RunManager" selected="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something">
     <configuration name="pytest for test_bigger_is_greater.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,7 +220,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_climbing_leaderboard.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +231,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_climbing_leaderboard.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_something6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_climbing_leaderboard.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,17 +246,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_climbing_leaderboard.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_something7&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something5" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_climbing_leaderboard.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_climbing_leaderboard.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something7" />
+        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something6" />
+        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something5" />
       </list>
     </recent_temporary>
   </component>
@@ -275,48 +274,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 20h 48m 40s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.18 at 20h 51m 29s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 20h 49m 18s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.18 at 20h 52m 55s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.17 at 20h 51m 47s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.18 at 20h 54m 51s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.17 at 20h 51m 51s.xml">
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.18 at 20h 58m 01s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.18 at 20h 58m 53s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.18 at 20h 59m 11s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.18 at 20h 59m 22s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 20h 52m 00s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.18 at 20h 59m 57s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 20h 57m 23s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.18 at 21h 00m 12s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.17 at 21h 01m 28s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 21h 01m 43s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 21h 02m 31s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.17 at 21h 05m 22s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.18 at 21h 00m 55s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6711111" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.3288889" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75084174" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.24915825" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49590835" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.63175124" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5139116" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.3747954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -463,13 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_fury_road.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/max_counters2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -851,10 +843,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/813269858/itertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="125" column="6" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="82">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -863,11 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#83#117#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
