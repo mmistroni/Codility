@@ -5,6 +5,44 @@ from bigger_is_greater import solution
 class MyTestCase(unittest.TestCase):
 
 
+    # https://www.nayuki.io/page/next-lexicographical-permutation-algorithm
+
+
+    # https://www.geeksforgeeks.org/next-permutation/
+
+    def next_permutation(self, word):
+        """
+
+        The following algorithm generates the next permutation lexicographically after a given permutation.
+        It changes the given permutation in-place.
+
+        Find the largest index k such that a[k] < a[k + 1]. If no such index exists, the permutation is the last permutation.
+        Find the largest index l greater than k such that a[k] < a[l].
+        Swap the value of a[k] with that of a[l].
+        Reverse the sequence from a[k + 1] up to and including the final element a[n].
+
+
+        :param word:
+        :return:
+        """
+        for k in range(len(word), -1, -1):
+            if word[k] < word[k+1]:
+                break
+        else:
+            return False
+
+        for l in (range(k, len(word) -1)):
+            if word[k] < word[l]:
+                break
+            word[k], word[l] = word[l], word[k]
+
+        return word
+
+
+    def real_next_permutation(self, word):
+        #https://stackoverflow.com/questions/4223349/python-implementation-for-next-permutation-in-stl
+        pass
+
     def test_something(self):
         res = solution('ab')
         self.assertEqual('ba', res)
@@ -33,6 +71,15 @@ class MyTestCase(unittest.TestCase):
     def test_something7(self):
         res = solution('dcbb')
         self.assertEqual('no answer', res)
+
+    def test_next_permsomething3(self):
+        input_sequence = [0, 1, 2, 5, 3, 3, 0]
+
+        expected =  [0, 1, 3, 0, 2, 3, 5]
+
+        res = self.next_permutation(input_sequence)
+        self.assertEqual(expected, res)
+
 
 
 if __name__ == '__main__':

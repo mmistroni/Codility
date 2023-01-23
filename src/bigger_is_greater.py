@@ -1,4 +1,4 @@
-#https://www.hackerrank.com/challenges/bigger-is-greater/problem?isFullScreen=true
+#https://www.hackerrank.com/challenges/bigger-is-greater/problem?isFullScreen=truehttps://www.hackerrank.com/challenges/bigger-is-greater/problem?isFullScreen=true
 from itertools import combinations, permutations
 
 from string import ascii_lowercase
