@@ -25,7 +25,7 @@ class MyTestCase(unittest.TestCase):
         :param word:
         :return:
         """
-        for k in range(len(word), -1, -1):
+        for k in range(len(word)-2, -1, -1):
             if word[k] < word[k+1]:
                 break
         else:
@@ -34,7 +34,7 @@ class MyTestCase(unittest.TestCase):
         for l in (range(k, len(word) -1)):
             if word[k] < word[l]:
                 break
-            word[k], word[l] = word[l], word[k]
+        word[k], word[l] = word[l], word[k]
 
         return word
 
