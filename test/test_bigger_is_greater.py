@@ -25,22 +25,27 @@ class MyTestCase(unittest.TestCase):
         :param word:
         :return:
         """
+
+        # Find pivot
         for k in range(len(word)-2, -1, -1):
             if word[k] < word[k+1]:
                 break
         else:
             return False
 
-        for l in (range(k, len(word) -1)):
+
+        #find pivot successor
+        for l in range(len(word)-2, k, -1):
             if word[k] < word[l]:
                 break
+        #swap
         word[k], word[l] = word[l], word[k]
 
-        first = word[0:k]
-        second = word[k+1:][::-1]
+        first = word[0:k+1]
+        second = word[k+1:] #[::-1]
 
 
-        return first + second
+        return first + second[::-1]
 
 
     def real_next_permutation(self, word):

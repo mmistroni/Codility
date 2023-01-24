@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bigger_is_greater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+            <state relative-caret-position="100">
+              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -278,21 +277,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 20h 40m 37s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 20h 44m 56s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 20h 47m 17s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 21h 01m 11s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 21h 01m 53s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 21h 02m 19s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
     </history-entry>
@@ -308,18 +292,33 @@
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 20h 49m 42s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 20h 54m 38s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 20h 57m 13s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 20h 58m 59s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 21h 00m 52s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 21h 01m 56s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7921348" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.20786516" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7891738" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.21082622" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41734862" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.42553192" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38625205" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.42553192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -461,6 +460,21 @@
           <url>file://$PROJECT_DIR$/src/climbing_leaderboard.py</url>
           <line>14</line>
           <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_bigger_is_greater.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_bigger_is_greater.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_bigger_is_greater.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -863,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+        <state relative-caret-position="100">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
