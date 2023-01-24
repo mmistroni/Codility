@@ -36,7 +36,11 @@ class MyTestCase(unittest.TestCase):
                 break
         word[k], word[l] = word[l], word[k]
 
-        return word
+        first = word[0:k]
+        second = word[k+1:][::-1]
+
+
+        return first + second
 
 
     def real_next_permutation(self, word):
@@ -73,9 +77,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual('no answer', res)
 
     def test_next_permsomething3(self):
-        input_sequence = [0, 1, 2, 5, 3, 3, 0]
+        input_sequence = [2, 4, 1, 7, 5, 0]
 
-        expected =  [0, 1, 3, 0, 2, 3, 5]
+        expected =  [2, 4, 5, 0, 1, 7]
 
         res = self.next_permutation(input_sequence)
         self.assertEqual(expected, res)

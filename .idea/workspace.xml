@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="213">
+              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -129,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +150,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,15 +278,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.18 at 21h 00m 55s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.18 at 21h 03m 05s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 20h 40m 07s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 20h 40m 37s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
     </history-entry>
@@ -308,18 +299,27 @@
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 21h 03m 24s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.23 at 21h 05m 28s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 20h 43m 31s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.24 at 20h 49m 42s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7891738" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.21082622" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7921348" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.20786516" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33224222" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.42553192" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41734862" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.42553192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -461,21 +461,6 @@
           <url>file://$PROJECT_DIR$/src/climbing_leaderboard.py</url>
           <line>14</line>
           <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_bigger_is_greater.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_bigger_is_greater.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_bigger_is_greater.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -878,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="213">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
