@@ -14,7 +14,7 @@ def next_permutation(word):
         return word
 
     # find pivot successor
-    for l in range(len(word) - 2, k, -1):
+    for l in range(len(word)-1, k, -1):
         if word[k] < word[l]:
             break
     else:

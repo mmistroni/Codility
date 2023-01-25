@@ -56,6 +56,10 @@ class MyTestCase(unittest.TestCase):
         res = solution('ab')
         self.assertEqual('ba', res)
 
+    def test_failed(self):
+        res = solution('abdc')
+        self.assertEquals('acbd', res)
+
 
     def test_something2(self):
         res = solution('bb')
