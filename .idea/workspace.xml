@@ -4,7 +4,6 @@
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bigger_is_greater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bigger_is_greater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="215">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -29,10 +28,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+            <state relative-caret-position="192">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1483#1539#0" />
+                <element signature="e#1581#1644#0" />
+                <element signature="e#1786#1846#0" />
+                <element signature="e#2204#2372#0" />
+                <element signature="e#2425#2657#0" />
               </folding>
             </state>
           </provider>
@@ -179,8 +183,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something6">
-    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something">
+    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,11 +195,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_next_permsomething3&quot;" />
+      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething_sol" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +210,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_next_permsomething_sol&quot;" />
+      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_something3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -257,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something6" />
-        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something7" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something5" />
-        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething_sol" />
-        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" />
+        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something3" />
+        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something7" />
       </list>
     </recent_temporary>
   </component>
@@ -279,48 +283,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.25 at 20h 43m 57s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something6 - 2023.01.25 at 20h 54m 21s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.25 at 20h 44m 22s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something6 - 2023.01.25 at 20h 54m 49s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.25 at 20h 45m 03s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something6 - 2023.01.25 at 20h 56m 05s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.25 at 20h 46m 31s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something6 - 2023.01.25 at 20h 56m 09s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.25 at 20h 46m 39s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something7 - 2023.01.25 at 20h 56m 45s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something7" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.25 at 20h 47m 14s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something6 - 2023.01.25 at 20h 56m 52s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something3 - 2023.01.25 at 20h 47m 47s.xml">
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something5 - 2023.01.25 at 20h 57m 01s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something3 - 2023.01.25 at 20h 57m 10s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.25 at 20h 48m 59s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something3 - 2023.01.25 at 20h 57m 30s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething3 - 2023.01.25 at 20h 49m 11s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_next_permsomething_sol - 2023.01.25 at 20h 50m 59s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething_sol" configurationId="tests" />
+    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something3 - 2023.01.25 at 20h 58m 06s.xml">
+      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something3" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.622449" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.37755102" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7891738" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.21082622" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6792144" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.42553192" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.299509" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.42553192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -480,7 +484,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/bigger_is_greater.py</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -887,18 +891,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+        <state relative-caret-position="192">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1483#1539#0" />
+            <element signature="e#1581#1644#0" />
+            <element signature="e#1786#1846#0" />
+            <element signature="e#2204#2372#0" />
+            <element signature="e#2425#2657#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="215">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>

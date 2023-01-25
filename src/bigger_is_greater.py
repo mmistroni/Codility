@@ -17,8 +17,8 @@ def next_permutation(word):
     for l in range(len(word) - 2, k, -1):
         if word[k] < word[l]:
             break
-    # swap
-    
+    else:
+        l = k+1
     word[k], word[l] = word[l], word[k]
 
     first = word[0:k + 1]
