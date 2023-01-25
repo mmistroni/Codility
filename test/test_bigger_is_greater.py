@@ -89,6 +89,15 @@ class MyTestCase(unittest.TestCase):
         res = self.next_permutation(input_sequence)
         self.assertEqual(expected, res)
 
+    def test_next_permsomething_sol(self):
+        input_sequence = ''.join(map(lambda x: str(x), [2, 4, 1, 7, 5, 0]))
+
+        expected =  ''.join(map(lambda x: str(x), [2, 4, 5, 0, 1, 7]))
+
+        res = solution(input_sequence)
+        self.assertEqual(expected, res)
+
+
 
 
 if __name__ == '__main__':

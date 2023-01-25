@@ -3,28 +3,37 @@ from itertools import combinations, permutations
 
 from string import ascii_lowercase
 
-def get_all_combos(word):
-    holder = {}
-    for item in permutations(list(word), len(word)): # not the right choice
-        it = ''.join(item)
-        holder[it] = it
 
-    return sorted(holder.values(), key=lambda x:x)
+def next_permutation(word):
+
+    # Find pivo2
+    for k in range(len(word) - 2, -1, -1):
+        if word[k] < word[k + 1]:
+            break
+    else:
+        return word
+
+    # find pivot successor
+    for l in range(len(word) - 2, k, -1):
+        if word[k] < word[l]:
+            break
+    # swap
+    
+    word[k], word[l] = word[l], word[k]
+
+    first = word[0:k + 1]
+    second = word[k + 1:]  # [::-1]
+
+    return first + second[::-1]
+
 
 def solution(w):
-    found = False
+    lst = list(w)
+    sol = next_permutation(lst)
 
-    combos = get_all_combos(w)
-    from pprint import pprint
+    packaged = ''.join(sol)
+    if packaged == w:
+        return 'no answer'
+    return packaged
 
-    res = "no answer"
-    for idx, item in enumerate(combos):
-        if item == w:
-            try:
-                res = combos[idx + 1]
-            except Exception as e:
-                return "no answer"
-    if res == w:
-        return "no answer"
-    return res
 
