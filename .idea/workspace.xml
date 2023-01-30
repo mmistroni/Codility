@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kaprekar_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_kaprekar_numbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bigger_is_greater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_bigger_is_greater.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bigger_is_greater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kaprekar_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/kaprekar_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_kaprekar_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_kaprekar_numbers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kaprekar_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="151">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_kaprekar_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="33">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -116,14 +114,14 @@
         <option value="$PROJECT_DIR$/test/test_bigger_is_greater.py" />
         <option value="$PROJECT_DIR$/src/bigger_is_greater.py" />
         <option value="$PROJECT_DIR$/kaprekar_numbers.py" />
-        <option value="$PROJECT_DIR$/src/kaprekar_numbers.py" />
         <option value="$PROJECT_DIR$/test/test_kaprekar_numbers.py" />
+        <option value="$PROJECT_DIR$/src/kaprekar_numbers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="89" />
-    <option name="y" value="51" />
+    <option name="x" value="168" />
+    <option name="y" value="58" />
     <option name="width" value="1146" />
     <option name="height" value="630" />
   </component>
@@ -181,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_bigger_is_greater.MyTestCase">
+  <component name="RunManager" selected="Python tests.pytest for test_kaprekar_numbers.MyTestCase.test_something">
     <configuration name="pytest for test_bigger_is_greater.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,7 +240,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,17 +251,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bigger_is_greater.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_kaprekar_numbers.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_kaprekar_numbers.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething3" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_next_permsomething_sol" />
         <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_failed" />
-        <item itemvalue="Python tests.pytest for test_bigger_is_greater.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -281,21 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something6 - 2023.01.25 at 20h 58m 54s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_something - 2023.01.25 at 20h 59m 09s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_failed - 2023.01.25 at 21h 03m 07s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_failed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_failed - 2023.01.25 at 21h 05m 08s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_failed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_failed - 2023.01.25 at 21h 06m 35s.xml">
-      <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_failed" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase_test_failed - 2023.01.25 at 21h 06m 52s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase.test_failed" configurationId="tests" />
     </history-entry>
@@ -311,17 +294,32 @@
     <history-entry file="pytest_for_test_bigger_is_greater_MyTestCase - 2023.01.25 at 21h 07m 33s.xml">
       <configuration name="pytest for test_bigger_is_greater.MyTestCase" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_kaprekar_numbers_MyTestCase_test_something - 2023.01.30 at 20h 29m 00s.xml">
+      <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_kaprekar_numbers_MyTestCase_test_something - 2023.01.30 at 20h 30m 02s.xml">
+      <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_kaprekar_numbers_MyTestCase_test_something - 2023.01.30 at 20h 31m 04s.xml">
+      <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_kaprekar_numbers_MyTestCase_test_something - 2023.01.30 at 20h 31m 34s.xml">
+      <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_kaprekar_numbers_MyTestCase_test_something - 2023.01.30 at 20h 32m 15s.xml">
+      <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78484106" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.21515892" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75974023" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.24025974" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33060557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49590835" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.42553192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +328,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.7217676" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.29787233" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.36619717" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -886,27 +884,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kaprekar_numbers.py">
+    <entry file="file://$PROJECT_DIR$/kaprekar_numbers.py" />
+    <entry file="file://$PROJECT_DIR$/test/test_kaprekar_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="33">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kaprekar_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_kaprekar_numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="151">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
