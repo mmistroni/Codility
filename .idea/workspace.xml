@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extra_long_factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_extra_long_factorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/append_and_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_append_and_delete.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beautiful_triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/beautiful_triplets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_beautiful_triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_beautiful_triplets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extra_long_factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extra_long_factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_extra_long_factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_extra_long_factorial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beautiful_triplets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -31,17 +31,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/extra_long_factorial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_extra_long_factorial.py">
+        <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_extra_long_factorial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -52,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_beautiful_triplets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="221">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -88,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_maxcounter2.py" />
-        <option value="$PROJECT_DIR$/src/max_counters2.py" />
         <option value="$PROJECT_DIR$/src/min_perimeter_rectangle.py" />
         <option value="$PROJECT_DIR$/src/flags.py" />
         <option value="$PROJECT_DIR$/test/test_flags.py" />
@@ -139,12 +158,14 @@
         <option value="$PROJECT_DIR$/extra_long_factorial.py" />
         <option value="$PROJECT_DIR$/src/extra_long_factorial.py" />
         <option value="$PROJECT_DIR$/test/test_extra_long_factorial.py" />
+        <option value="$PROJECT_DIR$/test/test_append_and_delete.py" />
+        <option value="$PROJECT_DIR$/src/append_and_delete.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="181" />
-    <option name="y" value="107" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="220" />
+    <option name="y" value="113" />
     <option name="width" value="1146" />
     <option name="height" value="630" />
   </component>
@@ -159,11 +180,6 @@
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codility" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
@@ -202,22 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase">
-    <configuration name="pytest for test_beautiful_triplets.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_beautiful_triplets.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_extra_long_factorial.MyTestCase.test_something2">
     <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,7 +264,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_kaprekar_numbers.MyTestCase.test_kaprekar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,17 +275,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_kaprekar_numbers.MyTestCase.test_kaprekar&quot;" />
+      <option name="_new_target" value="&quot;test_extra_long_factorial.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_extra_long_factorial.MyTestCase.test_something2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_extra_long_factorial.MyTestCase.test_something2" />
+        <item itemvalue="Python tests.pytest for test_extra_long_factorial.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" />
         <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_something2" />
-        <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_kaprekar_numbers.MyTestCase.test_kaprekar" />
       </list>
     </recent_temporary>
   </component>
@@ -302,12 +318,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase - 2023.02.07 at 20h 30m 54s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase - 2023.02.07 at 20h 30m 59s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_slowtestcase - 2023.02.07 at 20h 37m 02s.xml">
       <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" configurationId="tests" />
     </history-entry>
@@ -332,17 +342,23 @@
     <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_slowtestcase - 2023.02.07 at 20h 48m 17s.xml">
       <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_extra_long_factorial_MyTestCase_test_something - 2023.02.08 at 20h 57m 59s.xml">
+      <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_extra_long_factorial_MyTestCase_test_something2 - 2023.02.08 at 21h 00m 31s.xml">
+      <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something2" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="220" y="113" width="1146" height="630" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8340807" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.16591929" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77710843" visible="true" weight="0.28158844" />
+      <window_info id="Structure" order="1" sideWeight="0.22289157" side_tool="true" visible="true" weight="0.28158844" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2700491" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33199194" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.45662847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,20 +541,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/grading_students.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="49" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_apple_and_oranges.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -896,44 +898,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/extra_long_factorial.py" />
+    <entry file="file://$PROJECT_DIR$/src/beautiful_triplets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_beautiful_triplets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="221">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_long_factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="true" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beautiful_triplets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extra_long_factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_extra_long_factorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extra_long_factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
