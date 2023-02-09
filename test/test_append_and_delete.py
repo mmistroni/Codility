@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_something2(self):
         s = 'hackerhappy'
-        t = 'hackerank'
+        t = 'hackerrank'
         k = 9
         self.assertEqual('Yes', solution(s, t, k))
 
@@ -27,6 +27,29 @@ class MyTestCase(unittest.TestCase):
         k = 2
         self.assertEqual('No', solution(s, t, k))
 
+    def test_something5(self):
+        s = 'abcd'
+        t = 'abcdert'
+        k = 10
+        self.assertEqual('No', solution(s, t, k))
+
+    def test_something6(self):
+        s = 'aaaaaaaaaa'
+        t = 'aaaaa'
+        k = 7
+        self.assertEqual('Yes', solution(s, t, k))
+
+    def test_something7(self):
+        s = 'qwerty'
+        t = 'zxcvbn'
+        k = 100
+        self.assertEqual('Yes', solution(s, t, k))
+
+    def test_something8(self):
+        s = 'abcdef'
+        t = 'fedcba'
+        k = 15
+        self.assertEqual('Yes', solution(s, t, k))
 
 
 

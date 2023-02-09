@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/append_and_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_append_and_delete.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extra_long_factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extra_long_factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_extra_long_factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_extra_long_factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/append_and_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/append_and_delete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_append_and_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_append_and_delete.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,49 +30,25 @@
         <entry file="file://$PROJECT_DIR$/src/extra_long_factorial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="26" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_extra_long_factorial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_beautiful_triplets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="275">
+              <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -158,14 +132,14 @@
         <option value="$PROJECT_DIR$/extra_long_factorial.py" />
         <option value="$PROJECT_DIR$/src/extra_long_factorial.py" />
         <option value="$PROJECT_DIR$/test/test_extra_long_factorial.py" />
-        <option value="$PROJECT_DIR$/test/test_append_and_delete.py" />
         <option value="$PROJECT_DIR$/src/append_and_delete.py" />
+        <option value="$PROJECT_DIR$/test/test_append_and_delete.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
-    <option name="y" value="113" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="119" />
     <option name="width" value="1146" />
     <option name="height" value="630" />
   </component>
@@ -174,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +165,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,8 +192,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_extra_long_factorial.MyTestCase.test_something2">
-    <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_append_and_delete.MyTestCase">
+    <configuration name="pytest for test_append_and_delete.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,11 +204,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_beautiful_triplets.MyTestCase.test_slowtestcase&quot;" />
+      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_append_and_delete.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,11 +219,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_beautiful_triplets.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase.test_something2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_append_and_delete.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,11 +234,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_beautiful_triplets.MyTestCase.test_something2&quot;" />
+      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase.test_something3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +249,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_extra_long_factorial.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase.test_something4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_append_and_delete.MyTestCase.test_something5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,17 +264,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_extra_long_factorial.MyTestCase.test_something2&quot;" />
+      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase.test_something5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_extra_long_factorial.MyTestCase.test_something2" />
-        <item itemvalue="Python tests.pytest for test_extra_long_factorial.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" />
-        <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_beautiful_triplets.MyTestCase.test_something2" />
+        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something5" />
+        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something4" />
+        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something3" />
+        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something2" />
       </list>
     </recent_temporary>
   </component>
@@ -318,47 +292,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_slowtestcase - 2023.02.07 at 20h 37m 02s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something - 2023.02.09 at 21h 02m 51s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_slowtestcase - 2023.02.07 at 20h 42m 40s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something4 - 2023.02.09 at 21h 02m 57s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_something - 2023.02.07 at 20h 43m 47s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something2 - 2023.02.09 at 21h 03m 07s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_something2 - 2023.02.07 at 20h 43m 52s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something3 - 2023.02.09 at 21h 03m 13s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_something - 2023.02.07 at 20h 44m 17s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something4 - 2023.02.09 at 21h 03m 25s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_something - 2023.02.07 at 20h 45m 16s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something4 - 2023.02.09 at 21h 04m 32s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_something - 2023.02.07 at 20h 45m 34s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 04m 39s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_beautiful_triplets_MyTestCase_test_slowtestcase - 2023.02.07 at 20h 48m 17s.xml">
-      <configuration name="pytest for test_beautiful_triplets.MyTestCase.test_slowtestcase" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something5 - 2023.02.09 at 21h 19m 20s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_extra_long_factorial_MyTestCase_test_something - 2023.02.08 at 20h 57m 59s.xml">
-      <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 21m 08s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_extra_long_factorial_MyTestCase_test_something2 - 2023.02.08 at 21h 00m 31s.xml">
-      <configuration name="pytest for test_extra_long_factorial.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 21m 30s.xml">
+      <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="113" width="1146" height="630" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77710843" visible="true" weight="0.28158844" />
-      <window_info id="Structure" order="1" sideWeight="0.22289157" side_tool="true" visible="true" weight="0.28158844" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79444444" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.20555556" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33199194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41080198" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.45662847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -899,10 +873,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra_long_factorial.py" />
-    <entry file="file://$PROJECT_DIR$/src/beautiful_triplets.py">
+    <entry file="file://$PROJECT_DIR$/src/extra_long_factorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_extra_long_factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -916,37 +900,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_extra_long_factorial.py">
+    <entry file="file://$PROJECT_DIR$/src/beautiful_triplets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extra_long_factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="252">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
