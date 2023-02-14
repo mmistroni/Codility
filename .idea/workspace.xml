@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/counting_sort1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_counting_sort1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counting_sort1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/counting_sort1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="833">
               <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -58,8 +59,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/counting_sort1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="143" selection-start-column="143" selection-end-column="143" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_counting_sort1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +83,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -91,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/flags.py" />
         <option value="$PROJECT_DIR$/test/test_flags.py" />
         <option value="$PROJECT_DIR$/test/test_peaks.py" />
         <option value="$PROJECT_DIR$/test/test_grading_students.py" />
@@ -141,6 +153,7 @@
         <option value="$PROJECT_DIR$/test/test_extra_long_factorial.py" />
         <option value="$PROJECT_DIR$/src/append_and_delete.py" />
         <option value="$PROJECT_DIR$/test/test_append_and_delete.py" />
+        <option value="$PROJECT_DIR$/test/test_counting_sort1.py" />
         <option value="$PROJECT_DIR$/src/counting_sort1.py" />
       </list>
     </option>
@@ -168,6 +181,11 @@
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codility" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_append_and_delete.MyTestCase">
+  <component name="RunManager" selected="Python tests.pytest for test_counting_sort1.MyTestCase.test_something">
     <configuration name="pytest for test_append_and_delete.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,21 +231,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_append_and_delete.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase.test_something2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -276,13 +279,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_counting_sort1.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_counting_sort1.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_counting_sort1.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something5" />
         <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something4" />
         <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something3" />
-        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something2" />
       </list>
     </recent_temporary>
   </component>
@@ -300,9 +318,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something - 2023.02.09 at 21h 02m 51s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something4 - 2023.02.09 at 21h 02m 57s.xml">
       <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" configurationId="tests" />
     </history-entry>
@@ -330,17 +345,20 @@
     <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 21m 30s.xml">
       <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_counting_sort1_MyTestCase_test_something - 2023.02.14 at 21h 10m 36s.xml">
+      <configuration name="pytest for test_counting_sort1.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8477905" visible="true" weight="0.23214285" />
-      <window_info id="Structure" order="1" sideWeight="0.15220949" side_tool="true" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79444444" visible="true" weight="0.23214285" />
+      <window_info id="Structure" order="1" sideWeight="0.20555556" side_tool="true" visible="true" weight="0.23214285" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41080198" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41080198" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.45662847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,13 +541,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/apple_and_orange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/migratory_birds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -914,8 +925,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_append_and_delete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="833">
           <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_counting_sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -924,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/counting_sort1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="143" selection-start-column="143" selection-end-column="143" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
