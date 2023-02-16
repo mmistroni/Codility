@@ -1,7 +1,20 @@
 ##https://www.hackerrank.com/challenges/non-divisible-subset/problem?isFullScreen=true
-from itertools import combinations
+from itertools import combinations, chain
+from collections import Counter
 def solution(arr, k):
-    good_ones = (i for i in arr if i%k !=0)
+    good_ones = [i%k for i in arr]
+
+    items = Counter(good_ones)
+
+    combis = list(combinations(list(items.keys()), 2))
+
+
+
+
+    valid = [list(c) for c in combis if sum(c)!= 0 and sum(c) !=k]
+    uniques = len(set(valid))
+    return uniques
+
     '''
      #https://medium.com/@mrunankmistry52/non-divisible-subset-problem-comprehensive-explanation-c878a752f057
      Here's my take on this problem. I deconstructed all the numbers into num%k because we don't really care about the whole number

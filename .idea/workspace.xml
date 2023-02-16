@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/non_divisible_subset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/non_divisible_subset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/non_divisible_subset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="109" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+            <state relative-caret-position="17">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding>
+                <element signature="e#87#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_nondivisible_subset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="90">
               <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -118,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="204" />
     <option name="y" value="102" />
     <option name="width" value="1146" />
@@ -129,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,21 +193,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_append_and_delete.MyTestCase.test_something4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -254,13 +241,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_nondivisible_subset.MyTestCase.test_something2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_nondivisible_subset.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_nondivisible_subset.MyTestCase.test_something2" />
         <item itemvalue="Python tests.pytest for test_counting_sort1.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something5" />
-        <item itemvalue="Python tests.pytest for test_append_and_delete.MyTestCase.test_something4" />
       </list>
     </recent_temporary>
   </component>
@@ -278,48 +280,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something2 - 2023.02.09 at 21h 03m 07s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something2" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 18m 00s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something3 - 2023.02.09 at 21h 03m 13s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something3" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 20m 30s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something4 - 2023.02.09 at 21h 03m 25s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something2 - 2023.02.16 at 20h 20m 46s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something4 - 2023.02.09 at 21h 04m 32s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something4" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 22m 23s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 04m 39s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 25m 55s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase_test_something5 - 2023.02.09 at 21h 19m 20s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase.test_something5" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 27m 07s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 21m 08s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 27m 37s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_append_and_delete_MyTestCase - 2023.02.09 at 21h 21m 30s.xml">
-      <configuration name="pytest for test_append_and_delete.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 27m 57s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_counting_sort1_MyTestCase_test_something - 2023.02.14 at 21h 10m 36s.xml">
-      <configuration name="pytest for test_counting_sort1.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 28m 03s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_counting_sort1_MyTestCase_test_something - 2023.02.14 at 21h 10m 57s.xml">
-      <configuration name="pytest for test_counting_sort1.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_nondivisible_subset_MyTestCase_test_something - 2023.02.16 at 20h 29m 11s.xml">
+      <configuration name="pytest for test_nondivisible_subset.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77710843" visible="true" weight="0.25297618" />
-      <window_info id="Structure" order="1" sideWeight="0.22289157" side_tool="true" visible="true" weight="0.25297618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7708978" visible="true" weight="0.25297618" />
+      <window_info id="Structure" order="1" sideWeight="0.22910216" side_tool="true" visible="true" weight="0.25297618" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41080198" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.45662847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4811784" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.47135842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -499,8 +501,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/non_divisible_subset.py</url>
-          <line>15</line>
+          <line>28</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/non_divisible_subset.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/non_divisible_subset.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -900,7 +912,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_nondivisible_subset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="90">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -910,8 +922,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/non_divisible_subset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="109" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+        <state relative-caret-position="17">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="e#87#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
