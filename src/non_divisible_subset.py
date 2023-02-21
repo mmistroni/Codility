@@ -4,18 +4,25 @@ from collections import Counter
 def solution(arr, k):
     good_ones = [i%k for i in arr]
 
-    items = Counter(good_ones)
 
-    combis = list(combinations(list(items.keys()), 2))
+    counts = Counter(good_ones)
+
+    combis = list(combinations(good_ones, 2))
+
+
+    valid = [c for c in combis if sum(c)!= 0 and sum(c) !=k]
 
 
 
 
-    valid = [list(c) for c in combis if sum(c)!= 0 and sum(c) !=k]
-    uniques = len(set(valid))
-    return uniques
+    uniques = set(valid)
 
-    '''
+    if len(uniques) == 1:
+        return len(valid)
+    return len(uniques)
+
+
+'''
      #https://medium.com/@mrunankmistry52/non-divisible-subset-problem-comprehensive-explanation-c878a752f057
      Here's my take on this problem. I deconstructed all the numbers into num%k because we don't really care about the whole number
       - just it's remainder. 
