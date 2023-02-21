@@ -18,6 +18,13 @@ class MyTestCase(unittest.TestCase):
         res = solution(S, k)
         self.assertEqual(3, res)
 
+    def test_something3(self):
+        S = [ 1, 2, 3, 4, 5, 6 ]
+        k = 3
+
+        res = solution(S, k)
+        self.assertEqual(3, res)
+
 
 if __name__ == '__main__':
     unittest.main()
