@@ -2,24 +2,26 @@
 from itertools import combinations, chain
 from collections import Counter
 def solution(arr, k):
-    good_ones = [i%k for i in arr]
+    remainders = [i%k for i in arr]
 
 
-    counts = Counter(good_ones)
+    counts = Counter(remainders)
 
-    combis = list(combinations(good_ones, 2))
+    holder = []
+    for p in sorted(counts.keys(), key = lambda x:x):
+        if p == 0:
+            holder.append(min(counts[p], 1))
+        else:
+            q = k - p
+            if k % 2 == 1:
+                holder.append(max(counts[p], counts[q]))
+            else:
+                if p == q and p == k // 2:
+                    holder.append(min(counts[p], counts[q]))
+                else:
+                    holder.append(max(counts[p], counts[q]))
+    return sum(holder)
 
-
-    valid = [c for c in combis if sum(c)!= 0 and sum(c) !=k]
-
-
-
-
-    uniques = set(valid)
-
-    if len(uniques) == 1:
-        return len(valid)
-    return len(uniques)
 
 
 '''

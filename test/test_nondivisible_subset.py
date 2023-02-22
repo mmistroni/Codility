@@ -25,6 +25,14 @@ class MyTestCase(unittest.TestCase):
         res = solution(S, k)
         self.assertEqual(3, res)
 
+    def test_something4(self):
+        S =  [ 12 ,6 ,1, 9, 13, 15, 10, 21, 14, 32, 5, 8, 23, 19]
+        k = 6
+
+        res = solution(S, k)
+        self.assertEqual(8, res)
+
+
 
 if __name__ == '__main__':
     unittest.main()
