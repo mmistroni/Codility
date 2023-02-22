@@ -7,6 +7,17 @@ def solution(arr, k):
 
     counts = Counter(remainders)
 
+    # we dont loop
+
+    # we check case 0
+    # case k/2
+
+    # then loop from 1 to k-1 and check
+    for i in range(1, k-1):
+        print(k)
+
+
+
     holder = []
     for p in sorted(counts.keys(), key = lambda x:x):
         if p == 0:
