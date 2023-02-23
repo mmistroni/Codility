@@ -9,28 +9,22 @@ def solution(arr, k):
 
     # we dont loop
 
-    # we check case 0
-    # case k/2
-
-    # then loop from 1 to k-1 and check
-    for i in range(1, k-1):
-        print(k)
-
-
-
     holder = []
-    for p in sorted(counts.keys(), key = lambda x:x):
-        if p == 0:
-            holder.append(min(counts[p], 1))
-        else:
-            q = k - p
-            if k % 2 == 1:
-                holder.append(max(counts[p], counts[q]))
-            else:
-                if p == q and p == k // 2:
-                    holder.append(min(counts[p], counts[q]))
-                else:
-                    holder.append(max(counts[p], counts[q]))
+
+    # we check case 0
+    holder.append(min(counts.get(0,0), 1))
+
+    # case k/2
+    if k % 2 == 0:
+        holder.append(min(counts.get(k // 2, 0), 1))
+    # then loop from 1 to k-1 and check
+    for p in range(1, k//2 + 1):
+
+        if p != k - p:
+
+            holder.append(max(counts.get(p), counts.get(q)))
+    
+
     return sum(holder)
 
 
