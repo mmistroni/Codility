@@ -22,8 +22,10 @@ def solution(arr, k):
 
         if p != k - p:
 
-            holder.append(max(counts.get(p), counts.get(q)))
-    
+            holder.append(max(counts.get(p, 0), counts.get(k-p, 0)))
+
+
+    print(sum(holder))
 
     return sum(holder)
 
