@@ -22,6 +22,8 @@ def solution(input_str):
     return_hr = hr % 12
     return_min = min
 
+    return_hr = return_hr + 1 if  return_min >30 else hr
+
     hr_string = time_to_word_dict[return_hr]
 
 
@@ -30,12 +32,14 @@ def solution(input_str):
     else:
 
         conjunction = 'to' if return_min > 30 else 'past'
+
+
         real_min = 60 - min
 
         minute_suffix = ''
 
         if min != 15 and min != 30:
-            wrd = time_to_word_dict[real_min % 30]
+            wrd = time_to_word_dict[real_min]
             min_str = wrd
             if real_min % 30 >=10:
                 minute_suffix = ' minutes'
