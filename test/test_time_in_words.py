@@ -14,8 +14,9 @@ class MyTestCase(unittest.TestCase):
                        ('5:47', "thirteen minutes to six"),
                        ('5:28', "twenty eight minutes past five")]
 
-
-        self.assertEqual("five o'clock", soluFalse)
+        for time_str, expected in resultTuple:
+            res = solution(time_str)
+            self.assertEqual(expected, res,  '{res} should be:{expected}')
 
 
 if __name__ == '__main__':
