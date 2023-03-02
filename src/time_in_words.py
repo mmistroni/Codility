@@ -4,20 +4,12 @@ import logging
 
 time_to_word_dict = {0:'zero', 1:'one', 2:'two', 3:'three', 4:'four', 5:'five', 6 :'six', 7:'seven', 8 :'eight', 9:'nine', 10:'ten',
 11:'eleven', 12:'twelve', 13:'thirteen', 14:'fourteen', 15:'quarter', 16 :'sixteen', 17:'seventeen', 18 :'eighteen', 19:'nineteen', 20:'twenty',
-21:'twentyone', 22:'twentytwo', 23:'twentythree', 24:'twentyfour', 25:'twentyfive', 26 :'twentysix', 27:'twentyseven',
-                      28 :'twentyeight', 29:'twentynine', 30:'half',
+21:'twenty one', 22:'twenty two', 23:'twenty three', 24:'twenty four', 25:'twenty five', 26 :'twenty six', 27:'twenty seven',
+                      28 :'twenty eight', 29:'twenty nine', 30:'half',
 
 }
 
-def solution(input_str):
-    hr = None
-    min = None
-    try:
-        dt = datetime.strptime(input_str, '%H:%M')
-        min = dt.minute
-        hr = dt.hour
-    except Exception as e:
-        raise e
+def solution(hr, min):
 
     return_hr = hr % 12
     return_min = min
@@ -28,25 +20,24 @@ def solution(input_str):
 
 
     if min == 0:
-        return f"{hr_string} o'clock"
+        return f"{hr_string} o' clock"
     else:
 
         conjunction = 'to' if return_min > 30 else 'past'
+        adj_min = 60 - min if min > 30 else min
 
-
-        real_min = 60 - min
 
         minute_suffix = ''
 
-        if min != 15 and min != 30:
-            wrd = time_to_word_dict[real_min]
+        if adj_min != 15 and min != 30:
+            wrd = time_to_word_dict[adj_min]
             min_str = wrd
-            if real_min % 30 >=10:
+            if adj_min > 1:
                 minute_suffix = ' minutes'
             else:
                 minute_suffix = ' minute'
         else:
-            min_str = time_to_word_dict[min]
+            min_str = time_to_word_dict[adj_min]
 
 
         return f'{min_str}{minute_suffix} {conjunction} {hr_string}'

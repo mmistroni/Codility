@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/time_in_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_in_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_time_in_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_time_in_words.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/time_in_words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="111">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding>
                 <element signature="e#65#94#0" expanded="true" />
               </folding>
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_time_in_words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="266">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -131,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_time_in_words.py">
+  <component name="RunManager" selected="Python tests.pytest for test_time_in_words.MyTestCase.test_something">
     <configuration name="pytest for test_funny_strings.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,21 +198,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_funny_strings.MyTestCase.test_something5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_funny_strings.MyTestCase.test_something5&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_funny_strings.MyTestCase.test_something7" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +210,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_funny_strings.MyTestCase.test_something7&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_time_in_words.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_time_in_words.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -258,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_time_in_words.py" />
         <item itemvalue="Python tests.pytest for test_time_in_words.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_time_in_words.MyTestCase" />
+        <item itemvalue="Python tests.pytest in test_time_in_words.py" />
         <item itemvalue="Python tests.pytest for test_funny_strings.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_funny_strings.MyTestCase.test_something7" />
-        <item itemvalue="Python tests.pytest for test_funny_strings.MyTestCase.test_something5" />
       </list>
     </recent_temporary>
   </component>
@@ -280,34 +282,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 07m 26s.xml">
+    <history-entry file="pytest_in_test_time_in_words_py - 2023.03.01 at 21h 22m 28s.xml">
+      <configuration name="pytest in test_time_in_words.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 35m 31s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 07m 28s.xml">
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 35m 59s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 08m 02s.xml">
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 36m 17s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 10m 11s.xml">
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 37m 35s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 12m 36s.xml">
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 40m 28s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 13m 11s.xml">
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase - 2023.03.02 at 20h 40m 49s.xml">
+      <configuration name="pytest for test_time_in_words.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase - 2023.03.02 at 20h 41m 35s.xml">
+      <configuration name="pytest for test_time_in_words.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 46m 05s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 18m 00s.xml">
-      <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 18m 32s.xml">
-      <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 20m 19s.xml">
-      <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.01 at 21h 21m 19s.xml">
+    <history-entry file="pytest_for_test_time_in_words_MyTestCase_test_something - 2023.03.02 at 20h 46m 26s.xml">
       <configuration name="pytest for test_time_in_words.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
@@ -315,13 +317,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7620253" visible="true" weight="0.25297618" />
-      <window_info id="Structure" order="1" sideWeight="0.23797469" side_tool="true" visible="true" weight="0.25297618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.729927" visible="true" weight="0.25297618" />
+      <window_info id="Structure" order="1" sideWeight="0.270073" side_tool="true" visible="true" weight="0.25297618" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35515547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.3535188" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5515548" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.60556465" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -511,13 +513,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/time_in_words.py</url>
-          <line>51</line>
+          <line>42</line>
           <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/time_in_words.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -920,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_time_in_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -930,8 +927,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_in_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="111">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="e#65#94#0" expanded="true" />
           </folding>
