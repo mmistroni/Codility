@@ -41,6 +41,15 @@ class MyTestCase(unittest.TestCase):
         expected = [2, 1, 4, 3, 6, 5, 8, 7, 10, 9]
         self.assertEqual(expected, solution(n, k))
 
+        '''
+                1     2    3    4    5      6     7    8     9    10 
+                |pos[i]- i| =  1
+               2     2-1     3-2     4-3      5-4      6-5      7-6      8-7     9-8    10-9
+                
+        
+        '''
+
+
         ''''
         inputs
         10 0
