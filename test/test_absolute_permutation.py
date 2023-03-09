@@ -10,6 +10,7 @@ class MyTestCase(unittest.TestCase):
     def find_permutations_for_idx(self, idx, input, k):
 
         # find all perms
+        ### WE ONLY NEED TO ITERATE for everything?
         perms = [p for p in permutations(input, 2) if idx in p and abs(p[0] - p[1]) == k]
 
         #  take out of the input what we have just used
@@ -75,7 +76,6 @@ class MyTestCase(unittest.TestCase):
         k = 1
         expected = [2, 1, 4, 3, 6, 5, 8, 7, 10, 9]
         self.assertEqual(expected, solution(n, k))
-
         '''
                 1     2    3    4    5      6     7    8     9    10 
                 |pos[i]- i| =  1
