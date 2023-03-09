@@ -1,9 +1,13 @@
 #https://www.hackerrank.com/challenges/absolute-permutation/problem?isFullScreen=true
 
+
+
+
 def solution(n , k):
     # Need a lexicographically permutation. see test/test_bigger_is_greater.py. oor mayb not
     # we loop from 0 to len(n) and check if there is an elem
     # then we find the lexicograhically smallest
+    # |p[i] -i| = k
 
     # we need to go down prm route. for ever idx find permutation taht results in [pos[i] - i] = k
 

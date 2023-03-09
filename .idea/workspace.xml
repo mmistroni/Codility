@@ -17,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/absolute_permutation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
+            <state relative-caret-position="244">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_absolute_permutation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="145">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/time_in_words.py" />
         <option value="$PROJECT_DIR$/test/test_minimum_loss.py" />
         <option value="$PROJECT_DIR$/src/minimum_loss.py" />
-        <option value="$PROJECT_DIR$/test/test_absolute_permutation.py" />
         <option value="$PROJECT_DIR$/src/absolute_permutation.py" />
+        <option value="$PROJECT_DIR$/test/test_absolute_permutation.py" />
       </list>
     </option>
   </component>
@@ -143,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +165,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something6">
+  <component name="RunManager" selected="Python tests.pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation">
     <configuration name="pytest for test_absolute_permutation.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,6 +205,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_absolute_permutation.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_absolute_permutation.MyTestCase.test_find_right_permutation&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -253,28 +268,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_minimum_loss.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_loss.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" />
+        <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something6" />
         <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something4" />
         <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_minimum_loss.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -292,48 +292,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something - 2023.03.06 at 21h 03m 09s.xml">
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 08m 20s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 08m 31s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something - 2023.03.09 at 21h 09m 17s.xml">
       <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something - 2023.03.06 at 21h 04m 03s.xml">
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something - 2023.03.09 at 21h 09m 43s.xml">
       <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something - 2023.03.06 at 21h 04m 46s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 10m 37s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase - 2023.03.06 at 21h 06m 48s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 11m 01s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something4 - 2023.03.06 at 21h 08m 26s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something4" configurationId="tests" />
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 11m 45s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.08 at 20h 54m 45s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 13m 37s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.08 at 20h 58m 32s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 14m 45s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.08 at 21h 00m 01s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.08 at 21h 01m 48s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.08 at 21h 03m 51s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
+    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_find_right_permutation - 2023.03.09 at 21h 16m 02s.xml">
+      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_find_right_permutation" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7583732" visible="true" weight="0.25297618" />
-      <window_info id="Structure" order="1" sideWeight="0.2416268" side_tool="true" visible="true" weight="0.25297618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7394366" visible="true" weight="0.25297618" />
+      <window_info id="Structure" order="1" sideWeight="0.26056337" side_tool="true" visible="true" weight="0.25297618" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54664487" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.31587562" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2913257" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" visible="true" weight="0.5351882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,8 +528,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/absolute_permutation.py</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_absolute_permutation.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_absolute_permutation.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -933,20 +943,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_absolute_permutation.py">
+    <entry file="file://$PROJECT_DIR$/src/absolute_permutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="244">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/absolute_permutation.py">
+    <entry file="file://$PROJECT_DIR$/test/test_absolute_permutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
+        <state relative-caret-position="145">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

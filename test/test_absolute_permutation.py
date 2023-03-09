@@ -1,8 +1,43 @@
 import unittest
 
 from absolute_permutation import solution
+from itertools import permutations
+
+
 
 class MyTestCase(unittest.TestCase):
+
+    def find_permutations_for_idx(self, idx, input, k):
+
+        # find all perms
+        perms = [p for p in permutations(input, 2) if idx in p and abs(p[0] - p[1]) == k]
+
+        #  take out of the input what we have just used
+        one, two = perms[0]
+
+        to_remove = one if two == idx else one
+
+        return perms, input
+
+
+    def test_find_right_permutation(self):
+        n = 10
+        k = 1
+
+        lst = list(range(1, n+1))
+
+        holder = []
+        for idx in range(1, n + 1 ):
+            tpls, lst = self.find_permutations_for_idx(idx, lst, k)
+            holder.append(tpls)
+
+        print(holder)
+
+
+
+
+
+
     def test_something(self):
         n = 4
         k = 2
