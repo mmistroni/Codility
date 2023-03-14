@@ -9,28 +9,27 @@ class MyTestCase(unittest.TestCase):
 
     def find_permutations_for_idx(self, idx, input, k):
 
-        # find all perms
-        ### WE ONLY NEED TO ITERATE for everything?
-        perms = [p for p in permutations(input, 2) if idx in p and abs(p[0] - p[1]) == k]
+        perms = [p for p in permutations(input, 2) if idx in p]
 
-        #  take out of the input what we have just used
-        one, two = perms[0]
+        filtered = [p for p in perms if ( (p[0] - p[1]) == k) or ( (p[1]-p[0]) == k)]
 
-        to_remove = one if two == idx else one
+        return filtered
 
-        return perms, input
 
 
     def test_find_right_permutation(self):
-        n = 10
-        k = 1
-
+        n = 4
+        k = 2
         lst = list(range(1, n+1))
-
         holder = []
         for idx in range(1, n + 1 ):
-            tpls, lst = self.find_permutations_for_idx(idx, lst, k)
-            holder.append(tpls)
+            tpls =  self.find_permutations_for_idx(idx, lst, k)
+            first = tpls[0]
+
+            tmp = list(first)
+            tmp.remove(idx)
+
+            holder.append(tmp[0])
 
         print(holder)
 
