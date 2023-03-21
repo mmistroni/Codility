@@ -17,21 +17,25 @@ class MyTestCase(unittest.TestCase):
 
 
 
-    def test_find_right_permutation(self):
-        n = 4
-        k = 2
+    def find_right_permutation(self, n, k):
+        #n = 4
+        #k = 2
         lst = list(range(1, n+1))
+        if k == 0:
+            return lst
         holder = []
         for idx in range(1, n + 1 ):
             tpls =  self.find_permutations_for_idx(idx, lst, k)
-            first = tpls[0]
-
+            try:
+                first = tpls[0]
+            except Exception as e:
+                return [-1]
             tmp = list(first)
             tmp.remove(idx)
 
             holder.append(tmp[0])
 
-        print(holder)
+        return holder
 
 
 
@@ -44,45 +48,47 @@ class MyTestCase(unittest.TestCase):
         x = list(range(1, n+1))
 
         expected = [3, 4, 1, 2]
-        self.assertEqual(expected, solution(n, k))
+
+        res = self.find_right_permutation(n, k)
+        self.assertEqual(expected, res)
 
     def test_something2(self):
         n = 2
         k = 1
         expected = [2, 1]
-        self.assertEqual(expected, solution(n, k))
+        res = self.find_right_permutation(n, k)
+
+        self.assertEqual(expected, res)
 
     def test_something3(self):
         n = 3
         k = 0
         expected = [1, 2, 3]
-        self.assertEqual(expected, solution(n, k))
+        res = self.find_right_permutation(n, k)
+
+        self.assertEqual(expected, res)
 
     def test_something4(self):
         n = 3
         k = 2
         expected = [-1]
-        self.assertEqual(expected, solution(n, k))
+        res = self.find_right_permutation(n, k)
+        self.assertEqual(expected, res)
 
     def test_something5(self):
         n = 10
         k = 0
         expected = list(range(1,11))
-        self.assertEqual(expected, solution(n, k))
+        res = self.find_right_permutation(n, k)
+        self.assertEqual(expected, res)
 
     def test_something6(self):
+        # TO follow up. 2 is used twice..
         n = 10
         k = 1
         expected = [2, 1, 4, 3, 6, 5, 8, 7, 10, 9]
-        self.assertEqual(expected, solution(n, k))
-        '''
-                1     2    3    4    5      6     7    8     9    10 
-                |pos[i]- i| =  1
-               2     2-1     3-2     4-3      5-4      6-5      7-6      8-7     9-8    10-9
-                
-        
-        '''
-
+        res = self.find_right_permutation(n, k)
+        self.assertEqual(expected, res)
 
         ''''
         inputs
