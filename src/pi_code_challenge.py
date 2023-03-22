@@ -1,4 +1,6 @@
 '''
+## this is a codility problem  . https://app.codility.com/programmers/challenges/pi_challenge_2023/
+
 We are given two strings P and Q, each consisting of N lowercase English letters. For each position in the strings, we have to choose one letter from either P or Q, in order to construct a new string S, such that the number of distinct letters in S is minimal. Our task is to find the number of distinct letters in the resulting string S.
 
 For example, if P = "ca" and Q = "ab", S can be equal to: "ca", "cb", "aa" or "ab". String "aa" has only one distinct letter ('a'), so the answer is 1 (which is minimal among those strings).
@@ -29,5 +31,10 @@ strings P and Q contain a total of at most 20 distinct letters.
 
 '''
 
+from itertools import product, permutations
+
+
 def solution(p, q):
-    return 0
+    full = list(p + q)
+    for item in permutations(full, len(p)):
+        print(set(item))

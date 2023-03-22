@@ -1,23 +1,25 @@
 import unittest
 
 from absolute_permutation import solution
-from itertools import permutations
+from itertools import permutations, chain
 
 
 
 class MyTestCase(unittest.TestCase):
 
-    def find_permutations_for_idx(self, idx, input, k):
+    def find_permutations_for_idx(self, idx, input, k, holder):
+        reduced = input #list(set(input) - set(holder))
+        perms = [p for p in permutations(reduced, 2) if idx in p]
+        filtered = [p for p in perms if ( (p[0] - p[1]) == k) or ( (p[1]-p[0]) == k) ]
 
-        perms = [p for p in permutations(input, 2) if idx in p]
-
-        filtered = [p for p in perms if ( (p[0] - p[1]) == k) or ( (p[1]-p[0]) == k)]
-
+        tmp = set([i for i in list(chain(*filtered)) if i not in holder and
+                i != idx])
         return filtered
 
 
 
     def find_right_permutation(self, n, k):
+        # need inspiration here
         #n = 4
         #k = 2
         lst = list(range(1, n+1))
@@ -25,7 +27,7 @@ class MyTestCase(unittest.TestCase):
             return lst
         holder = []
         for idx in range(1, n + 1 ):
-            tpls =  self.find_permutations_for_idx(idx, lst, k)
+            tpls =  self.find_permutations_for_idx(idx, lst, k, holder)
             try:
                 first = tpls[0]
             except Exception as e:
@@ -36,10 +38,6 @@ class MyTestCase(unittest.TestCase):
             holder.append(tmp[0])
 
         return holder
-
-
-
-
 
 
     def test_something(self):
