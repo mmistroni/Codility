@@ -4,7 +4,6 @@
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pi_code_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi_code_challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_absolute_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_absolute_permutation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pi_code_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="196">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_pi_code_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -131,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +151,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,22 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something">
-    <configuration name="pytest for test_absolute_permutation.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_absolute_permutation.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something4">
     <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,21 +192,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_absolute_permutation.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_absolute_permutation.MyTestCase.test_something5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -241,6 +210,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_pi_code_challenge.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pi_code_challenge.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,13 +240,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pi_code_challenge.MyTestCase.test_something4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something4" />
+        <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something6" />
         <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_absolute_permutation.MyTestCase.test_something5" />
       </list>
     </recent_temporary>
   </component>
@@ -280,24 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 40m 34s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 41m 15s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 42m 05s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 42m 40s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 44m 58s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 46m 21s.xml">
-      <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_absolute_permutation_MyTestCase_test_something6 - 2023.03.22 at 20h 46m 36s.xml">
       <configuration name="pytest for test_absolute_permutation.MyTestCase.test_something6" configurationId="tests" />
     </history-entry>
@@ -310,17 +291,35 @@
     <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase_test_something - 2023.03.22 at 21h 03m 57s.xml">
       <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase_test_something - 2023.03.23 at 20h 55m 13s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase_test_something - 2023.03.23 at 20h 55m 58s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase - 2023.03.23 at 20h 56m 05s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase - 2023.03.23 at 20h 58m 49s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase_test_something4 - 2023.03.23 at 20h 59m 05s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase_test_something4 - 2023.03.23 at 21h 00m 39s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something4" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70422536" visible="true" weight="0.25297618" />
-      <window_info id="Structure" order="1" sideWeight="0.29577464" side_tool="true" visible="true" weight="0.25297618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7018072" visible="true" weight="0.07217262" />
+      <window_info id="Structure" order="1" sideWeight="0.29819277" side_tool="true" visible="true" weight="0.07217262" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.41898528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.45662847" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.32569557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -958,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_pi_code_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -968,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pi_code_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="196">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
         </state>
       </provider>
     </entry>
