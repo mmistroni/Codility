@@ -54,6 +54,6 @@ def try_with_counter(s1, s2):
 
 
 def solution(p, q):
-    ## not good. we'll need  prob to start with string at pos 1, and find same letter in other string
+    ## not good. seems we are failing tests
     ##
     return try_with_counter(p, q)
