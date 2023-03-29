@@ -11,7 +11,11 @@ class MyTestCase(unittest.TestCase):
         A[3] = 3
         A[4] = 6
         expected = [2, 4, 3, 2, 0]
-        self.assertEqual(expected, solution(A))
+
+        result = solution(A)
+        print(f'rsutl is {result}')
+
+        self.assertEqual(expected, result)
 
 
 if __name__ == '__main__':
