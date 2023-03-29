@@ -34,16 +34,26 @@ strings P and Q contain a total of at most 20 distinct letters.
 '''
 
 from itertools import product, permutations, combinations
+from collections import Counter
+
+def try_with_counter(s1, s2):
+    if s1 == s2:
+        return len(s1)
+    len_to_check = len(s1)
+    c = Counter(s1 + s2)
+    sorted_items = sorted(c.items(), key=lambda x: x[1], reverse=True)
+
+    start = 0;
+    letters = 0
+    while start < len_to_check:
+        tpl = sorted_items.pop(0)
+        letters += 1
+        start += tpl[1]
+
+    return letters
 
 
 def solution(p, q):
     ## not good. we'll need  prob to start with string at pos 1, and find same letter in other string
     ##
-
-    full = list(p + q)
-    smallest = len(p)+ len(q)
-    for item in combinations(full, len(p)):
-        print(item)
-        smallest = min(smallest, len(set(item)))
-
-    return smallest
+    return try_with_counter(p, q)
