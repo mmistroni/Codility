@@ -40,10 +40,12 @@ def solution(p, q):
     ## not good. we'll need  prob to start with string at pos 1, and find same letter in other string
     ##
 
+    if p == q:
+        return len(p)
+
     full = list(p + q)
     smallest = len(p)+ len(q)
     for item in combinations(full, len(p)):
-        print(item)
         smallest = min(smallest, len(set(item)))
 
     return smallest
