@@ -4,7 +4,6 @@
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pi_code_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi_code_challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_pi_code_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_pi_code_challenge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pi_code_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#2066#2123#0" expanded="true" />
               </folding>
@@ -283,9 +282,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase - 2023.03.23 at 20h 56m 05s.xml">
-      <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase - 2023.03.23 at 20h 58m 49s.xml">
       <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
     </history-entry>
@@ -311,6 +307,9 @@
       <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase - 2023.03.29 at 20h 42m 57s.xml">
+      <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_pi_code_challenge_MyTestCase - 2023.03.29 at 20h 43m 28s.xml">
       <configuration name="pytest for test_pi_code_challenge.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
@@ -976,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pi_code_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#2066#2123#0" expanded="true" />
           </folding>
