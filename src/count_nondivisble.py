@@ -7,6 +7,20 @@ def find_bigger(item, arr):
 def find_smallest(item, arr):
     return [i for i in arr if i < item and item % i !=0]
 
+def arrayF(n):
+    F = [0] * (n + 1)
+    i = 2
+    while (i * i <= n):
+        if (F[i] == 0):
+            k = i * i
+            while (k <= n):
+                if (F[k] == 0):
+                    F[k] = i;
+                k += i
+        i += 1
+    return F
+
+
 # Next attempt
 def factorization(x, F):
     # we just need to check for items in array which are smaller than
@@ -18,7 +32,7 @@ def factorization(x, F):
     primeFactors = []
     while (F[x] > 0):
         primeFactors += [F[x]]
-        x /= F[x]
+        x //= F[x]
         primeFactors += [x]
     return primeFactors
 
