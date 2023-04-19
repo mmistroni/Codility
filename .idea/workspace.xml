@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/count_nondivisble.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count_nondivisble.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="166">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -28,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_count_nondivisible.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
+            <state relative-caret-position="-120">
               <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -274,9 +273,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 20h 57m 38s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 20h 58m 21s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
@@ -304,18 +300,21 @@
     <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 21h 08m 36s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 21h 12m 41s.xml">
+      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75974023" visible="true" weight="0.25669643" />
-      <window_info id="Structure" order="1" sideWeight="0.24025974" side_tool="true" visible="true" weight="0.25669643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7549669" visible="true" weight="0.25669643" />
+      <window_info id="Structure" order="1" sideWeight="0.24503312" side_tool="true" visible="true" weight="0.25669643" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.49590835" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5057283" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.49590835" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" visible="true" weight="0.5057283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -970,7 +969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_count_nondivisible.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
+        <state relative-caret-position="-120">
           <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -980,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="166">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>

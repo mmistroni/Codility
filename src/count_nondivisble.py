@@ -9,7 +9,7 @@ def find_smallest(item, arr):
     F = arrayF(item)
     factors = set(factorization(item, F))
 
-    return len([f for f in factors if f not in smallest])
+    return len([f for f in smallest if f not in factors])
 
 
 def arrayF(n):
