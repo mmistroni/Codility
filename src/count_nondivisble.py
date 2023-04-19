@@ -5,7 +5,12 @@ def find_bigger(item, arr):
     return [i for i in arr if i> item]
 
 def find_smallest(item, arr):
-    return [i for i in arr if i < item and item % i !=0]
+    smallest =  [i for i in arr if i < item and item % i !=0]
+    F = arrayF(item)
+    factors = set(factorization(item, F))
+
+    return len([f for f in factors if f in smallest])
+
 
 def arrayF(n):
     F = [0] * (n + 1)
@@ -45,7 +50,7 @@ def solution(arr):
         if item not in holder_dict.keys():
             bigger = find_bigger(item, arr)
             smaller = find_smallest(item, arr)
-            total = len(bigger) + len(smaller)
+            total = len(bigger) + smaller
             holder_dict[item] = total
         res.append(holder_dict[item])
     return res

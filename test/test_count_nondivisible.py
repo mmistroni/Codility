@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
         for item in range(1,20):
             F = arrayF(item)
 
-            factors = factorization(item, F)
+            factors = set(factorization(item, F))
             print(f'{item}= {factors} ')
 
 
@@ -19,6 +19,7 @@ class MyTestCase(unittest.TestCase):
         A[3] = 3
         A[4] = 6
         self._find_factors(A)
+
 
     def test_something(self):
 

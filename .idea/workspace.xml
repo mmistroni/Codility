@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="311">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_count_nondivisible.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="-177">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -143,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_count_nondivisible.MyTestCase.test_find_factors">
+  <component name="RunManager" selected="Python tests.pytest for test_count_nondivisible.MyTestCase.test_something">
     <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,8 +265,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_count_nondivisible.MyTestCase.test_find_factors" />
         <item itemvalue="Python tests.pytest for test_count_nondivisible.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_count_nondivisible.MyTestCase.test_find_factors" />
         <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something4" />
@@ -287,47 +287,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 01m 10s.xml">
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 21m 27s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 01m 40s.xml">
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.19 at 20h 45m 10s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 06m 49s.xml">
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.19 at 20h 48m 06s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 07m 24s.xml">
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.19 at 20h 49m 13s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 08m 49s.xml">
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 20h 53m 23s.xml">
+      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 20h 55m 22s.xml">
+      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 20h 56m 39s.xml">
+      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.19 at 20h 56m 47s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 09m 44s.xml">
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.19 at 20h 57m 29s.xml">
       <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 11m 10s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 13m 03s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 13m 33s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.03.30 at 21h 20m 55s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 20h 57m 38s.xml">
+      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7218045" visible="true" weight="0.07217262" />
-      <window_info id="Structure" order="1" sideWeight="0.2781955" side_tool="true" visible="true" weight="0.07217262" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7728155" visible="true" weight="0.25669643" />
+      <window_info id="Structure" order="1" sideWeight="0.22718446" side_tool="true" visible="true" weight="0.25669643" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.5646481" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.15711948" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.57937807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,14 +537,9 @@
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_count_nondivisible.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_count_nondivisible.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="136" />
+          <url>file://$PROJECT_DIR$/src/count_nondivisble.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -983,8 +978,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_count_nondivisible.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="-177">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -993,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="311">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
         </state>
       </provider>
     </entry>
