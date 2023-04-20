@@ -1,7 +1,9 @@
 import unittest
-from count_nondivisble import solution, arrayF,  factorization
 
+from count_semiprimes import solution, factorization, arrayF
+from itertools import permutations, product
 class MyTestCase(unittest.TestCase):
+
 
     def _find_factors(self, A):
         primes = []
@@ -15,23 +17,25 @@ class MyTestCase(unittest.TestCase):
 
     def test_find_factors(self):
         A = list(range(1, 26))
-        print(self._find_factors(A))
+        primes = self._find_factors(A)
+        primes.pop(0)
+        p = [tpl[0] * tpl[1] for tpl in product(primes, repeat=2) if tpl[0] * tpl[1] <=26]
+
+        print(set(p))
+
+
 
 
     def test_something(self):
+        P = [ 1, 4 , 16]
+        Q= [ 26, 10, 20]
+        
+        expected = [10, 4, 0]
 
-        A = [0] * 5
-        A[0] = 3
-        A[1] = 1
-        A[2] = 2
-        A[3] = 3
-        A[4] = 6
-        expected = [2, 4, 3, 2, 0]
 
-        result = solution(A)
-        print(f'rsutl is {result}')
 
-        self.assertEqual(expected, result)
+
+        self.assertEqual(True, False)
 
 
 if __name__ == '__main__':
