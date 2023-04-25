@@ -46,7 +46,7 @@ def _find_factors(A):
         F = arrayF(item)
 
         factors = set(factorization(item, F))
-        if not factors:
+        if factors and len(factors) > 1:
             primes.append(item)
     return primes
 
