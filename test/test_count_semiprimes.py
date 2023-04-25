@@ -23,19 +23,13 @@ class MyTestCase(unittest.TestCase):
 
         print(set(p))
 
-
-
-
     def test_something(self):
         P = [ 1, 4 , 16]
         Q= [ 26, 10, 20]
-        
         expected = [10, 4, 0]
+        res = solution(26, P, Q)
 
-
-
-
-        self.assertEqual(True, False)
+        self.assertEqual(expected, res)
 
 
 if __name__ == '__main__':

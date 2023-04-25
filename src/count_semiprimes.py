@@ -40,9 +40,9 @@ def factorization(x, F):
         primeFactors += [x]
     return primeFactors
 
-def _find_factors(self, A):
+def _find_factors(A):
     primes = []
-    for item in range(1,20):
+    for item in A:
         F = arrayF(item)
 
         factors = set(factorization(item, F))
@@ -54,9 +54,10 @@ def _find_factors(self, A):
 def solution(N, P, Q):
     tmp = []
     for start, end in zip(P, Q):
-        A = list(range(start, end))
+        A = list(range(1, end+1))
+        A = [i for i in A if start <= i <= end]
         primes = _find_factors(A)
         primes.pop(0)
-        p = [tpl[0] * tpl[1] for tpl in product(primes, repeat=2) if tpl[0] * tpl[1] <= end]
-        tmp.append(p)
+        p = set([tpl[0] * tpl[1] for tpl in product(primes, repeat=2) if tpl[0] * tpl[1] <= end])
+        tmp.append(len(p))
     return tmp

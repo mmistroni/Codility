@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/count_semiprimes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_count_semiprimes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_count_nondivisible.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_count_nondivisible.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count_semiprimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/count_semiprimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_count_semiprimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_count_semiprimes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="42" lean-forward="true" selection-start-line="14" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/count_semiprimes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="326">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -39,20 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_count_semiprimes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="16" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_count_nondivisible.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="18" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="18" />
+            <state relative-caret-position="245">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -203,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_count_semiprimes.MyTestCase.test_find_factors">
+  <component name="RunManager" selected="Python tests.pytest for test_count_semiprimes.MyTestCase.test_something">
     <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,6 +227,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_count_semiprimes.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_pi_code_challenge.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,28 +257,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_pi_code_challenge.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pi_code_challenge.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_count_semiprimes.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_count_semiprimes.MyTestCase.test_find_factors" />
         <item itemvalue="Python tests.pytest for test_count_nondivisible.MyTestCase.test_find_factors" />
         <item itemvalue="Python tests.pytest for test_count_nondivisible.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_pi_code_challenge.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -303,48 +281,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 21h 08m 36s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 20h 59m 05s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 21h 12m 41s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 00m 29s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_something - 2023.04.19 at 21h 13m 01s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 03m 56s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.20 at 20h 48m 29s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 04m 06s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.20 at 20h 50m 02s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 06m 07s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_nondivisible_MyTestCase_test_find_factors - 2023.04.20 at 20h 50m 18s.xml">
-      <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 07m 08s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_find_factors - 2023.04.20 at 20h 56m 25s.xml">
-      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 09m 45s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_find_factors - 2023.04.20 at 20h 57m 59s.xml">
-      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 11m 23s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_find_factors - 2023.04.20 at 20h 58m 28s.xml">
-      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 12m 37s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_find_factors - 2023.04.20 at 20h 59m 18s.xml">
-      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_find_factors" configurationId="tests" />
+    <history-entry file="pytest_for_test_count_semiprimes_MyTestCase_test_something - 2023.04.25 at 21h 13m 03s.xml">
+      <configuration name="pytest for test_count_semiprimes.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75974023" visible="true" weight="0.25669643" />
-      <window_info id="Structure" order="1" sideWeight="0.24025974" side_tool="true" visible="true" weight="0.25669643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77018636" visible="true" weight="0.17633928" />
+      <window_info id="Structure" order="1" sideWeight="0.22981367" side_tool="true" visible="true" weight="0.17633928" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.49590835" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5057283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.20949264" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.25859246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -556,6 +534,31 @@
           <url>file://$PROJECT_DIR$/src/count_nondivisble.py</url>
           <line>52</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/count_semiprimes.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/count_semiprimes.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_count_semiprimes.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/count_semiprimes.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/count_semiprimes.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -984,15 +987,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="42" lean-forward="true" selection-start-line="14" selection-end-line="42" />
+        <state>
+          <caret line="42" selection-start-line="14" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_count_nondivisible.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="18" />
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1001,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_count_semiprimes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="16" />
+        <state relative-caret-position="245">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1011,8 +1014,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/count_semiprimes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="326">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
