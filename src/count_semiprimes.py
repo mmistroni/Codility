@@ -40,24 +40,40 @@ def factorization(x, F):
         primeFactors += [x]
     return primeFactors
 
-def _find_factors(A):
+def _find_primes(A):
     primes = []
     for item in A:
         F = arrayF(item)
 
         factors = set(factorization(item, F))
-        if factors and len(factors) > 1:
+        if not factors:
             primes.append(item)
     return primes
+
+def _find_nonprimes(A):
+    nonprimes = []
+    for item in A:
+        F = arrayF(item)
+
+        factors = set(factorization(item, F))
+        if  factors:
+            nonprimes.append(item, factors)
+    return nonprimes
+
 
 
 def solution(N, P, Q):
     tmp = []
+    holder = []
     for start, end in zip(P, Q):
-        A = list(range(1, end+1))
-        A = [i for i in A if start <= i <= end]
-        primes = _find_factors(A)
-        primes.pop(0)
-        p = set([tpl[0] * tpl[1] for tpl in product(primes, repeat=2) if tpl[0] * tpl[1] <= end])
-        tmp.append(len(p))
+        primlist = list(range(2, end + 1))
+        primes = _find_primes(primlist)
+
+        nums = list(range(start, end+1))
+
+        diff = set(nums) - set(primes)
+
+        tmp.append(len(diff))
+
+
     return tmp
