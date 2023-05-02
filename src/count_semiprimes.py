@@ -7,8 +7,10 @@ A semiprime is a natural number that is the product of two (not necessarily dist
 You are given two non-empty arrays P and Q, each consisting of M integers. These arrays represent queries about the number of semiprimes within specified range
 Query K requires you to find the number of semiprimes within the range (P[K], Q[K]), where 1 ≤ P[K] ≤ Q[K] ≤ N.
 
+Alternatively check https://en.wikipedia.org/wiki/Semiprime
+or use ifilters
 '''
-from itertools import combinations_with_replacement
+from itertools import combinations_with_replacement, ifilter
 
 def arrayF(n):
     F = [0] * (n + 1)
