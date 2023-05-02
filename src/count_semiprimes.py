@@ -4,12 +4,11 @@ A prime is a positive integer X that has exactly two distinct divisors: 1 and X.
 
 A semiprime is a natural number that is the product of two (not necessarily distinct) prime numbers. The first few semiprimes are 4, 6, 9, 10, 14, 15, 21, 22, 25, 26.
 
-You are given two non-empty arrays P and Q, each consisting of M integers. These arrays represent queries about the number of semiprimes within specified ranges.
-
+You are given two non-empty arrays P and Q, each consisting of M integers. These arrays represent queries about the number of semiprimes within specified range
 Query K requires you to find the number of semiprimes within the range (P[K], Q[K]), where 1 ≤ P[K] ≤ Q[K] ≤ N.
 
 '''
-from itertools import product
+from itertools import combinations_with_replacement
 
 def arrayF(n):
     F = [0] * (n + 1)
@@ -50,30 +49,21 @@ def _find_primes(A):
             primes.append(item)
     return primes
 
-def _find_nonprimes(A):
-    nonprimes = []
-    for item in A:
-        F = arrayF(item)
-
-        factors = set(factorization(item, F))
-        if  factors:
-            nonprimes.append(item, factors)
-    return nonprimes
-
-
-
 def solution(N, P, Q):
     tmp = []
     holder = []
     for start, end in zip(P, Q):
         primlist = list(range(2, end + 1))
+
         primes = _find_primes(primlist)
 
-        nums = list(range(start, end+1))
+        combis = combinations_with_replacement(primes, 2)
 
-        diff = set(nums) - set(primes)
+        good = [i for i in combis if start <= i[0] * i[1] <= end]
 
-        tmp.append(len(diff))
+        uniques = len(set(good))
+        tmp.append(uniques)
+
 
 
     return tmp
