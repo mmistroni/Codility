@@ -10,5 +10,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, res)
 
 
+    def test_large2(self):
+        N = (3 ** 9) * (2 ** 14)
+        M = (2 ** 14) * (2 ** 14)
+        res = solution(N, M)
+
 if __name__ == '__main__':
     unittest.main()
