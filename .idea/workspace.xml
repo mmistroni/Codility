@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chocolates_by_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chocolates_by_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chocolates_by_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="-120">
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_chocolates_by_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="136">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -114,14 +114,14 @@
         <option value="$PROJECT_DIR$/test/test_count_nondivisible.py" />
         <option value="$PROJECT_DIR$/test/test_count_semiprimes.py" />
         <option value="$PROJECT_DIR$/src/count_semiprimes.py" />
-        <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/src/chocolates_by_numbers.py" />
+        <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="90" />
-    <option name="y" value="57" />
+    <option name="x" value="200" />
+    <option name="y" value="344" />
     <option name="width" value="1146" />
     <option name="height" value="630" />
   </component>
@@ -137,6 +137,11 @@
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
@@ -175,7 +180,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_chocolates_by_numbers.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.pytest for test_chocolates_by_numbers.MyTestCase.test_gcd">
+    <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_gcd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_chocolates_by_numbers.MyTestCase.test_gcd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_large2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,21 +223,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_chocolates_by_numbers.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_count_nondivisible.MyTestCase.test_find_factors" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_nondivisible.MyTestCase.test_find_factors&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -253,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_chocolates_by_numbers.MyTestCase.test_gcd" />
         <item itemvalue="Python tests.pytest for test_chocolates_by_numbers.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_chocolates_by_numbers.MyTestCase.test_large2" />
         <item itemvalue="Python tests.pytest for test_count_semiprimes.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_count_semiprimes.MyTestCase.test_find_factors" />
-        <item itemvalue="Python tests.pytest for test_count_nondivisible.MyTestCase.test_find_factors" />
       </list>
     </recent_temporary>
   </component>
@@ -275,18 +280,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.04 at 20h 42m 56s.xml">
-      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.04 at 20h 43m 57s.xml">
-      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.04 at 20h 53m 41s.xml">
-      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.04 at 20h 54m 12s.xml">
-      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.04 at 20h 57m 09s.xml">
       <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
@@ -305,18 +298,30 @@
     <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.09 at 20h 43m 07s.xml">
       <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_large2 - 2023.05.09 at 20h 43m 48s.xml">
+      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_large2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.09 at 20h 43m 58s.xml">
+      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_something - 2023.05.09 at 20h 59m 44s.xml">
+      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_chocolates_by_numbers_MyTestCase_test_gcd - 2023.05.09 at 21h 04m 38s.xml">
+      <configuration name="pytest for test_chocolates_by_numbers.MyTestCase.test_gcd" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7094595" visible="true" weight="0.17633928" />
-      <window_info id="Structure" order="1" sideWeight="0.29054055" side_tool="true" visible="true" weight="0.17633928" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7938719" visible="true" weight="0.17633928" />
+      <window_info id="Structure" order="1" sideWeight="0.20612814" side_tool="true" visible="true" weight="0.17633928" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.5155483" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5908347" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.41243863" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.44517186" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,6 +533,11 @@
           <url>file://$PROJECT_DIR$/src/count_nondivisble.py</url>
           <line>52</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/chocolates_by_numbers.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="143" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -968,20 +978,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_chocolates_by_numbers.py">
+    <entry file="file://$PROJECT_DIR$/src/chocolates_by_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-120">
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chocolates_by_numbers.py">
+    <entry file="file://$PROJECT_DIR$/test/test_chocolates_by_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="136">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
