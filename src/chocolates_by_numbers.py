@@ -1,6 +1,6 @@
 #https://app.codility.com/programmers/lessons/12-euclidean_algorithm/chocolates_by_numbers/
 import logging
-
+# https://www.researchgate.net/post/What-is-the-recurrence-relation-for-the-Euclidean-GCD-Algorithm
 def solution(N, M):
     # Not good enough, this has to do with euclidean algorithm
     # hint. use binary bcd
