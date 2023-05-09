@@ -8,10 +8,15 @@ def solution(N, M):
                  # numbers and see if we have seen the current
     next = 0
     holder = []
-    while(choc_array[next] != 0):
+
+    seen  = False
+
+    while not seen:
         #logging.info(f'Eating {next}')
-        choc_array[next] = 0
-        holder.append(next)
-        next = (next + M) % N  # this is being done in euclidan algo
+        if next not in holder:
+            holder.append(next)
+            next = (next + M) % N  # this is being done in euclidan algo
+        else:
+            seen = True
 
     return len(holder)
