@@ -5,6 +5,8 @@ import logging
 
 #https://www.researchgate.net/post/What-is-the-recurrence-relation-for-the-Euclidean-GCD-Algorithm
 
+
+#https://www.cuemath.com/numbers/euclids-division-algorithm/
 def solution(N, M):
     # Not good enough, this has to do with euclidean algorithm
     # hint. use binary bcd
