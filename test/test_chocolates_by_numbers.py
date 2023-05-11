@@ -2,19 +2,25 @@ import unittest
 
 from chocolates_by_numbers import solution
 
-def gcd(a, b, res):
+def gcd(a, b, res, holder):
   if a == b:
     return res * a
   elif (a % 2 == 0) and (b % 2 == 0):
-    return gcd(a // 2, b // 2, 2 * res)
+    holder.append(1)
+
+    return gcd(a // 2, b // 2, 2 * res,  holder)
   elif (a % 2 == 0):
-    return gcd(a // 2, b, res)
+    holder.append(1)
+    return gcd(a // 2, b, res, holder)
   elif (b % 2 == 0):
-    return gcd(a, b // 2, res)
+    holder.append(1)
+    return gcd(a, b // 2, res, holder)
   elif a > b:
-    return gcd(a - b, b, res)
+    holder.append(1)
+    return gcd(a - b, b, res, holder)
   else:
-    return gcd(a, b - a, res)
+    holder.append(1)
+    return gcd(a, b - a, res, holder)
 
 
 
@@ -23,8 +29,10 @@ class MyTestCase(unittest.TestCase):
 
     def test_gcd(self):
         N, M = 10, 4
-        res= gcd(N ,M, N % M)
-        print(res)
+        holder = []
+        res= gcd(N ,M, 0,  holder)
+        print(len(holder))
+        
 
 
     def test_something(self):
@@ -37,7 +45,10 @@ class MyTestCase(unittest.TestCase):
     def test_large2(self):
         N = (3 ** 9) * (2 ** 14)
         M = (2 ** 14) * (2 ** 14)
-        res = solution(N, M)
+
+        holder = []
+        res = gcd(N, M, 0, holder)
+        print(len(holder))
 
 if __name__ == '__main__':
     unittest.main()
