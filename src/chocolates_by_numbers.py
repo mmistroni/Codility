@@ -7,23 +7,28 @@ import logging
 
 
 #https://www.cuemath.com/numbers/euclids-division-algorithm/
+
+def gcd(a, b, res, holder):
+  if a in holder:
+      return b
+  holder.append(1)
+  if a == b:
+    return res * a
+  elif (a % 2 == 0) and (b % 2 == 0):
+    return gcd(a // 2, b // 2, 2 * res,  holder)
+  elif (a % 2 == 0):
+    return gcd(a // 2, b, res, holder)
+  elif (b % 2 == 0):
+    return gcd(a, b // 2, res, holder)
+  elif a > b:
+    return gcd(a - b, b, res, holder)
+  else:
+    return gcd(a, b - a, res, holder)
+
+
 def solution(N, M):
     # Not good enough, this has to do with euclidean algorithm
     # hint. use binary bcd
     ## it's supposed to run in 0.1 seconds
-    choc_array = [1] * N # we dont need to hold array. we just looop thru
-                 # numbers and see if we have seen the current
-    next = 0
     holder = []
-
-    seen  = False
-
-    while not seen:
-        #logging.info(f'Eating {next}')
-        if next not in holder:
-            holder.append(next)
-            next = (next + M) % N  # this is being done in euclidan algo
-        else:
-            seen = True
-
-    return len(holder)
+    return gcd(M, N, 1, holder)
