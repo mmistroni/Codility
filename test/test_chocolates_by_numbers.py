@@ -3,11 +3,12 @@ import unittest
 from chocolates_by_numbers import solution
 
 def gcd(a, b, res, holder):
-  if a in holder:
-      return b
-  holder.append(1)
+  #print(f'a:{a}, b:{b}, res:{res}')
+  holder.append(a)
+  if b in holder:
+      return len(holder)
   if a == b:
-    return res * a
+    return len(holder)
   elif (a % 2 == 0) and (b % 2 == 0):
     return gcd(a // 2, b // 2, 2 * res,  holder)
   elif (a % 2 == 0):
@@ -41,14 +42,13 @@ class MyTestCase(unittest.TestCase):
 
     def test_small(self):
         N, M = 24, 18
-        res = solution(N, M)
+        res = gcd(N, M, 1, [])
         self.assertEqual(4, res)
 
 
     def test_large1(self):
         N = (3 ** 9) * (2 ** 14)
         M = (2 ** 14) * (2 ** 14)
-
         holder = []
         res = gcd(M, N, M, holder)
         self.assertEqual(19684, res)
