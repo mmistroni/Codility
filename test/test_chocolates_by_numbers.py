@@ -3,12 +3,12 @@ import unittest
 from chocolates_by_numbers import solution
 
 def gcd(a, b, res, holder):
-  #print(f'a:{a}, b:{b}, res:{res}')
-  holder.append(a)
-  if b in holder:
+  if a in holder: # b and res are unique, but a is not
       return len(holder)
+  else:
+      holder.append(1)
   if a == b:
-    return len(holder)
+    return res * a
   elif (a % 2 == 0) and (b % 2 == 0):
     return gcd(a // 2, b // 2, 2 * res,  holder)
   elif (a % 2 == 0):

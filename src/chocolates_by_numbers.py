@@ -9,9 +9,9 @@ import logging
 #https://www.cuemath.com/numbers/euclids-division-algorithm/
 
 def gcd(a, b, res, holder):
-  if a in holder:
-      return b
-  holder.append(1)
+  if a in holder: # b and res are unique, but a is not
+      return a
+  holder.append(a)
   if a == b:
     return res * a
   elif (a % 2 == 0) and (b % 2 == 0):
