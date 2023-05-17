@@ -3,10 +3,8 @@ import unittest
 from chocolates_by_numbers import solution
 
 def gcd(a, b, res, holder):
-  if a in holder: # b and res are unique, but a is not
-      return len(holder)
-  else:
-      holder.append(1)
+  holder.append(res)
+  print(f'\na:{a}, b:{b}, res:{res}, holdder:{holder}')
   if a == b:
     return res * a
   elif (a % 2 == 0) and (b % 2 == 0):
@@ -28,7 +26,7 @@ class MyTestCase(unittest.TestCase):
     def test_gcd(self):
         N, M = 10, 4
         holder = []
-        res= gcd(M, N, 1,  holder)
+        res= gcd(N, M, 0,  holder)
         self.assertEqual(5, res)
         
 
