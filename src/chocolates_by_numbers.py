@@ -26,9 +26,8 @@ def gcd(a, b, res, holder):
     return gcd(a, b - a, res, holder)
 
 def gcd2(N, M, start, holder):
-    stop = False
 
-    while not stop:
+    while True:
         if start in holder:
             return len(holder)
         else:
@@ -40,6 +39,7 @@ def solution(N, M):
     # Not good enough, this has to do with euclidean algorithm
     # hint. use binary bcd
     ## it's supposed to run in 0.1 seconds
+    print(f'Trying for N:{N},M:{M}')
     holder = []
     return  gcd2(N, M, 0, [])
 

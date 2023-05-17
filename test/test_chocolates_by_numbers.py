@@ -2,10 +2,28 @@ import unittest
 
 from chocolates_by_numbers import solution
 
+'''
+24, 18
+
+0 % 18 = 0
+
+0 +18 %24  = 18
+
+18 + 18  % 14  = 12
+
+30 % 24 = 6
+
+24 % 24 = 0
+
+
+
+'''
+
+
 def gcd2(N, M, start, holder):
     stop = False
 
-    while not stop:
+    while True:
         if start in holder:
             return len(holder)
         else:
@@ -31,7 +49,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_small(self):
         N, M = 24, 18
-        res = gcd2(N, M, 0, [])
+        res = solution(N, M)
         self.assertEqual(4, res)
 
 
@@ -39,8 +57,12 @@ class MyTestCase(unittest.TestCase):
         N = (3 ** 9) * (2 ** 14)
         M = (2 ** 14) * (2 ** 14)
         holder = []
-        res = gcd2(M, N, M, holder)
-        self.assertEqual(19684, res)
+        res = solution(N, M)
+
+        print(f'Large has result:{res}')
+
+
+        self.assertEqual(19683, res)
 
     def test_large2(self):
         N = (3 ** 9) * (2 ** 14)
