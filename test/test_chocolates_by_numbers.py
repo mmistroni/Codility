@@ -3,10 +3,6 @@ import unittest
 from chocolates_by_numbers import solution
 
 def gcd(a, b, res, holder):
-  if a in holder: # b and res are unique, but a is not
-      return len(holder)
-  else:
-      holder.append(1)
   if a == b:
     return res * a
   elif (a % 2 == 0) and (b % 2 == 0):
@@ -20,7 +16,15 @@ def gcd(a, b, res, holder):
   else:
     return gcd(a, b - a, res, holder)
 
+def gcd2(N, M, start, holder):
+    stop = False
 
+    while not stop:
+        if start in holder:
+            return len(holder)
+        else:
+            holder.append(start)
+            start = (start + M) % N
 
 class MyTestCase(unittest.TestCase):
 
@@ -28,7 +32,7 @@ class MyTestCase(unittest.TestCase):
     def test_gcd(self):
         N, M = 10, 4
         holder = []
-        res= gcd(M, N, 1,  holder)
+        res= gcd2(N, M, 0,  [])
         self.assertEqual(5, res)
         
 
@@ -42,7 +46,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_small(self):
         N, M = 24, 18
-        res = gcd(N, M, 1, [])
+        res = gcd2(N, M, 0, [])
         self.assertEqual(4, res)
 
 
@@ -50,7 +54,7 @@ class MyTestCase(unittest.TestCase):
         N = (3 ** 9) * (2 ** 14)
         M = (2 ** 14) * (2 ** 14)
         holder = []
-        res = gcd(M, N, M, holder)
+        res = gcd2(M, N, M, holder)
         self.assertEqual(19684, res)
 
     def test_large2(self):

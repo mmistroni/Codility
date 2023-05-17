@@ -25,10 +25,21 @@ def gcd(a, b, res, holder):
   else:
     return gcd(a, b - a, res, holder)
 
+def gcd2(N, M, start, holder):
+    stop = False
+
+    while not stop:
+        if start in holder:
+            return len(holder)
+        else:
+            holder.append(start)
+            start = (start + M) % N
+
 
 def solution(N, M):
     # Not good enough, this has to do with euclidean algorithm
     # hint. use binary bcd
     ## it's supposed to run in 0.1 seconds
     holder = []
-    return gcd(M, N, 1, holder)
+    return  gcd2(N, M, 0, [])
+
