@@ -56,17 +56,21 @@ class MyTestCase(unittest.TestCase):
         M = [75, 30, 5]
 
         for one, two in zip(N, M):
+
+
             factors = self.find_factors(one)
+
+
+
+
             factors2 = self.find_factors(two)
             print(f'Factors of {one}:{factors}|{two}:{factors2}')
 
     def test1(self):
-        N = [15, 10, 30]
+        N = [15, 10, 9]
         M = [75, 30, 5]
-
         res = solution(N, M)
-        self.assertEquals(1, res)
-
+        self.assertEqual(1, res)
 
 if __name__ == '__main__':
     unittest.main()
