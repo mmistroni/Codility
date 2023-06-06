@@ -17,9 +17,8 @@ def fibonacci2(n):
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        for i in range(1, 100):
-            print(f'{fibonacci(i)} vs {fibonacci2(i)}')
-
+        for i in range(1, 10):
+            print(f'1-{fibonacci2(i)} vs 2-{fibonacci(i)}')
 
 
 if __name__ == '__main__':

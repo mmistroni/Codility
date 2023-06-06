@@ -1,20 +1,34 @@
 import unittest
-
+import logging
 from chocolates_by_numbers import solution
 
 '''
 24, 18
 
-0 % 18 = 0
+- 0 % 18 = 0
 
-0 +18 %24  = 18
+1 - 0 +18 %24  = 18
 
-18 + 18  % 14  = 12
+2 - 18 + 18  % 24  = 12
 
-30 % 24 = 6
+3 - 12 + 18 % 24 = 6
 
-24 % 24 = 0
+4 - 6 + 18 % 24 = 0
 
+10, 4
+
+
+ 0 % 10 = 0
+
+1 0 + 4  % 10= 4
+
+2 4 + 4  % 10 = 8
+
+3 8 + 4  % 10 = 2
+
+4 2 + 4  % 10 = 6
+
+5 6 + 4 % 10 = 0
 
 
 '''
@@ -30,13 +44,39 @@ def gcd2(N, M, start, holder):
             holder.append(start)
             start = (start + M) % N
 
+def gcd(a, b, res):
+    print(f'a:{a}, b:{b}, res:{res}')
+    if a == b:
+        return res * a
+    elif (a % 2 == 0) and (b % 2 == 0):
+        return gcd(a // 2, b // 2, 2 * res)
+    elif (a % 2 == 0):
+        return gcd(a // 2, b, res)
+    elif (b % 2 == 0):
+        return gcd(a, b // 2, res)
+    elif a > b:
+        return gcd(a - b, b, res)
+    else:
+        return gcd(a, b - a, res)
+
+
+def gcd3(a, b, i):
+    print(f'a:{a}, b:{b}, i:{i}')
+    if a % b == 0:
+        return i
+    else:
+        i += 1
+
+        return gcd3(b, a % b, i)
+
 class MyTestCase(unittest.TestCase):
 
 
     def test_gcd(self):
         N, M = 10, 4
         holder = []
-        res= gcd2(N, M, 0,  [])
+        res= gcd3(N, M, 0)
+        print(f'GCD:{res}')
 
 
 
@@ -50,6 +90,7 @@ class MyTestCase(unittest.TestCase):
     def test_small(self):
         N, M = 24, 18
         res = solution(N, M)
+        print(res)
         self.assertEqual(4, res)
 
 
