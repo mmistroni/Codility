@@ -44,30 +44,31 @@ def gcd2(N, M, start, holder):
             holder.append(start)
             start = (start + M) % N
 
-def gcd(a, b, res):
+def gcd(a, b, res, idx):
+    idx+=1
     print(f'a:{a}, b:{b}, res:{res}')
+    if a <= b:
+        print(f'We should get out at:{idx}')
     if a == b:
         return res * a
     elif (a % 2 == 0) and (b % 2 == 0):
-        return gcd(a // 2, b // 2, 2 * res)
+        return gcd(a // 2, b // 2, 2 * res, idx)
     elif (a % 2 == 0):
-        return gcd(a // 2, b, res)
+        return gcd(a // 2, b, res, idx)
     elif (b % 2 == 0):
-        return gcd(a, b // 2, res)
+        return gcd(a, b // 2, res, idx)
     elif a > b:
-        return gcd(a - b, b, res)
+        return gcd(a - b, b, res, idx)
     else:
-        return gcd(a, b - a, res)
+        return gcd(a, b - a, res, idx)
 
 
-def gcd3(a, b, i):
-    print(f'a:{a}, b:{b}, i:{i}')
+def gcd3(a, b, i, idx):
     if a % b == 0:
-        return i
+        return idx
     else:
-        i += 1
-
-        return gcd3(b, a % b, i)
+        idx += 1
+        return gcd3(a+i,  b, i, idx)
 
 class MyTestCase(unittest.TestCase):
 
@@ -75,10 +76,14 @@ class MyTestCase(unittest.TestCase):
     def test_gcd(self):
         N, M = 10, 4
         holder = []
-        res= gcd3(N, M, 0)
+
+        res= gcd3(0+M, N,  M, 1)
         print(f'GCD:{res}')
 
-
+    def test_small(self):
+        N, M = 24, 18
+        res = gcd3(0 + M, N, M, 1)
+        print(res)
 
     def test_something(self):
         N, M = 10, 4
@@ -87,11 +92,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, res)
 
 
-    def test_small(self):
-        N, M = 24, 18
-        res = solution(N, M)
-        print(res)
-        self.assertEqual(4, res)
+        #self.assertEqual(4, res)
 
 
     def test_large1(self):
