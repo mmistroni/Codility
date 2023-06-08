@@ -82,8 +82,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_small(self):
         N, M = 24, 18
-        res = gcd3(0 + M, N, M, 1)
-        print(res)
+        res = solution(N, M)
+        self.assertEqual(4, res)
 
     def test_something(self):
         N, M = 10, 4

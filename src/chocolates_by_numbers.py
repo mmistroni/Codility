@@ -34,10 +34,15 @@ def gcd2(N, M, start, holder):
             holder[start] = start
             start = (start + M) % N
 
+def gcd3(a, b, i, idx):
+    while a % b != 0:
+        idx += 1
+        a = a + i
+    return idx
 
 def solution(N, M):
     # Not good enough, this has to do with euclidean algorithm
     # hint. use binary bcd
     ## it's supposed to run in 0.1 seconds
-    return  gcd2(N, M, 0, {})
+    return  gcd3(0+M, N,  M, 1)
 
