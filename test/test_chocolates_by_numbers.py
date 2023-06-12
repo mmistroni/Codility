@@ -3,7 +3,7 @@ import logging
 from chocolates_by_numbers import solution
 
 '''
-24, 18
+24, 18   gcd = 6
 
 - 0 % 18 = 0
 
@@ -11,11 +11,15 @@ from chocolates_by_numbers import solution
 
 2 - 18 + 18  % 24  = 12
 
-3 - 12 + 18 % 24 = 6
+3 - 12 + 18 % 24 = 6 (gcd)
 
-4 - 6 + 18 % 24 = 0
+4 - 6 + 18 % 24 = 0      6 is the gcd between 18 and 24
 
-10, 4
+
+
+
+
+10, 4  gcd = 2
 
 
  0 % 10 = 0
@@ -70,27 +74,72 @@ def gcd3(a, b, i, idx):
         idx += 1
         return gcd3(a+i,  b, i, idx)
 
+def lcm(a, b):
+    return a * b / (_gcd(a,b))
+
+def _gcd(a, b):
+    print('in gcd')
+    if a % b == 0:
+        return b
+    else:
+        return _gcd(b, a % b)
+
+
 class MyTestCase(unittest.TestCase):
 
 
-    def test_gcd(self):
+    def test_exercise(self):
         N, M = 10, 4
+        lcm_res = lcm(N,M)
+        # expected 5
+        gcd_res = _gcd(N, M)
+
+        print(f'({N},{M}) LCM:{lcm_res}, GCD:{gcd_res}')
+
+    def test_exercise2(self):
+        N, M = 24, 18
+        lcm_res = lcm(N,M)
+        # expected 4
+        gcd_res = _gcd(N, M)
+
+        print(f'({N},{M}) LCM:{lcm_res}, GCD:{gcd_res}')
+
+
+
+    def test__gcd(self):
+        N, M = 10, 4
+        expected = 5
+        holder = []
+        res= _gcd(N,  M)
+        l = lcm(N, M)
+
+        print(f'GCD:{res}, LCM:{l}')
+
+    def test__gcd2(self):
+        N, M = 24, 18
+        expected = 4
         holder = []
 
-        res= gcd3(0+M, N,  M, 1)
-        print(f'GCD:{res}')
+        res= _gcd(N,  M)
+        l = lcm(N, M)
 
-    def test_small(self):
-        N, M = 24, 18
-        res = solution(N, M)
-        self.assertEqual(4, res)
+        print(f'GCD:{res}, LCM:{l}')
+
 
     def test_something(self):
         N, M = 10, 4
         expected = 5
         res = solution(N, M)
+        #(10,4) LCM:20.0, GCD:2
+
         self.assertEqual(expected, res)
 
+    def test_something2(self):
+        N, M = 24, 18
+        expected = 4
+        # (24,18) LCM:72.0, GCD:6
+        res = solution(N, M)
+        self.assertEqual(expected, res)
 
         #self.assertEqual(4, res)
 
