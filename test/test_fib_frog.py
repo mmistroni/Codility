@@ -20,37 +20,42 @@ def fibonacci2(n):
     return fib[n]
 
 class MyTestCase(unittest.TestCase):
+
+
+    def probe(self, prev, next, d):
+        diff = next - prev
+        if diff in d:
+            return True
+        return False
+
+
+
     def test_fibfrog(self):
-        A = [0] * 11
-        A[0] = 0
-        A[1] = 0
-        A[2] = 0
-        A[3] = 1
-        A[4] = 1
-        A[5] = 0
-        A[6] = 1
-        A[7] = 0
-        A[8] = 0
-        A[9] = 0
-        A[10] = 0
+        A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0]
 
         seq = fibonacci_seq(len(A))[0:len(A)]
 
         d = dict((seq[i], i) for i in range(0, len(seq)))
 
+        if len(A) in d:
+            return 1
 
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+
         ones.append(len(A))
-        print(f'Fib Seq :{seq}|ones:{ones}')
-        print(f'Dict:{d}')
 
-        # Need to find distances between ones and find out which of these
-        # distances are fibonacci numbers
+        # Find the last step and gon
+        diff_to_start = [idx - (-1)  for idx in ones]
 
+        exists = [(idx, idx in d.keys()) for idx in diff_to_start ]
 
-        res = solution(A)
-        self.assertEqual(3,  res)
+        # Filter to find the trues one
+        # then loop agian to find differences from current idx. We assume there is only one soution
 
+        #we jump to the first and hten we recalculate next fib
+
+        # We need two separate loop.
+        print('Out')
 
 if __name__ == '__main__':
     unittest.main()
