@@ -15,8 +15,15 @@ def probe(prev, next, d):
 
 def solution(A):
     seq = fibonacci_seq(len(A))[0:len(A)]
-
     d = dict((seq[i], i) for i in range(0, len(seq)))
+
+    if not A:
+        return 1
+    if all([i for i in A if i == 0]):
+        if len(A) in d.keys():
+            return 1
+
+
     if len(A) in d:
         return 1
     ones = [idx for idx in range(0, len(A)) if A[idx] == 1]

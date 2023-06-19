@@ -35,5 +35,16 @@ class MyTestCase(unittest.TestCase):
         res = solution(A)
         self.assertEquals(3, res)
 
+    def test_fibfrog2(self):
+        A = []
+        res = solution(A)
+        self.assertEquals(1, res)
+
+    def test_fibfrog3(self):
+        A = [1]
+        res = solution(A)
+        self.assertEquals(1, res)
+
+
 if __name__ == '__main__':
     unittest.main()
