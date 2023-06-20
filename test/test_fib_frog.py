@@ -45,6 +45,13 @@ class MyTestCase(unittest.TestCase):
         res = solution(A)
         self.assertEquals(1, res)
 
+    def test_sequence(self):
+
+        seq = fibonacci_seq(10)
+        for idx, item in enumerate(seq):
+            print(f'{idx}.fib={item}')
+
+
 
 if __name__ == '__main__':
     unittest.main()

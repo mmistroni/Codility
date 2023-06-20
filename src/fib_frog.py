@@ -17,6 +17,9 @@ def solution(A):
     seq = fibonacci_seq(len(A))[0:len(A)]
     d = dict((seq[i], i) for i in range(0, len(seq)))
 
+    # If the frog cannot reach the other side of the river, the function should return −1.
+    # This time we start from end and see how far can the frog jump
+
     if not A:
         return 1
     if all([i for i in A if i == 0]):
