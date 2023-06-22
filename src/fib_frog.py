@@ -14,37 +14,36 @@ def probe(prev, next, d):
     return False
 
 def solution(A):
-    seq = fibonacci_seq(len(A))[0:len(A)]
-    d = dict((seq[i], i) for i in range(0, len(seq)))
+    seq = fibonacci_seq(max(len(A), 10))[1:]
+    fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
+    ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
 
-    # If the frog cannot reach the other side of the river, the function should return −1.
-    # This time we start from end and see how far can the frog jump
 
+    # hedges
     if not A:
         return 1
-    if all([i for i in A if i == 0]):
-        if len(A) in d.keys():
-            return 1
+    else :
+        if len(ones)  == 0:
+            fibcheck = len(A) - (-1)
+            if fibcheck in fib_dict.keys():
+                return 1
+            return -1
 
 
-    if len(A) in d:
-        return 1
-    ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
-    ones.append(len(A))
-    start = -1
+    # other hedge
     counter = 0
-    found = False
-    while not found:
-        if ones:
-            tmp = ones.pop(0)
-        else:
-            found = True
-        test = probe(start, tmp, d)
+    start = -1
+    end = len(A)
+    while  ones:
+        diff_to_end = end - start
+        if diff_to_end in fib_dict.keys():
+            return counter + 1
 
-        if test:
-            counter += 1
-            if not ones:
-                found = True
-            else:
-                start = tmp
+        next = ones.pop(0)
+        res = probe(start, next, fib_dict)
+        if not res:
+            continue
+        else:
+            counter +=1
+            start = next
     return counter

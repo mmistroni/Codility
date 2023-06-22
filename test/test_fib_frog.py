@@ -45,12 +45,20 @@ class MyTestCase(unittest.TestCase):
         res = solution(A)
         self.assertEquals(1, res)
 
-    def test_sequence(self):
+    def test_fibfrog4(self):
+        A = [1, 1, 1]
+        res = solution(A)
+        self.assertEquals(2, res)
 
-        seq = fibonacci_seq(10)
-        for idx, item in enumerate(seq):
-            print(f'{idx}.fib={item}')
+    def test_zeros(self):
+        A = [0, 0, 0]
+        res = solution(A)
+        self.assertEquals(-1, res)
 
+    def test_anotherfail(self):
+        A =  [0, 0, 0, 1, 0]
+        res = solution(A)
+        self.assertEquals(-1, res)
 
 
 if __name__ == '__main__':
