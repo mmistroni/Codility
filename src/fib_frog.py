@@ -50,6 +50,6 @@ def solution(A):
         else:
             counter +=1
             start = next
-    if counter == 0:
-        return -1
-    return counter
+    if counter > 0:
+        return counter
+    return -1
