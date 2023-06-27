@@ -34,10 +34,14 @@ def solution(A):
     counter = 0
     start = -1
     end = len(A)
-    while  ones:
+
+    found = False
+    while not found:
         diff_to_end = end - start
         if diff_to_end in fib_dict.keys():
-            return counter + 1
+            counter += 1
+        if not ones:
+            break
 
         next = ones.pop(0)
         res = probe(start, next, fib_dict)
@@ -46,4 +50,6 @@ def solution(A):
         else:
             counter +=1
             start = next
+    if counter == 0:
+        return -1
     return counter
