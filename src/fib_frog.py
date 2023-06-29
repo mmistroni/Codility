@@ -13,11 +13,26 @@ def probe(prev, next, d):
         return True
     return False
 
+
+def loop(start_idx, end_idx, candidate, steps, fib_dict):
+    counter = 0
+    while True:
+        diff_to_end = end_idx - candidate
+        if diff_to_end in fib_dict.keys():
+            counter += 1
+            end_idx = candidate;
+            if steps:
+                candidate = steps.pop()
+            else:
+                diff_to_end = end_idx - start_idx
+                if diff_to_end in fib_dict.keys():
+                    return counter
+                return -1
+
 def solution(A):
     seq = fibonacci_seq(max(len(A), 10))[1:]
     fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
     ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
-
 
     # hedges
     if not A:
@@ -31,25 +46,17 @@ def solution(A):
 
 
     # other hedge
-    counter = 0
     start = -1
     end = len(A)
 
-    found = False
-    while not found:
-        diff_to_end = end - start
-        if diff_to_end in fib_dict.keys():
-            counter += 1
-        if not ones:
-            break
+    holder = []
+    while ones:
+        candidate = ones.pop(-1)
+        param = ones.copy()
+        res = loop(start, end, candidate, param, fib_dict)
+        print(f'candidate:{candidate}, ones:{ones}. result:{res}')
 
-        next = ones.pop(0)
-        res = probe(start, next, fib_dict)
-        if not res:
-            continue
-        else:
-            counter +=1
-            start = next
-    if counter > 0:
-        return counter
-    return -1
+        if res > 0:
+            holder.append(res)
+    print(f'Before returning we have:{holder}')
+    return min(holder) if holder else -1
