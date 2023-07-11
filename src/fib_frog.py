@@ -1,5 +1,20 @@
 #https://app.codility.com/programmers/lessons/13-fibonacci_numbers/fib_frog/
+'''
+A[0] = 0
+    A[1] = 0
+    A[2] = 0
+    A[3] = 1
+    A[4] = 1
+    A[5] = 0
+    A[6] = 1
+    A[7] = 0
+    A[8] = 0
+    A[9] = 0
+    A[10] = 0
 
+
+
+'''
 def fibonacci_seq(n):
     fib = [0] * (n+2)
     fib[1] = 1
@@ -14,25 +29,29 @@ def probe(prev, next, d):
     return False
 
 
-def loop(start_idx, end_idx, candidate, steps, fib_dict):
+def loop(candidate, steps, fib_dict):
     counter = 0
-    while True:
-        diff_to_end = end_idx - candidate
+    next_idx = 0
+    # We'll need to find out the break clause
+    final = None
+    while final != steps[-1]:
+        final = steps[next_idx]
+        diff_to_end = final - candidate
         if diff_to_end in fib_dict.keys():
-            counter += 1
-            end_idx = candidate;
-            if steps:
-                candidate = steps.pop()
-            else:
-                diff_to_end = end_idx - start_idx
-                if diff_to_end in fib_dict.keys():
-                    return counter
-                return -1
+            candidate = final
+            if final == steps[-1]:
+                return counter
+        next_idx += 1
+
+    return counter
 
 def solution(A):
     seq = fibonacci_seq(max(len(A), 10))[1:]
     fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
+
     ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+
+
 
     # hedges
     if not A:
@@ -43,20 +62,24 @@ def solution(A):
             if fibcheck in fib_dict.keys():
                 return 1
             return -1
-
-
     # other hedge
-    start = -1
-    end = len(A)
-
+    start_idx = -1
+    counter = 0
+    ones.append(len(A))
     holder = []
-    while ones:
-        candidate = ones.pop(-1)
-        param = ones.copy()
-        res = loop(start, end, candidate, param, fib_dict)
-        print(f'candidate:{candidate}, ones:{ones}. result:{res}')
+    end_idx = -1
 
-        if res > 0:
-            holder.append(res)
-    print(f'Before returning we have:{holder}')
-    return min(holder) if holder else -1
+    if abs(start_idx - ones[end_idx]) in fib_dict.keys():
+        return 1
+
+    for idx, i in enumerate(ones):
+        diff = i - start_idx
+        if diff in fib_dict.keys():
+            res = loop(i,  ones[idx+1:], fib_dict)
+            holder.append(res + 1)
+
+    valids = [v for v in holder if v > 0]
+
+    if not valids:
+        return -1
+    return min(valids)
