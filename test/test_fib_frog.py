@@ -19,6 +19,16 @@ def fibonacci2(n):
         fib[i] = fib[i-1] + fib[i-2]
     return fib[n]
 
+def find_next(start, nextes, fib_dict):
+    holder = []
+    for i in nextes:
+        diff = i - start
+        if diff in fib_dict.keys():
+            holder.append(i)
+
+    return holder
+
+
 class MyTestCase(unittest.TestCase):
 
 
@@ -35,23 +45,25 @@ class MyTestCase(unittest.TestCase):
 
     def test_combination(self):
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-
+        seq = fibonacci_seq(max(len(A), 10))[1:]
+        fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
 
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
         ones = [-1] + ones + [len(A)]
 
-        # we need to build adjacency list so that then we can
-        # find the shortest path
-        # or mayb try another approach. once you start, find all
-        # the possible next paths from start
-        # -1 3
-        # -1 4
-        # -1 6
-        # -1 11
-        # then remove the ones that are not fibonacci
-        # get last index.and repeat same process
-        #
-        
+        holders = []
+        counter = 0
+        current = ones[0]
+        for i in ones[1:]:
+            c_idx = ones.index(current)
+            nextes = find_next(current, ones[c_idx + 1:], fib_dict)
+            if nextes:
+                counter +=1
+                current = nextes[-1]
+
+
+
+        print(f'At the end of loop we got:{counter}')
 
     def test_fibfrog2(self):
         A = []
