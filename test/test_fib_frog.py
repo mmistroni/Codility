@@ -32,7 +32,13 @@ def find_next(start, nextes, fib_dict):
 class MyTestCase(unittest.TestCase):
 
 
-    def probe(self, ones, fib_dict):
+    def probe(self, A):
+        seq = fibonacci_seq(max(len(A), 10))[1:]
+        fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
+
+        ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+        ones = [-1] + ones + [len(A)]
+
         counter = 0
         current = ones[0]
         for i in ones[1:]:
@@ -52,12 +58,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_combination(self):
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        seq = fibonacci_seq(max(len(A), 10))[1:]
-        fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
-
-        ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
-        ones = [-1] + ones + [len(A)]
-        res = self.probe(ones, fib_dict)
+        res = self.probe(A)
         self.assertEquals(3, res)
 
 
@@ -85,6 +86,11 @@ class MyTestCase(unittest.TestCase):
         A =  [0, 0, 0, 1, 0]
         res = solution(A)
         self.assertEquals(-1, res)
+
+    def test_anotheranotherfail(self):
+        A = [1, 1, 0, 0, 0]
+        res = solution(A)
+        self.assertEquals(2, res)
 
 
 if __name__ == '__main__':

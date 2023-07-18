@@ -22,64 +22,37 @@ def fibonacci_seq(n):
         fib[i] = fib[i-1] + fib[i-2]
     return fib
 
-def probe(prev, next, d):
-    diff = next - prev
-    if diff in d.keys():
-        return True
-    return False
+def find_next(start, nextes, fib_dict):
+    holder = []
+    for i in nextes:
+        diff = i - start
+        if diff in fib_dict.keys():
+            holder.append(i)
 
+    return holder
 
-def loop(candidate, steps, fib_dict):
-    counter = 0
-    next_idx = 0
-    # We'll need to find out the break clause
-    final = None
-    while final != steps[-1]:
-        final = steps[next_idx]
-        diff_to_end = final - candidate
-        if diff_to_end in fib_dict.keys():
-            candidate = final
-            if final == steps[-1]:
-                return counter
-        next_idx += 1
-
-    return counter
-
-def solution(A):
+def probe(A):
     seq = fibonacci_seq(max(len(A), 10))[1:]
     fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
 
     ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+    ones = [-1] + ones + [len(A)]
 
-
-
-    # hedges
-    if not A:
-        return 1
-    else :
-        if len(ones)  == 0:
-            fibcheck = len(A) - (-1)
-            if fibcheck in fib_dict.keys():
-                return 1
-            return -1
-    # other hedge
-    start_idx = -1
     counter = 0
-    ones.append(len(A))
-    holder = []
-    end_idx = -1
+    current = ones[0]
+    for i in ones[1:]:
+        # Next Hint: We do one loop from beginning to end
+        # find the max
+        # then start from max to end
+        c_idx = ones.index(current)
+        nextes = find_next(current, ones[c_idx + 1:], fib_dict)
+        if nextes:
+            counter += 1
+            current = nextes[-1]
 
-    if abs(start_idx - ones[end_idx]) in fib_dict.keys():
-        return 1
+    return counter if counter > 0 else -1
 
-    for idx, i in enumerate(ones):
-        diff = i - start_idx
-        if diff in fib_dict.keys():
-            res = loop(i,  ones[idx+1:], fib_dict)
-            holder.append(res + 1)
 
-    valids = [v for v in holder if v > 0]
 
-    if not valids:
-        return -1
-    return min(valids)
+def solution(A):
+    return probe(A)
