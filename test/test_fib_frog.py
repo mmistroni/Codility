@@ -32,11 +32,18 @@ def find_next(start, nextes, fib_dict):
 class MyTestCase(unittest.TestCase):
 
 
-    def probe(self, prev, next, d):
-        diff = next - prev
-        if diff in d.keys():
-            return True
-        return False
+    def probe(self, ones, fib_dict):
+        counter = 0
+        current = ones[0]
+        for i in ones[1:]:
+            c_idx = ones.index(current)
+            nextes = find_next(current, ones[c_idx + 1:], fib_dict)
+            if nextes:
+                counter += 1
+                current = nextes[-1]
+
+        print(f'At the end of loop we got:{counter}')
+        return counter if counter > 0 else -1
 
     def test_fibfrog(self):
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
@@ -50,20 +57,9 @@ class MyTestCase(unittest.TestCase):
 
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
         ones = [-1] + ones + [len(A)]
+        res = self.probe(ones, fib_dict)
+        self.assertEquals(3, res)
 
-        holders = []
-        counter = 0
-        current = ones[0]
-        for i in ones[1:]:
-            c_idx = ones.index(current)
-            nextes = find_next(current, ones[c_idx + 1:], fib_dict)
-            if nextes:
-                counter +=1
-                current = nextes[-1]
-
-
-
-        print(f'At the end of loop we got:{counter}')
 
     def test_fibfrog2(self):
         A = []
