@@ -41,11 +41,17 @@ def probe(A):
     counter = 0
     current = ones[0]
     for i in ones[1:]:
+        # we are missing a check: that we have seen the end.
+        # the last test case does not arrive to the end so algo
+        # is not yet perfect
         # Next Hint: We do one loop from beginning to end
         # find the max
         # then start from max to end
+        # And another alternative. we start from fib numbers
+        # TC A = [1, 1, 0, 0, 0]
         c_idx = ones.index(current)
-        nextes = find_next(current, ones[c_idx + 1:], fib_dict)
+        next_to_see = ones[c_idx + 1:]
+        nextes = find_next(current, next_to_see , fib_dict)
         if nextes:
             counter += 1
             current = nextes[-1]
