@@ -51,8 +51,37 @@ class MyTestCase(unittest.TestCase):
         print(f'At the end of loop we got:{counter}')
         return counter if counter > 0 else -1
 
-    def test_fibfrog(self):
+    def find_all_trees(self, A):
+        def find_all_next(start_idx, remainder, fib_dict):
+            return [i for i in remainder if (i - start_idx) in fib_dict.keys()]
+
+        seq = fibonacci_seq(max(len(A), 10))[1:]
+        fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
+        ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+
+        adj_list_dict = {}
+        ones = [-1] + ones + [len(A)]
+        for idx, item in enumerate(ones):
+            nxts  = find_all_next(item, ones[idx+1:], fib_dict)
+            adj_list_dict[item] = nxts
+        adj_list_dict[ones[-1]] = ones[-1]
+        return adj_list_dict
+
+
+    def test_newtest(self):
+        # Not quite there. we need to check the indexes that got he
+        A = [1, 1, 0, 0, 0]
+        res = self.find_all_trees(A)
+        for k, v in res.items():
+            print(f'Idx:{k}. Next:{v}')
+        print('---- NEXT --')
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
+        res = self.find_all_trees(A)
+        for k, v in res.items():
+            print(f'Idx:{k}. Next:{v}')
+
+    def test_fibfrog(self):
+
         res = solution(A)
         self.assertEquals(3, res)
 
