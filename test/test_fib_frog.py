@@ -69,11 +69,29 @@ class MyTestCase(unittest.TestCase):
 
 
     def test_newtest(self):
+        # nearly there. We just need to explore adjacency list and graph
+
+        def dfs(node, graph, visited, component, end):
+            component.append(node)  # Store answer
+            visited[node] = True  # Mark visited
+            if end in component: # Not quite there. if a component has no children we need to remove it
+                return
+            for child in graph[node]:
+                if not visited.get(child) and graph.get(child):  # Check whether the node is visited or not
+                    return dfs(child, graph, visited, component, end)
+
         # Not quite there. we need to check the indexes that got he
         A = [1, 1, 0, 0, 0]
-        res = self.find_all_trees(A)
-        for k, v in res.items():
-            print(f'Idx:{k}. Next:{v}')
+        graph = self.find_all_trees(A)
+
+        component = []
+
+        dfs(-1, graph, {}, component, len(A))
+        print(f'Counter is:{component}')
+
+
+    def test_newtest2(self):
+
         print('---- NEXT --')
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
         res = self.find_all_trees(A)
