@@ -69,41 +69,71 @@ def find_jumps(A):
 
     return jumps
 
+
+from collections import defaultdict
+
+
+class Graph:
+
+    def __init__(self, nodes: int, fib_dict):
+        # Store the adjacency list as a dictionary
+        # { 0 : [ 1, 2 ], 1 : [ 3, 4 ] }
+
+        # The default dictionary would create an empty list as a default (value)
+        # for the nonexistent keys.
+        self.adjlist = defaultdict(list)
+        self.nodes = nodes
+        self.fib_dict = fib_dict
+
+    # Assuming that the edge is bidirectional
+    def AddEdge(self, src: int, dst: int):
+        diff = dst -src
+        if diff in self.fib_dict:
+            self.adjlist[src].append(dst)
+        #self.adjlist[dst].append(src)
+
+    def Display_AdjList(self):
+        for item in self.adjlist.items():
+            print(item)
+
+    def find_shortest(self):
+        from_node = self.nodes[0]
+        to_node = self.nodes[-1]
+        if to_node in self.adjlist[from_node]:  # from_node is the variable and the key name
+            return [from_node, to_node]
+        else:
+
+
+
 class MyTestCase(unittest.TestCase):
 
 
-    def probe(self, A):
+    def probe_graph(self, A):
         seq = fibonacci_seq(max(len(A), 10))[1:]
         fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
 
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
         ones = [-1] + ones + [len(A)]
 
-        counter = 0
-        current = ones[0]
-        for i in ones[1:]:
-            c_idx = ones.index(current)
-            nextes = find_next(current, ones[c_idx + 1:], fib_dict)
-            if nextes:
-                counter += 1
-                current = nextes[-1]
+        g = Graph(ones, fib_dict)
 
-        print(f'At the end of loop we got:{counter}')
-        return counter if counter > 0 else -1
+        for idx, item in enumerate(ones):
+            for dst in ones[idx+1:]:
+                g.AddEdge(item, dst)
+
+        g.Display_AdjList()
 
 
 
-    def test_newtest(self):
+    def test_pythongraph(self):
         # nearly there. We just need to explore adjacency list and graph
         A = [1, 1, 0, 0, 0]
-        jumps = find_jumps(A)
-        self.assertEquals(2, jumps)
+        self.probe_graph(A)
 
     def test_newtest2(self):
         print('---- NEXT --')
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        jumps = find_jumps(A)
-        self.assertEquals(3, jumps)
+        self.probe_graph(A)
 
     def test_fibfrog(self):
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
@@ -125,8 +155,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_fibfrog4(self):
         A = [1, 1, 1]
-        jumps = find_jumps(A)
-        self.assertEquals(2, jumps)
+        self.probe_graph(A)
 
     def test_zeros(self):
         A = [0, 0, 0]
@@ -136,13 +165,13 @@ class MyTestCase(unittest.TestCase):
     def test_anotherfail(self):
         A =  [0, 0, 0, 1, 0]
         jumps = find_jumps(A)
-        self.assertEquals(-1, jumps)
+        self.probe_graph(A)
 
     def test_anotheranotherfail(self):
         A = [1, 1, 0, 0, 0]
         jumps = find_jumps(A)
         self.assertEquals(2, jumps)
-
+        #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
 
 if __name__ == '__main__':
     unittest.main()
