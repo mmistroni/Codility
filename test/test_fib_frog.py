@@ -101,7 +101,7 @@ class Graph:
         to_node = self.nodes[-1]
         if to_node in self.adjlist[from_node]:  # from_node is the variable and the key name
             return [from_node, to_node]
-        else:
+        # Check dijkstr shortest path, try to reimplement yourself
 
 
 
