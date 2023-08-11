@@ -1,7 +1,7 @@
 import unittest
 
 from fib_frog import solution
-
+import heapq
 
 def fibonacci_seq(n):
     fib = [0] * (n+2)
@@ -97,13 +97,30 @@ class Graph:
             print(item)
 
     def find_shortest(self):
-        from_node = self.nodes[0]
-        to_node = self.nodes[-1]
-        if to_node in self.adjlist[from_node]:  # from_node is the variable and the key name
-            return [from_node, to_node]
-        # Check dijkstr shortest path, try to reimplement yourself
 
+        def dijkstra(graph, source):
+            distance = {node: float('infinity') for node in self.nodes}
+            distance[source] = 0
+            queue = [(0, source)]
+            while queue:
+                current_distance, current_node = heapq.heappop(queue)
 
+                if current_node == self.nodes[-1]:
+                    print('Exiting..')
+                    break
+                if current_distance > distance[current_node]:
+                    continue
+
+                for neighbor  in graph[current_node]:
+                    distance_through_current_node = current_distance + 1
+
+                    if distance_through_current_node < distance[neighbor]:
+                        distance[neighbor] = distance_through_current_node
+                        heapq.heappush(queue, (distance[neighbor], neighbor))
+
+            return distance[current_node]
+
+        return dijkstra(self.adjlist, -1)
 
 class MyTestCase(unittest.TestCase):
 
@@ -122,18 +139,24 @@ class MyTestCase(unittest.TestCase):
                 g.AddEdge(item, dst)
 
         g.Display_AdjList()
+        print('--Shortest--')
+        return g.find_shortest()
 
 
 
     def test_pythongraph(self):
         # nearly there. We just need to explore adjacency list and graph
         A = [1, 1, 0, 0, 0]
-        self.probe_graph(A)
+        res = self.probe_graph(A)
+
+        print(f'-- distance to end is:{res}')
+
 
     def test_newtest2(self):
         print('---- NEXT --')
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        self.probe_graph(A)
+        res = self.probe_graph(A)
+        print(f'-- distance to end is:{res}')
 
     def test_fibfrog(self):
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
@@ -155,7 +178,9 @@ class MyTestCase(unittest.TestCase):
 
     def test_fibfrog4(self):
         A = [1, 1, 1]
-        self.probe_graph(A)
+        res = self.probe_graph(A)
+        print(f'-- distance to end is:{res}')
+
 
     def test_zeros(self):
         A = [0, 0, 0]
