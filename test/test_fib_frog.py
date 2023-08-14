@@ -100,6 +100,8 @@ class Graph:
 
         def dijkstra(graph, source):
             distance = {node: float('infinity') for node in self.nodes}
+
+
             distance[source] = 0
             queue = [(0, source)]
             while queue:

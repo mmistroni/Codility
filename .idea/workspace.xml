@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fib_frog.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fib_frog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_fib_frog.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fib_frog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,32 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="189" selection-start-line="189" selection-end-line="189" />
+            <state relative-caret-position="524">
+              <caret line="145" lean-forward="true" selection-start-line="130" selection-start-column="8" selection-end-line="145" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#75#187#0" />
-                <element signature="e#212#359#0" />
-                <element signature="e#405#546#0" />
-                <element signature="e#3684#3781#0" />
-                <element signature="e#3820#3949#0" />
-                <element signature="e#3988#4061#0" />
-                <element signature="e#4177#4257#0" />
-                <element signature="e#4299#4377#0" />
-                <element signature="e#4426#4618#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="526">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -127,8 +119,8 @@
         <option value="$PROJECT_DIR$/test/test_fibonacci.py" />
         <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/src/chocolates_by_numbers.py" />
-        <option value="$PROJECT_DIR$/src/fib_frog.py" />
         <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
+        <option value="$PROJECT_DIR$/src/fib_frog.py" />
       </list>
     </option>
   </component>
@@ -293,15 +285,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog - 2023.08.11 at 21h 30m 05s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.08.11 at 21h 30m 50s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_pythongraph - 2023.08.11 at 21h 32m 01s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_pythongraph" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_pythongraph - 2023.08.11 at 21h 33m 54s.xml">
       <configuration name="pytest for test_fib_frog.MyTestCase.test_pythongraph" configurationId="tests" />
     </history-entry>
@@ -323,6 +306,15 @@
     <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_pythongraph - 2023.08.11 at 21h 51m 19s.xml">
       <configuration name="pytest for test_fib_frog.MyTestCase.test_pythongraph" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_pythongraph - 2023.08.11 at 21h 52m 49s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_pythongraph" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.08.11 at 21h 53m 02s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog4 - 2023.08.11 at 21h 53m 10s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog4" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -333,7 +325,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.22258593" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.33224222" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5057283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,31 +558,6 @@
           <url>file://$PROJECT_DIR$/test/test_chocolates_by_numbers.py</url>
           <line>81</line>
           <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fib_frog.py</url>
-          <line>104</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fib_frog.py</url>
-          <line>113</line>
-          <option name="timeStamp" value="164" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fib_frog.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fib_frog.py</url>
-          <line>116</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fib_frog.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="167" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1014,29 +981,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
+    <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="524">
+          <caret line="145" lean-forward="true" selection-start-line="130" selection-start-column="8" selection-end-line="145" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
+    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#75#187#0" />
-            <element signature="e#212#359#0" />
-            <element signature="e#405#546#0" />
-            <element signature="e#3684#3781#0" />
-            <element signature="e#3820#3949#0" />
-            <element signature="e#3988#4061#0" />
-            <element signature="e#4177#4257#0" />
-            <element signature="e#4299#4377#0" />
-            <element signature="e#4426#4618#0" />
-          </folding>
+        <state relative-caret-position="526">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
