@@ -149,7 +149,7 @@ class MyTestCase(unittest.TestCase):
     def test_pythongraph(self):
         # nearly there. We just need to explore adjacency list and graph
         A = [1, 1, 0, 0, 0]
-        res = self.probe_graph(A)
+        res = solution(A)
 
         print(f'-- distance to end is:{res}')
 
@@ -157,7 +157,7 @@ class MyTestCase(unittest.TestCase):
     def test_newtest2(self):
         print('---- NEXT --')
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        res = self.probe_graph(A)
+        res = solution(A)
         print(f'-- distance to end is:{res}')
 
     def test_fibfrog(self):
@@ -167,7 +167,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_fibfrog2(self):
         A = []
-        jumps = find_jumps(A)
+        jumps = solution(A)
         #res = self.probe(A)
         #res = solution(A)
 
@@ -175,28 +175,27 @@ class MyTestCase(unittest.TestCase):
 
     def test_fibfrog3(self):
         A = [1]
-        jumps = find_jumps(A)
+        jumps = solution(A)
         self.assertEquals(1, jumps)
 
     def test_fibfrog4(self):
         A = [1, 1, 1]
-        res = self.probe_graph(A)
-        print(f'-- distance to end is:{res}')
-
+        res = solution(A)
+        self.assertEquals(2, res)
 
     def test_zeros(self):
         A = [0, 0, 0]
-        jumps = find_jumps(A)
+        jumps = solution(A)
         self.assertEquals(-1, jumps)
 
     def test_anotherfail(self):
         A =  [0, 0, 0, 1, 0]
-        jumps = find_jumps(A)
-        self.probe_graph(A)
+        jumps =solution(A)
+        self.assertEquals(-1, jumps)
 
     def test_anotheranotherfail(self):
         A = [1, 1, 0, 0, 0]
-        jumps = find_jumps(A)
+        jumps = solution(A)
         self.assertEquals(2, jumps)
         #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
 
