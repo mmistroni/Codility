@@ -1,6 +1,7 @@
 #https://app.codility.com/programmers/lessons/13-fibonacci_numbers/fib_frog/
 from collections import defaultdict
 import heapq
+from itertools import takewhile
 
 def fibonacci_seq(n):
     fib = [0] * (n+2)
@@ -8,6 +9,8 @@ def fibonacci_seq(n):
     for i in range(2, n+1):
         fib[i] = fib[i-1] + fib[i-2]
     return fib
+
+
 
 class Graph:
 
@@ -41,6 +44,7 @@ class Graph:
             distance[source] = 0
             queue = [(0, source)]
             while queue:
+                print('looping...')
                 current_distance, current_node = heapq.heappop(queue)
 
                 if current_node == self.nodes[-1]:
@@ -63,8 +67,13 @@ class Graph:
 
 
 def solution(A):
+    from collections import Counter
+
     if not A:
         return 1
+    tst = Counter(A)
+    if not tst.get(1):
+        return -1
 
     seq = fibonacci_seq(max(len(A), 10))[1:]
     fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
@@ -78,7 +87,6 @@ def solution(A):
         for dst in ones[idx + 1:]:
             g.AddEdge(item, dst)
 
-    g.Display_AdjList()
     res = g.find_shortest()
 
     if res == 0:

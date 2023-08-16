@@ -2,6 +2,9 @@ import unittest
 
 from fib_frog import solution
 import heapq
+import time
+
+import timeit
 
 def fibonacci_seq(n):
     fib = [0] * (n+2)
@@ -124,11 +127,61 @@ class Graph:
 
         return dijkstra(self.adjlist, -1)
 
+    def BFS_SP(self):
+        graph = self.adjlist
+        start = self.nodes[0]
+        goal = self.nodes[-1]
+        explored = []
+
+        # Queue for traversing the
+        # graph in the BFS
+        queue = [[start]]
+
+        # If the desired node is
+        # reached
+        if start == goal:
+            print("Same Node")
+            return
+
+        # Loop to traverse the graph
+        # with the help of the queue
+        while queue:
+            path = queue.pop(0)
+            node = path[-1]
+
+            # Condition to check if the
+            # current node is not visited
+            if node not in explored:
+                neighbours = graph[node]
+
+                # Loop to iterate over the
+                # neighbours of the node
+                for neighbour in neighbours:
+                    new_path = list(path)
+                    new_path.append(neighbour)
+                    queue.append(new_path)
+
+                    # Condition to check if the
+                    # neighbour node is the goal
+                    if neighbour == goal:
+                        print("Shortest path = ", *new_path)
+                        return len(new_path)
+                explored.append(node)
+
+        # Condition when the nodes
+        # are not connected
+        print("So sorry, but a connecting" \
+              "path doesn't exist :(")
+        return -1
+
 class MyTestCase(unittest.TestCase):
 
 
+
     def probe_graph(self, A):
-        seq = fibonacci_seq(max(len(A), 10))[1:]
+        seq = fibonacci_seq(max(len(A), 10))
+
+        seq = seq[1:]
         fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
 
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
@@ -142,7 +195,7 @@ class MyTestCase(unittest.TestCase):
 
         g.Display_AdjList()
         print('--Shortest--')
-        return g.find_shortest()
+        return g.BFS_SP()
 
 
 
@@ -156,8 +209,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_newtest2(self):
         print('---- NEXT --')
-        A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        res = solution(A)
+        A = [1, 1, 0, 0, 0]
+        res = self.probe_graph(A)
         print(f'-- distance to end is:{res}')
 
     def test_fibfrog(self):
@@ -180,7 +233,17 @@ class MyTestCase(unittest.TestCase):
 
     def test_fibfrog4(self):
         A = [1, 1, 1]
+        start = time.time()
+        jumps = self.probe_graph(A)
+        end = time.time()
+        print(f'{end - start} = {jumps}')
+
+        start = time.time()
+
         res = solution(A)
+        end = time.time()
+        print(f'{end - start} = {jumps}')
+
         self.assertEquals(2, res)
 
     def test_zeros(self):
@@ -198,6 +261,15 @@ class MyTestCase(unittest.TestCase):
         jumps = solution(A)
         self.assertEquals(2, jumps)
         #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
+
+    def test_allzerors(self):
+        A = [0] * 100000
+        start = time.time()
+        jumps = self.probe_graph(A)
+        end = time.time()
+        print(f'{end-start} = {jumps}')
+        #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
+
 
 if __name__ == '__main__':
     unittest.main()
