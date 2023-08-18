@@ -6,12 +6,13 @@ import time
 
 import timeit
 
-def fibonacci_seq(n):
+def fibonacci_seq(n, limit=None):
     fib = [0] * (n+2)
     fib[1] = 1
     for i in range(2, n+1):
         fib[i] = fib[i-1] + fib[i-2]
-    return fib
+
+    return [f for f in fib if f <= limit and f > 0] if limit else fib
 
 def fibonacci2(n):
     if n == 0:
@@ -269,6 +270,19 @@ class MyTestCase(unittest.TestCase):
         end = time.time()
         print(f'{end-start} = {jumps}')
         #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
+
+
+    def test_fib_sequence(self):
+        # Promising. But we'll need next step now. So we only have 27 numbers
+        # which are less than 100k
+        # Then we need to find max distance between start and any items to the end, that will narrow down
+        # the numbers to consider as that will be the first jump
+        # then comes the difficult part we have to think about as we should find every possible
+        # diffs betweeh 1s and see if they are fib numbers.
+        start = time.time()
+        res = fibonacci_seq(100000, 100000)
+        end = time.time()
+        print(f'{end - start} = {len(res)}')
 
 
 if __name__ == '__main__':
