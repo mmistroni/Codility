@@ -3,6 +3,7 @@ from collections import defaultdict
 import heapq
 from itertools import takewhile
 
+
 def fibonacci_seq(n):
     fib = [0] * (n+2)
     fib[1] = 1
