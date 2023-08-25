@@ -215,17 +215,41 @@ class MyTestCase(unittest.TestCase):
         print(f'-- distance to end is:{res}')
 
     def test_fibfrog(self):
+        from itertools import product, combinations_with_replacement
+
+        #The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
+
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        fib_seq = fibonacci_seq(len(A) + 1, len(A))
+        fib_seq = fibonacci_seq(len(A) + 1, len(A))[:-1]
+
+
 
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+
+        combilen = len(ones)
+
+        # Step 1
+        for p in combinations_with_replacement(fib_seq, combilen):
+            if sum(p) == len(A) + 1:
+                print(f' sum of {p}is {len(A)}')
+
+
+
+
         ones = [-1] + ones + [len(A)]
 
         # find  all possible differences between all indexes
         # let's try the product
         print('Find all possible difs ')
+        print(f'Fib seq is {fib_seq}')
 
-        from itertools import product
+        differences = [ones[j] - ones[i] for i in range(len(ones)) for j in range(i + 1, len(ones))]
+        print(differences)
+
+        fib_right = [d for d in differences if d < len(fib_seq) and fib_seq[d] == d]
+        print(f'Only good ones are :{fib_right}')
+
+        return
 
         #not good. seems i need to find all possible diffs, notjust
         # difference with previous
