@@ -222,32 +222,41 @@ class MyTestCase(unittest.TestCase):
         A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
         fib_seq = fibonacci_seq(len(A) + 1, len(A))[:-1]
 
-
-
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
 
         combilen = len(ones)
 
-        # Step 1
+        # Step 1, all possible combinations of fibonacci which sums
+        # to len(A) + 1
+
+        good_tpls = []
+
         for p in combinations_with_replacement(fib_seq, combilen):
             if sum(p) == len(A) + 1:
-                print(f' sum of {p}is {len(A)}')
+                good_tpls.append(p)
 
-
+        print(f'Valids are:{good_tpls}')
 
 
         ones = [-1] + ones + [len(A)]
 
         # find  all possible differences between all indexes
         # let's try the product
-        print('Find all possible difs ')
+        print(f'Ones are:{ones} ')
         print(f'Fib seq is {fib_seq}')
 
         differences = [ones[j] - ones[i] for i in range(len(ones)) for j in range(i + 1, len(ones))]
         print(differences)
 
-        fib_right = [d for d in differences if d < len(fib_seq) and fib_seq[d] == d]
+        fib_right = [d for d in differences if d < len(fib_seq) and d in fib_seq]
         print(f'Only good ones are :{fib_right}')
+
+        res = [tpl for tpl in good_tpls if all([i in fib_right for i in tpl])]
+
+        s_res = sorted(res, key = lambda t: len(t))
+        print(f'Shortest is {s_res[0]}')
+
+
 
         return
 
