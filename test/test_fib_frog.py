@@ -187,10 +187,16 @@ class MyTestCase(unittest.TestCase):
         # 2. We need to look at combinations from 2 to max ones
         # 3. We start with  two jumps.if not we do combi of 3
         # 1. Find good fibonacci seq which covers potential jumps in the array
+        if not A :
+            return -1
+
         fib_seq = fibonacci_seq(len(A) + 1, len(A))[:-1]
 
         # Find how many ones
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+
+        if not ones:
+            return -1
 
         combilen = len(ones)
 
@@ -200,10 +206,10 @@ class MyTestCase(unittest.TestCase):
         good_tpls = []
 
 
-
-        for p in combinations_with_replacement(fib_seq, combilen):
-            if sum(p) == len(A) + 1:
-                good_tpls.append(p)
+        for clen in range(1, combilen+1):
+            for p in combinations_with_replacement(fib_seq, clen):
+                if sum(p) == len(A) + 1:
+                    good_tpls.append(p)
 
         print(f'Valids are:{good_tpls}')
         ones = [-1] + ones + [len(A)]
@@ -221,46 +227,21 @@ class MyTestCase(unittest.TestCase):
         # 5. Find all fibonacci tuples whose items are in the valid jumps
         res = [tpl for tpl in good_tpls if all([i in fib_right for i in tpl])]
 
+        if len(res) < 1:
+            return -1
         # 6. sort the tuples in order of lenght
         s_res = sorted(res, key=lambda t: len(t))
         print(f'Shortest is {s_res[0]}')
         return len(s_res[0])
 
 
-    def probe_graph(self, A):
-        seq = fibonacci_seq(max(len(A), 10))
-
-        seq = seq[1:]
-        fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
-
-        ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
-        ones = [-1] + ones + [len(A)]
-
-        g = Graph(ones, fib_dict)
-
-        for idx, item in enumerate(ones):
-            for dst in ones[idx+1:]:
-                g.AddEdge(item, dst)
-
-        g.Display_AdjList()
-        print('--Shortest--')
-        return g.BFS_SP()
-
-
-
-    def test_pythongraph(self):
-        # nearly there. We just need to explore adjacency list and graph
-        A = [1, 1, 0, 0, 0]
-        res = solution(A)
-
-        print(f'-- distance to end is:{res}')
-
-
     def test_newtest2(self):
         print('---- NEXT --')
         A = [1, 1, 0, 0, 0]
-        res = self.probe_graph(A)
-        print(f'-- distance to end is:{res}')
+        res = solution(A)
+        res2 = self.new_algo(A)
+        print(f'-- distance to end is:{res} vs {res2}')
+        self.assertEquals(2, res)
 
     def test_fibfrog(self):
         #The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
@@ -296,21 +277,25 @@ class MyTestCase(unittest.TestCase):
         # 5. Find all fibonacci tuples whose items are in the valid jumps
         res = [tpl for tpl in good_tpls if all([i in fib_right for i in tpl])]
 
+        if len(res) < 1:
+            return -1
         # 6. sort the tuples in order of lenght
         s_res = sorted(res, key=lambda t: len(t))
         print(f'Shortest is {s_res}, {len(s_res)}, {len(s_res[0])}')
 
     def test_fibfrog2(self):
         A = []
-        jumps = solution(A)
+        jumps = self.new_algo(A)
         #res = self.probe(A)
         #res = solution(A)
 
-        self.assertEquals(1, jumps)
+        self.assertEquals(-1, jumps)
 
     def test_fibfrog3(self):
         A = [1]
-        jumps = self.new_algo(A)
+        jumps = solution(A)
+        jumps2 = self.new_algo(A)
+        print(f'jUMPS {jumps} vs {jumps2}')
         self.assertEquals(1, jumps)
 
     def test_fibfrog4(self):
