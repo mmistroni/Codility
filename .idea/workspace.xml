@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fib_frog.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fib_frog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_fib_frog.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fib_frog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="258" column="18" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
+            <state relative-caret-position="24">
+              <caret line="218" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="218" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#371#518#0" />
+                <element signature="e#564#705#0" />
+                <element signature="e#735#1283#0" />
+                <element signature="e#1310#2002#0" />
                 <element signature="e#2061#5075#0" />
                 <element signature="e#7069#7266#0" />
+                <element signature="e#7473#7676#0" />
                 <element signature="e#9456#9540#0" />
                 <element signature="e#9589#10024#0" />
                 <element signature="e#10361#10935#0" />
@@ -33,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="61" selection-start-column="61" selection-end-column="61" />
+            <state relative-caret-position="245">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#77#112#0" expanded="true" />
               </folding>
@@ -137,8 +142,8 @@
         <option value="$PROJECT_DIR$/test/test_fibonacci.py" />
         <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/src/chocolates_by_numbers.py" />
-        <option value="$PROJECT_DIR$/src/fib_frog.py" />
         <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
+        <option value="$PROJECT_DIR$/src/fib_frog.py" />
       </list>
     </option>
   </component>
@@ -198,8 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog3">
-    <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog4">
+    <configuration name="pytest for test_fib_frog.MyTestCase.test_combilen" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +215,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_fibfrog&quot;" />
+      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_combilen&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -259,7 +264,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,17 +275,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_newtest2&quot;" />
+      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_fibfrog_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog3" />
-        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog2" />
-        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog" />
-        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_newtest2" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog4" />
+        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog_1" />
+        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog3" />
+        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_combilen" />
+        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog2" />
       </list>
     </recent_temporary>
   </component>
@@ -295,38 +300,46 @@
       <option name="presentableId" value="Default" />
       <updated>1643741548579</updated>
     </task>
+    <task id="LOCAL-00001" summary="trying again">
+      <created>1693856277410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693856277410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog4 - 2023.09.04 at 20h 32m 49s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog4" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_combilen - 2023.09.04 at 20h 54m 38s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_combilen" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_zeros - 2023.09.04 at 20h 33m 05s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_zeros" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_combilen - 2023.09.04 at 20h 56m 41s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_combilen" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog4 - 2023.09.04 at 20h 33m 10s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog4" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog_1 - 2023.09.04 at 20h 58m 23s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog3 - 2023.09.04 at 20h 33m 19s.xml">
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog_1 - 2023.09.04 at 20h 58m 26s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog3 - 2023.09.04 at 20h 58m 37s.xml">
       <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog2 - 2023.09.04 at 20h 33m 40s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog3 - 2023.09.04 at 20h 58m 40s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.09.04 at 20h 33m 55s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog4 - 2023.09.04 at 20h 58m 46s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog - 2023.09.04 at 20h 34m 30s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog_1 - 2023.09.04 at 20h 59m 27s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog - 2023.09.04 at 20h 35m 06s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog_1 - 2023.09.04 at 20h 59m 34s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.09.04 at 20h 35m 34s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog - 2023.09.04 at 20h 35m 41s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" configurationId="tests" />
+    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_fibfrog4 - 2023.09.04 at 20h 59m 42s.xml">
+      <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog4" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -338,8 +351,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.63502455" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.31096563" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.29296234" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.32569557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,6 +397,10 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="trying again" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1012,14 +1029,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/distinct_elems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="258" column="18" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
+        <state relative-caret-position="24">
+          <caret line="218" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="218" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#371#518#0" />
+            <element signature="e#564#705#0" />
+            <element signature="e#735#1283#0" />
+            <element signature="e#1310#2002#0" />
             <element signature="e#2061#5075#0" />
             <element signature="e#7069#7266#0" />
+            <element signature="e#7473#7676#0" />
             <element signature="e#9456#9540#0" />
             <element signature="e#9589#10024#0" />
             <element signature="e#10361#10935#0" />
@@ -1029,18 +1058,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
+        <state relative-caret-position="245">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#77#112#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/distinct_elems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -2,94 +2,53 @@
 from collections import defaultdict
 import heapq
 from itertools import takewhile
+from itertools import product, combinations_with_replacement
 
-
-def fibonacci_seq(n):
+def fibonacci_seq(n, limit=None):
     fib = [0] * (n+2)
     fib[1] = 1
     for i in range(2, n+1):
         fib[i] = fib[i-1] + fib[i-2]
-    return fib
+
+    return [f for f in fib if f <= limit] if limit else fib
+
+def new_algo(self, A):
+    # The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
+    # Not quite right.
+    # 1. we need to exclude the zeros as it's not a jump
+    # 2. We need to look at combinations from 2 to max ones
+    # 3. We start with  two jumps.if not we do combi of 3
+    # 1. Find good fibonacci seq which covers potential jumps in the array
+    if not A :
+        return -1
+
+    fib_seq = [f for f in  fibonacci_seq(len(A) + 1, len(A)) if f > 0]
+
+    # Find how many ones
+    ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+
+    if not ones:
+        return -1
 
 
+    diffs = [(idx+1) for idx in ones]
 
-class Graph:
+    combilen = len(ones)
 
-    def __init__(self, nodes: int, fib_dict):
-        # Store the adjacency list as a dictionary
-        # { 0 : [ 1, 2 ], 1 : [ 3, 4 ] }
+    # 2, all possible combinations of fibonacci which sums
+    # to len(A) + 1
 
-        # The default dictionary would create an empty list as a default (value)
-        # for the nonexistent keys.
-        self.adjlist = defaultdict(list)
-        self.nodes = nodes
-        self.fib_dict = fib_dict
-
-    # Assuming that the edge is bidirectional
-    def AddEdge(self, src: int, dst: int):
-        diff = dst -src
-        if diff in self.fib_dict:
-            self.adjlist[src].append(dst)
-        #self.adjlist[dst].append(src)
-
-    def Display_AdjList(self):
-        for item in self.adjlist.items():
-            print(item)
-
-    def find_shortest(self):
-
-        def dijkstra(graph, source):
-            distance = {node: float('infinity') for node in self.nodes}
+    good_tpls = []
 
 
-            distance[source] = 0
-            queue = [(0, source)]
-            while queue:
-                print('looping...')
-                current_distance, current_node = heapq.heappop(queue)
-
-                if current_node == self.nodes[-1]:
-                    print('Exiting..')
-                    break
-                if current_distance > distance[current_node]:
-                    continue
-
-                for neighbor  in graph[current_node]:
-                    distance_through_current_node = current_distance + 1
-
-                    if distance_through_current_node < distance[neighbor]:
-                        distance[neighbor] = distance_through_current_node
-                        heapq.heappush(queue, (distance[neighbor], neighbor))
-
-            return distance[current_node]
-
-        return dijkstra(self.adjlist, -1)
-
+    for clen in range(2, combilen+1):
+        for p in product(fib_seq, repeat=clen):
+            if sum(p) == len(A) + 1:
+                if p[0] in diffs:
+                    #good_tpls.append(p)
+                    return  len(p)
+    return -1
 
 
 def solution(A):
-    from collections import Counter
-
-    if not A:
-        return 1
-    tst = Counter(A)
-    if not tst.get(1):
-        return -1
-
-    seq = fibonacci_seq(max(len(A), 10))[1:]
-    fib_dict = dict((seq[i], i) for i in range(0, len(seq)))
-
-    ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
-    ones = [-1] + ones + [len(A)]
-
-    g = Graph(ones, fib_dict)
-
-    for idx, item in enumerate(ones):
-        for dst in ones[idx + 1:]:
-            g.AddEdge(item, dst)
-
-    res = g.find_shortest()
-
-    if res == 0:
-        return -1
-    return res
+    return new_algo(A)

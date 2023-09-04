@@ -190,7 +190,7 @@ class MyTestCase(unittest.TestCase):
         if not A :
             return -1
 
-        fib_seq = fibonacci_seq(len(A) + 1, len(A))[:-1]
+        fib_seq = [f for f in  fibonacci_seq(len(A) + 1, len(A)) if f > 0]
 
         # Find how many ones
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
@@ -209,13 +209,13 @@ class MyTestCase(unittest.TestCase):
         good_tpls = []
 
 
-        for clen in range(1, combilen+1):
-            for p in combinations_with_replacement(fib_seq, clen):
+        for clen in range(2, combilen+1):
+            for p in product(fib_seq, repeat=clen):
                 if sum(p) == len(A) + 1:
                     if p[0] in diffs:
-                        good_tpls.append(p)
-        if not good_tpls:
-            return -1
+                        #good_tpls.append(p)
+                        return  len(p)
+        return -1
 
         return len(good_tpls[0])
 
@@ -257,6 +257,11 @@ class MyTestCase(unittest.TestCase):
         A = [1, 1, 1]#[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
         res = self.new_algo(A)
         self.assertEquals(2, res)
+
+    def test_fibfrog_1(self):
+        A = [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
+        res = self.new_algo(A)
+        self.assertEquals(3, res)
 
 
     def test_fibfrog2(self):
@@ -318,6 +323,11 @@ class MyTestCase(unittest.TestCase):
         end = time.time()
         print(f'{end - start} = {len(res)}')
 
+
+    def test_combilen(self):
+        fib_seq = [1,1,2,3,5,8]
+        for p in product(fib_seq, repeat=3):
+            print(p)
 
 if __name__ == '__main__':
     unittest.main()
