@@ -181,6 +181,17 @@ class MyTestCase(unittest.TestCase):
 
 
     def new_algo(self, A):
+
+        ''' TODO  Need to handle this special case which we didnt consider
+
+            The goal is to count the minimum number of jumps in which the frog can get to the other side of the river
+             (from position −1 to position N).
+            The frog can jump between positions −1 and N (the banks of the river) and every position containing a leaf.
+
+
+        '''
+
+
         # The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
         # Not quite right.
         # 1. we need to exclude the zeros as it's not a jump

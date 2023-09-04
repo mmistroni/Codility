@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="218" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="218" />
+            <state relative-caret-position="302">
+              <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#371#518#0" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="92">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#77#112#0" expanded="true" />
               </folding>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/test/test_fibonacci.py" />
         <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/src/chocolates_by_numbers.py" />
-        <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
         <option value="$PROJECT_DIR$/src/fib_frog.py" />
+        <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
       </list>
     </option>
   </component>
@@ -1036,10 +1036,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="e#77#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="218" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="218" />
+        <state relative-caret-position="302">
+          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#371#518#0" />
@@ -1052,16 +1062,6 @@
             <element signature="e#9456#9540#0" />
             <element signature="e#9589#10024#0" />
             <element signature="e#10361#10935#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#77#112#0" expanded="true" />
           </folding>
         </state>
       </provider>

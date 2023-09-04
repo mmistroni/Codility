@@ -40,7 +40,7 @@ def new_algo(self, A):
 
     good_tpls = []
 
-
+    # Still not good
     for clen in range(2, combilen+1):
         for p in product(fib_seq, repeat=clen):
             if sum(p) == len(A) + 1:
