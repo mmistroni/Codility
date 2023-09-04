@@ -204,7 +204,7 @@ class MyTestCase(unittest.TestCase):
         fib_seq = [f for f in  fibonacci_seq(len(A) + 1, len(A)) if f > 0]
 
         # Find how many ones
-        ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+        ones = [idx for idx in range(0, len(A)) if A[idx] == 1] + [len(A) + 1]
 
         if not ones:
             return -1
@@ -220,7 +220,7 @@ class MyTestCase(unittest.TestCase):
         good_tpls = []
 
 
-        for clen in range(2, combilen+1):
+        for clen in range(1, combilen+1):
             for p in product(fib_seq, repeat=clen):
                 if sum(p) == len(A) + 1:
                     if p[0] in diffs:
