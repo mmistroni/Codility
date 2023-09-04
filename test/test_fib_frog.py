@@ -198,6 +198,9 @@ class MyTestCase(unittest.TestCase):
         if not ones:
             return -1
 
+
+        diffs = [(idx+1) for idx in ones]
+
         combilen = len(ones)
 
         # 2, all possible combinations of fibonacci which sums
@@ -209,7 +212,13 @@ class MyTestCase(unittest.TestCase):
         for clen in range(1, combilen+1):
             for p in combinations_with_replacement(fib_seq, clen):
                 if sum(p) == len(A) + 1:
-                    good_tpls.append(p)
+                    if p[0] in diffs:
+                        good_tpls.append(p)
+        if not good_tpls:
+            return -1
+
+        return len(good_tpls[0])
+
 
         print(f'Valids are:{good_tpls}')
         ones = [-1] + ones + [len(A)]
@@ -246,42 +255,9 @@ class MyTestCase(unittest.TestCase):
     def test_fibfrog(self):
         #The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
         A = [1, 1, 1]#[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        fib_seq = [f for f in  fibonacci_seq(len(A) + 1, len(A)) if f > 0]
-        # Find how many ones
-        ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
+        res = self.new_algo(A)
+        self.assertEquals(2, res)
 
-        combilen = len(ones)
-
-        # 2, all possible combinations of fibonacci which sums
-        # to len(A) + 1
-
-        good_tpls = []
-
-        for clen in range(1, combilen+1):
-            for p in combinations_with_replacement(fib_seq, clen):
-                if sum(p) == len(A) + 1:
-                    good_tpls.append(p)
-
-        print(f'Valids are:{good_tpls}')
-        ones = [-1] + ones + [len(A)]
-
-        # 3/find  all possible differences between all indexes, this will represent available
-        # jumps
-        print(f'Ones are:{ones} ')
-        print(f'Fib seq is {fib_seq}')
-        differences = [ones[j] - ones[i] for i in range(len(ones)) for j in range(i + 1, len(ones))]
-
-        # 4. Find only jumps which are in fibonacci sequence
-        fib_right = [d for d in differences if d < len(fib_seq) and d in fib_seq]
-
-        # 5. Find all fibonacci tuples whose items are in the valid jumps
-        res = [tpl for tpl in good_tpls if all([i in fib_right for i in tpl])]
-
-        if len(res) < 1:
-            return -1
-        # 6. sort the tuples in order of lenght
-        s_res = sorted(res, key=lambda t: len(t))
-        print(f'Shortest is {s_res}, {len(s_res)}, {len(s_res[0])}')
 
     def test_fibfrog2(self):
         A = []
@@ -296,7 +272,7 @@ class MyTestCase(unittest.TestCase):
         jumps = solution(A)
         jumps2 = self.new_algo(A)
         print(f'jUMPS {jumps} vs {jumps2}')
-        self.assertEquals(1, jumps)
+        self.assertEquals(1, jumps2)
 
     def test_fibfrog4(self):
         A = [1, 1, 1]
@@ -305,12 +281,12 @@ class MyTestCase(unittest.TestCase):
 
     def test_zeros(self):
         A = [0, 0, 0]
-        jumps = solution(A)
+        jumps = self.new_algo(A)
         self.assertEquals(-1, jumps)
 
     def test_anotherfail(self):
         A =  [0, 0, 0, 1, 0]
-        jumps =solution(A)
+        jumps =self.new_algo(A) #solution(A)
         self.assertEquals(-1, jumps)
 
     def test_anotheranotherfail(self):
@@ -328,13 +304,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEquals(2, res)
         #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
 
-    def test_allzerors(self):
-        A = [0] * 100000
-        start = time.time()
-        jumps = self.probe_graph(A)
-        end = time.time()
-        print(f'{end-start} = {jumps}')
-        #https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
 
 
     def test_fib_sequence(self):
