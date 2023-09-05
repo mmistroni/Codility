@@ -198,10 +198,15 @@ class MyTestCase(unittest.TestCase):
         # 2. We need to look at combinations from 2 to max ones
         # 3. We start with  two jumps.if not we do combi of 3
         # 1. Find good fibonacci seq which covers potential jumps in the array
-        if not A :
-            return -1
+
+        one_jump = len(A) + 1
+
 
         fib_seq = [f for f in  fibonacci_seq(len(A) + 1, len(A)) if f > 0]
+
+        if one_jump in fib_seq:
+            return 1
+
 
         # Find how many ones
         ones = [idx for idx in range(0, len(A)) if A[idx] == 1] + [len(A) + 1]
@@ -228,31 +233,6 @@ class MyTestCase(unittest.TestCase):
                         return  len(p)
         return -1
 
-        return len(good_tpls[0])
-
-
-        print(f'Valids are:{good_tpls}')
-        ones = [-1] + ones + [len(A)]
-
-        # 3/find  all possible differences between all indexes, this will represent available
-        # jumps
-        print(f'Ones are:{ones} ')
-        print(f'Fib seq is {fib_seq}')
-        differences = [ones[j] - ones[i] for i in range(len(ones)) for j in range(i + 1, len(ones))]
-
-        # 4. Find only jumps which are in fibonacci sequence
-        fib_right = [d for d in differences if d < len(fib_seq) and d in fib_seq]
-        print(f'Only good ones are :{fib_right}')
-
-        # 5. Find all fibonacci tuples whose items are in the valid jumps
-        res = [tpl for tpl in good_tpls if all([i in fib_right for i in tpl])]
-
-        if len(res) < 1:
-            return -1
-        # 6. sort the tuples in order of lenght
-        s_res = sorted(res, key=lambda t: len(t))
-        print(f'Shortest is {s_res[0]}')
-        return len(s_res[0])
 
 
     def test_newtest2(self):
@@ -281,7 +261,7 @@ class MyTestCase(unittest.TestCase):
         #res = self.probe(A)
         #res = solution(A)
 
-        self.assertEquals(-1, jumps)
+        self.assertEquals(1, jumps)
 
     def test_fibfrog3(self):
         A = [1]
