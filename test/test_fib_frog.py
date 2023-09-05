@@ -14,6 +14,8 @@ def fibonacci_seq(n, limit=None):
     for i in range(2, n+1):
         fib[i] = fib[i-1] + fib[i-2]
 
+        # Re-add the limit..
+
     return [f for f in fib if f <= limit] if limit else fib
 
 def fibonacci2(n):
@@ -242,6 +244,13 @@ class MyTestCase(unittest.TestCase):
         res2 = self.new_algo(A)
         print(f'-- distance to end is:{res} vs {res2}')
         self.assertEquals(2, res)
+
+    def test_single(self):
+        print('---- NEXT --')
+        A = [1]
+        res2 = self.new_algo(A)
+        self.assertEquals(1, res)
+
 
     def test_fibfrog(self):
         #The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
