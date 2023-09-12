@@ -32,7 +32,7 @@ def new_algo(A):
         return -1
 
     # adding start and end
-    ones = [-1] + ones +  [len(A) + 1]
+    ones = [-1] + ones +  [len(A)]
 
     diffs = [(idx+1) for idx in ones] # difference between first element and all subsequent 1s
 
@@ -42,12 +42,22 @@ def new_algo(A):
     for clen in range(2, combilen+1):
         for p in product(fib_seq, repeat=clen):
             if sum(p) == len(A) + 1:
-                if p[0] in diffs:
-                    #good_tpls.append(p)
-                    return  len(p)
+                curidx = -1
+                for item in p:
+                    nxt = item + curidx
+                    if nxt not in ones:
+                        curidx = -1
+                        break
+                    else:
+                        curidx = nxt
+                if curidx == -1:
+                    continue
+                else:
+                    return len(p)
+
     return -1
 
-
+    # Last session https://app.codility.com/demo/results/trainingQD59DY-JY5/
 
 
 def solution(A):
