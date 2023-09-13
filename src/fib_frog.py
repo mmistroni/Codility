@@ -29,36 +29,37 @@ def new_algo(A):
     ones = [idx for idx in range(0, len(A)) if A[idx] == 1]
 
     if not ones:
+        # No leafs, and no direct jump
         return -1
 
     # adding start and end
     ones = [-1] + ones +  [len(A)]
 
-    diffs = [(idx+1) for idx in ones] # difference between first element and all subsequent 1s
-
-    combilen = len(ones)
+    combilen = len(ones) # this will determine  max length of the combinations
 
     # Looping for all possible combination of fibonacci numbers which sums up to len[A] + 1
     for clen in range(2, combilen+1):
         for p in product(fib_seq, repeat=clen):
             if sum(p) == len(A) + 1:
-                curidx = -1
+                curidx = -1 # starting from start and incrementing it for every item in the tuple
+                            # this simulates jumping from leaf to leaf
                 for item in p:
-                    nxt = item + curidx
+                    nxt = item + curidx # jumping from one leaf to the other
                     if nxt not in ones:
+                        # if we dont land on a leaf, we break
                         curidx = -1
                         break
                     else:
                         curidx = nxt
+                # out of the loop, curidx is either the index of the last leaf or
+                # is -1
                 if curidx == -1:
+                    # check then tuple
                     continue
                 else:
                     return len(p)
-
+    # https://app.codility.com/c/run/training68EV7K-5XJ/
     return -1
-
-    # Last session https://app.codility.com/demo/results/trainingQD59DY-JY5/
-
 
 def solution(A):
     return new_algo(A)
