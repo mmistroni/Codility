@@ -43,6 +43,8 @@ def new_algo(A):
             if sum(p) == len(A) + 1:
                 curidx = -1 # starting from start and incrementing it for every item in the tuple
                             # this simulates jumping from leaf to leaf
+
+                # we need to find a way to avoid the loop
                 for item in p:
                     nxt = item + curidx # jumping from one leaf to the other
                     if nxt not in ones:
