@@ -5,6 +5,7 @@ import heapq
 import time
 from itertools import product, combinations_with_replacement
 
+#https://proofwiki.org/wiki/Properties_of_Fibonacci_Numbers#Millin_Series
 
 import timeit
 from collections import defaultdict
@@ -13,16 +14,23 @@ def fibonacci_seq(n, limit=None):
     fib = [0] * (n+2)
     fib[1] = 1
     for i in range(2, n+1):
+        if i == limit:
+            break
         fib[i] = fib[i-1] + fib[i-2]
-        if fib[i] >= limit:
-             break
 
     return [f for f in fib if f > 0 and f < limit]
 
 
 class MyTestCase(unittest.TestCase):
 
+    '''
+    1
+    2
+    3
+    4
 
+
+    '''
 
 
 
@@ -32,6 +40,8 @@ class MyTestCase(unittest.TestCase):
         B = [3,2,4,3,1]
 
         for item in A:
+            # We need to change this. we are not looking for sum but to see
+            # if we are at rung 4
             current_seq = fibonacci_seq(item, item)
             res = []
             for cl in range(1, item+1):
@@ -39,6 +49,19 @@ class MyTestCase(unittest.TestCase):
                     if p[0] in [1,2] and sum(p) == item:
                         if not p in res:
                             res.append(p)
+
+            # We need to try to eliminate number 3, which screws up
+            # all the calculations
+            # Mayb we try another way. We first find all the numbers
+            # you can jump to and see if these are fibonacci
+
+            '''
+            1   
+          2     3
+        3   4  4   5
+      4   5   6       5'''
+
+
             print(f'For {item} we have found {res} way')
 
             print(f'{item}={current_seq}')
