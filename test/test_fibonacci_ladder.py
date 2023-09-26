@@ -59,7 +59,28 @@ class MyTestCase(unittest.TestCase):
             1   
           2     3
         3   4  4   5
-      4   5   6       5'''
+      4   5   6       5
+      
+     # what we need to do is to build a fibonacci tree until we get to the destination
+     
+     
+       1
+     2     3
+   3   4  4  5
+  4 
+
+        #sCRAP. 
+        check this https://dev.to/alisabaj/the-climbing-staircase-problem-how-to-solve-it-and-why-the-fibonacci-numbers-are-relevant-3c4o
+        Test it out. sample only shows 4 and 5 ladder
+        
+        1 step
+        2 step
+        3 step
+        4 step
+        5 step 
+        6 step
+        7 step
+      '''
 
 
             print(f'For {item} we have found {res} way')

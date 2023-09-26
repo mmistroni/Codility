@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="351">
+              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -318,9 +318,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 30m 35s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 42m 09s.xml">
       <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
     </history-entry>
@@ -348,6 +345,9 @@
     <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.20 at 21h 06m 46s.xml">
       <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.20 at 21h 09m 05s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -359,7 +359,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.5008183" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" visible="true" weight="0.57937807" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.4811784" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -619,13 +619,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_fibonacci_ladder.py</url>
-          <line>64</line>
+          <line>85</line>
           <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fibonacci_ladder.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="163" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1065,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="351">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
