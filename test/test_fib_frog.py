@@ -9,6 +9,23 @@ from itertools import product, combinations_with_replacement
 import timeit
 from collections import defaultdict
 
+'''
+Few Hints
+There are some stuffs that we should pay attention to:
+
+- the frog can get to the other side of the river (from position −1 to position N), therefore the real length of the way is N + 1.
+- The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number 
+ means to reach position ith, the frog could go from positions (i — F(K)) where i — F(K) ≥ 0 and there is a leave at the position i — F(K).
+- there are many leaves on the river, and the frog can jump between the leaves, 
+   thus there are some immediate positions are not permitted.
+The goal is to count the minimum number of jumps, so OPT(n) = min(1 + OPT(n — F[K]))
+
+
+https://medium.com/architectalgos/mastering-the-two-pointer-technique-a-guide-to-solving-array-problems-efficiently-71bd5a22bedc
+# Sign u for Leetcode
+'''
+
+
 
 
 class MyTestCase(unittest.TestCase):

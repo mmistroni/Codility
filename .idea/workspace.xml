@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonacci_ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_ladder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_fibonacci_ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fibonacci_ladder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_fib_frog.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fib_frog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="193">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -32,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="193">
               <caret line="41" column="46" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="46" />
               <folding>
                 <element signature="e#77#112#0" expanded="true" />
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fibonacci_ladder.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <caret line="8" column="35" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -143,10 +141,10 @@
         <option value="$PROJECT_DIR$/test/test_fibonacci.py" />
         <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/src/chocolates_by_numbers.py" />
-        <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
         <option value="$PROJECT_DIR$/src/fib_frog.py" />
         <option value="$PROJECT_DIR$/test/test_fibonacci_ladder.py" />
         <option value="$PROJECT_DIR$/src/fibonacci_ladder.py" />
+        <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
       </list>
     </option>
   </component>
@@ -319,9 +317,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.27 at 20h 38m 07s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 43m 16s.xml">
       <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
@@ -347,6 +342,9 @@
       <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 51m 03s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 51m 28s.xml">
       <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
   </component>
@@ -1032,26 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="e#77#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1065,7 +1043,27 @@
     <entry file="file://$PROJECT_DIR$/src/fibonacci_ladder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <caret line="8" column="35" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="e#77#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
