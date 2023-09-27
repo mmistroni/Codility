@@ -26,6 +26,12 @@ https://medium.com/architectalgos/mastering-the-two-pointer-technique-a-guide-to
 '''
 
 
+def generate_fib_steps(n):
+    a, b = 1, 1
+    yield 1
+    while a + b <= n:
+        yield a + b
+        a, b = b, a + b
 
 
 class MyTestCase(unittest.TestCase):
