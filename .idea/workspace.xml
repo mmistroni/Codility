@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fibonacci_ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_ladder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_fibonacci_ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fibonacci_ladder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fibonacci_ladder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="74" selection-start-column="1" selection-end-column="74" />
+            <state relative-caret-position="122">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+            <state relative-caret-position="215">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -143,9 +144,9 @@
         <option value="$PROJECT_DIR$/test/test_chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/src/chocolates_by_numbers.py" />
         <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
-        <option value="$PROJECT_DIR$/src/fibonacci_ladder.py" />
         <option value="$PROJECT_DIR$/src/fib_frog.py" />
         <option value="$PROJECT_DIR$/test/test_fibonacci_ladder.py" />
+        <option value="$PROJECT_DIR$/src/fibonacci_ladder.py" />
       </list>
     </option>
   </component>
@@ -160,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_fibonacci_ladder.MyTestCase.test_newtest2">
+  <component name="RunManager" selected="Python tests.pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq">
     <configuration name="pytest for test_fib_frog.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,21 +224,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_fib_frog.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_fibfrog3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -271,6 +257,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fibonacci_ladder.MyTestCase.test_fib_seq&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" />
         <item itemvalue="Python tests.pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog_1" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_single" />
-        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog3" />
       </list>
     </recent_temporary>
   </component>
@@ -318,35 +319,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 42m 09s.xml">
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.27 at 20h 38m 07s.xml">
       <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 43m 02s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 43m 16s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 51m 49s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 43m 36s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 52m 06s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 44m 09s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 52m 59s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 45m 21s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.19 at 20h 54m 17s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 46m 11s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.20 at 21h 04m 25s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 47m 57s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.20 at 21h 04m 29s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 50m 42s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.20 at 21h 06m 46s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 50m 45s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_newtest2 - 2023.09.20 at 21h 09m 05s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 51m 03s.xml">
+      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -358,8 +359,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.5008183" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.4811784" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.5450082" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.38625205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -618,9 +619,9 @@
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fibonacci_ladder.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="161" />
+          <url>file://$PROJECT_DIR$/src/fibonacci_ladder.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="167" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1051,20 +1052,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fibonacci_ladder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="74" selection-start-column="1" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+        <state relative-caret-position="215">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fibonacci_ladder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>

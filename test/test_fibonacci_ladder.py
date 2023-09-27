@@ -33,63 +33,40 @@ class MyTestCase(unittest.TestCase):
     '''
 
 
+    def test_fib_seq(self):
+        seq = fibonacci_seq(10, 10)
+
+        #for idx, item in enumerate(seq):
+        #    print(f'({idx}) = {item}\n')
+
+        A =[t for t in range(1, 20)]
+        B = [3] * len(A)
+
+        solution(A, B)
+
+
+
+
 
     def test_newtest2(self):
         print('---- NEXT --')
+
+
         A = [4,4,5,5,1]
         B = [3,2,4,3,1]
+        C = [5, 1, 8, 0, 1]
 
-        for item in A:
-            # We need to change this. we are not looking for sum but to see
-            # if we are at rung 4
-            current_seq = fibonacci_seq(item, item)
-            res = []
-            for cl in range(1, item+1):
-                for p in product(current_seq, repeat=cl):
-                    if p[0] in [1,2] and sum(p) == item:
-                        if not p in res:
-                            res.append(p)
 
-            # We need to try to eliminate number 3, which screws up
-            # all the calculations
-            # Mayb we try another way. We first find all the numbers
-            # you can jump to and see if these are fibonacci
-
-            '''
-            1   
-          2     3
-        3   4  4   5
-      4   5   6       5
-      
-     # what we need to do is to build a fibonacci tree until we get to the destination
-     
-     
-       1
-     2     3
-   3   4  4  5
-  4 
+        res = solution(A,B)
+        self.assertEquals(C, res)
 
         #sCRAP. 
-        check this https://dev.to/alisabaj/the-climbing-staircase-problem-how-to-solve-it-and-why-the-fibonacci-numbers-are-relevant-3c4o
-        Test it out. sample only shows 4 and 5 ladder
+        #check this https://dev.to/alisabaj/the-climbing-staircase-problem-how-to-solve-it-and-why-the-fibonacci-numbers-are-relevant-3c4o
+        #Test it out. sample only shows 4 and 5 ladder
         
-        1 step
-        2 step
-        3 step
-        4 step
-        5 step 
-        6 step
-        7 step
-      '''
 
 
-            print(f'For {item} we have found {res} way')
 
-            print(f'{item}={current_seq}')
-
-        return
-
-        expected = [5, 1, 8, 0, 1]
 
         # so you can start from rung (k) 1 or 2, and you can  only
         #  move up via k+1 or k+2
@@ -128,14 +105,6 @@ class MyTestCase(unittest.TestCase):
             
             
         '''
-
-
-        res = solution(A)
-        self.assertEquals(2, res)
-
-
-
-
 
 if __name__ == '__main__':
     unittest.main()
