@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/minmaxdivision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_minmaxdivision.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_fib_frog.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_fib_frog.py" afterDir="false" />
     </list>
@@ -16,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/minmaxdivision.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
+        <entry file="file://$PROJECT_DIR$/test/test_minmaxdivision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="222">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -29,34 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="46" />
-              <folding>
-                <element signature="e#77#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fibonacci_ladder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="614" selection-start-line="614" selection-end-line="614" />
             </state>
           </provider>
         </entry>
@@ -67,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -95,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_magic_square.py" />
-        <option value="$PROJECT_DIR$/src/magic_square.py" />
         <option value="$PROJECT_DIR$/src/carol_of_code.py" />
         <option value="$PROJECT_DIR$/test/test_carol_of_code.py" />
         <option value="$PROJECT_DIR$/test/test_between_two_sets.py" />
@@ -146,6 +131,8 @@
         <option value="$PROJECT_DIR$/test/test_fibonacci_ladder.py" />
         <option value="$PROJECT_DIR$/src/fibonacci_ladder.py" />
         <option value="$PROJECT_DIR$/test/test_fib_frog.py" />
+        <option value="$PROJECT_DIR$/src/minmaxdivision.py" />
+        <option value="$PROJECT_DIR$/test/test_minmaxdivision.py" />
       </list>
     </option>
   </component>
@@ -210,7 +197,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_fib_frog.MyTestCase.test_sol">
+  <component name="RunManager" selected="Python tests.pytest for test_minmaxdivision.MyTestCase.test_something">
+    <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_fibfrog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_fib_frog.MyTestCase.test_new_fib" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +258,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,32 +269,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fibonacci_ladder.MyTestCase.test_fib_seq&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fibonacci_ladder.MyTestCase.test_newtest2&quot;" />
+      <option name="_new_target" value="&quot;test_minmaxdivision.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_minmaxdivision.MyTestCase.test_something" />
+        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_sol" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_new_fib" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_newtest2" />
-        <item itemvalue="Python tests.pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" />
-        <item itemvalue="Python tests.pytest for test_fibonacci_ladder.MyTestCase.test_newtest2" />
       </list>
     </recent_temporary>
   </component>
@@ -318,48 +305,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 47m 57s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 20h 58m 25s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 50m 42s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 20h 59m 56s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 50m 45s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 00m 45s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 51m 03s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 03m 17s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fibonacci_ladder_MyTestCase_test_fib_seq - 2023.09.27 at 20h 51m 28s.xml">
-      <configuration name="pytest for test_fibonacci_ladder.MyTestCase.test_fib_seq" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 03m 56s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.10.03 at 20h 16m 49s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 04m 16s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.10.03 at 20h 32m 17s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 05m 24s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_newtest2 - 2023.10.03 at 20h 34m 23s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_newtest2" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 06m 39s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_new_fib - 2023.10.03 at 20h 36m 13s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_new_fib" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 07m 34s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fib_frog_MyTestCase_test_new_fib - 2023.10.03 at 20h 36m 31s.xml">
-      <configuration name="pytest for test_fib_frog.MyTestCase.test_new_fib" configurationId="tests" />
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_something - 2023.10.04 at 21h 08m 01s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.2217262" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.18898809" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.15548281" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.46317512" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.49099836" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5319149" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -623,9 +610,14 @@
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_fib_frog.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="170" />
+          <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -655,17 +647,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bigger_is_greater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="37" lean-forward="true" selection-start-line="6" selection-end-line="37" />
-          <folding>
-            <element signature="e#164#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kaprekar_numbers.py" />
     <entry file="file://$PROJECT_DIR$/src/kaprekar_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -984,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1036,22 +1010,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
+    <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="578">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="e#77#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1063,10 +1027,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_fibonacci_ladder.py">
+    <entry file="file://$PROJECT_DIR$/src/fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="291">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="e#77#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minmaxdivision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_minmaxdivision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

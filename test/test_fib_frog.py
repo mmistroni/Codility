@@ -42,10 +42,12 @@ def solutionA(A):
     ret[0] = 0
 
     for i in range(1, n + 1):
-        # so we 
+        # so we
         if (i < n and A[i - 1] == 1) or (i == n):
             ret[i] = min([ret[i - x] + 1 for x in generate_fib_steps(i)])
-            print('f')
+            #aha. so we  mark as 1  in ret then by increasing i, we check if i - (FIB) is another 1.
+            # good idea! WE STILL need to elaborate
+            print(f'i:{i}, ret:{ret}')
         else:
             print(f'{i} is no goods')
 
@@ -119,7 +121,7 @@ class MyTestCase(unittest.TestCase):
     def test_fibfrog(self):
         #The frog can jump over any distance F(K), where F(K) is the K-th Fibonacci number.
         A = [1, 1, 1]#[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
-        res = solution(A)
+        res = solutionA(A)
         self.assertEquals(2, res)
 
     def test_fibfrog_1(self):
