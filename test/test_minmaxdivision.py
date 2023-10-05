@@ -5,6 +5,8 @@ from minmaxdivision import solution
 class MyTestCase(unittest.TestCase):
 
     def test_something(self):
+        # Not good. we need to generalize where we can split the array
+        # in n parts
         K = 3
         M = 5
         A = [1,5, 1, 2, 2, 2]
@@ -18,19 +20,27 @@ class MyTestCase(unittest.TestCase):
         # where we vary the length of each array
 
         while beg <= end:
-            mid = (beg + end) // K
-            mid2 = (mid  + end) // 2
+            mid = (beg + end) // 2
+            if beg == 0:
+                first = A[beg:mid]
+                second = A[mid:]
+                third = []
+            else:
+                first = A[0:beg]
+                second = A[beg:mid]
+                third = A[mid:]
+            holders.append(max(sum(first), sum(second) , sum(third) ))
+            beg += 1
 
-            first = A[beg:mid]
-            second = A[mid:mid2]
-            third = A[mid2:end]
-            holders.append([first, second , third] )
-            beg = mid + 1
-            end = end -1
 
         from pprint import pprint
         pprint(holders)
-        self.assertEqual(True, True)
+
+        sorted_holders = sorted(holders, key=lambda x:x)
+
+        self.assertEquals(6, sorted_holders[0])
+
+
 
 
 if __name__ == '__main__':
