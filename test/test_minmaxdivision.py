@@ -7,6 +7,10 @@ class MyTestCase(unittest.TestCase):
     def test_something(self):
         # Not good. we need to generalize where we can split the array
         # in n parts
+        # one solution would be to to split array in N
+        # find lower N
+        # and use binary search on rest
+
         K = 3
         M = 5
         A = [1,5, 1, 2, 2, 2]
