@@ -2,14 +2,64 @@ import unittest
 
 from minmaxdivision import solution
 
+
+def binarySearch(A, x):
+    n = len(A)
+    beg = 0
+    end = n - 1
+    result = -1
+    while beg <= end:
+        mid = (beg + end) // 2
+        print(f'beg:{beg}|mid:{mid}')
+        if A[mid] <= x:
+            beg = mid + 1
+            print(f'{A[mid]} vs {x}')
+            result = mid
+        else:
+            end = mid -1
+    return result
+
+def chunkIt(seq, num):
+    avg = len(seq) / float(num)
+    out = []
+    last = 0.0
+
+    while last < len(seq):
+        out.append(seq[int(last):int(last + avg)])
+        last += avg
+
+    return out
+
+
 class MyTestCase(unittest.TestCase):
 
+
+    def test_binsearch(self):
+        A = [1, 5, 1, 2, 2, 2]
+        K = 3
+        M = 5
+        print(binarySearch(A, M ))
+
+    def test_checksplits(self):
+        A = [1, 5, 1, 2, 2, 2]
+        K = 3
+
+        chunks = chunkIt(A, K)
+
+        maxSize = len(A) // K
+        print(f'A={A}')
+        for i in range(0, K):
+            s = i * maxSize
+            e = min(s + maxSize, len(A))
+            arr = A[s:e]
+            print(f'{i} = {arr}')
+
     def test_something(self):
-        # Not good. we need to generalize where we can split the array
-        # in n parts
-        # one solution would be to to split array in N
-        # find lower N
-        # and use binary search on rest
+        # Idea
+        # we split the array in N pieces and run
+        # same as binary search on each piece
+
+
 
         K = 3
         M = 5
