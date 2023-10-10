@@ -13,7 +13,7 @@ def binarySearch(A, x):
         print(f'beg:{beg}|mid:{mid}')
         if A[mid] <= x:
             beg = mid + 1
-            print(f'{A[mid]} vs {x}')
+            print(f'mid:{mid}, {A[mid]} vs {x}')
             result = mid
         else:
             end = mid -1
@@ -39,6 +39,9 @@ class MyTestCase(unittest.TestCase):
         K = 3
         M = 5
         print(binarySearch(A, M ))
+        # we dont have as roted array so binary searchis an ago that should be used
+        # to recursivey split the lists
+
 
     def test_checksplits(self):
         A = [1, 5, 1, 2, 2, 2]
