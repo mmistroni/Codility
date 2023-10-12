@@ -8,28 +8,23 @@ def binarySearch(A, x):
     beg = 0
     end = n - 1
     result = -1
-    while beg <= end:
+
+    holders = []
+
+    while beg <= end: # Nearly there.
         mid = (beg + end) // 2
         print(f'beg:{beg}|mid:{mid}')
+        # this sort of work but we need to find out how the
+        # binary seach work. and we need to keep track of beginning and mid so that
+        # we can vary the array
         if A[mid] <= x:
+            holders.append((beg, end, mid, A[beg:mid], A[mid:end]))
             beg = mid + 1
             print(f'mid:{mid}, {A[mid]} vs {x}')
             result = mid
         else:
             end = mid -1
-    return result
-
-def chunkIt(seq, num):
-    avg = len(seq) / float(num)
-    out = []
-    last = 0.0
-
-    while last < len(seq):
-        out.append(seq[int(last):int(last + avg)])
-        last += avg
-
-    return out
-
+    return result, holders
 
 class MyTestCase(unittest.TestCase):
 
@@ -38,32 +33,20 @@ class MyTestCase(unittest.TestCase):
         A = [1, 5, 1, 2, 2, 2]
         K = 3
         M = 5
-        print(binarySearch(A, M ))
+
+        out, holders = binarySearch(A, M )
+        print(f'out is:{out}')
+        from pprint import pprint
+        pprint(holders)
+
         # we dont have as roted array so binary searchis an ago that should be used
         # to recursivey split the lists
 
-
-    def test_checksplits(self):
-        A = [1, 5, 1, 2, 2, 2]
-        K = 3
-
-        chunks = chunkIt(A, K)
-
-        maxSize = len(A) // K
-        print(f'A={A}')
-        for i in range(0, K):
-            s = i * maxSize
-            e = min(s + maxSize, len(A))
-            arr = A[s:e]
-            print(f'{i} = {arr}')
 
     def test_something(self):
         # Idea
         # we split the array in N pieces and run
         # same as binary search on each piece
-
-
-
         K = 3
         M = 5
         A = [1,5, 1, 2, 2, 2]

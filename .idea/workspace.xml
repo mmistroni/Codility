@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/minmaxdivision.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="90" selection-start-column="1" selection-end-column="90" />
+              <caret column="1" selection-start-column="1" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -27,23 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_minmaxdivision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="169">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#350#520#0" />
-                <element signature="e#266#464#0" />
-                <element signature="e#130#1161#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10217">
-              <caret line="614" selection-start-line="614" selection-end-line="614" />
             </state>
           </provider>
         </entry>
@@ -137,8 +125,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
-    <option name="y" value="254" />
+    <option name="x" value="-8" />
+    <option name="y" value="34" />
     <option name="width" value="1306" />
     <option name="height" value="630" />
   </component>
@@ -147,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +157,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,18 +293,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 17m 12s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 19m 55s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 21m 02s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 21m 41s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 21m 52s.xml">
       <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
     </history-entry>
@@ -335,17 +311,30 @@
     <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 27m 46s.xml">
       <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.12 at 20h 54m 07s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.12 at 21h 09m 54s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.12 at 21h 14m 29s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.12 at 21h 16m 39s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.18898809" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.07364976" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.06710311" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.3666121" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" visible="true" weight="0.3715221" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -610,8 +599,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
-          <line>82</line>
+          <line>65</line>
           <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -700,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="26" selection-start-line="3" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -1041,9 +1033,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/append_and_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10217">
+        <state relative-caret-position="325">
           <caret line="614" selection-start-line="614" selection-end-line="614" />
         </state>
       </provider>
@@ -1051,19 +1050,16 @@
     <entry file="file://$PROJECT_DIR$/src/minmaxdivision.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="90" selection-start-column="1" selection-end-column="90" />
+          <caret column="1" selection-start-column="1" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minmaxdivision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="169">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#350#520#0" />
-            <element signature="e#266#464#0" />
-            <element signature="e#130#1161#0" />
           </folding>
         </state>
       </provider>
