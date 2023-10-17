@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_minmaxdivision.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_minmaxdivision.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_minmaxdivision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -185,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_minmaxdivision.MyTestCase.test_binsearch">
+  <component name="RunManager" selected="Python tests.pytest for test_minmaxdivision.MyTestCase.test_binsplit">
     <configuration name="pytest for test_fib_frog.MyTestCase.test_fibfrog" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,21 +202,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_fib_frog.MyTestCase.test_sol" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fib_frog.MyTestCase.test_sol&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,6 +214,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_minmaxdivision.MyTestCase.test_binsearch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsplit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minmaxdivision.MyTestCase.test_binsplit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -263,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_minmaxdivision.MyTestCase.test_binsplit" />
         <item itemvalue="Python tests.pytest for test_minmaxdivision.MyTestCase.test_binsearch" />
         <item itemvalue="Python tests.pytest for test_minmaxdivision.MyTestCase.test_checksplits" />
         <item itemvalue="Python tests.pytest for test_minmaxdivision.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_fibfrog" />
-        <item itemvalue="Python tests.pytest for test_fib_frog.MyTestCase.test_sol" />
       </list>
     </recent_temporary>
   </component>
@@ -293,21 +294,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 21m 52s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 22m 33s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 23m 11s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 24m 43s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 25m 09s.xml">
-      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.10 at 21h 27m 46s.xml">
       <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
     </history-entry>
@@ -323,6 +309,30 @@
     <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.12 at 21h 16m 39s.xml">
       <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.17 at 20h 24m 02s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.17 at 20h 24m 20s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsearch - 2023.10.17 at 20h 39m 27s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsearch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsplit - 2023.10.17 at 20h 58m 58s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsplit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minmaxdivision_MyTestCase_test_binsplit - 2023.10.17 at 20h 59m 31s.xml">
+      <configuration name="pytest for test_minmaxdivision.MyTestCase.test_binsplit" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -333,11 +343,11 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.3666121" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" visible="true" weight="0.3715221" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.5581015" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.43698853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
@@ -599,18 +609,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
-          <line>65</line>
+          <line>104</line>
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_minmaxdivision.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="179" />
+          <line>77</line>
+          <option name="timeStamp" value="182" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1056,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minmaxdivision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

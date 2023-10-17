@@ -8,9 +8,7 @@ def binarySearch(A, x):
     beg = 0
     end = n - 1
     result = -1
-
     holders = []
-
     while beg <= end: # Nearly there.
         mid = (beg + end) // 2
         print(f'beg:{beg}|mid:{mid}')
@@ -26,7 +24,44 @@ def binarySearch(A, x):
             end = mid -1
     return result, holders
 
+def binarySplit(A):
+    n = len(A)
+    beg = 0
+    end = n - 1
+    mid = (beg + end) // 2
+
+    return A[beg:mid], A[mid:]
+
 class MyTestCase(unittest.TestCase):
+
+    def test_binsplit(self):
+        # New idea
+        '''
+            We start with whole array plus two dummies
+            then we split the first and get rid of a dummy -  we need a datastructure for that, perhaps a
+            circular buffer
+            then we advance start of one
+        '''
+
+        :return:
+        '''
+        A = [1, 5, 1, 2, 2, 2]
+        M = 5
+        K = 3
+        res = binarySplit(A, 3)
+        startSum = sum(sum(A))
+        # split in two
+        start_idx = 0
+        end_idx = len(A)-1
+
+        # For now  we ignore M
+
+        sequences =[]
+        sequences.append(A)
+        for i in range(1, K):
+            sequences.append([])
+        pprint(sequences)
+
 
 
     def test_binsearch(self):
@@ -34,7 +69,11 @@ class MyTestCase(unittest.TestCase):
         K = 3
         M = 5
 
-        out, holders = binarySearch(A, M )
+        sortd_a = sorted(A, key = lambda x:x)
+
+        out, holders = binarySearch(sortd_a, M )
+
+
         print(f'out is:{out}')
         from pprint import pprint
         pprint(holders)
