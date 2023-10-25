@@ -43,8 +43,8 @@ class MyTestCase(unittest.TestCase):
             then we advance start of one
         '''
 
-        :return:
-        '''
+
+
         A = [1, 5, 1, 2, 2, 2]
         M = 5
         K = 3
