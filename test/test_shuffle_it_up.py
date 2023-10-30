@@ -14,8 +14,44 @@ def factorial(n, acc):
 def perm(length):
     return factorial(length, 1) / factorial(length - length, 1)
 
+'''
+        You're on the right track thinking about recursive algorithms and your deductions so far are almost correct.
+        If permutations(5) is made up of (5-1) == 4 branches as you say, each having 11 leaves,
+        how might we derive that number 11? You say it's permutation(n-1) - <something>
+        but permutations(5-1) == permutations(4) == 9 as you say, which is smaller than 11... so something is being added, not subtracted.
+
+        perm(1) = 0 branches       (0)
+        perm(2) = 1 branch  * 1  (1)0 +   (n-1) * 1
+        perm(3) = 2 branches * 1 (2)   (n-1) * (perm(n-1)) + perm(n-2)
+        perm(4) = 3 branches * 3  (9)   3 * (1 + 2)
+        perm(5) = 4 branches * 11 ( 44) (2+9) 3
+        perm(6) = 5 branches * 53  (265) (44+9)
+        perm(7) = 6 branches * 309 (1854)  265 + 44
+        perm(8) = 7 branches * 2119 (14833) (1854 + 265)
+        perm(9) =  8 branches * 16687 (133496)
+        perm(10 =  9 branches * 148329  (1334961)
+        perm(11) = 10 branches* 1468457  (14684570)
+        perm(12) = 11 branches * 16019531 (29369141)
+'''
+
+
+def pseudo_fib(n):
+    # Not good. Need to cache like we did  in other fibs
+    if n == 1:
+        return 0
+    if n == 2:
+        return 1
+    return (n-1) * (pseudo_fib(n-1) + pseudo_fib(n-2))
+
+
 
 class MyTestCase(unittest.TestCase):
+
+
+    def test_pseudo_fib(self):
+        for i in range(1,6):
+            res = pseudo_fib(i)
+            print(f'pseudo_fib of {i}={res}')
 
     def test_factorial(self):
         self.assertEqual(120, factorial(5, 1))
@@ -64,10 +100,10 @@ class MyTestCase(unittest.TestCase):
         but permutations(5-1) == permutations(4) == 9 as you say, which is smaller than 11... so something is being added, not subtracted.
 
         perm(1) = 0 branches       (0)
-        perm(2) = 1 branch  * 0  (1)0 +
-        perm(3) = 2 branches * 1 (2)
-        perm(4) = 3 branches * 3  (9)
-        perm(5) = 4 branches * 11 ( 44) (2+9)
+        perm(2) = 1 branch  * 1  (1)0 +   (n-1) * 1
+        perm(3) = 2 branches * 1 (2)   (n-1) * (perm(n-1)) + perm(n-2)
+        perm(4) = 3 branches * 3  (9)   3 * (1 + 2)
+        perm(5) = 4 branches * 11 ( 44) (2+9) 3
         perm(6) = 5 branches * 53  (265) (44+9)
         perm(7) = 6 branches * 309 (1854)  265 + 44
         perm(8) = 7 branches * 2119 (14833) (1854 + 265)

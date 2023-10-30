@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test_shuffle_it_up.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_minmaxdivision.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_minmaxdivision.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_shuffle_it_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_shuffle_it_up.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_shuffle_it_up.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+            <state relative-caret-position="85">
+              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -187,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_sampler">
+  <component name="RunManager" selected="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib">
     <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_perms" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +199,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_shuffle_it_up.MyTestCase.test_perms&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_shuffle_it_up.MyTestCase.test_pseudo_fib&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -248,28 +262,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test.test_shuffle_it_up.MyTestCase.test_perms" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_shuffle_it_up.MyTestCase.test_perms&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_sampler" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_solution" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_solution1" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_perms" />
-        <item itemvalue="Python tests.pytest for test.test_shuffle_it_up.MyTestCase.test_perms" />
       </list>
     </recent_temporary>
   </component>
@@ -295,35 +294,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.23 at 20h 35m 47s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.23 at 20h 37m 23s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.23 at 20h 40m 53s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.23 at 20h 48m 40s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.23 at 20h 49m 18s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.25 at 20h 02m 41s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.25 at 21h 00m 29s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.25 at 21h 08m 25s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.25 at 21h 20m 35s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.25 at 21h 30m 09s.xml">
       <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_sampler - 2023.10.25 at 21h 40m 30s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 49m 16s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 50m 50s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 52m 25s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 53m 01s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 54m 24s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 55m 25s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 56m 12s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_pseudo_fib - 2023.10.30 at 20h 56m 30s.xml">
+      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -339,12 +338,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.18898809" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3420622" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.33060557" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.43698853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1061,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_shuffle_it_up.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+        <state relative-caret-position="85">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
