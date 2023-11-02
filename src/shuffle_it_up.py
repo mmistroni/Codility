@@ -9,7 +9,15 @@ def print_perms(start):
             idx += 1
     return idx
 
+def fibonacci_seq(n, limit=None):
+    fib = [0] * (n + 2)
+    fib[1] = 1
+    for i in range(2, n + 1):
+        fib[i] =  (i) * (fib[i - 1] + fib[i - 2])
+    return fib
+
+
+
 def solution(array_length):
-    lst =  list(range(1, array_length + 1))
-    res = print_perms(lst)
-    return res
+    res = fibonacci_seq(array_length)
+    return res[array_length-1]

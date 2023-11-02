@@ -2,6 +2,9 @@ import unittest
 
 from shuffle_it_up import solution
 from itertools import permutations, combinations
+import time
+
+
 
 #https://math.stackexchange.com/questions/3261261/specific-position-restricted-permutation-i-dont-exactly-know-the-name-of-thi
 
@@ -44,6 +47,19 @@ def pseudo_fib(n):
     return (n-1) * (pseudo_fib(n-1) + pseudo_fib(n-2))
 
 
+def generate_fib_steps(n):
+    a, b = 0, 1
+    yield 1
+    while a + b <= n:
+        yield a + b
+        a, b = (n-1) * b, (n-1) * (a + b)
+
+def fibonacci_seq(n, limit=None):
+    fib = [0] * (n + 2)
+    fib[1] = 1
+    for i in range(2, n + 1):
+        fib[i] =  (i) * (fib[i - 1] + fib[i - 2])
+    return fib
 
 class MyTestCase(unittest.TestCase):
 
@@ -51,7 +67,8 @@ class MyTestCase(unittest.TestCase):
     def test_pseudo_fib(self):
         for i in range(1,6):
             res = pseudo_fib(i)
-            print(f'pseudo_fib of {i}={res}')
+            res2 = fibonacci_seq(i)
+            print(f'pseudo_fib of {i}={res} vs {res2[i-1]}')
 
     def test_factorial(self):
         self.assertEqual(120, factorial(5, 1))
@@ -114,7 +131,7 @@ class MyTestCase(unittest.TestCase):
 
         :return:
         '''
-        for end in [1,2, 3, 4,5,6, 7, 8, 9, 10, 11, 12]:
+        for end in [1,2, 3, 4,5]:
             start = list(range(1, end+1))
             res = self.print_perms(start)
             from pprint import pprint
@@ -128,13 +145,34 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(solution(4), 9)
         #self.assertEqual(solution(30), 97581073836835777732377428235481)
 
+
+    def test_big(self):
+
+
+        self.assertEqual(solution(12), 29369141)
+
+
+
+
     def test_solution1(self):
-        res = solution(4)
+        res = pseudo_fib(4)
         self.assertEquals(res, 9)
 
 
     def test_solution(self):
-        res = solution(30)
+        start = time.time()
+        res = pseudo_fib(30)
+        self.assertEquals(res, 97581073836835777732377428235481)
+        end = time.time()
+        print(end - start)
+
+    def test_fastsolution(self):
+        n = 30
+        start = time.time()
+        res = solution(n)
+        end = time.time()
+        print(end - start)
+
         self.assertEquals(res, 97581073836835777732377428235481)
 
 
