@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="" />
+    <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ds_multof_pfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_ds_multof_pfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +17,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shuffle_it_up.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ds_multof_pfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_ds_multof_pfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="10" selection-start-line="8" selection-start-column="4" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common_prime_divisors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -103,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_day_of_programmer.py" />
-        <option value="$PROJECT_DIR$/src/day_of_programmer.py" />
         <option value="$PROJECT_DIR$/src/birthday_bar.py" />
         <option value="$PROJECT_DIR$/test/test_birthday_bar.py" />
         <option value="$PROJECT_DIR$/test/test_climbing_leaderboard.py" />
@@ -154,6 +195,8 @@
         <option value="$PROJECT_DIR$/test/test_allpermutations.py" />
         <option value="$PROJECT_DIR$/test/test_shuffle_it_up.py" />
         <option value="$PROJECT_DIR$/src/shuffle_it_up.py" />
+        <option value="$PROJECT_DIR$/src/ds_multof_pfs.py" />
+        <option value="$PROJECT_DIR$/test/test_ds_multof_pfs.py" />
       </list>
     </option>
   </component>
@@ -218,7 +261,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_solution">
+  <component name="RunManager" selected="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_findfactors">
+    <configuration name="pytest for test_ds_multof_pfs.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ds_multof_pfs.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ds_multof_pfs.MyTestCase.test_findfactors&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_fastsolution" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,36 +304,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_shuffle_it_up.MyTestCase.test_fastsolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_shuffle_it_up.MyTestCase.test_pseudo_fib&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_sampler" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_shuffle_it_up.MyTestCase.test_sampler&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -296,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" />
+        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_solution" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_solution1" />
         <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_fastsolution" />
-        <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_pseudo_fib" />
-        <item itemvalue="Python tests.pytest for test_shuffle_it_up.MyTestCase.test_sampler" />
       </list>
     </recent_temporary>
   </component>
@@ -326,15 +369,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_solution - 2023.11.02 at 21h 14m 46s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_solution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_solution1 - 2023.11.02 at 21h 15m 41s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_solution1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_solution - 2023.11.02 at 21h 15m 56s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_solution" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_fastsolution - 2023.11.02 at 21h 16m 41s.xml">
       <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_fastsolution" configurationId="tests" />
     </history-entry>
@@ -355,6 +389,15 @@
     </history-entry>
     <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_solution - 2023.11.07 at 20h 28m 29s.xml">
       <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_solution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase - 2023.11.07 at 20h 47m 51s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.07 at 20h 51m 56s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.07 at 20h 52m 18s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -677,23 +720,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_beautiful_triplets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beautiful_triplets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_counting_sort1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -946,20 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="10" selection-start-line="8" selection-start-column="4" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_prime_divisors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="39" column="35" lean-forward="true" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1096,6 +1108,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/count_nondivisble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="10" selection-start-line="8" selection-start-column="4" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_prime_divisors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds_multof_pfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_ds_multof_pfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
