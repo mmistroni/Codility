@@ -9,8 +9,6 @@ def fibonacci_seq(n, limit=None):
         fib[i] =  (i) * (fib[i - 1] + fib[i - 2])
     return fib
 
-
-
 def solution(array_length):
     res = fibonacci_seq(array_length)
     return res[array_length-1]
