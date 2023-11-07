@@ -1,6 +1,6 @@
 import unittest
 from ds_multof_pfs import  solution
-
+from itertools import product, combinations
 def arrayF(n):
     F = [0] * (n + 1)
     i = 2
@@ -26,10 +26,14 @@ def factorization(x, F):
 class MyTestCase(unittest.TestCase):
 
     def test_findfactors(self):
+        # not good. we need to find out divisors out of prime factors
         tst  =12
         F = arrayF(tst)
         factors = factorization(tst, F)
-        print(factors)
+        res = [1] + factors + [tst]
+        for p in combinations(res, 2):
+            print(p)
+
 
     def test_ten_to_hundred(self):
         expected = [12, 15, 35, 42, 60, 63, 66, 68, 84, 90, 95]

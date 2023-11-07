@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ds_multof_pfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_ds_multof_pfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_ds_multof_pfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_ds_multof_pfs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_ds_multof_pfs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="35">
+              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -369,15 +367,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_fastsolution - 2023.11.02 at 21h 16m 41s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_fastsolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_solution - 2023.11.02 at 21h 19m 19s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_solution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_fastsolution - 2023.11.02 at 21h 19m 30s.xml">
-      <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_fastsolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_shuffle_it_up_MyTestCase_test_fastsolution - 2023.11.02 at 21h 21m 06s.xml">
       <configuration name="pytest for test_shuffle_it_up.MyTestCase.test_fastsolution" configurationId="tests" />
     </history-entry>
@@ -399,6 +388,15 @@
     <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.07 at 20h 52m 18s.xml">
       <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.07 at 21h 15m 55s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.07 at 21h 16m 07s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.07 at 21h 18m 48s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +416,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3747954" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.60883796" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.43698853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1134,8 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_ds_multof_pfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="35">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
