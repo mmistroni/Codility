@@ -151,11 +151,8 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(solution(12), 29369141)
 
-
-
-
     def test_solution1(self):
-        res = pseudo_fib(4)
+        res = solution(4)
         self.assertEquals(res, 9)
 
 
