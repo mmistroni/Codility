@@ -1,6 +1,6 @@
 import unittest
 from math import sqrt
-from ds_multof_pfs import solution
+from ds_multof_pfs import solution, generate_divisors
 from itertools import product, combinations
 
 def arrayF(n):
@@ -52,8 +52,46 @@ class MyTestCase(unittest.TestCase):
         return sum(res) % sum(factors) == 0
 
 
+    def test_find_divsors(self):
+        from collections import Counter
+        from itertools import product,combinations
+        tst = 12
+        F = arrayF(tst)
+        factors = factorization(tst, F)
+        print(factors)
+        #factors.append(1)
+
+
+        tmp = set()
+        for f in factors:
+            tmp.add(f)
+
+        for tpl in combinations(factors, 2):
+            tmp.add(tpl[0] * tpl[1])
+        tmp.add(1)
+        tmp.add(tst)
+        print(f'{tmp}={sum(tmp)}')
+
+
+
+
+
+
+
+    def test_ffactors(self):
+        from collections import Counter
+        tst = 12
+        F = arrayF(tst)
+        factors = factorization(tst, F)
+
+        divsf = Counter(factors)
+        divsf[1] = 1
+        print(generate_divisors(divsf))
+
+
     def test_findfactors(self):
         # not good. we need to find out divisors out of prime factors
+        # https://math-from-scratch.com/faq/104-find-divisors-of-a-number
         tst  =12
         F = arrayF(tst)
         factors = factorization(tst, F)

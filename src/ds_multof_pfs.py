@@ -27,25 +27,21 @@ def factorization(x, F):
     primeFactors += [x]
     return primeFactors
 
-def  printDivisors(n):
-    d = []
-    for i in range(1, int(sqrt(n)) + 1):
-        if (n % i == 0) :
+def  printDivisors(tst, factors):
+    tmp = set()
+    for f in factors:
+        tmp.add(f)
 
-            # If divisors are equal, print only one
-            if (n / i == i):
-                d.append(i)
-                print( i);
+    for tpl in combinations(factors, 2):
+        tmp.add(tpl[0] * tpl[1])
+    tmp.add(1)
+    tmp.add(tst)
+    return sum(tmp)
 
-            else : #// Otherwise print both
-                d.append(i)
-                d.append(n / i)
-                print(f'{i}, { n / i}')
-
-    return [int(n) for n in d]
 
 def is_good(tst):
     # there should be an intersection between prime divisors and factors
+    # Not good, it's timing out
     F = arrayF(tst)
     factors = factorization(tst, F)
     res = printDivisors(tst)
@@ -58,3 +54,6 @@ def solution(nMin, nMax):
         if is_good(i):
             res.append(i)
     return res
+
+def ds_multof_pfs(nMin, nMax):
+    return solution(nMin, nMax)
