@@ -1,6 +1,6 @@
 import unittest
 from math import sqrt
-from ds_multof_pfs import solution, generate_divisors
+from ds_multof_pfs import solution
 from itertools import product, combinations
 
 def arrayF(n):
@@ -78,17 +78,6 @@ class MyTestCase(unittest.TestCase):
 
 
 
-    def test_ffactors(self):
-        from collections import Counter
-        tst = 12
-        F = arrayF(tst)
-        factors = factorization(tst, F)
-
-        divsf = Counter(factors)
-        divsf[1] = 1
-        print(generate_divisors(divsf))
-
-
     def test_findfactors(self):
         # not good. we need to find out divisors out of prime factors
         # https://math-from-scratch.com/faq/104-find-divisors-of-a-number
@@ -121,6 +110,15 @@ class MyTestCase(unittest.TestCase):
         expected = [35, 42, 60, 63, 66, 68, 84, 90, 95, 110, 114, 119]
         res = solution(20, 120)
         self.assertEquals(expected, res)
+
+    def test_eightyfour(self):
+        expected = [84]
+        res =  solution(83, 85)
+
+    def test_twelve(self):
+        expected = [84]
+        res =  solution(12, 13)
+
 
 if __name__ == '__main__':
     unittest.main()

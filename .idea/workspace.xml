@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ds_multof_pfs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="181">
+              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
               <folding>
                 <element signature="e#70#85#0" expanded="true" />
               </folding>
@@ -32,19 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_ds_multof_pfs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="72" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="208">
+              <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -78,6 +67,7 @@
       <find>probe</find>
       <find>count(</find>
       <find>Counter</find>
+      <find>printDivisors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors">
-    <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_ffactors" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_ten_to_hundred">
+    <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,7 +203,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ds_multof_pfs.MyTestCase.test_ffactors&quot;" />
+      <option name="_new_target" value="&quot;test_ds_multof_pfs.MyTestCase.test_eightyfour&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -262,7 +252,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twenty_to_hundredtwenty" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twelve" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,17 +263,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ds_multof_pfs.MyTestCase.test_twenty_to_hundredtwenty&quot;" />
+      <option name="_new_target" value="&quot;test_ds_multof_pfs.MyTestCase.test_twelve&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_ten_to_hundred" />
+        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_twelve" />
+        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" />
         <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" />
         <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" />
-        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_ffactors" />
-        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_ten_to_hundred" />
-        <item itemvalue="Python tests.pytest for test_ds_multof_pfs.MyTestCase.test_twenty_to_hundredtwenty" />
       </list>
     </recent_temporary>
   </component>
@@ -309,35 +299,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_ffactors - 2023.11.14 at 20h 52m 14s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_ffactors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_eightyfour - 2023.11.22 at 20h 49m 39s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_findfactors - 2023.11.21 at 20h 34m 24s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_findfactors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_eightyfour - 2023.11.22 at 20h 50m 11s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 39m 47s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_eightyfour - 2023.11.22 at 20h 50m 52s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 42m 17s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_eightyfour - 2023.11.22 at 20h 58m 29s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 42m 42s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_eightyfour - 2023.11.22 at 21h 01m 43s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_eightyfour" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 43m 49s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_twelve - 2023.11.22 at 21h 05m 04s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twelve" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 44m 01s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_twelve - 2023.11.22 at 21h 06m 17s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twelve" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 45m 50s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_twelve - 2023.11.22 at 21h 06m 44s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twelve" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 46m 56s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_twelve - 2023.11.22 at 21h 07m 43s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twelve" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_find_divsors - 2023.11.21 at 20h 47m 50s.xml">
-      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_find_divsors" configurationId="tests" />
+    <history-entry file="pytest_for_test_ds_multof_pfs_MyTestCase_test_twelve - 2023.11.22 at 21h 09m 05s.xml">
+      <configuration name="pytest for test_ds_multof_pfs.MyTestCase.test_twelve" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -358,8 +348,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.44189852" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3453355" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.46972176" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -634,8 +624,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_ds_multof_pfs.py</url>
-          <line>99</line>
+          <line>88</line>
           <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/ds_multof_pfs.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1063,7 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fib_frog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="187">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1072,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_ds_multof_pfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="72" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state relative-caret-position="208">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1082,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ds_multof_pfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="181">
+          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
           <folding>
             <element signature="e#70#85#0" expanded="true" />
           </folding>
