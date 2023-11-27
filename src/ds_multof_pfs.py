@@ -5,6 +5,14 @@ from math import sqrt
 from itertools import product, combinations
 
 
+from functools import reduce
+
+def factors(n):
+    return set(reduce(list.__add__,
+                ([i, n//i] for i in range(1, int(n**0.5) + 1) if n % i == 0)))
+
+
+
 def arrayF(n):
     F = [0] * (n + 1)
     i = 2
@@ -27,42 +35,12 @@ def factorization(x, F):
     primeFactors += [x]
     return primeFactors
 
-def  printDivisors2(tst, factors):
-    tmp = set()
-    for f in factors:
-        tmp.add(f)
-
-    for tpl in combinations(factors, 2):
-        tmp.add(tpl[0] * tpl[1])
-    tmp.add(1)
-    tmp.add(tst)
-    return tmp
-
-def  printDivisors(n, factors=None):
-    d = []
-    for i in range(1, int(sqrt(n)) + 1):
-        if (n % i == 0) :
-
-            # If divisors are equal, print only one
-            if (n / i == i):
-                d.append(i)
-                print( i);
-
-
-            else : #// Otherwise print both
-                d.append(i)
-                d.append(n / i)
-                print(f'{i}, { n / i}')
-
-    return [int(n) for n in d]
-
 
 def generateDivisors(curIndex, curDivisor, arr, holder):
     # Base case i.e. we do not have more
     # primeFactors to include
     # https://www.geeksforgeeks.org/generating-all-divisors-of-a-number-using-its-prime-factorization/
     if (curIndex == len(arr)):
-        print(curDivisor, end=' ')
         holder.append(curDivisor)
         return
 
@@ -70,18 +48,18 @@ def generateDivisors(curIndex, curDivisor, arr, holder):
         generateDivisors(curIndex + 1, curDivisor, arr, holder)
         curDivisor *= arr[curIndex][1]
 
-
 def is_good(tst):
     # there should be an intersection between prime divisors and factors
     # Not good, it's timing out
     from collections import Counter
+    # Need to improve the factorization
     F = arrayF(tst)
-    factors = factorization(tst, F)
+    p_factors = factorization(tst, F)
 
     curIndex = 0
     curDivisor = 1
 
-    d = Counter(factors)
+    d = Counter(p_factors)
     arr = []
     for k, v in d.items():
         arr.append((v, k))
@@ -90,11 +68,8 @@ def is_good(tst):
     holder = []
     generateDivisors(curIndex, curDivisor, arr, holder)
 
-    print(f'Holder:{holder}')
-
-    res = holder
-    return sum(res) % sum(factors) == 0
-
+    res = factors(tst) #holder
+    return sum(res) % sum(p_factors) == 0
 
 def solution(nMin, nMax):
     res = []

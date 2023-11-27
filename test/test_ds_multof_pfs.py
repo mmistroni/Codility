@@ -1,6 +1,6 @@
 import unittest
 from math import sqrt
-from ds_multof_pfs import solution
+from ds_multof_pfs import solution, factors
 from itertools import product, combinations
 
 def arrayF(n):
@@ -52,27 +52,27 @@ class MyTestCase(unittest.TestCase):
         return sum(res) % sum(factors) == 0
 
 
+
+    def test_find_factorss(self):
+        tst = 12
+        F = arrayF(tst)
+        res = factorization(tst, F)
+        print(f'First round:{res}')
+        f = factors(tst)
+        print(f'Second round:{res}')
+
+        self.assertEqual(res, f)
+
+
+
     def test_find_divsors(self):
         from collections import Counter
         from itertools import product,combinations
         tst = 12
-        F = arrayF(tst)
-        factors = factorization(tst, F)
-        print(factors)
-        #factors.append(1)
 
+        res = solution(12,13)
 
-        tmp = set()
-        for f in factors:
-            tmp.add(f)
-
-        for tpl in combinations(factors, 2):
-            tmp.add(tpl[0] * tpl[1])
-        tmp.add(1)
-        tmp.add(tst)
-        print(f'{tmp}={sum(tmp)}')
-
-
+        print(res)
 
 
 
@@ -118,6 +118,15 @@ class MyTestCase(unittest.TestCase):
     def test_twelve(self):
         expected = [84]
         res =  solution(12, 13)
+
+    def test_outoftime(self):
+        import time
+
+        start = time.time()
+        res = solution(4042, 6752)
+        end = time.time()
+        print(end - start)
+
 
 
 if __name__ == '__main__':
