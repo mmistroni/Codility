@@ -36,6 +36,23 @@ def factorization(x, F):
     return primeFactors
 
 
+def prime_factors(n):
+    """Returns all the prime factors of a positive integer"""
+    factors = []
+    divisor = 2
+    while n > 1:
+        while n % divisor == 0:
+            factors.append(divisor)
+            n /= divisor
+        divisor = divisor + 1
+        if divisor*divisor > n:
+            if n > 1:
+                factors.append(n)
+            break
+    return factors
+
+
+
 def generateDivisors(curIndex, curDivisor, arr, holder):
     # Base case i.e. we do not have more
     # primeFactors to include
@@ -53,8 +70,8 @@ def is_good(tst):
     # Not good, it's timing out
     from collections import Counter
     # Need to improve the factorization
-    F = arrayF(tst)
-    p_factors = factorization(tst, F)
+    #F = arrayF(tst)
+    p_factors = prime_factors(tst) #factorization(tst, F)
 
     curIndex = 0
     curDivisor = 1

@@ -128,6 +128,14 @@ class MyTestCase(unittest.TestCase):
         print(end - start)
 
 
+    def test_outoftime2(self):
+        import time
+
+        start = time.time()
+        res = solution(4030, 6591)
+        end = time.time()
+        print(end - start)
+
 
 if __name__ == '__main__':
     unittest.main()
