@@ -33,6 +33,10 @@ from itertools import dropwhile, filterfalse
 class MyTestCase(unittest.TestCase):
 
 
+    def sum_of_digits(self, nstr):
+        str_arr = [int(i) for i in nstr]
+        return sum(str_arr)
+
     def sampler(self, end, maxsum):
         return max_sumDig(end, maxsum)
 
@@ -42,12 +46,20 @@ class MyTestCase(unittest.TestCase):
 
     def tester(self):
         holds= []
+        # 4 continuous digits
+        for n in range(1000, 82426+1):
+            ndigits = str(n)
+            if len(ndigits) == 4:
+                sd = self.sum_of_digits(ndigits)
+            else:
+                sd = self.sum_of_digits(ndigits[0:4])
+                holds.append((ndigits, sd, sd <=9))
+                sd1 = self.sum_of_digits(ndigits[1:])
+                holds.append((ndigits, sd1, sd1 <= 9))
 
-        x = filterfalse(lambda l: is_above_sum(l, 9), range(1000, 82426))
-        for n in x:
-            holds.append(n)
+        goods = [t for t in holds if t[2]]
 
-        print(f'HOlder has :{len(holds)}')
+        print(f'Goods are :{len(set(goods))}')
         from pprint import pprint
 
 
