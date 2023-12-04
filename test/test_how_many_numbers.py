@@ -1,6 +1,6 @@
 import unittest
 
-from src.how_many_numbers import max_sumDig
+from src.how_many_numbers import max_sumDig, is_above_sum
 
 '''
 We want to find the numbers higher or equal than 1000 that the sum of every four consecutives digits cannot be higher than a certain given value. 
@@ -32,22 +32,9 @@ from itertools import dropwhile, filterfalse
 
 class MyTestCase(unittest.TestCase):
 
-    def is_above_sum(self, n, max):
-        str_arr = [int(i) for i in str(n)]
-        return sum(str_arr) > max
 
     def sampler(self, end, maxsum):
-        x = filterfalse(lambda x: self.is_above_sum(x, maxsum), range(1000, end + 1))
-
-        nums = [n for n in x]
-
-        one = len(nums)
-        avg = sum(nums) // len(nums)
-        x = dropwhile(lambda x: x > avg, nums[::-1])
-        two = next(x)
-        three = sum(nums)
-
-        return [one, two, three]
+        return max_sumDig(end, maxsum)
 
     def test_sampler(self):
         res = self.sampler(2000, 3)
@@ -56,9 +43,13 @@ class MyTestCase(unittest.TestCase):
     def tester(self):
         holds= []
 
-        x = dropwhile(lambda x: self.is_above_sum(x, 3), range(1000, 2001))
+        x = filterfalse(lambda l: is_above_sum(l, 9), range(1000, 82426))
         for n in x:
-            print(x)
+            holds.append(n)
+
+        print(f'HOlder has :{len(holds)}')
+        from pprint import pprint
+
 
     def test_ias(self):
         self.assertTrue(self.is_above_sum(1033, 3))
@@ -67,14 +58,20 @@ class MyTestCase(unittest.TestCase):
         res = self.sampler(2000 , 3)
         self.assertEqual([11, 1110, 12555], res)
     def test_two(self):
-        res = max_sumDig(2000 , 4)
+        res = self.sampler(2000 , 4)
         self.assertEqual([21, 1120, 23665], res)
+
     def test_three(self):
-        res = max_sumDig(2000 , 7)
-        self.assertEqual([11, 1110, 12555], res)
-    def test_two(self):
-        res = max_sumDig(3000 , 4)
+        res = self.sampler(2000 , 7)
+        self.assertEqual([85, 1200, 99986], res)
+
+    def test_four(self):
+        res = self.sampler(3000 , 7)
         self.assertEqual([141, 1600, 220756], res)
+
+    def test_failure(self):
+        res = self.sampler(82426, 9)
+        self.assertEqual(res, [3059, 27000, 81510822])
 
 
 if __name__ == '__main__':
