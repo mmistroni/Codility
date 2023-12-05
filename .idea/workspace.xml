@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/how_many_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/how_many_numbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_how_many_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_how_many_numbers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ds_multof_pfs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="1224">
               <caret line="77" selection-end-line="98" selection-end-column="31" />
               <folding>
                 <element signature="e#70#85#0" expanded="true" />
@@ -27,20 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/how_many_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_how_many_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+            <state relative-caret-position="1529">
+              <caret line="94" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="94" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -142,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/shuffle_it_up.py" />
         <option value="$PROJECT_DIR$/test/test_ds_multof_pfs.py" />
         <option value="$PROJECT_DIR$/src/ds_multof_pfs.py" />
-        <option value="$PROJECT_DIR$/src/how_many_numbers.py" />
         <option value="$PROJECT_DIR$/test/test_how_many_numbers.py" />
+        <option value="$PROJECT_DIR$/src/how_many_numbers.py" />
       </list>
     </option>
   </component>
@@ -208,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_how_many_numbers.MyTestCase.tester">
+  <component name="RunManager" selected="Python tests.pytest for test_how_many_numbers.MyTestCase.test_length">
     <configuration name="pytest for test_how_many_numbers.MyTestCase.test_failure" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,7 +241,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_how_many_numbers.MyTestCase.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_how_many_numbers.MyTestCase.test_length" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,7 +252,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_how_many_numbers.MyTestCase.test_one&quot;" />
+      <option name="_new_target" value="&quot;test_how_many_numbers.MyTestCase.test_length&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -286,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.test_length" />
         <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.tester" />
+        <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.test_four" />
         <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.test_failure" />
         <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.test_two" />
-        <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.test_one" />
-        <item itemvalue="Python tests.pytest for test_how_many_numbers.MyTestCase.test_four" />
       </list>
     </recent_temporary>
   </component>
@@ -316,35 +318,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_test_failure - 2023.12.04 at 20h 22m 04s.xml">
-      <configuration name="pytest for test_how_many_numbers.MyTestCase.test_failure" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_test_failure - 2023.12.04 at 20h 24m 19s.xml">
-      <configuration name="pytest for test_how_many_numbers.MyTestCase.test_failure" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 25m 28s.xml">
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.05 at 20h 39m 36s.xml">
       <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 25m 43s.xml">
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.05 at 20h 39m 46s.xml">
       <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 26m 20s.xml">
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.05 at 20h 41m 12s.xml">
       <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 28m 33s.xml">
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.05 at 20h 42m 30s.xml">
       <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 40m 39s.xml">
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_test_four - 2023.12.05 at 20h 44m 13s.xml">
+      <configuration name="pytest for test_how_many_numbers.MyTestCase.test_four" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.05 at 20h 45m 26s.xml">
       <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 41m 09s.xml">
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.05 at 20h 46m 54s.xml">
       <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 45m 12s.xml">
-      <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_test_length - 2023.12.05 at 21h 00m 57s.xml">
+      <configuration name="pytest for test_how_many_numbers.MyTestCase.test_length" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_tester - 2023.12.04 at 20h 46m 23s.xml">
-      <configuration name="pytest for test_how_many_numbers.MyTestCase.tester" configurationId="tests" />
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_test_length - 2023.12.05 at 21h 01m 23s.xml">
+      <configuration name="pytest for test_how_many_numbers.MyTestCase.test_length" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_how_many_numbers_MyTestCase_test_length - 2023.12.05 at 21h 01m 51s.xml">
+      <configuration name="pytest for test_how_many_numbers.MyTestCase.test_length" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -365,7 +367,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.4222586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.41898528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +376,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.43207857" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.09328969" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -653,6 +655,11 @@
           <url>file://$PROJECT_DIR$/test/test_ds_multof_pfs.py</url>
           <line>63</line>
           <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_how_many_numbers.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="190" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1080,16 +1087,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10268">
-          <caret line="617" selection-start-line="617" selection-end-line="617" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ds_multof_pfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="1224">
           <caret line="77" selection-end-line="98" selection-end-column="31" />
           <folding>
             <element signature="e#70#85#0" expanded="true" />
@@ -1097,20 +1097,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/how_many_numbers.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="10268">
+          <caret line="617" selection-start-line="617" selection-end-line="617" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_how_many_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="1529">
+          <caret line="94" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="94" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/how_many_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>

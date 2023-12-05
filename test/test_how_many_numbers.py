@@ -51,16 +51,17 @@ class MyTestCase(unittest.TestCase):
             ndigits = str(n)
             if len(ndigits) == 4:
                 sd = self.sum_of_digits(ndigits)
+                if sd <=9:
+                    holds.append(ndigits)
             else:
                 sd = self.sum_of_digits(ndigits[0:4])
-                holds.append((ndigits, sd, sd <=9))
                 sd1 = self.sum_of_digits(ndigits[1:])
-                holds.append((ndigits, sd1, sd1 <= 9))
+                if sd <=9 and sd1 <=9:
+                    holds.append(ndigits)
 
-        goods = [t for t in holds if t[2]]
-
-        print(f'Goods are :{len(set(goods))}')
+        print(f'Goods are :{len(set(holds))}')
         from pprint import pprint
+
 
 
     def test_ias(self):
@@ -84,6 +85,13 @@ class MyTestCase(unittest.TestCase):
     def test_failure(self):
         res = self.sampler(82426, 9)
         self.assertEqual(res, [3059, 27000, 81510822])
+
+
+    def test_length(self):
+        x = "123456"
+        rem = len(x) % 4
+        for i in range(0, rem+1):
+            print(f'{i}={x[i:i+4]}')
 
 
 if __name__ == '__main__':
