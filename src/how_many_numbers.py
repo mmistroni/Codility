@@ -32,25 +32,6 @@ def gather_valids(end, maxsum):
 
 def sampler(end, maxsum):
 
-    ### forge thte filter false
-    ### we start with bruteforce loop ,and we add this code
-    '''
-    x = "123456"
-    rem = len(x) % 4
-    combis = []
-    for i in range(0, rem+1):
-        combis.append(x[i:i+4])
-
-    res = [is_above_sum(n) for n in combis]
-    if all(res):
-        holder.append(x)
-
-
-    :param end:
-    :param maxsum:
-    :return:
-    '''
-
     nums = gather_valids(end, maxsum)
     one = len(nums)
     avg = sum(nums) // len(nums)
