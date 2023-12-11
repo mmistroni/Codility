@@ -91,6 +91,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(res, [3059, 27000, 81510822])
 
 
+    def test_failure2(self):
+        res = self.sampler(51408, 8)
+        self.assertEqual(res, [1772, 21203, 37572158])
+
     def test_length(self):
         x = "123456"
         rem = len(x) % 4

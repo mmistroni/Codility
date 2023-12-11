@@ -35,14 +35,25 @@ def sampler(end, maxsum):
     nums = gather_valids(end, maxsum)
     one = len(nums)
     avg = sum(nums) // len(nums)
-    x = dropwhile(lambda x: x >= avg, nums[::-1])
-    y = dropwhile(lambda x: x <= avg, nums)
-    two = next(x)
-    two_other = next(y)
-    d1 = abs(avg - two)
-    d2 = abs(avg - two_other)
 
-    second = two if d1 < d2 else two_other
+    mindiff = None
+    for i in range(0, len(nums) // 2):
+        f = abs(nums[i] - avg)
+        s = abs(nums[len(nums)-i-1] - avg)
+
+
+
+        if not mindiff:
+            mindiff = min(f, s)
+
+        else:
+            mindiff = min(mindiff, f, s)
+
+
+
+        closer =
+
+    second = closer #two if d1 < d2 else two_other
 
     three = sum(nums)
 
