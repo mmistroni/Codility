@@ -6,6 +6,29 @@ def is_above_sum(n, max):
     str_arr = [int(i) for i in str(n)]
     return sum(str_arr) > max
 
+def sum_of_digits(nstr):
+    str_arr = [int(i) for i in nstr]
+    return sum(str_arr)
+
+
+def gather_valids(end, maxsum):
+    holds = []
+    for n in range(1000, end + 1):
+        ndigits = str(n)
+        if len(ndigits) == 4:
+            sd = sum_of_digits(ndigits)
+            if sd <= maxsum:
+                holds.append(int(ndigits))
+        else:
+            rem = len(ndigits) % 4
+            tpl = []
+            for i in range(0, rem + 1):
+                tpl.append(ndigits[i:i + 4])
+            vals = [sum_of_digits(i) for i in tpl]
+            res = [sd <= maxsum for sd in vals]
+            if all(res):
+                holds.append(int(ndigits))
+    return holds
 
 def sampler(end, maxsum):
 
@@ -28,11 +51,7 @@ def sampler(end, maxsum):
     :return:
     '''
 
-
-    x = filterfalse(lambda x: is_above_sum(x, maxsum), range(1000, end + 1))
-
-    nums = [n for n in x]
-
+    nums = gather_valids(end, maxsum)
     one = len(nums)
     avg = sum(nums) // len(nums)
     x = dropwhile(lambda x: x >= avg, nums[::-1])

@@ -54,9 +54,13 @@ class MyTestCase(unittest.TestCase):
                 if sd <=9:
                     holds.append(ndigits)
             else:
-                sd = self.sum_of_digits(ndigits[0:4])
-                sd1 = self.sum_of_digits(ndigits[1:])
-                if sd <=9 and sd1 <=9:
+                rem = len(ndigits) % 4
+                tpl = []
+                for i in range(0, rem + 1):
+                    tpl.append(ndigits[i:i +4])
+                vals = [self.sum_of_digits(i) for i in tpl]
+                res = [sd <=9 for sd in vals]
+                if all(res):
                     holds.append(ndigits)
 
         print(f'Goods are :{len(set(holds))}')
