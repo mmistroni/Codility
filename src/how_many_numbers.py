@@ -1,15 +1,8 @@
 # https://www.codewars.com/kata/55f5efd21ad2b48895000040
 from itertools import dropwhile, filterfalse
-
-
-def is_above_sum(n, max):
-    str_arr = [int(i) for i in str(n)]
-    return sum(str_arr) > max
-
 def sum_of_digits(nstr):
     str_arr = [int(i) for i in nstr]
     return sum(str_arr)
-
 
 def gather_valids(end, maxsum):
     holds = []
@@ -37,23 +30,21 @@ def sampler(end, maxsum):
     avg = sum(nums) // len(nums)
 
     mindiff = None
+    selected = nums[0]
     for i in range(0, len(nums) // 2):
         f = abs(nums[i] - avg)
         s = abs(nums[len(nums)-i-1] - avg)
-
-
-
         if not mindiff:
             mindiff = min(f, s)
-
         else:
             mindiff = min(mindiff, f, s)
 
-
-
-        closer =
-
-    second = closer #two if d1 < d2 else two_other
+    final1 = avg - mindiff
+    final2 = avg + mindiff
+    if final1 in nums:
+        second = final1
+    else:
+        second = avg + mindiff
 
     three = sum(nums)
 
