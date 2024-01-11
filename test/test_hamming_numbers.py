@@ -1,8 +1,11 @@
 import unittest
 
 from hamming_numbers import hamming
+from heapq import heapify, heappop, heapreplace, heappush
+
 
 # https://en.wikipedia.org/wiki/Regular_number#:~:text=In%20computer%20science%2C%20regular%20numbers%20are%20often%20called,used%20as%20a%20test%20case%20for%20functional%20programming.
+from heapq import heapify, heappop, heapreplace
 
 
 def comput_hamming(n):
@@ -47,7 +50,7 @@ class MyTestCase(unittest.TestCase):
             yield 2 ** n
             n += 1
 
-    def merge(self, *iterables):
+    def mergeIT(self, *iterables):
         from heapq import heapify, heappop, heapreplace
         '''Merge multiple sorted inputs into a single sorted output.
 
@@ -60,7 +63,7 @@ class MyTestCase(unittest.TestCase):
 
         '''
         _heappop, _heapreplace, _StopIteration = heappop, heapreplace, StopIteration
-
+        print('------- mergeIT')
         h = []
         h_append = h.append
         for itnum, it in enumerate(map(iter, iterables)):
@@ -82,17 +85,33 @@ class MyTestCase(unittest.TestCase):
                 _heappop(h)  # remove empty iterator
             except IndexError:
                 return
-
-
     def test_itertools(self):
         from itertools import count, accumulate
-        twos = (2 ** i for i in range(0,5))
-        twos = (3 ** i for i in range(0, 5))
-        twos = (5 ** i for i in range(0, 5))
-        for i in self.PowTwoGen(100):
-            print(f'{i}')
+        twos = (2 ** i for i in range(1, 8))
+        threes = (3 ** i for i in range(1, 8))
+        fives = (5 ** i for i in range(1, 8))
+        holder = []
+        i = 0
+        j = 0
+        k = 0
+        # https://stackoverflow.com/questions/4600048/n%e1%b5%97%ca%b0-ugly-number
+
+        n = 18
+
+        x = []
+        x.append(1)
+        cur = 0
+        for i in range(2 ,18):
+            cur = x[0]
+            x.append(cur * 2)
+            x.append(cur * 3)
+            x.append(cur * 5)
+            x.remove(cur)
+        print(x)
 
 
+    def test_anotherit(self):
+        self.mergeIT([1,3,5,7], [0,2,4,8], [5,10,15,20], [], [25])
 
 
 if __name__ == '__main__':
