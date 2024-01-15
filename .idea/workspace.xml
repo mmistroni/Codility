@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Codility.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Codility.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_hamming_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hamming_numbers.py" afterDir="false" />
     </list>
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_hamming_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+            <state relative-caret-position="25">
+              <caret line="93" column="81" selection-start-line="93" selection-start-column="81" selection-end-line="93" selection-end-column="81" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -140,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,34 +296,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 30m 12s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 32m 41s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 31m 10s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 34m 14s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 31m 55s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 35m 45s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 32m 15s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 36m 42s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 32m 32s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 37m 04s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 33m 55s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 37m 29s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 33m 58s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 39m 29s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 34m 44s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 40m 02s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 43m 17s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 40m 18s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.11 at 20h 43m 37s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_itertools - 2024.01.15 at 20h 46m 49s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_itertools" configurationId="tests" />
     </history-entry>
   </component>
@@ -347,8 +345,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.47135842" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.3666121" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.2782324" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" visible="true" weight="0.45826513" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -645,6 +643,11 @@
           <url>file://$PROJECT_DIR$/test/test_how_many_numbers.py</url>
           <line>88</line>
           <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_hamming_numbers.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1070,13 +1073,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nelson_number_theory.py" />
-    <entry file="file://$PROJECT_DIR$/src/hamming_numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="68" selection-start-column="1" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1084,10 +1080,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hamming_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="68" selection-start-column="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_hamming_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+        <state relative-caret-position="25">
+          <caret line="93" column="81" selection-start-line="93" selection-start-column="81" selection-end-line="93" selection-end-column="81" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

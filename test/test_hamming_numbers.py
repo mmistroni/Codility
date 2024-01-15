@@ -86,28 +86,18 @@ class MyTestCase(unittest.TestCase):
             except IndexError:
                 return
     def test_itertools(self):
-        from itertools import count, accumulate
-        twos = (2 ** i for i in range(1, 8))
-        threes = (3 ** i for i in range(1, 8))
-        fives = (5 ** i for i in range(1, 8))
-        holder = []
-        i = 0
-        j = 0
-        k = 0
-        # https://stackoverflow.com/questions/4600048/n%e1%b5%97%ca%b0-ugly-number
-
-        n = 18
-
         x = []
-        x.append(1)
+        heapify(x)
+        heappush(x, 1)
         cur = 0
-        for i in range(2 ,18):
-            cur = x[0]
-            x.append(cur * 2)
-            x.append(cur * 3)
-            x.append(cur * 5)
-            x.remove(cur)
-        print(x)
+        for i in range(2 ,11):
+            cur = heappop(x) # We dont remove..we need to keep so we can get item
+            heappush(x, cur * 2)
+            heappush(x, cur * 3)
+            heappush(x, cur * 5)
+            print(x)
+
+        print(f'{i}={x}')
 
 
     def test_anotherit(self):
