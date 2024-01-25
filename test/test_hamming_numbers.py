@@ -85,23 +85,44 @@ class MyTestCase(unittest.TestCase):
                 _heappop(h)  # remove empty iterator
             except IndexError:
                 return
-    def test_itertools(self):
+    def generate_itertools(self, n):
         x = []
+        setter = set()
+        setter.add(1)
         heapify(x)
         heappush(x, 1)
         cur = 0
-        for i in range(2 ,11):
+        for i in range(1 ,n+1):
             cur = heappop(x) # We dont remove..we need to keep so we can get item
             heappush(x, cur * 2)
             heappush(x, cur * 3)
             heappush(x, cur * 5)
-            print(x)
+            setter.add(cur * 2)
+            setter.add(cur * 3)
+            setter.add(cur * 5)
 
-        print(f'{i}={x}')
-
+        return setter
 
     def test_anotherit(self):
-        self.mergeIT([1,3,5,7], [0,2,4,8], [5,10,15,20], [], [25])
+        first_10_n = 10
+
+        res = self.generate_itertools(first_10_n)
+
+        #self.assertEqual(hamming(1), 1, "hamming(1) should be 1")  # 2 ^ 0 * 3^0 * 5^0
+        #self.assertEqual(hamming(2), 2, "hamming(2) should be 2")  # 2 ^ 1
+        #self.assertEqual(hamming(3), 3, "hamming(3) should be 3")  # 3 ^ 1
+        #self.assertEqual(hamming(4), 4, "hamming(4) should be 4")  # 2 ^ 2
+        #self.assertEqual(hamming(5), 5, "hamming(5) should be 5")
+        #self.assertEqual(hamming(6), 6, "hamming(6) should be 6")
+        #self.assertEqual(hamming(7), 8, "hamming(7) should be 8")
+        #self.assertEqual(hamming(8), 9, "hamming(8) should be 9")
+        #self.assertEqual(hamming(9), 10, "hamming(9) should be 10")
+
+        for idx, x in enumerate(res):
+            print(f'({idx+1}) = {x}')
+
+
+
 
 
 if __name__ == '__main__':
