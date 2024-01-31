@@ -101,25 +101,34 @@ class MyTestCase(unittest.TestCase):
             setter.add(cur * 3)
             setter.add(cur * 5)
 
-        return setter
+        return list(setter)
 
     def test_anotherit(self):
-        first_10_n = 10
+        #first_10_n = 10
 
-        res = self.generate_itertools(first_10_n)
+        #res = self.generate_itertools(first_10_n)
+        self.assertEqual(self.generate_itertools(1)[0], 1, "hamming(1) should be 1")  # 2 ^ 0 * 3^0 * 5^0
+        self.assertEqual(self.generate_itertools(2)[1], 2, "hamming(2) should be 2")  # 2 ^ 1
+        self.assertEqual(self.generate_itertools(3)[2], 3, "hamming(3) should be 3")  # 3 ^ 1
+        self.assertEqual(self.generate_itertools(4)[3], 4, "hamming(4) should be 4")  # 2 ^ 2
+        self.assertEqual(self.generate_itertools(5)[4], 5, "hamming(5) should be 5")
+        self.assertEqual(self.generate_itertools(6)[5], 6, "hamming(6) should be 6")
+        self.assertEqual(self.generate_itertools(7)[6], 8, "hamming(7) should be 8")
+        self.assertEqual(self.generate_itertools(8)[7], 9, "hamming(8) should be 9")
+        self.assertEqual(self.generate_itertools(9)[8], 10, "hamming(9) should be 10")
+        self.assertEqual(self.generate_itertools(10)[9], 12, "hamming(10) should be 12")
+        self.assertEqual(self.generate_itertools(11)[10], 15, "hamming(11) should be 15")
+        self.assertEqual(self.generate_itertools(12)[11], 16, "hamming(12) should be 16")
+        self.assertEqual(self.generate_itertools(13)[12], 18, "hamming(13) should be 18")
+        self.assertEqual(self.generate_itertools(14)[13], 20, "hamming(14) should be 20")
+        self.assertEqual(self.generate_itertools(15)[14], 24, "hamming(15) should be 24")
+        self.assertEqual(self.generate_itertools(16)[15], 25, "hamming(16) should be 25")
+        self.assertEqual(self.generate_itertools(17)[16], 27, "hamming(17) should be 27")
+        self.assertEqual(self.generate_itertools(18)[17], 30, "hamming(18) should be 30")
+        self.assertEqual(self.generate_itertools(19)[18], 32, "hamming(19) should be 32")
 
-        #self.assertEqual(hamming(1), 1, "hamming(1) should be 1")  # 2 ^ 0 * 3^0 * 5^0
-        #self.assertEqual(hamming(2), 2, "hamming(2) should be 2")  # 2 ^ 1
-        #self.assertEqual(hamming(3), 3, "hamming(3) should be 3")  # 3 ^ 1
-        #self.assertEqual(hamming(4), 4, "hamming(4) should be 4")  # 2 ^ 2
-        #self.assertEqual(hamming(5), 5, "hamming(5) should be 5")
-        #self.assertEqual(hamming(6), 6, "hamming(6) should be 6")
-        #self.assertEqual(hamming(7), 8, "hamming(7) should be 8")
-        #self.assertEqual(hamming(8), 9, "hamming(8) should be 9")
-        #self.assertEqual(hamming(9), 10, "hamming(9) should be 10")
-
-        for idx, x in enumerate(res):
-            print(f'({idx+1}) = {x}')
+        #for idx, x in enumerate(res):
+        #    print(f'({idx+1}) = {x}')
 
 
 
