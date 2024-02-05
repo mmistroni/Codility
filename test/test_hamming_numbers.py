@@ -131,7 +131,8 @@ class MyTestCase(unittest.TestCase):
         #for idx, x in enumerate(res):
         #    print(f'({idx+1}) = {x}')
 
-
+    def test_bignumner(self):
+        self.assertEqual(self.generate_itertools(1638), 1660753125, "hamming(1638) should be 1660753125)")
 
 
 

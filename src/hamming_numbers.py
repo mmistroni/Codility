@@ -26,4 +26,5 @@ def _hamming(n):
 
 def hamming(n):
     res = _hamming(n)
+    print(f'Penultiamte is:{res[-1]}')
     return res[n-1]
