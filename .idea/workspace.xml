@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hamming_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hamming_numbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_hamming_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hamming_numbers.py" afterDir="false" />
     </list>
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hamming_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="274">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
                 <element signature="e#69#126#0" expanded="true" />
               </folding>
@@ -28,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_hamming_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="134" column="105" selection-start-line="134" selection-start-column="105" selection-end-line="134" selection-end-column="105" />
+            <state relative-caret-position="240">
+              <caret line="158" column="4" lean-forward="true" selection-start-line="138" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -131,10 +132,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="50" />
-    <option name="width" value="1306" />
-    <option name="height" value="630" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_hamming_numbers.MyTestCase.test_anotherit">
+  <component name="RunManager" selected="Python tests.pytest for test_hamming_numbers.MyTestCase.test_new_algo">
     <configuration name="pytest for test_hamming_numbers.MyTestCase.test_anotherit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +238,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_hamming_numbers.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,11 +249,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hamming_numbers.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_hamming_numbers.MyTestCase.test_new_algo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_hamming_numbers.test_itertools" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_hamming_numbers.MyTestCase.test_nthamming" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,17 +264,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hamming_numbers.test_itertools&quot;" />
+      <option name="_new_target" value="&quot;test_hamming_numbers.MyTestCase.test_nthamming&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_anotherit" />
+        <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_new_algo" />
+        <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_nthamming" />
         <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_bignumner" />
+        <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_anotherit" />
         <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_itertools" />
-        <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_hamming_numbers.test_itertools" />
       </list>
     </recent_temporary>
   </component>
@@ -299,35 +300,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_anotherit - 2024.02.05 at 20h 18m 24s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_anotherit" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_anotherit - 2024.02.05 at 20h 20m 02s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_anotherit" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 24m 40s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.13 at 20h 32m 40s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 27m 07s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.13 at 20h 33m 21s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 27m 11s.xml">
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.13 at 20h 36m 19s.xml">
       <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 28m 23s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_nthamming - 2024.02.13 at 20h 38m 19s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_nthamming" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 28m 32s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_nthamming - 2024.02.13 at 20h 39m 18s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_nthamming" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 30m 47s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_new_algo - 2024.02.13 at 20h 53m 08s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_bignumner - 2024.02.05 at 20h 30m 50s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_bignumner" configurationId="tests" />
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_new_algo - 2024.02.13 at 20h 54m 00s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_anotherit - 2024.02.05 at 20h 30m 59s.xml">
-      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_anotherit" configurationId="tests" />
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_new_algo - 2024.02.13 at 20h 57m 26s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_new_algo - 2024.02.13 at 20h 58m 29s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_hamming_numbers_MyTestCase_test_new_algo - 2024.02.26 at 19h 45m 45s.xml">
+      <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -348,7 +349,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.4942717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.41243863" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5090016" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,11 +647,6 @@
           <url>file://$PROJECT_DIR$/test/test_how_many_numbers.py</url>
           <line>88</line>
           <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/hamming_numbers.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="195" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1083,22 +1079,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hamming_numbers.py">
+    <entry file="file://$PROJECT_DIR$/test/test_hamming_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="240">
+          <caret line="158" column="4" lean-forward="true" selection-start-line="138" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
           <folding>
-            <element signature="e#69#126#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_hamming_numbers.py">
+    <entry file="file://$PROJECT_DIR$/src/hamming_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="134" column="105" selection-start-line="134" selection-start-column="105" selection-end-line="134" selection-end-column="105" />
+        <state relative-caret-position="274">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#69#126#0" expanded="true" />
           </folding>
         </state>
       </provider>

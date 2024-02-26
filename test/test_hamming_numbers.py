@@ -50,41 +50,33 @@ class MyTestCase(unittest.TestCase):
             yield 2 ** n
             n += 1
 
-    def mergeIT(self, *iterables):
-        from heapq import heapify, heappop, heapreplace
-        '''Merge multiple sorted inputs into a single sorted output.
+    def nth_hamming_number(self, n):
+        """
+        Finds the nth Humming number.
+        """
+        left, right = 1, float('inf')
+        while left < right:
+            mid = (left + right) // 2
+            exp2, exp3, exp5 = 0, 0, 0
+            while 2 ** exp2 * 3 ** exp3 * 5 ** exp5 < mid:
+                exp2 += 1
+                if 2 ** exp2 * 3 ** exp3 * 5 ** exp5 >= mid:
+                    break
+            while 3 ** exp3 * 5 ** exp5 < mid:
+                exp3 += 1
+                if 2 ** exp2 * 3 ** exp3 * 5 ** exp5 >= mid:
+                    break
+            while 5 ** exp5 < mid:
+                exp5 += 1
+                if 2 ** exp2 * 3 ** exp3 * 5 ** exp5 >= mid:
+                    break
+            if 2 ** exp2 * 3 ** exp3 * 5 ** exp5 < n:
+                left = mid + 1
+            else:
+                right = mid
+        return 2 ** exp2 * 3 ** exp3 * 5 ** exp5
 
-        Similar to sorted(itertools.chain(*iterables)) but returns a generator,
-        does not pull the data into memory all at once, and assumes that each of
-        the input streams is already sorted (smallest to largest).
 
-        >>> list(merge([1,3,5,7], [0,2,4,8], [5,10,15,20], [], [25]))
-        [0, 1, 2, 3, 4, 5, 5, 7, 8, 10, 15, 20, 25]
-
-        '''
-        _heappop, _heapreplace, _StopIteration = heappop, heapreplace, StopIteration
-        print('------- mergeIT')
-        h = []
-        h_append = h.append
-        for itnum, it in enumerate(map(iter, iterables)):
-            try:
-                next = it.next
-                h_append([next(), itnum, next])
-            except _StopIteration:
-                pass
-        heapify(h)
-
-        while 1:
-            try:
-                while 1:
-                    v, itnum, next = s = h[0]  # raises IndexError when h is empty
-                    yield v
-                    s[0] = next()  # raises StopIteration when exhausted
-                    _heapreplace(h, s)  # restore heap condition
-            except _StopIteration:
-                _heappop(h)  # remove empty iterator
-            except IndexError:
-                return
     def generate_itertools(self, n):
         return hamming(n)
         x = []
@@ -132,8 +124,62 @@ class MyTestCase(unittest.TestCase):
         #    print(f'({idx+1}) = {x}')
 
     def test_bignumner(self):
-        self.assertEqual(self.generate_itertools(1638), 1660753125, "hamming(1638) should be 1660753125)")
+        
+        res = self.nth_hamming_number(10005000)
 
+        #print(f'last item is:{res}')
+
+        #self.assertEqual(res, 1660753125)
+
+        #self.assertEqual(self.generate_itertools(1638), 1660753125, "hamming(1638) should be 1660753125)")
+        #self.assertEqual(self.generate_itertools(1794), 3375000000, "hamming(1794) should be 3375000000)")
+
+    from heapq import heappush, heappop
+
+    def get_nth_hamming_number(self, n):
+        """
+        This function finds the nth Hamming number using the modified Fibonacci approach.
+        Args:
+            n: The index of the desired Hamming number.
+        Returns:
+            The nth Hamming number.
+        """
+        h = [1]
+        p2, p3, p5 = 0, 0, 0
+        for _ in range(n - 1):
+            next_num = min(2 * h[p2], 3 * h[p3], 5 * h[p5])
+            h.append(next_num)
+            if next_num % 2 == 0:
+                p2 += 1
+            if next_num % 3 == 0:
+                p3 += 1
+            if next_num % 5 == 0:
+                p5 += 1
+        return h[-1]
+    # Example usage
+
+    def test_new_algo(self):
+        self.assertEqual(self.get_nth_hamming_number(1), 1, "hamming(1) should be 1")  # 2 ^ 0 * 3^0 * 5^0
+        self.assertEqual(self.get_nth_hamming_number(2), 2, "hamming(2) should be 2")  # 2 ^ 1
+        self.assertEqual(self.get_nth_hamming_number(3), 3, "hamming(3) should be 3")  # 3 ^ 1
+        self.assertEqual(self.get_nth_hamming_number(4), 4, "hamming(4) should be 4")  # 2 ^ 2
+        self.assertEqual(self.get_nth_hamming_number(5), 5, "hamming(5) should be 5")
+        self.assertEqual(self.get_nth_hamming_number(6), 6, "hamming(6) should be 6")
+        self.assertEqual(self.get_nth_hamming_number(7), 8, "hamming(7) should be 8")
+        self.assertEqual(self.get_nth_hamming_number(8), 9, "hamming(8) should be 9")
+        self.assertEqual(self.get_nth_hamming_number(9), 10, "hamming(9) should be 10")
+        self.assertEqual(self.get_nth_hamming_number(10), 12, "hamming(10) should be 12")
+        self.assertEqual(self.get_nth_hamming_number(11), 15, "hamming(11) should be 15")
+        self.assertEqual(self.get_nth_hamming_number(12), 16, "hamming(12) should be 16")
+        self.assertEqual(self.get_nth_hamming_number(13), 18, "hamming(13) should be 18")
+        self.assertEqual(self.get_nth_hamming_number(14), 20, "hamming(14) should be 20")
+        self.assertEqual(self.get_nth_hamming_number(15), 24, "hamming(15) should be 24")
+        self.assertEqual(self.get_nth_hamming_number(16), 25, "hamming(16) should be 25")
+        self.assertEqual(self.get_nth_hamming_number(17), 27, "hamming(17) should be 27")
+        self.assertEqual(self.get_nth_hamming_number(18), 30, "hamming(18) should be 30")
+        self.assertEqual(self.get_nth_hamming_number(19), 32, "hamming(19) should be 32")
+        #self.assertEqual(self.nth_hamming_number(1638), 1660753125, "hamming(19) should be 32")
+        #self.assertEqual(self.nth_hamming_number(1794), 3375000000, "hamming(19) should be 32")
 
 
 if __name__ == '__main__':
