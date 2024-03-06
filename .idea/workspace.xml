@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reverse_inside_parenthesis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reverse_inside_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reverse_inside_parenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reverse_inside_parenthesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -29,20 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_one_line_task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="289">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -151,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_one_line_task.MyTestCase.test_combi">
+  <component name="RunManager" selected="Python tests.pytest for test_reverse_inside_parenthesis.MyTestCase.test_something">
     <configuration name="pytest for test_hamming_numbers.MyTestCase.test_new_algo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,21 +202,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_hamming_numbers.MyTestCase.test_new_algo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_hamming_numbers.MyTestCase.test_nthamming" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hamming_numbers.MyTestCase.test_nthamming&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -277,13 +250,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_reverse_inside_parenthesis.MyTestCase.test_something&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_one_line_task.MyTestCase.test_combi" />
         <item itemvalue="Python tests.pytest for test_one_line_task.MyTestCase.test_combis" />
         <item itemvalue="Python tests.pytest for test_one_line_task.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_new_algo" />
-        <item itemvalue="Python tests.pytest for test_hamming_numbers.MyTestCase.test_nthamming" />
       </list>
     </recent_temporary>
   </component>
@@ -309,35 +297,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_something - 2024.02.26 at 20h 00m 31s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_something - 2024.02.26 at 20h 01m 33s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_something - 2024.02.26 at 20h 02m 00s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_something - 2024.02.26 at 20h 02m 27s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_something - 2024.02.26 at 20h 03m 12s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_something - 2024.02.26 at 20h 03m 24s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_combis - 2024.02.26 at 20h 07m 28s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_combis" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_combis - 2024.02.26 at 20h 08m 51s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_combis" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_combis - 2024.02.26 at 20h 21m 00s.xml">
-      <configuration name="pytest for test_one_line_task.MyTestCase.test_combis" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_one_line_task_MyTestCase_test_combi - 2024.02.26 at 20h 23m 32s.xml">
       <configuration name="pytest for test_one_line_task.MyTestCase.test_combi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 20h 48m 08s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 20h 50m 40s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 20h 51m 28s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 20h 59m 13s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 20h 59m 23s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 21h 00m 14s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 21h 01m 32s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 21h 01m 58s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.06 at 21h 02m 15s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -353,12 +341,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.234375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.234375" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.299509" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3633388" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5090016" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1087,15 +1075,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reverse_inside_parenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="289">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
