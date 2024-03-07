@@ -5,16 +5,15 @@ def parsestr(runner, stack, acc):
     input = runner[0] if runner else None
     if input == None:
         return stack
-    if input == "(":
+    if input == "(": # not quite right, h and  lo shold be mayb sampe container?
         stack.append(acc)
-        stack.append(input)
-        acc = ''
+        acc = []
     elif input == ')':
         stack.append(acc)
-        stack.append(input)
-        acc = ''
+
+        acc = []
     else:
-        acc += input
+        acc.append(input)
     return parsestr(runner[1:], stack, acc)
 
     # Not good enough, we need to capture all parenthesis
@@ -22,7 +21,7 @@ def parsestr(runner, stack, acc):
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         teststr  = "h(el)lo)"
-        res = parsestr(teststr, [], '')
+        res = parsestr(teststr, [], [])
 
         print(res)
         #self.assertEquals(solution("h(el)lo)"), "h(le)lo")
