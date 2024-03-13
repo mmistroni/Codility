@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/reverse_inside_parenthesis.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="55" lean-forward="true" selection-start-column="1" selection-end-column="55" />
+              <caret column="55" selection-start-column="1" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -28,11 +28,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1085#1163#0" />
+                <element signature="e#1198#1280#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="621" selection-start-line="621" selection-end-line="621" />
             </state>
           </provider>
         </entry>
@@ -291,34 +302,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.11 at 20h 20m 15s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.13 at 20h 24m 20s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.11 at 20h 25m 26s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.13 at 20h 25m 07s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.11 at 20h 50m 24s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.13 at 20h 35m 23s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.11 at 20h 50m 57s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.13 at 20h 36m 20s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.11 at 20h 52m 11s.xml">
-      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.11 at 20h 52m 26s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.13 at 20h 37m 10s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.11 at 20h 52m 48s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.13 at 20h 38m 27s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_something - 2024.03.13 at 20h 38m 30s.xml">
+      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.13 at 20h 38m 48s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.11 at 20h 53m 01s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.13 at 20h 41m 30s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.11 at 20h 56m 32s.xml">
-      <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.11 at 20h 56m 44s.xml">
+    <history-entry file="pytest_for_test_reverse_inside_parenthesis_MyTestCase_test_two - 2024.03.13 at 20h 41m 43s.xml">
       <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
   </component>
@@ -335,13 +346,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.234375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.124255955" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.31096563" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5090016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.2700491" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.43698853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -641,7 +652,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py</url>
-          <line>6</line>
+          <line>10</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
       </breakpoints>
@@ -1021,13 +1032,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nelson_number_theory.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="652" selection-start-line="652" selection-end-line="652" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1075,16 +1079,25 @@
     <entry file="file://$PROJECT_DIR$/src/reverse_inside_parenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="55" lean-forward="true" selection-start-column="1" selection-end-column="55" />
+          <caret column="55" selection-start-column="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="621" selection-start-line="621" selection-end-line="621" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_reverse_inside_parenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1085#1163#0" />
+            <element signature="e#1198#1280#0" />
           </folding>
         </state>
       </provider>
