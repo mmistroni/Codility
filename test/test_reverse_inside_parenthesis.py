@@ -22,8 +22,13 @@ class Node:
     def add(self, item):
         self.holder.append(item)
 
-    def reserse(self):
-        self.holder = self.holder[::-1]
+    def reverse(self):
+        new_holder = []
+        for item in self.holder:
+            if isinstance(item, Node):
+                item.reverse()
+            new_holder.append(item)
+        self.holder = new_holder[::-1]
 
 
     def __str__(self):
@@ -56,12 +61,12 @@ def buildstack(runner, stack):
 
 def reverse(stack):
     holder = []
-    for item in stack:
+    for item in stack.holder:
         if isinstance(item, Node):
-            item.reverse()
-            holder.append(str(item))
+            item.reverse() # need new ideas.. 1 more week to think and then we move up to kyu 6
+        holder.append(str(item))
     # Not good enough, we need to capture all parenthesis
-    return holder[::-1]
+    return holder
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
@@ -72,16 +77,38 @@ class MyTestCase(unittest.TestCase):
         # this is ok....
 
         print(res)
-        print(reverse(res))
-        #self.assertEquals(solution("h(el)lo)"), "h(le)lo")
+
+        result = reverse(res)
+
+        print(result)
+
+        joined = ''.join(result)
+
+        self.assertEquals(joined, "h(le)lo")
 
     def test_two(self):
+        # this is a good test to try
+
         teststr = "a (b c (d e))"
         stack = Node(None)
 
-        res = builstack(teststr, stack)
+        res = buildstack(teststr, stack)
 
         print(res)
+
+        reversed = reverse(res)
+
+        print('-------------')
+        print(reversed)
+
+        # ['a', ' ', '((e d) c b)'] #
+
+        # a ((d e) c b)
+        # start from inner, reverse so that it's a ((ed) c b)
+        # and then we reverse what is n parenthesis  bc de
+
+
+
         #self.assertEquals(solution("a ((d e) c b)") , "a (b c (d e))")
 
     def test_three(self):
