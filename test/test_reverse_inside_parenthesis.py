@@ -6,6 +6,14 @@ In this kata, you will be given a string of text and valid parentheses, such as 
 You must return the string, with only the text inside parentheses reversed, so "h(el)lo" becomes "h(le)lo". 
 However, if said parenthesized text contains parenthesized text itself, then that too must reversed back, so it faces the original direction.
 When parentheses are reversed, they should switch directions, so they remain syntactically correct (i.e. "h((el)l)o" becomes "h(l(el))o").
+
+                        h((el)l)o
+                        h((le)l)o
+                        h(l(el)o
+                        
+but if an item has more than one char we need to reverse it
+
+
 This pattern should repeat for however many layers of parentheses. 
 There may be multiple groups of parentheses at any level (i.e. "(1) (2 (3) (4))"), so be sure to account for these.
 
@@ -60,7 +68,13 @@ def buildstack(runner, stack):
 
 
 def reverse(stack):
+    # Ok . nearly there, we need to reverse
+
     holder = []
+
+    # Stack is a node. so we should reverse it as this will call the internal method
+    # reverse.
+
     for item in stack.holder:
         if isinstance(item, Node):
             item.reverse() # need new ideas.. 1 more week to think and then we move up to kyu 6
@@ -96,7 +110,9 @@ class MyTestCase(unittest.TestCase):
 
         print(res)
 
-        reversed = reverse(res)
+        reversed = reverse(res) # this is nearly there, but not yet
+        # as when we reverse the second parenthesis, ed should be reversed again
+        #res.reverse() Not good.
 
         print('-------------')
         print(reversed)
@@ -112,10 +128,24 @@ class MyTestCase(unittest.TestCase):
         #self.assertEquals(solution("a ((d e) c b)") , "a (b c (d e))")
 
     def test_three(self):
-        self.assertEqual(solution("one (two (three) four)"), "one (ruof (three) owt)")
+        # if item has more than 1 char, then it's a node and it hshould get reversed
+        ## we need a recursive algo here.
+        self.assertEqual(solution("one (two (three) four)"), "one (ruof (three) owt)") # three reversed twoe
+        '''
+            one(two(eerth) four)
+            one(ruof (
+                
+        
+        '''
+
+
 
     def test_four(self):
         self.assertEqual(solution("one (ruof ((rht)ee) owt)"), "one (two ((thr)ee) four)")
+
+        ##   (ee(rht)_
+
+
 
 if __name__ == '__main__':
     unittest.main()
