@@ -18,7 +18,20 @@ class MyTestCase(unittest.TestCase):
     def test_something5(self):
         self.assertEquals(cook_pancakes(4, 3), 3)
 
+    def test_something6(self):
+        self.assertEquals(cook_pancakes(941, 165), 12)
 
+    def test_something7(self):
+        self.assertEquals(cook_pancakes(598, 128),  10)
+
+    def test_something8(self):
+        self.assertEquals(cook_pancakes(700, 241),  6)
+
+    def test_something9(self):
+        self.assertEquals(cook_pancakes(500, 173), 6)
+
+    def test_something10(self):
+        self.assertEquals(cook_pancakes(966, 381), 6)
 
 
 if __name__ == '__main__':
