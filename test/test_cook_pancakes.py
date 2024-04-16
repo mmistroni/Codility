@@ -33,6 +33,19 @@ class MyTestCase(unittest.TestCase):
     def test_something10(self):
         self.assertEquals(cook_pancakes(966, 381), 6)
 
+    def test_something11(self):
+        self.assertEquals(cook_pancakes(798, 555), 3)
+
+    def test_something12(self):
+        self.assertEquals(cook_pancakes(728, 545) , 3)
+
+    def test_something13(self):
+        self.assertEquals(cook_pancakes(525, 47) , 23)
+
+    def test_something14(self):
+        self.assertEquals(cook_pancakes(989, 106) , 19)
+
+
 
 if __name__ == '__main__':
     unittest.main()

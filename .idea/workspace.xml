@@ -35,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fast_cooking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="230">
+              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_cook_pancakes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/src/mrjefferson.py" />
         <option value="$PROJECT_DIR$/src/quotient_from_array.py" />
         <option value="$PROJECT_DIR$/test/test_quotient_from_array.py" />
-        <option value="$PROJECT_DIR$/src/fast_cooking.py" />
         <option value="$PROJECT_DIR$/test/test_cook_pancakes.py" />
+        <option value="$PROJECT_DIR$/src/fast_cooking.py" />
       </list>
     </option>
   </component>
@@ -181,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +202,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,6 +277,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_cook_pancakes.MyTestCase.test_something9" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cook_pancakes.MyTestCase.test_something9&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_mrjefferson.MyTestCase.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,28 +307,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_reverse_inside_parenthesis.MyTestCase.test_two&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_cook_pancakes.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_cook_pancakes.MyTestCase.test_something9" />
         <item itemvalue="Python tests.pytest for test_cook_pancakes.MyTestCase.test_something2" />
         <item itemvalue="Python tests.pytest for test_cook_pancakes.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_mrjefferson.MyTestCase.test_one" />
-        <item itemvalue="Python tests.pytest for test_reverse_inside_parenthesis.MyTestCase.test_two" />
       </list>
     </recent_temporary>
   </component>
@@ -339,34 +339,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase_test_something - 2024.04.03 at 21h 19m 55s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase_test_something - 2024.04.03 at 21h 20m 07s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase_test_something2 - 2024.04.03 at 21h 20m 17s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase.test_something2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.03 at 21h 21m 09s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.03 at 21h 23m 58s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.03 at 21h 24m 17s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.04 at 20h 47m 16s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.04 at 20h 48m 02s.xml">
-      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.04 at 20h 54m 08s.xml">
       <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.04 at 20h 54m 28s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.15 at 20h 02m 42s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase_test_something9 - 2024.04.15 at 20h 06m 35s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase.test_something9" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.15 at 20h 42m 20s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.15 at 20h 43m 29s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.15 at 20h 46m 56s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.15 at 20h 51m 28s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.16 at 19h 31m 05s.xml">
+      <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_cook_pancakes_MyTestCase - 2024.04.16 at 19h 32m 26s.xml">
       <configuration name="pytest for test_cook_pancakes.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
@@ -380,7 +380,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.25223213" />
@@ -388,7 +388,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.507365" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.35789475" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.44353518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +397,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.29459903" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.29298246" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1134,20 +1134,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fast_cooking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_cook_pancakes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fast_cooking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
         </state>
       </provider>
     </entry>

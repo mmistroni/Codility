@@ -51,7 +51,12 @@ def cook_pancakes(n, m):
             nums = n // m
         else:
             nums = n // m
-            rem =1
+            rem = n % m
+
+            if rem <= (m // 2):
+                rem = 1
+            else:
+                rem =2
 
 
     # m pancakes takes 2 minutes because they cook together
