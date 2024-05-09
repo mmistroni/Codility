@@ -11,7 +11,7 @@ def _decrease(lst):
         idx = -1
     bound1, bound2 = idx +1, idx + 4
 
-    #need better 
+    #need better
     new_array = [item-1 if bound1 <= idx < bound2 and item > 0 else item for idx, item in enumerate(lst) ]
 
     return new_array
