@@ -1,21 +1,25 @@
 #https://www.codewars.com/kata/6630da20f925eb3007c5a498
 
 def _check(lst) :
-    return all([(i == 0) for i in lst])
+    return sum(lst) == 0
 
 def _decrease(lst):
-    # not right
-    if 0 in lst:
-        idx = lst.index(0)
+    ## we need to recurse
+    copied = lst
+    # No this will not work
+    # we need to know where the zero is  so taht
+    # we can start to blow from there
+
+    if sum(lst[0:3]) == 0:
+        start = copied.index(0)
+
     else:
-        idx = -1
-    bound1, bound2 = idx +1, idx + 4
-
-    #need better
-    new_array = [item-1 if bound1 <= idx < bound2 and item > 0 else item for idx, item in enumerate(lst) ]
-
-    return new_array
-
+        start = 0
+    end = start +3
+    for idx in range(start, end):
+        if copied[idx] > 0:
+            copied[idx] -=1
+    return copied
 
 def blow_candles(st):
     toint = [int(s) for s in st]
@@ -23,9 +27,9 @@ def blow_candles(st):
     st = toint
     count = 0
 
-    while not _check(st):
-        count +=1
+    while sum(st) != 0:
         st = _decrease(st)
+        count += 1
 
     return count
 

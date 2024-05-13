@@ -17,29 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spinning_rings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="2" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blowing_birthday_cakes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1731018673/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="4142" column="9" selection-start-line="4142" selection-start-column="9" selection-end-line="4142" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -47,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_blowing_birthday_cakes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="97">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -157,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_blowing_birthday_cakes.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2">
     <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +205,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_blowing_birthday_cakes.MyTestCase.test_simple2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,21 +232,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_blowing_birthday_cakes.MyTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_cook_pancakes.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cook_pancakes.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -285,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" />
         <item itemvalue="Python tests.pytest for test_blowing_birthday_cakes.MyTestCase.test_something" />
         <item itemvalue="Python tests.pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" />
         <item itemvalue="Python tests.pytest for test_spinning_rings.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_spinning_rings.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_cook_pancakes.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -315,35 +297,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 38m 29s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 40m 09s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 44m 47s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 45m 02s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 45m 34s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 46m 22s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 46m 39s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 47m 12s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple - 2024.05.09 at 20h 47m 23s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_something - 2024.05.09 at 20h 47m 28s.xml">
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_something - 2024.05.13 at 20h 33m 47s.xml">
       <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_something" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 35m 37s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 36m 34s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 52m 59s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 53m 19s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 53m 39s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 54m 20s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 54m 49s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 55m 33s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple2 - 2024.05.13 at 20h 58m 51s.xml">
+      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple2" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -364,8 +346,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.4844517" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5155483" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.24713585" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" visible="true" weight="0.64320785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -687,6 +669,11 @@
           <url>file://$PROJECT_DIR$/src/mrjefferson.py</url>
           <line>31</line>
           <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/blowing_birthday_cakes.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1080,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spinning_rings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="2" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_spinning_rings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1097,17 +1077,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/spinning_rings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="2" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1731018673/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="70414">
           <caret line="4142" column="9" selection-start-line="4142" selection-start-column="9" selection-end-line="4142" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_blowing_birthday_cakes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="97">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1116,8 +1103,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blowing_birthday_cakes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>

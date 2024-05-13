@@ -8,6 +8,11 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(blow_candles(candles), 3)
 
+    def test_simple2(self):
+        candles = "2113"
+        self.assertEqual(blow_candles(candles), 5)
+
+
 
     def test_something(self):
         tests = [
