@@ -3,23 +3,20 @@
 def _check(lst) :
     return sum(lst) == 0
 
-def _decrease(lst):
+def _decrease(lst , counter, zero_idx):
     ## we need to recurse
-    copied = lst
-    # No this will not work
-    # we need to know where the zero is  so taht
-    # we can start to blow from there
-
-    if sum(lst[0:3]) == 0:
-        start = copied.index(0)
-
+    if zero_idx < 3 and counter < len(lst):
+        item = lst[counter]
+        if item != 0:
+            item -= 1
+            lst[counter] = item
+            zero_idx += 1
+        counter += 1
+        return _decrease(lst, counter, zero_idx)
     else:
-        start = 0
-    end = start +3
-    for idx in range(start, end):
-        if copied[idx] > 0:
-            copied[idx] -=1
-    return copied
+        print(f'Exiting with {lst}')
+        return lst
+
 
 def blow_candles(st):
     toint = [int(s) for s in st]
@@ -27,8 +24,12 @@ def blow_candles(st):
     st = toint
     count = 0
 
+
+    counter = 0
+    rounds = 0
     while sum(st) != 0:
-        st = _decrease(st)
+        st = _decrease(st, counter, rounds)
+        print('Running another loop')
         count += 1
 
     return count
