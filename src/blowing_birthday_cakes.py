@@ -5,17 +5,17 @@ def _check(lst) :
 
 def _decrease(lst , counter, zero_idx):
     ## we need to recurse
-    if zero_idx < 3 and counter < len(lst):
-        item = lst[counter]
-        if item != 0:
-            item -= 1
-            lst[counter] = item
-            zero_idx += 1
-        counter += 1
-        return _decrease(lst, counter, zero_idx)
-    else:
-        print(f'Exiting with {lst}')
+    ## we can only look ahead 3
+    ## lets try
+
+    if sum(lst[counter:counter+3]) > 0 and counter < len(lst):
+        for i in range(counter, counter+3):
+            if lst[i] > 0:
+                lst[i] -=1
         return lst
+    else:
+        counter = counter + 3
+        return _decrease(lst, counter, zero_idx)
 
 
 def blow_candles(st):
