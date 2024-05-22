@@ -6,13 +6,18 @@ def _check(lst) :
 def _decrease(lst , counter, zero_idx):
     ## we need to recurse
     ## we can only look ahead 3
+    ## Current setup does not work.
+    ## we need to be able to detect if we
+    ## start with a zero 
+    ##
     ## lets try
     start = max(0, counter)
     end = min(counter + 3, len(lst))
     if sum(lst[counter:min(counter+3, len(lst))]) > 0:
-        for i in range(start, end+1):
-            lst[i] -=1
-        return lst
+        for i in range(start, end):
+            if lst[i] > 0:
+                lst[i] -=1
+        return lst, counter
     else:
         counter = counter + 3
         return _decrease(lst, counter, zero_idx)
@@ -28,7 +33,7 @@ def blow_candles(st):
     counter = 0
     rounds = 0
     while sum(st) != 0:
-        st = _decrease(st, counter, rounds)
+        st, counter = _decrease(st, counter, rounds)
         print('Running another loop')
         count += 1
 

@@ -6,6 +6,14 @@ class MyTestCase(unittest.TestCase):
     def test_simple(self):
         candles = "1321"
 
+        '''
+         0 2 1
+         0 1 1 0
+         
+        
+        
+        '''
+
         self.assertEqual(blow_candles(candles), 3)
 
     def test_simple2(self):
