@@ -7,11 +7,11 @@ def _decrease(lst , counter, zero_idx):
     ## we need to recurse
     ## we can only look ahead 3
     ## lets try
-
-    if sum(lst[counter:counter+3]) > 0 and counter < len(lst):
-        for i in range(counter, counter+3):
-            if lst[i] > 0:
-                lst[i] -=1
+    start = max(0, counter)
+    end = min(counter + 3, len(lst))
+    if sum(lst[counter:min(counter+3, len(lst))]) > 0:
+        for i in range(start, end+1):
+            lst[i] -=1
         return lst
     else:
         counter = counter + 3
