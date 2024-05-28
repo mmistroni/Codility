@@ -3,39 +3,34 @@
 def _check(lst) :
     return sum(lst) == 0
 
-def _decrease(lst , counter, zero_idx):
+def _decrease(lst , counter, start_idx):
     ## we need to recurse
     ## we can only look ahead 3
     ## Current setup does not work.
     ## we need to be able to detect if we
-    ## start with a zero 
+    ## start with a zero
     ##
     ## lets try
-    start = max(0, counter)
-    end = min(counter + 3, len(lst))
-    if sum(lst[counter:min(counter+3, len(lst))]) > 0:
-        for i in range(start, end):
-            if lst[i] > 0:
-                lst[i] -=1
-        return lst, counter
+    if sum(lst) == 0:
+        return counter
     else:
-        counter = counter + 3
-        return _decrease(lst, counter, zero_idx)
-
+        counter +=1
+        steps = 0
+        for idx, item in enumerate(lst):
+            if steps == 3:
+                break
+            if item > 0:
+                lst[idx] -=1
+                steps +=1
+            else:
+                continue
+        return _decrease(lst, counter, 0)
 
 def blow_candles(st):
     toint = [int(s) for s in st]
 
     st = toint
-    count = 0
 
+    result = _decrease(st, 0, 0)
 
-    counter = 0
-    rounds = 0
-    while sum(st) != 0:
-        st, counter = _decrease(st, counter, rounds)
-        print('Running another loop')
-        count += 1
-
-    return count
-
+    return result

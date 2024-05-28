@@ -21,6 +21,19 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(blow_candles(candles), 5)
 
 
+    def test_simple3(self):
+        candles = "0323456"
+        self.assertEqual(blow_candles(candles), 9)
+
+
+    def test_simple4(self):
+        candles = "1110"
+        self.assertEqual(blow_candles(candles), 1)
+
+    def test_simple5(self):
+        candles = "121"
+        self.assertEqual(blow_candles(candles), 2)
+
 
     def test_something(self):
         tests = [
@@ -31,8 +44,11 @@ class MyTestCase(unittest.TestCase):
             ["121", 2]
         ]
 
+
         for st, exp in tests:
             start = time.time()
+
+            print(f'testing:{st}')
 
             self.assertEqual(blow_candles(st), exp)
             end = time.time()
