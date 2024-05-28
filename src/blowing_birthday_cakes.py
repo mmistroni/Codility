@@ -4,13 +4,8 @@ def _check(lst) :
     return sum(lst) == 0
 
 def _decrease(lst , counter, start_idx):
-    ## we need to recurse
-    ## we can only look ahead 3
-    ## Current setup does not work.
-    ## we need to be able to detect if we
-    ## start with a zero
-    ##
-    ## lets try
+    # Not yet there. so we need to avoid loop
+    # and just go from first index that is above zero to 3 max
     if sum(lst) == 0:
         return counter
     else:
