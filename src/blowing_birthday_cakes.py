@@ -1,8 +1,5 @@
 #https://www.codewars.com/kata/6630da20f925eb3007c5a498
 
-def _check(lst) :
-    return sum(lst) == 0
-
 def _decrease(lst , counter, start_idx):
     # Not yet there. so we need to avoid loop
     # and just go from first index that is above zero to 3 max
@@ -10,13 +7,16 @@ def _decrease(lst , counter, start_idx):
         return counter
     else:
         counter +=1
-        steps = 0
+        end_idx = None
+        found = None
         for idx, item in enumerate(lst):
-            if steps == 3:
-                break
+            if end_idx and idx > end_idx:
+                return _decrease(lst, counter, 0)
             if item > 0:
+                if not found:
+                    found = True
+                    end_idx = idx + 2
                 lst[idx] -=1
-                steps +=1
             else:
                 continue
         return _decrease(lst, counter, 0)
