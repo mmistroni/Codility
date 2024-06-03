@@ -13,7 +13,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEquals(relatively_prime(210, [15, 100, 2222222, 6, 4, 12369, 99]), [])
 
 
-        self.assertEqual(True, False)
 
 
 if __name__ == '__main__':
