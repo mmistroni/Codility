@@ -17,6 +17,6 @@ class MyTestCase(unittest.TestCase):
     def test_something3(self):
         res = area_of_inscribed_polygon(4, 5)
         self.assertTrue(math.isclose(res, 38.04226065180614, abs_tol=0.001))
-        
+
 if __name__ == '__main__':
     unittest.main()
