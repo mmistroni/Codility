@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/test_minimum_bonus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/area_polygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/area_polygon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_area_polygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_area_polygon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimum_bonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimum_bonus.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +30,28 @@
         <entry file="file://$PROJECT_DIR$/src/area_polygon.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="93" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="93" />
+              <caret line="6" column="93" selection-start-line="2" selection-end-line="6" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
+        <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="56" selection-start-column="56" selection-end-column="56" />
+            <state relative-caret-position="136">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_area_polygon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="272">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -104,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_minimum_loss.py" />
         <option value="$PROJECT_DIR$/src/minimum_loss.py" />
         <option value="$PROJECT_DIR$/src/absolute_permutation.py" />
         <option value="$PROJECT_DIR$/test/test_absolute_permutation.py" />
@@ -155,6 +166,7 @@
         <option value="$PROJECT_DIR$/test/test_area_polygon.py" />
         <option value="$PROJECT_DIR$/src/area_polygon.py" />
         <option value="$PROJECT_DIR$/src/minimum_bonus.py" />
+        <option value="$PROJECT_DIR$/test/test_minimum_bonus.py" />
       </list>
     </option>
   </component>
@@ -169,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,13 +192,12 @@
             <path>
               <item name="Codility" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codility" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_area_polygon.MyTestCase">
+  <component name="RunManager" selected="Python tests.pytest for test_minimum_bonus.MyTestCase">
     <configuration name="pytest for test_area_polygon.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,7 +242,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_something" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_minimum_bonus.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +253,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_blowing_birthday_cakes.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_relative_prime_numbers.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_minimum_bonus.MyTestCase.test_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,11 +268,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_relative_prime_numbers.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase.test_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_relative_prime_numbers.MyTestCase.test_something1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_minimum_bonus.MyTestCase.test_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,11 +283,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_relative_prime_numbers.MyTestCase.test_something1&quot;" />
+      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase.test_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_relative_prime_numbers.MyTestCase.test_something3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_minimum_bonus.MyTestCase.tester1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,17 +298,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_relative_prime_numbers.MyTestCase.test_something3&quot;" />
+      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase.tester1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_2" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_1" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.tester1" />
         <item itemvalue="Python tests.pytest for test_area_polygon.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_relative_prime_numbers.MyTestCase.test_something3" />
-        <item itemvalue="Python tests.pytest for test_relative_prime_numbers.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_relative_prime_numbers.MyTestCase.test_something1" />
-        <item itemvalue="Python tests.pytest for test_blowing_birthday_cakes.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -322,27 +334,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_simple4 - 2024.05.29 at 21h 27m 36s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_simple4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_something - 2024.05.29 at 21h 27m 45s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_blowing_birthday_cakes_MyTestCase_test_something - 2024.05.29 at 21h 28m 35s.xml">
-      <configuration name="pytest for test_blowing_birthday_cakes.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_relative_prime_numbers_MyTestCase_test_something1 - 2024.06.03 at 20h 11m 18s.xml">
-      <configuration name="pytest for test_relative_prime_numbers.MyTestCase.test_something1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_relative_prime_numbers_MyTestCase_test_something1 - 2024.06.03 at 20h 12m 59s.xml">
-      <configuration name="pytest for test_relative_prime_numbers.MyTestCase.test_something1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_relative_prime_numbers_MyTestCase_test_something1 - 2024.06.03 at 20h 13m 25s.xml">
-      <configuration name="pytest for test_relative_prime_numbers.MyTestCase.test_something1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_relative_prime_numbers_MyTestCase - 2024.06.03 at 20h 13m 33s.xml">
-      <configuration name="pytest for test_relative_prime_numbers.MyTestCase" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_relative_prime_numbers_MyTestCase_test_something3 - 2024.06.03 at 20h 13m 59s.xml">
       <configuration name="pytest for test_relative_prime_numbers.MyTestCase.test_something3" configurationId="tests" />
     </history-entry>
@@ -351,6 +342,27 @@
     </history-entry>
     <history-entry file="pytest_for_test_area_polygon_MyTestCase - 2024.06.11 at 20h 57m 22s.xml">
       <configuration name="pytest for test_area_polygon.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_tester1 - 2024.06.17 at 20h 35m 10s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.tester1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_tester1 - 2024.06.17 at 20h 38m 56s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.tester1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_tester1 - 2024.06.17 at 20h 39m 15s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.tester1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_1 - 2024.06.17 at 20h 42m 03s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_1 - 2024.06.17 at 20h 42m 08s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_2 - 2024.06.17 at 20h 42m 13s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase - 2024.06.17 at 20h 47m 20s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -366,13 +378,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.25223213" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.25223213" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.60065466" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.4844517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.400982" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5351882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -380,7 +392,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.29296234" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.2913257" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -700,6 +712,16 @@
           <line>23</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_minimum_bonus.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_minimum_bonus.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -734,16 +756,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_common_prime_divisors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/count_factors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -943,13 +955,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nelson_number_theory.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_hamming_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -991,13 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10047">
-          <caret line="604" selection-start-line="604" selection-end-line="604" />
         </state>
       </provider>
     </entry>
@@ -1103,10 +1101,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/relative_prime_numbers.py">
+    <entry file="file://$PROJECT_DIR$/test/test_area_polygon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" selection-start-line="2" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,27 +1121,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_area_polygon.py">
+    <entry file="file://$PROJECT_DIR$/src/relative_prime_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="55" selection-start-line="2" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/area_polygon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="93" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="93" />
+          <caret line="6" column="93" selection-start-line="2" selection-end-line="6" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        <state relative-caret-position="246">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
