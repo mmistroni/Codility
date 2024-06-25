@@ -33,6 +33,21 @@ class MyTestCase(unittest.TestCase):
         return bon_array
 
 
+    def test_rule_of_10(self):
+        tst = [20, 30, 10, 30, 40, 10, 20, 30, 40, 30]
+        tens = [1 if i == 10 else 0 for i in tst]
+
+        # what we are trying to do is to find tens. and then work
+        # out from the tens
+
+        print(tens)
+
+
+
+
+
+
+
     def xtester1(self):
 
         tst = [20,30,10,30,40,10,20,30,40,30]
@@ -53,7 +68,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(minimum_bonus([30, 20, 10]), 6)
     def test_3(self):
         self.assertEqual(minimum_bonus([30, 20, 20, 10]), 6)
-                                        
+
     def test_4(self):
 
         self.assertEqual(minimum_bonus([10, 20, 20, 30]), 6)
@@ -63,22 +78,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_6(self):
         self.assertEqual(minimum_bonus([20, 30, 40, 30, 20, 10]), 13)
-                                         2   3   4   1   1   1
-    '''
-    20,30,10,30,40,10,20,30,40,30
-    
-    1   2  1  2  3  1 2  3  4   1    
-    
-    
-    
-    
-    1
-    2
-    1
-    2
-    3
-    
-    '''
+
 
 
 
