@@ -36,6 +36,10 @@ class MyTestCase(unittest.TestCase):
     def test_rule_of_10(self):
         tst = [20, 30, 10, 30, 40, 10, 20, 30, 40, 30]
         tens = [1 if i == 10 else 0 for i in tst]
+        # then we know where the tens are
+        # so we can start populating array from there
+
+
 
         # what we are trying to do is to find tens. and then work
         # out from the tens
