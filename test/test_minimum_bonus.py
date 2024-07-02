@@ -35,20 +35,30 @@ class MyTestCase(unittest.TestCase):
 
     def test_rule_of_10(self):
         tst = [20, 30, 10, 30, 40, 10, 20, 30, 40, 30]
-        tens = [1 if i == 10 else 0 for i in tst]
-        # then we know where the tens are
-        # so we can start populating array from there
+        tens_idx = [idx  for idx, i in enumerate(tst) if i == 10]
+        bonus_pack = [0] * len(tst)
+        for idx in tens_idx:
+            bonus_pack[idx] = 1
 
+        for idx in tens_idx:
+            if idx != 0:
+                if tst[idx-1] != 10:
+                    bonus_pack[idx-1] =2
 
+            if idx != len(tst)-1:
+                if tst[idx+1] != 10:
+                    bonus_pack[idx+1] =2
 
-        # what we are trying to do is to find tens. and then work
-        # out from the tens
-
-        print(tens)
-
-
-
-
+        for idx in range(0, len(tst)):
+            if bonus_pack[idx] == 0:
+                if idx < len(tst) -1:
+                    if tst[idx] > tst[idx+1]:
+                        bonus_pack[idx] = bonus_pack[idx+1] + 1
+                    else:
+                        tst[idx] = tst[idx + 1] -1
+        print(bonus_pack)
+        print(tst)
+        print(f'Expected:{[1,2,1,2,3,1,2,3,4,1]}')
 
 
 
