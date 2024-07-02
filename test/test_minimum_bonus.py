@@ -45,6 +45,7 @@ class MyTestCase(unittest.TestCase):
                 if tst[idx-1] != 10:
                     bonus_pack[idx-1] =2
 
+            # Ignore this
             if idx != len(tst)-1:
                 if tst[idx+1] != 10:
                     bonus_pack[idx+1] =2
