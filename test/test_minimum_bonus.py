@@ -40,26 +40,22 @@ class MyTestCase(unittest.TestCase):
         for idx in tens_idx:
             bonus_pack[idx] = 1
 
-        for idx in tens_idx:
-            if idx != 0:
-                if tst[idx-1] != 10:
-                    bonus_pack[idx-1] =2
-
-            # Ignore this
-            if idx != len(tst)-1:
-                if tst[idx+1] != 10:
-                    bonus_pack[idx+1] =2
-
-        for idx in range(0, len(tst)):
-            if bonus_pack[idx] == 0:
-                if idx < len(tst) -1:
-                    if tst[idx] > tst[idx+1]:
-                        bonus_pack[idx] = bonus_pack[idx+1] + 1
-                    else:
-                        tst[idx] = tst[idx + 1] -1
+        # New strategy. we start from 0. and check if the next one is a 10, ..
+        # not convinced it'll work though
+        for idx, item in enumerate(tst):
+            if item == 10:
+                continue
+            if idx == 0:
+                if bonus_pack[idx] > 0:
+                    continue
+                else:
+                    if item < tst[idx] + 1:
+                        bonus_pack[idx] = 1
+            else:
+                if tst[idx] > tst[idx-1]:
+                    bonus_pack[idx] = bonus_pack[idx-1] + 1
+            # if there are any zeros, they should be ones
         print(bonus_pack)
-        print(tst)
-        print(f'Expected:{[1,2,1,2,3,1,2,3,4,1]}')
 
 
 

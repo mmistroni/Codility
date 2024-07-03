@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_minimum_bonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_minimum_bonus.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="2" selection-end-column="56" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="123">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -127,10 +128,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-42" />
+    <option name="y" value="282" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="448" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -290,21 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 00m 35s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 02m 05s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 02m 28s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 04m 22s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 08m 34s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 10m 09s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
@@ -318,6 +304,21 @@
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 14m 22s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 20h 58m 51s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 02m 40s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 04m 50s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 08m 44s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 09m 35s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
   </component>
@@ -339,7 +340,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.49590835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.19639935" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5351882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1102,15 +1103,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="2" selection-end-column="56" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="123">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
