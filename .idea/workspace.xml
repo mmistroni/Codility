@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -28,10 +28,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="85">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1849#1980#0" />
               </folding>
             </state>
           </provider>
@@ -262,9 +263,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_1" />
         <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_2" />
-        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_1" />
         <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.tester1" />
       </list>
     </recent_temporary>
@@ -291,34 +292,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 10m 09s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 16m 39s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 10m 56s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 16m 44s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 12m 41s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 18m 19s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 13m 04s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 18m 59s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.02 at 21h 14m 22s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 19m 44s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 20h 58m 51s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 20m 46s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 02m 40s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 21m 16s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 04m 50s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 22m 37s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 08m 44s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 23m 04s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.03 at 21h 09m 35s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 23m 18s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
   </component>
@@ -340,8 +341,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.19639935" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5351882" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.5368249" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.40752864" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -349,7 +350,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.2913257" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.34697217" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1104,16 +1105,17 @@
     <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1849#1980#0" />
           </folding>
         </state>
       </provider>

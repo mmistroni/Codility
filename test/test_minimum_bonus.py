@@ -40,12 +40,25 @@ class MyTestCase(unittest.TestCase):
         for idx in tens_idx:
             bonus_pack[idx] = 1
 
+        def fill_zeros(tst):
+            cp = tst.copy()
+            for idx in len(cp):
+                if cp[idx] == 0:
+                    cp[idx] == 1
+
+            return cp
+
+
         # New strategy. we start from 0. and check if the next one is a 10, ..
         # not convinced it'll work though
         for idx, item in enumerate(tst):
             if item == 10:
                 continue
             if idx == 0:
+                if tst[idx] < tst[idx+1]:
+                    if tst[idx+1] !=0:
+                        bonus_pack[idx] = 1
+
                 if bonus_pack[idx] > 0:
                     continue
                 else:
@@ -57,6 +70,8 @@ class MyTestCase(unittest.TestCase):
             # if there are any zeros, they should be ones
         print(bonus_pack)
 
+        res = fill_zeros(bonus_pack)
+        print(res)
 
 
     def xtester1(self):
