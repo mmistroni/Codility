@@ -33,8 +33,7 @@ class MyTestCase(unittest.TestCase):
         return bon_array
 
 
-    def test_rule_of_10(self):
-        tst = [20, 30, 10, 30, 40, 10, 20, 30, 40, 30]
+    def _rule_of_10(self, tst):
         tens_idx = [idx  for idx, i in enumerate(tst) if i == 10]
         bonus_pack = [0] * len(tst)
         for idx in tens_idx:
@@ -42,9 +41,9 @@ class MyTestCase(unittest.TestCase):
 
         def fill_zeros(tst):
             cp = tst.copy()
-            for idx in len(cp):
+            for idx in range(0, len(cp)):
                 if cp[idx] == 0:
-                    cp[idx] == 1
+                    cp[idx] = 1
 
             return cp
 
@@ -70,8 +69,14 @@ class MyTestCase(unittest.TestCase):
             # if there are any zeros, they should be ones
         print(bonus_pack)
 
-        res = fill_zeros(bonus_pack)
+        return fill_zeros(bonus_pack)
+
+
+    def test_rule_of_10(self):
+        tst = [20, 30, 40, 30, 20, 10]#[20, 30, 10, 30, 40, 10, 20, 30, 40, 30]
+        res = self._rule_of_10(tst)
         print(res)
+        print(sum(res))
 
 
     def xtester1(self):
