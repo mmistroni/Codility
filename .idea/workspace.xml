@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -28,10 +28,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+            <state relative-caret-position="218">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1076#1481#0" />
+                <element signature="e#2766#2897#0" />
               </folding>
             </state>
           </provider>
@@ -184,21 +186,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_minimum_bonus.MyTestCase.test_rule_of_10">
-    <configuration name="pytest for test_minimum_bonus.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_minimum_bonus.MyTestCase.test_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +216,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_minimum_bonus.MyTestCase.test_3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase.test_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minimum_bonus.MyTestCase.test_6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase.test_6&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,28 +261,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_minimum_bonus.MyTestCase.tester1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_bonus.MyTestCase.tester1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" />
-        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_1" />
-        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_6" />
         <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_2" />
-        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.tester1" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_1" />
+        <item itemvalue="Python tests.pytest for test_minimum_bonus.MyTestCase.test_3" />
       </list>
     </recent_temporary>
   </component>
@@ -291,34 +293,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 23m 04s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_1 - 2024.07.24 at 20h 52m 53s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_1 - 2024.07.24 at 20h 53m 11s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_2 - 2024.07.24 at 20h 53m 21s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.24 at 20h 54m 59s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 23m 18s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.24 at 20h 56m 08s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.15 at 21h 23m 56s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_6 - 2024.07.24 at 20h 57m 49s.xml">
+      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_6" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.25 at 20h 58m 07s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 20h 53m 25s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.25 at 20h 59m 02s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 20h 56m 16s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.25 at 20h 59m 43s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 20h 56m 41s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 20h 58m 46s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 20h 59m 03s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 20h 59m 49s.xml">
-      <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.18 at 21h 00m 15s.xml">
+    <history-entry file="pytest_for_test_minimum_bonus_MyTestCase_test_rule_of_10 - 2024.07.25 at 21h 00m 08s.xml">
       <configuration name="pytest for test_minimum_bonus.MyTestCase.test_rule_of_10" configurationId="tests" />
     </history-entry>
   </component>
@@ -340,7 +342,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.18494272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.396072" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.40752864" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -671,18 +673,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_minimum_bonus.py</url>
-          <line>22</line>
+          <line>49</line>
           <option name="timeStamp" value="227" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_minimum_bonus.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_minimum_bonus.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="229" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1113,17 +1105,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minimum_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        <state relative-caret-position="218">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1076#1481#0" />
+            <element signature="e#2766#2897#0" />
           </folding>
         </state>
       </provider>
