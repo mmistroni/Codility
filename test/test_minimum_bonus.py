@@ -44,11 +44,33 @@ def _minimum_bonus(scores):
 class MyTestCase(unittest.TestCase):
 
 
+    def recalculate_bonus(self, orig_array, bonus_pack):
+
+        for idx, item in enumerate(orig_array):
+            if idx == 0:
+                # check bonus pack
+                if bonus_pack[idx] == 0:
+                    if item > orig_array[idx + 1] and bonus_pack[idx + 1] != 0:
+                        bonus_pack[idx] = bonus_pack[idx+1] + 1
+                    else:
+                        bonus_pack[idx] == 1
+            else:
+                if item > orig_array[idx-1]:
+                    if bonus_pack[idx] == 0:
+                        bonus_pack[idx] = bonus_pack[idx-1] + 1
+                elif item == orig_array[idx-1]:
+                    bonus_pack[idx] = bonus_pack[idx - 1]
+                else:
+                    pass
+        return bonus_pack
+
+
     def calculate_bonus(self, inarray):
         bon_array = []
         for idx in range(0, len(inarray)):
             if idx == 0:
                 # first one, default 1
+
                 bon_array.append(1)
             else:
                 if inarray[idx] > inarray[idx-1]:
@@ -72,6 +94,9 @@ class MyTestCase(unittest.TestCase):
         print(f'Tst is:{tst}')
         print(f'Bonus is:{bonus_pack}')
 
+
+        return bonus_pack
+
         # once we fill the 10s we start to fill the right
         # then the left
         # then we have to fill the array till all zeros are gone
@@ -83,7 +108,7 @@ class MyTestCase(unittest.TestCase):
         # [20, 30, 10, 30, 40, 10, 20, 30, 40, 30]# 6
         res = self._rule_of_10(tst)
         # Next stop: start from the first item you can populate on the right
-        #print(res)
+        print(res)
         #print(sum(res))
         #self.assertEquals(13, sum(res))
 
@@ -93,13 +118,20 @@ class MyTestCase(unittest.TestCase):
         # [20, 30, 10, 30, 40, 10, 20, 30, 40, 30]# 6
         res = self._rule_of_10(tst)
         # Next stop: start from the first item you can populate on the right
-        #print(res)
+        print(res)
+
+        res_calc = self.recalculate_bonus(tst, res)
+        print(f'Result:{res_calc}-Sum:{sum(res_calc)}')
         #print(sum(res))
         #self.assertEquals(13, sum(res))
 
     def test_rule_of_10_3(self):
         tst = [30, 20, 10]
-        self._rule_of_10(tst)
+        res = self._rule_of_10(tst)
+        print(res)
+
+        res_calc = self.recalculate_bonus(tst, res)
+        print(f'Result:{res_calc}-Sum:{sum(res_calc)}')
 
     def test_rule_of_10_4(self):
         tst =  [10, 20, 20, 30]
@@ -109,7 +141,7 @@ class MyTestCase(unittest.TestCase):
         tst =  [20, 20, 20, 20]
         self._rule_of_10(tst)
 
-    def test_rule_of_10_5(self):
+    def test_rule_of_10_6(self):
         tst =  [20, 30, 40, 30, 20, 10]
         self._rule_of_10(tst)
 
