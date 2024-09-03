@@ -19,14 +19,8 @@ def can_crawl(x, y, z ):
 
     # Not working. we need to calculate this to avoid looping.
 
-
-    snail_tracker = 0
-    for i in range(0, year_mins):
-        snail_tracker += y
-        x += z
-        if snail_tracker >= x:
-            return True
-
-        print(f':Snail Track:({snail_tracker})|Track:{x}')
-    return False
-
+    if  z > y:
+        return False
+    else:
+        progress = y - z
+        return x / progress < year_mins
