@@ -40,20 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sum_the_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="198">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_sum_the_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="425">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/like_or_dislike.py" />
         <option value="$PROJECT_DIR$/src/like_or_dislike.py" />
         <option value="$PROJECT_DIR$/test/test_like_or_dislike.py" />
-        <option value="$PROJECT_DIR$/src/sum_the_sum.py" />
         <option value="$PROJECT_DIR$/test/test_sum_the_sum.py" />
+        <option value="$PROJECT_DIR$/src/sum_the_sum.py" />
       </list>
     </option>
   </component>
@@ -220,37 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_sum_the_sum.MyTestCase.test3">
-    <configuration name="pytest for test_like_or_dislike.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_like_or_dislike.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_like_or_dislike.MyTestCase.test_fixed_tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_like_or_dislike.MyTestCase.test_fixed_tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_sum_the_sum.MyTestCase.test5">
     <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,13 +266,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_sum_the_sum.MyTestCase.test4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sum_the_sum.MyTestCase.test4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_sum_the_sum.MyTestCase.test5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sum_the_sum.MyTestCase.test5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test3" />
-        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test2" />
+        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test5" />
         <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test1" />
-        <item itemvalue="Python tests.pytest for test_like_or_dislike.MyTestCase.test_fixed_tests" />
-        <item itemvalue="Python tests.pytest for test_like_or_dislike.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test3" />
+        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test4" />
+        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -328,35 +328,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_snail_MyTestCase_test_example1 - 2024.09.02 at 20h 54m 00s.xml">
-      <configuration name="pytest for test_snail.MyTestCase.test_example1" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test2 - 2024.09.26 at 20h 44m 23s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_snail_MyTestCase_test_example2 - 2024.09.02 at 20h 54m 48s.xml">
-      <configuration name="pytest for test_snail.MyTestCase.test_example2" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test2 - 2024.09.26 at 20h 45m 17s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_snail_MyTestCase_test_example3 - 2024.09.02 at 20h 56m 32s.xml">
-      <configuration name="pytest for test_snail.MyTestCase.test_example3" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test4 - 2024.09.26 at 20h 45m 38s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_snail_py - 2024.09.03 at 21h 11m 59s.xml">
-      <configuration name="pytest in test_snail.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test3 - 2024.09.26 at 20h 52m 38s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_snail_MyTestCase - 2024.09.03 at 21h 12m 32s.xml">
-      <configuration name="pytest for test_snail.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test3 - 2024.09.26 at 20h 53m 10s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_like_or_dislike_MyTestCase - 2024.09.16 at 21h 00m 52s.xml">
-      <configuration name="pytest for test_like_or_dislike.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test5 - 2024.09.26 at 20h 53m 21s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_like_or_dislike_MyTestCase - 2024.09.16 at 21h 05m 28s.xml">
-      <configuration name="pytest for test_like_or_dislike.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test5 - 2024.09.26 at 20h 54m 02s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_like_or_dislike_MyTestCase - 2024.09.16 at 21h 14m 18s.xml">
-      <configuration name="pytest for test_like_or_dislike.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.26 at 20h 54m 38s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_like_or_dislike_MyTestCase - 2024.09.16 at 21h 14m 31s.xml">
-      <configuration name="pytest for test_like_or_dislike.MyTestCase" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.26 at 20h 55m 09s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_like_or_dislike_MyTestCase_test_fixed_tests - 2024.09.16 at 21h 14m 47s.xml">
-      <configuration name="pytest for test_like_or_dislike.MyTestCase.test_fixed_tests" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.26 at 20h 55m 34s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -372,12 +372,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.25223213" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" weight="0.25223213" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.41243863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3878887" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.30769232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,28 +386,28 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" visible="true" weight="0.22913256" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.22913256" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" visible="true" weight="0.25297618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74183005" weight="0.25223213" />
       <window_info id="Structure" order="1" sideWeight="0.25816995" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.30769232" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5057283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.41243863" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.30769232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.41734862" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.33551556" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.22913256" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1148,13 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sum_the_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/odd_occurrences_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1167,11 +1160,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_sum_the_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="425">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sum_the_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
