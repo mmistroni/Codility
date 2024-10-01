@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76772f8-59be-4cc2-ac7b-01ea2c98b3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sum_the_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sum_the_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_sum_the_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_sum_the_sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sum_the_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="188">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_sum_the_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/odd_occurrences_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="9" selection-end-line="12" />
+            <state relative-caret-position="170">
+              <caret line="12" selection-start-line="9" selection-end-line="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -220,7 +220,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_sum_the_sum.MyTestCase.test5">
+  <component name="RunManager" selected="Python tests.pytest for test_sum_the_sum.MyTestCase">
+    <configuration name="pytest for test_sum_the_sum.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sum_the_sum.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,21 +281,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_sum_the_sum.MyTestCase.test4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sum_the_sum.MyTestCase.test4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_sum_the_sum.MyTestCase.test5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase" />
+        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test2" />
         <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test5" />
         <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test1" />
         <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test3" />
-        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test4" />
-        <item itemvalue="Python tests.pytest for test_sum_the_sum.MyTestCase.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -328,35 +328,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test2 - 2024.09.26 at 20h 44m 23s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test2 - 2024.09.26 at 20h 45m 17s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test4 - 2024.09.26 at 20h 45m 38s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test3 - 2024.09.26 at 20h 52m 38s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test3 - 2024.09.26 at 20h 53m 10s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test5 - 2024.09.26 at 20h 53m 21s.xml">
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test5 - 2024.09.26 at 20h 57m 12s.xml">
       <configuration name="pytest for test_sum_the_sum.MyTestCase.test5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test5 - 2024.09.26 at 20h 54m 02s.xml">
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase - 2024.09.27 at 18h 28m 55s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.27 at 18h 29m 41s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.27 at 18h 37m 15s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.27 at 18h 38m 02s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.27 at 18h 38m 21s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test5 - 2024.09.27 at 18h 38m 26s.xml">
       <configuration name="pytest for test_sum_the_sum.MyTestCase.test5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.26 at 20h 54m 38s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase - 2024.09.27 at 18h 38m 35s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.26 at 20h 55m 09s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test2 - 2024.09.27 at 18h 38m 56s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase.test2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase_test1 - 2024.09.26 at 20h 55m 34s.xml">
-      <configuration name="pytest for test_sum_the_sum.MyTestCase.test1" configurationId="tests" />
+    <history-entry file="pytest_for_test_sum_the_sum_MyTestCase - 2024.10.01 at 20h 18m 09s.xml">
+      <configuration name="pytest for test_sum_the_sum.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -377,7 +377,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3878887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.44189852" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.30769232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -715,6 +715,11 @@
           <url>file://$PROJECT_DIR$/test/test_minimum_bonus.py</url>
           <line>52</line>
           <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/sum_the_sum.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="234" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1150,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/odd_occurrences_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="9" selection-end-line="12" />
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="9" selection-end-line="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1160,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_sum_the_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1170,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sum_the_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="188">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
