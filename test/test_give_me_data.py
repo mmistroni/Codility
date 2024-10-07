@@ -6,7 +6,9 @@ SAMPLE_TESTS = [
     ({'*_allow', 'books_allow', 'movies_deny'}, 'games', True),
     ({'*_allow', '*_deny'}, 'movies', False),
     ({'*_deny', '*_allow'}, 'movies', False),
-    (set(), 'movies', False)
+    (set(), 'movies', False),
+    ({'books_allow', '*_allow', '*_deny', 'movies_deny'}, 'books', True)
+
 ]
 
 class MyTestCase(unittest.TestCase):

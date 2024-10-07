@@ -2,20 +2,27 @@
 
 def has_permission(user_info, accessing_data):
 
-    last_perms = []
+    if not user_info:
+        return False
+    specific_perms = []
+    general_perms = []
     for  perm in user_info:
         if accessing_data in perm:
-            last_perms.append(perm)
+            specific_perms.append(perm)
         elif perm in ['*_allow', '*_deny']:
-            last_perms.append(perm)
+            general_perms.append(perm)
 
-    denies = [p for p in last_perms if 'deny' in p]
-    allow = [p for p in last_perms if 'allow' in p]
-
-    if denies:
-        return False
-    if allow:
+    specifics_a = [p for p in specific_perms if 'allow' in p]
+    if specifics_a:
         return True
-    return False
+    specifics_d = [p for p in specific_perms if 'deny' in p]
+    if specifics_d:
+        return False
 
-    return True if 'allow' in last_perm else False
+    if not general_perms:
+        return True
+
+    specifics_d = [p for p in general_perms if 'deny' in p]
+
+    return False if specifics_d else True
+
