@@ -5,6 +5,7 @@ SAMPLE_TESTS = [
     ({'books_allow', 'movies_deny'}, 'books', True),
     ({'*_allow', 'books_allow', 'movies_deny'}, 'games', True),
     ({'*_allow', '*_deny'}, 'movies', False),
+    ({'*_deny', '*_allow'}, 'movies', False),
     (set(), 'movies', False)
 ]
 
