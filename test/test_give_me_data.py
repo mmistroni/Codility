@@ -11,6 +11,7 @@ SAMPLE_TESTS = [
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         for user_info, accessing_data, result in SAMPLE_TESTS:
-            self.assertEquals(result, has_permission())
+            print(f'{user_info} - {accessing_data} = {result}')
+            self.assertEquals(result, has_permission(user_info, accessing_data))
 if __name__ == '__main__':
     unittest.main()
