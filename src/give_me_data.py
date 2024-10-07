@@ -12,6 +12,8 @@ def has_permission(user_info, accessing_data):
         elif perm in ['*_allow', '*_deny']:
             general_perms.append(perm)
 
+
+    # We need to revise these priorities
     specifics_a = [p for p in specific_perms if 'allow' in p]
     if specifics_a:
         return True

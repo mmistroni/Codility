@@ -7,7 +7,10 @@ SAMPLE_TESTS = [
     ({'*_allow', '*_deny'}, 'movies', False),
     ({'*_deny', '*_allow'}, 'movies', False),
     (set(), 'movies', False),
-    ({'books_allow', '*_allow', '*_deny', 'movies_deny'}, 'books', True)
+    ({'books_allow', '*_allow', '*_deny', 'movies_deny'}, 'books', True),
+    ({'movies_allow', '*_deny', 'movies_deny', '*_allow'}, 'movies', False),
+    ( {'books_allow', 'books_deny'}, 'games', False),
+    ( {'movies_allow', 'movies_deny'}, 'books', False)
 
 ]
 
