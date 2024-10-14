@@ -17,7 +17,16 @@ SAMPLE_TESTS = [
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         for user_info, accessing_data, result in SAMPLE_TESTS:
-            print(f'{user_info} - {accessing_data} = {result}')
+            print(f'U:{user_info} - A:{accessing_data} = {result}')
             self.assertEquals(result, has_permission(user_info, accessing_data))
+
+    def test_somethign2(self):
+
+        tpl  = ({'books_allow', 'movies_deny'}, 'books', True)
+        u, a, r = tpl
+
+        self.assertEquals(r, has_permission(u, a))
+
+
 if __name__ == '__main__':
     unittest.main()
