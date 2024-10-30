@@ -18,9 +18,21 @@ class MyTestCase(unittest.TestCase):
          ),
     ]
 
-    def test_something(self):
-        for test, input, expected in self.sample_test_cases:
-            self.assertEquals(expected, magic_music_box(input))
+    def test_one(self):
+        words = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
+        expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']  # expected
+        self.assertEquals(expected, magic_music_box(words))
+
+    def test_two(self):
+        words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN'],  # words
+
+        expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
+        self.assertEquals(expected, magic_music_box(words))
+
+    def test_three(self):
+        words = []
+        expected = []
+        self.assertEquals(expected, magic_music_box(words))
 
 
 
