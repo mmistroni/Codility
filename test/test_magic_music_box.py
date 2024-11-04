@@ -21,7 +21,8 @@ class MyTestCase(unittest.TestCase):
     def test_one(self):
         words = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']  # expected
-        self.assertEquals(expected, magic_music_box(words))
+        result = magic_music_box(words)
+        self.assertEquals(expected, result)
 
     def test_two(self):
         words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN'],  # words
