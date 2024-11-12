@@ -51,6 +51,8 @@ class MyTestCase(unittest.TestCase):
 
         holder = []
         seen = set()
+        # We need to hold notes we have already seen. if  we have seen it
+        # then the idx will be notes_dict.get(note) + 7
         for idx, w in enumerate(words):
             match = re.search(pattern, w)
             if match:
