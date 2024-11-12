@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/magic_music_box.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="111">
+              <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_magic_music_box.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="361">
+              <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="10047">
               <caret line="604" selection-start-line="604" selection-end-line="604" />
             </state>
           </provider>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/give_me_data.py" />
         <option value="$PROJECT_DIR$/test/test_levenshtein_distance.py" />
         <option value="$PROJECT_DIR$/src/levenshtein_distance.py" />
-        <option value="$PROJECT_DIR$/src/magic_music_box.py" />
         <option value="$PROJECT_DIR$/test/test_magic_music_box.py" />
+        <option value="$PROJECT_DIR$/src/magic_music_box.py" />
       </list>
     </option>
   </component>
@@ -149,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,8 +200,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_magic_music_box.MyTestCase.test_one">
-    <configuration name="pytest for test_levenshtein_distance.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_magic_music_box.MyTestCase.test_sample">
+    <configuration name="pytest for test_magic_music_box.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,22 +212,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_levenshtein_distance.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_levenshtein_distance.MyTestCase.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_levenshtein_distance.MyTestCase.test_one&quot;" />
+      <option name="_new_target" value="&quot;test_magic_music_box.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -243,6 +228,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_magic_music_box.MyTestCase.test_one&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_magic_music_box.MyTestCase.test_sample" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_magic_music_box.MyTestCase.test_sample&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -278,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_magic_music_box.MyTestCase.test_one" />
+        <item itemvalue="Python tests.pytest for test_magic_music_box.MyTestCase.test_sample" />
         <item itemvalue="Python tests.pytest for test_magic_music_box.MyTestCase.test_two" />
+        <item itemvalue="Python tests.pytest for test_magic_music_box.MyTestCase.test_one" />
+        <item itemvalue="Python tests.pytest for test_magic_music_box.MyTestCase" />
         <item itemvalue="Python tests.pytest for test_magic_music_box.MyTestCase.test_something" />
-        <item itemvalue="Python tests.pytest for test_levenshtein_distance.MyTestCase" />
-        <item itemvalue="Python tests.pytest for test_levenshtein_distance.MyTestCase.test_one" />
       </list>
     </recent_temporary>
   </component>
@@ -308,35 +308,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 49m 05s.xml">
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase - 2024.11.12 at 21h 07m 08s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.12 at 21h 07m 28s.xml">
       <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 49m 39s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_two - 2024.11.12 at 21h 09m 13s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 50m 13s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_two - 2024.11.12 at 21h 09m 26s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 51m 37s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_two - 2024.11.12 at 21h 10m 07s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 52m 41s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_two - 2024.11.12 at 21h 10m 34s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 53m 27s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_two - 2024.11.12 at 21h 11m 16s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 54m 42s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_two - 2024.11.12 at 21h 11m 35s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 20h 55m 52s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_sample - 2024.11.12 at 21h 11m 59s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_sample" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 21h 02m 14s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_one - 2024.11.04 at 21h 02m 47s.xml">
-      <configuration name="pytest for test_magic_music_box.MyTestCase.test_one" configurationId="tests" />
+    <history-entry file="pytest_for_test_magic_music_box_MyTestCase_test_sample - 2024.11.12 at 21h 13m 02s.xml">
+      <configuration name="pytest for test_magic_music_box.MyTestCase.test_sample" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -357,8 +357,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24032739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.5220949" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.5220949" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.28968903" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627978" weight="0.49099836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -702,14 +702,9 @@
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/magic_music_box.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="247" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_magic_music_box.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="248" />
+          <line>31</line>
+          <option name="timeStamp" value="249" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1156,24 +1151,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/magic_music_box.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="10047">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
+    <entry file="file://$PROJECT_DIR$/src/magic_music_box.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        <state relative-caret-position="111">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_magic_music_box.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="361">
+          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>

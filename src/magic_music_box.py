@@ -4,42 +4,26 @@ NOTES = ["DO", "RE", "MI", "FA", "SOL", "LA", "SI"]
 
 pattern = r"\b\w*(DO|RE|MI|FA|SOL|LA|SI)\w*\b"
 
-def check_notes(words):
-    bad = [w for w in words if  not re.findall(pattern, w)]
-    if bad == words:
-        return False
-    return True
-
-# the box
-def recurse(words, notes, note_idx, word_idx, holder):
-    if not words:
-        #word sempty
-        return holder
-    elif  not check_notes(notes):
-        # Only words that do not match
-        return holder
-    else:
-        # Rset, we dont need to  remove words, we just check
-        # if they are aalrady in the holder
-        # We just need to find out when to stop cycle for
-        # words that do not fit
-        note_idx = note_idx % 7
-        note = notes[note_idx]
-        current = words[word_idx]
-        print(f'Looking for {note} in {current}')
-        if current.find(note) >= 0:
-            holder.append(current)
-            words.remove(current)
-        else:
-            word_idx +=1
-    return recurse(words, notes, note_idx + 1, word_idx, holder)
+notes_dict = {'DO' : 0, 'RE' : 1, 'MI' : 2,
+                      'FA' : 3, 'SOL' : 4, 'LA' : 5, 'SI' : 6}
 
 
 def magic_music_box(words):
 
-    # so we need to loop thu all the notes, and check
-    # if current word contains the note. If it does, remove workd
-    # and add it to the box
+    if not words:
+        return []
+
     holder = []
-    res =  recurse(words, NOTES, 0, 0, holder)
-    return res
+    seen = set()
+    for idx, w in enumerate(words):
+        print(w)  # Not really there, The sorting mechanism is not quite right
+        match = re.search(pattern, w)
+        if match:
+            if w not in seen:
+                seen.add(w)
+                note = match.group(1)
+                holder.append((w, notes_dict.get(note), idx))
+
+    sorted_l = sorted(holder, key=lambda x: (x[1], x[2]))
+
+    return [t[0] for t in sorted_l]
