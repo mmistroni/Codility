@@ -16,12 +16,11 @@ def magic_music_box(words):
     holder = []
     seen = set()
     for idx, w in enumerate(words):
-        print(w)  # Not really there, The sorting mechanism is not quite right
         match = re.search(pattern, w)
         if match:
             if w not in seen:
                 seen.add(w)
-                note = match.group(1)
+                note = match.group()
                 holder.append((w, notes_dict.get(note), idx))
 
     sorted_l = sorted(holder, key=lambda x: (x[1], x[2]))

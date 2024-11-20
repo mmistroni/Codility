@@ -1,6 +1,7 @@
-from magic_music_box import magic_music_box, pattern
+from magic_music_box import magic_music_box, pattern, notes_dict
 import re
 import unittest
+from collections import defaultdict
 
 class MyTestCase(unittest.TestCase):
     sample_test_cases = [
@@ -32,36 +33,54 @@ class MyTestCase(unittest.TestCase):
         self.assertEquals(expected, res)
 
     def test_three(self):
-        words = []
-        expected = []
-        self.assertEquals(expected, magic_music_box(words))
+        from collections import defaultdict
+        words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN']  # words
+        expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
+
+        holder = []
+        seen = set()
+
+        ddict = defaultdict(list)
+
+        for idx, w in enumerate(words):
+            patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
+            for p in patterns:
+                match = re.search(pattern, "SOLAR")
+                if match:
+                    note = match.group(1)
+                    break
+
+            ddict[note].append(1)
+            if w not in seen:
+                seen.add(w)
+                nidx = notes_dict.get(note)
+                if len(ddict[note]) > 1:
+                    nidx += 7
+                holder.append((w, nidx, nidx))
+
+        sorted_l = sorted(holder, key=lambda x: (x[1]))
+
+        res = [t[0] for t in sorted_l]
+        self.assertEquals(expected, res)
 
 
     def test_sample(self):
         words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN']
         #['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
 
-        good = [w for w in words if re.search(pattern, w)]
+        pattern = r"\b\w*(DO|RE|MI|FA|SOL|SI)\w*\b"
 
-        print(good)
-
-        notes_dict = {'DO' : 0, 'RE' : 1, 'MI' : 2,
-                      'FA' : 3, 'SOL' : 4, 'LA' : 5, 'SI' : 6}
-
-
-        holder = []
-        seen = set()
-        # We need to hold notes we have already seen. if  we have seen it
-        # then the idx will be notes_dict.get(note) + 7
-        for idx, w in enumerate(words):
-            match = re.search(pattern, w)
+        patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
+        for p in patterns:
+            match = re.search(pattern, "SOLAR")
             if match:
-                if w not in seen:
-                    seen.add(w)
-                    note = match.group(1)
-                    holder.append((w, notes_dict.get(note), idx))
+                res = match.group(1)
+                print(res)
+                break
 
-        sorted_l= sorted(holder, key=lambda x: (x[1]))
-        from pprint import pprint
-        pprint(sorted_l)
+
+
+
+
+
 
