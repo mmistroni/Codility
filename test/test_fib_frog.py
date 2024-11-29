@@ -1,6 +1,6 @@
 import unittest
 
-from fib_frog import solution
+from src.fib_frog import solution
 import heapq
 import time
 from itertools import product, combinations_with_replacement

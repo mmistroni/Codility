@@ -1,6 +1,6 @@
 import unittest
 
-from fibonacci_ladder import solution
+from src.fibonacci_ladder import solution
 import heapq
 import time
 from itertools import product, combinations_with_replacement

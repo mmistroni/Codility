@@ -1,5 +1,5 @@
 import unittest
-from genomic_range_query import  solution
+from src.genomic_range_query import  solution
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         S = 'CAGCCTA'

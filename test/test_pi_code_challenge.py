@@ -1,6 +1,6 @@
 import unittest
 
-from pi_code_challenge import solution
+from src.pi_code_challenge import solution
 
 from collections import Counter
 

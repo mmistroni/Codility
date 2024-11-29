@@ -1,4 +1,4 @@
-from day_of_programmer import solution, is_leap, get_calendar
+from src.day_of_programmer import solution, is_leap, get_calendar
 import unittest
 
 class MyTestCase(unittest.TestCase):

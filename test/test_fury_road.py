@@ -17,7 +17,7 @@ You ride on the scooter all the time in 40 + 40 + 40 + 40 + 5 + 5 + 5 = 175.
 
 '''
 
-from fury_road import solution
+from src.fury_road import solution
 
 class MyTestCase(unittest.TestCase):
     def test_one(self):

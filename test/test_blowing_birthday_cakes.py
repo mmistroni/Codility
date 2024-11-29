@@ -1,5 +1,5 @@
 import unittest
-from blowing_birthday_cakes import blow_candles
+from src.blowing_birthday_cakes import blow_candles
 import  time
 class MyTestCase(unittest.TestCase):
 

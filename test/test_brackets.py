@@ -1,6 +1,6 @@
 import unittest
 
-from brackets import solution
+from src.brackets import solution
 class MyTestCase(unittest.TestCase):
     def test_nested(self):
         nested = "{[()()]}"

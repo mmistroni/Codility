@@ -1,6 +1,6 @@
 import unittest
 
-from distinct import solution
+from src.distinct import solution
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         A = [2, 1, 1, 2, 3, 1]

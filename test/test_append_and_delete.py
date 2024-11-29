@@ -1,6 +1,6 @@
 import unittest
 
-from append_and_delete import solution
+from src.append_and_delete import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

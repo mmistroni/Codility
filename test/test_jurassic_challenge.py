@@ -1,6 +1,6 @@
 import unittest
 
-from jurassic_challenge import solution
+from src.jurassic_challenge import solution
 
 class MyTestCase(unittest.TestCase):
 

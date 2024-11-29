@@ -1,5 +1,5 @@
 import unittest
-from reverse_inside_parenthesis import solution
+from src.reverse_inside_parenthesis import solution
 
 '''
 In this kata, you will be given a string of text and valid parentheses, such as "h(el)lo". 

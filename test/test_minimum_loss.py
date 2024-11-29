@@ -1,5 +1,5 @@
 import unittest
-from minimum_loss import solution
+from src.minimum_loss import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

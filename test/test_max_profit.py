@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.max_profit import solution
+from src.max_profit import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

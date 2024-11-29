@@ -1,6 +1,6 @@
 import unittest
 
-from spinning_rings import spinning_rings
+from src.spinning_rings import spinning_rings
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

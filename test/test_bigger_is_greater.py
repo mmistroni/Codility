@@ -1,6 +1,6 @@
 import unittest
 
-from bigger_is_greater import solution
+from src.bigger_is_greater import solution
 
 class MyTestCase(unittest.TestCase):
 

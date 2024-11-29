@@ -1,4 +1,4 @@
-from magic_music_box import magic_music_box, pattern, notes_dict
+from src.magic_music_box import magic_music_box, pattern, notes_dict
 import re
 import unittest
 from collections import defaultdict
@@ -23,14 +23,14 @@ class MyTestCase(unittest.TestCase):
         words = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']  # expected
         result = magic_music_box(words)
-        self.assertEquals(expected, result)
+        self.assertEqual(expected, result)
 
     def test_two(self):
         words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN'] # words
 
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
         res = magic_music_box(words)
-        self.assertEquals(expected, res)
+        self.assertEqual(expected, res)
 
     def test_three(self):
         from collections import defaultdict
@@ -61,7 +61,7 @@ class MyTestCase(unittest.TestCase):
         sorted_l = sorted(holder, key=lambda x: (x[1]))
 
         res = [t[0] for t in sorted_l]
-        self.assertEquals(expected, res)
+        self.assertEqual(expected, res)
 
 
     def test_sample(self):

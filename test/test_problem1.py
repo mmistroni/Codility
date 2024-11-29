@@ -1,6 +1,6 @@
 import unittest
 
-from problem1 import solution
+from src.problem1 import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

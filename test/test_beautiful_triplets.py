@@ -1,5 +1,5 @@
 import unittest
-from beautiful_triplets import solution
+from src.beautiful_triplets import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

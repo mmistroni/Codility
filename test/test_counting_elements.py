@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.counting_elements import solution
+from src.counting_elements import solution
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         A = [3 ,4, 4, 6, 1, 4, 4]

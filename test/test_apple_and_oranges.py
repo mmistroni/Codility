@@ -1,5 +1,5 @@
 import unittest
-from apple_and_orange import is_in_house, solution
+from src.apple_and_orange import is_in_house, solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

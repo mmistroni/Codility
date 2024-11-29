@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.cyclic_rotation import  sol
+from src.cyclic_rotation import  sol
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

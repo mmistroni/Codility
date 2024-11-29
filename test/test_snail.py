@@ -1,5 +1,5 @@
 import unittest
-from snail import can_crawl
+from src.snail import can_crawl
 
 
 class MyTestCase(unittest.TestCase):

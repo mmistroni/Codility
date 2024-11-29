@@ -1,4 +1,4 @@
-from give_me_data import has_permission
+from src.give_me_data import has_permission
 import unittest
 SAMPLE_TESTS = [
     ({'books_allow', 'movies_deny'}, 'movies', False),

@@ -1,5 +1,5 @@
 import unittest
-from Codility.src.perm_check import solution
+from src.perm_check import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

@@ -1,6 +1,6 @@
 import unittest
 
-from picking_numbers import solution
+from src.picking_numbers import solution
 
 
 class MyTestCase(unittest.TestCase):

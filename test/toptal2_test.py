@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.toptal2 import arrange
+from src.toptal2 import arrange
 
 class MyTestCase(unittest.TestCase):
 

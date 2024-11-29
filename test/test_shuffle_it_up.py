@@ -1,6 +1,6 @@
 import unittest
 
-from shuffle_it_up import solution
+from src.shuffle_it_up import solution
 from itertools import permutations, combinations
 import time
 

@@ -1,5 +1,5 @@
 import unittest
-from max_counters2 import solution
+from src.max_counters2 import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

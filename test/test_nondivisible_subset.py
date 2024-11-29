@@ -1,5 +1,5 @@
 import unittest
-from non_divisible_subset import solution
+from src.non_divisible_subset import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

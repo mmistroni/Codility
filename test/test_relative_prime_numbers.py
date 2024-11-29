@@ -1,5 +1,5 @@
 import unittest
-from relative_prime_numbers import relatively_prime
+from src.relative_prime_numbers import relatively_prime
 
 class MyTestCase(unittest.TestCase):
 

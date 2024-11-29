@@ -1,5 +1,5 @@
 import unittest
-from levenshtein_distance import levenshtein
+from src.levenshtein_distance import levenshtein
 
 class MyTestCase(unittest.TestCase):
 

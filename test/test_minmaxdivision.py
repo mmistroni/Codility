@@ -1,6 +1,6 @@
 import unittest
 
-from minmaxdivision import solution
+from src.minmaxdivision import solution
 
 
 def binarySearch(A, x):

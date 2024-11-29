@@ -1,5 +1,5 @@
 import unittest
-from count_nondivisble import solution, arrayF,  factorization
+from src.count_nondivisble import solution, arrayF,  factorization
 
 class MyTestCase(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 import unittest
-from problem2 import solution
+from src.problem2 import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

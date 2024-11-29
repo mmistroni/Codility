@@ -1,6 +1,6 @@
 import unittest
-from passing_cars import solution
-from genomic_range_query import prefix_sums
+from src.passing_cars import solution
+from src.genomic_range_query import prefix_sums
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

@@ -1,5 +1,5 @@
 import unittest
-from extra_long_factorial import solution
+from src.extra_long_factorial import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

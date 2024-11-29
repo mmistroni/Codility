@@ -1,6 +1,6 @@
 import unittest
 
-from national_code_week import solution, build_graph
+from src.national_code_week import solution, build_graph
 
 class MyTestCase(unittest.TestCase):
     def test_one(self):

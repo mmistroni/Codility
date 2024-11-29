@@ -1,6 +1,6 @@
 import unittest
 
-from minimum_bonus import minimum_bonus
+from src.minimum_bonus import minimum_bonus
 
 
 sample_test_cases = [

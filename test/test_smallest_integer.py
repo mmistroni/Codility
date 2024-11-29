@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.smallest_integer import solution
+from src.smallest_integer import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

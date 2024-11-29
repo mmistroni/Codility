@@ -1,6 +1,6 @@
 import unittest
 
-from number_of_disc_intersections import Solution
+from src.number_of_disc_intersections import Solution
 
 
 class MyTestCase(unittest.TestCase):

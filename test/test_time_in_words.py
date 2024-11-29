@@ -1,5 +1,5 @@
 import unittest
-from time_in_words import solution
+from src.time_in_words import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

@@ -1,5 +1,5 @@
 import unittest
-from drawing_book import solution
+from src.drawing_book import solution
 
 
 class MyTestCase(unittest.TestCase):

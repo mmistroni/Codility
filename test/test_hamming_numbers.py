@@ -1,6 +1,6 @@
 import unittest
 
-from hamming_numbers import hamming
+from src.hamming_numbers import hamming
 from heapq import heapify, heappop, heapreplace, heappush
 
 

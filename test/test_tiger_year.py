@@ -1,5 +1,5 @@
 import unittest
-from tiger_year import solution
+from src.tiger_year import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

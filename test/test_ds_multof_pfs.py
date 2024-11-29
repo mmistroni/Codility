@@ -1,6 +1,6 @@
 import unittest
 from math import sqrt
-from ds_multof_pfs import solution, factors
+from src.ds_multof_pfs import solution, factors
 from itertools import product, combinations
 
 def arrayF(n):

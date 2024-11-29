@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.toptal1 import crop
+from src.toptal1 import crop
 class MyTestCase(unittest.TestCase):
     def test_something1(self):
         sentence = "Codility we test coders"

@@ -1,5 +1,5 @@
 import unittest
-from funny_strings import solution
+from src.funny_strings import solution
 
 class MyTestCase(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 import unittest
-from birthday_bar import solution
+from src.birthday_bar import solution
 
 class MyTestCase(unittest.TestCase):
 

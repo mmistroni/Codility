@@ -1,5 +1,5 @@
 import unittest
-from mrjefferson import  shortest_arrang
+from src.mrjefferson import  shortest_arrang
 
 class MyTestCase(unittest.TestCase):
 

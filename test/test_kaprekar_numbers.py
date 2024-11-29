@@ -1,6 +1,6 @@
 import unittest
 
-from kaprekar_numbers import solution, is_kaprekar2
+from src.kaprekar_numbers import solution, is_kaprekar2
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         p, q = 1,100

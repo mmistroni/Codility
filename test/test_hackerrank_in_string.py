@@ -1,5 +1,5 @@
 import unittest
-from hackerrank_in_string import solution
+from src.hackerrank_in_string import solution
 
 class MyTestCase(unittest.TestCase):
 

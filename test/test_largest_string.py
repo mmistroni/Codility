@@ -1,5 +1,5 @@
 import unittest
-from largest_string import solution
+from src.largest_string import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

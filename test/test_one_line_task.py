@@ -1,5 +1,5 @@
 import unittest
-from one_line_task import solution, factorial
+from src.one_line_task import solution, factorial
 from itertools import combinations
 
 def combi(n, k):

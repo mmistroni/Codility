@@ -1,6 +1,6 @@
 import unittest
 
-from Codility.src.odd_occurrences import solution
+from src.odd_occurrences import solution
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         A = [9,3,9,3,9,7,9]

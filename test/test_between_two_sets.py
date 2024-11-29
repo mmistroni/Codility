@@ -1,6 +1,6 @@
 import unittest
 
-from between_two_sets import solution
+from src.between_two_sets import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

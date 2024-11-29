@@ -1,6 +1,6 @@
 import unittest
 
-from fast_cooking import cook_pancakes
+from src.fast_cooking import cook_pancakes
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

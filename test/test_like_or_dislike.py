@@ -1,5 +1,5 @@
 
-from like_or_dislike import  like_or_dislike, Test
+from src.like_or_dislike import  like_or_dislike, Test
 import unittest
 
 

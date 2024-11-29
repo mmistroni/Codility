@@ -1,6 +1,6 @@
 import unittest
 
-from how_many_numbers import max_sumDig, is_above_sum
+from src.how_many_numbers import max_sumDig, is_above_sum
 
 '''
 We want to find the numbers higher or equal than 1000 that the sum of every four consecutives digits cannot be higher than a certain given value. 

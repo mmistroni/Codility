@@ -1,5 +1,5 @@
 import unittest
-from Codility.src.frog_jmp import jump
+from src.frog_jmp import jump
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

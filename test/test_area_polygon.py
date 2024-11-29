@@ -1,6 +1,6 @@
 import unittest
 
-from area_polygon import area_of_inscribed_polygon
+from src.area_polygon import area_of_inscribed_polygon
 import math
 
 

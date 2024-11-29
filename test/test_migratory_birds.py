@@ -1,6 +1,6 @@
 import unittest
 
-from migratory_birds import solution
+from src.migratory_birds import solution
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         tester = [1,1,2,2,3]

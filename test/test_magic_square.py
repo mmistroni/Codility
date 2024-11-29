@@ -1,6 +1,6 @@
 import unittest
 
-from magic_square import solution
+from src.magic_square import solution
 import numpy as np
 
 class MyTestCase(unittest.TestCase):

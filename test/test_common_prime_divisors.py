@@ -1,6 +1,6 @@
 import unittest
 
-from common_prime_divisors import solution
+from src.common_prime_divisors import solution
 
 
 def gcd(a, b, res):

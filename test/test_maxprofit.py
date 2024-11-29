@@ -1,5 +1,5 @@
 import unittest
-from Codility.src.maxprofit import solution, golden_max_slice
+from src.maxprofit import solution, golden_max_slice
 
 #https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
 '''

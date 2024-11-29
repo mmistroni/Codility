@@ -1,6 +1,6 @@
 import unittest
 
-from quotient_from_array import solution
+from src.quotient_from_array import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

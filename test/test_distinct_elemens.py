@@ -1,5 +1,5 @@
 import unittest
-from Codility.src.distinct_elems import solution
+from src.distinct_elems import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

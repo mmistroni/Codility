@@ -1,5 +1,5 @@
 import unittest
-from counting_sort1 import solution
+from src.counting_sort1 import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

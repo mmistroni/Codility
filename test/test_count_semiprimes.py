@@ -1,6 +1,6 @@
 import unittest
 
-from count_semiprimes import solution, factorization, arrayF
+from src.count_semiprimes import solution, factorization, arrayF
 from itertools import permutations, product
 class MyTestCase(unittest.TestCase):
 

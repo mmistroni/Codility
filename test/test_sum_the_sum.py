@@ -1,4 +1,4 @@
-from sum_the_sum import sum_of_sums
+from src.sum_the_sum import sum_of_sums
 import unittest
 import time
 

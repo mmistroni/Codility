@@ -1,5 +1,5 @@
 import unittest
-from bon_appetit import solution
+from src.bon_appetit import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

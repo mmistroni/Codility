@@ -1,6 +1,6 @@
 import unittest
 
-from absolute_permutation import solution
+from src.absolute_permutation import solution
 from itertools import permutations, chain
 
 

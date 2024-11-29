@@ -1,5 +1,5 @@
 import unittest
-from peaks import solution, find_peaks, divisors
+from src.peaks import solution, find_peaks, divisors
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
