@@ -1,6 +1,6 @@
 import unittest
 
-from src. import solution
+from src.kangaroo import solution
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

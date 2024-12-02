@@ -81,9 +81,16 @@ class MyTestCase(unittest.TestCase):
                 print(res)
                 break
 
+    def test_four(self):
+        res = magic_music_box(['DOWN', 'AMIDST', 'SOFA', 'FACTION'])
+        self.assertEqual(res, ['DOWN'])
 
 
+    def test_five(self):
+    
+        res = magic_music_box(['PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'FLOOR', 'SIMILAR'])         
 
+        self.assertEqual(res, [])
 
 
 

@@ -28,14 +28,14 @@ def magic_music_box(words):
                 break
             else:
                 continue
-
-        ddict[note].append(1)
-        if w not in seen:
-            seen.add(w)
-            nidx = notes_dict.get(note)
-            if len(ddict[note]) > 1:
-                nidx += 7
-            holder.append((w, nidx, nidx))
+        if note:        
+            ddict[note].append(1)
+            if w not in seen:
+                seen.add(w)
+                nidx = notes_dict.get(note)
+                if len(ddict[note]) > 1:
+                    nidx += 7
+                holder.append((w, nidx, nidx))
 
     sorted_l = sorted(holder, key=lambda x: (x[1]))
 
