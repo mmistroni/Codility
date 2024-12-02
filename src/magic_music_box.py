@@ -1,5 +1,6 @@
 #https://www.codewars.com/kata/6710e54f8ef071fe99eebd07/train/python
 import re
+from collections import defaultdict
 NOTES = ["DO", "RE", "MI", "FA", "SOL", "LA", "SI"]
 
 pattern = r"\b\w*(DO|RE|MI|FA|SOL|LA|SI)\w*\b"
@@ -15,14 +16,28 @@ def magic_music_box(words):
 
     holder = []
     seen = set()
-    for idx, w in enumerate(words):
-        match = re.search(pattern, w)
-        if match:
-            if w not in seen:
-                seen.add(w)
-                note = match.group()
-                holder.append((w, notes_dict.get(note), idx))
 
-    sorted_l = sorted(holder, key=lambda x: (x[1], x[2]))
+    ddict = defaultdict(list)
+
+    for idx, w in enumerate(words):
+        patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
+        for p in patterns:
+            match = re.search(p, w)
+            if match:
+                note = match.group(0)
+                break
+            else:
+                continue
+
+        ddict[note].append(1)
+        if w not in seen:
+            seen.add(w)
+            nidx = notes_dict.get(note)
+            if len(ddict[note]) > 1:
+                nidx += 7
+            holder.append((w, nidx, nidx))
+
+    sorted_l = sorted(holder, key=lambda x: (x[1]))
 
     return [t[0] for t in sorted_l]
+        

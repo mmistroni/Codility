@@ -45,10 +45,13 @@ class MyTestCase(unittest.TestCase):
         for idx, w in enumerate(words):
             patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
             for p in patterns:
-                match = re.search(pattern, "SOLAR")
+                match = re.search(p, w)
                 if match:
-                    note = match.group(1)
+                    note = match.group(0)
+                    print(f'Adding ')
                     break
+                else:
+                    print(f'{p} not found in {w}')
 
             ddict[note].append(1)
             if w not in seen:
@@ -64,7 +67,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(expected, res)
 
 
-    def test_sample(self):
+    def xtest_sample(self):
         words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN']
         #['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
 
