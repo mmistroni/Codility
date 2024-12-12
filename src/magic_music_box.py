@@ -19,6 +19,9 @@ def magic_music_box(words):
 
     ddict = defaultdict(list)
 
+    # dont think the loop is a good solution
+
+
     for idx, w in enumerate(words):
         patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
         for p in patterns:

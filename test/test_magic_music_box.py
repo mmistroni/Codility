@@ -74,6 +74,36 @@ class MyTestCase(unittest.TestCase):
         pattern = r"\b\w*(DO|RE|MI|FA|SOL|SI)\w*\b"
 
         patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
+        # Attempt by following instructions exactly
+        counter = 0
+        ddict = defaultdict(list)
+
+        while True:
+
+            # we exit either when array is empty or when we found all the notes
+            if not words:
+                break
+            # we need to find out the second condition, when the array is not empty    
+
+            idx = counter % 7
+            pattern = patterns[idx]
+            for idx, w in enumerate(words):
+                if w in ddict:
+                    # word has been seen already, removing it
+                    words.pop(idx)
+                    break
+                match = re.search(pattern, w)
+                if match:
+                    ddict[pattern].append(w)
+                    words.pop(idx)
+                    break
+                else:
+                    # no match, then check if we found all the notes, 
+                    # in that case we get out
+                    if len(set(ddict.keys()))
+
+
+
         for p in patterns:
             match = re.search(pattern, "SOLAR")
             if match:
