@@ -9,38 +9,38 @@ notes_dict = {'DO' : 0, 'RE' : 1, 'MI' : 2,
                       'FA' : 3, 'SOL' : 4, 'LA' : 5, 'SI' : 6}
 
 
+def play(words):
+    patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
+        
+    found = []
+    dupes = []
+
+    looping = 0
+    while True:
+        # we exit either when array is empty or when we found all the notes
+        # if a note is missing we should break and return what we have
+        if not words:
+            break
+        for note in patterns:
+            note_found = False
+            for idx, word in enumerate(words):
+                if note in word:
+                    if word not in found:
+                        found.append(word)
+                    else:
+                        dupes.append(word)
+                    note_found = True
+                    words.pop(idx)   
+            if not note_found:#
+                break        
+        if not found:
+            break
+    return found
+
+
 def magic_music_box(words):
 
     if not words:
         return []
-
-    holder = []
-    seen = set()
-
-    ddict = defaultdict(list)
-
-    # dont think the loop is a good solution
-
-
-    for idx, w in enumerate(words):
-        patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
-        for p in patterns:
-            match = re.search(p, w)
-            if match:
-                note = match.group(0)
-                break
-            else:
-                continue
-        if note:        
-            ddict[note].append(1)
-            if w not in seen:
-                seen.add(w)
-                nidx = notes_dict.get(note)
-                if len(ddict[note]) > 1:
-                    nidx += 7
-                holder.append((w, nidx, nidx))
-
-    sorted_l = sorted(holder, key=lambda x: (x[1]))
-
-    return [t[0] for t in sorted_l]
-        
+    return play(words)
+    

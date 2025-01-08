@@ -2,6 +2,7 @@ from src.magic_music_box import magic_music_box, pattern, notes_dict
 import re
 import unittest
 from collections import defaultdict
+import logging
 
 class MyTestCase(unittest.TestCase):
     sample_test_cases = [
@@ -32,51 +33,16 @@ class MyTestCase(unittest.TestCase):
         res = magic_music_box(words)
         self.assertEqual(expected, res)
 
-    def test_three(self):
-        from collections import defaultdict
-        words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN']  # words
-        expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
-
-        holder = []
-        seen = set()
-
-        ddict = defaultdict(list)
-
-        for idx, w in enumerate(words):
-            patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
-            for p in patterns:
-                match = re.search(p, w)
-                if match:
-                    note = match.group(0)
-                    print(f'Adding ')
-                    break
-                else:
-                    print(f'{p} not found in {w}')
-
-            ddict[note].append(1)
-            if w not in seen:
-                seen.add(w)
-                nidx = notes_dict.get(note)
-                if len(ddict[note]) > 1:
-                    nidx += 7
-                holder.append((w, nidx, nidx))
-
-        sorted_l = sorted(holder, key=lambda x: (x[1]))
-
-        res = [t[0] for t in sorted_l]
-        self.assertEqual(expected, res)
-
-
-    def xtest_sample(self):
-        words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN']
-        #['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
-
-        pattern = r"\b\w*(DO|RE|MI|FA|SOL|SI)\w*\b"
-
+    def test_sample2(self):
+        #words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN']
+        #expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
+        words = []
+        expected = []
+        
         patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
-        # Attempt by following instructions exactly
-        counter = 0
-        ddict = defaultdict(list)
+        
+        found = []
+        dupes = []
 
         while True:
 
@@ -84,33 +50,28 @@ class MyTestCase(unittest.TestCase):
             if not words:
                 break
             # we need to find out the second condition, when the array is not empty    
-
-            idx = counter % 7
-            pattern = patterns[idx]
-            for idx, w in enumerate(words):
-                if w in ddict:
-                    # word has been seen already, removing it
-                    words.pop(idx)
-                    break
-                match = re.search(pattern, w)
-                if match:
-                    ddict[pattern].append(w)
-                    words.pop(idx)
-                    break
-                else:
-                    # no match, then check if we found all the notes, 
-                    # in that case we get out
-                    if len(set(ddict.keys()))
-
-
-
-        for p in patterns:
-            match = re.search(pattern, "SOLAR")
-            if match:
-                res = match.group(1)
-                print(res)
+            for note in patterns:
+                note_found = False
+                logging.info(f'Checking:{note} ')
+                # if we cannot find the note in any of the workds
+                for idx, word in enumerate(words):
+                    if note in word:
+                        if word not in found:
+                            found.append(word)
+                        else:
+                            dupes.append(word)
+                        note_found = True
+                        words.pop(idx)   
+                if not note_found:
+                    return found         
+            if not found:
                 break
+        print(f'We found:\n {found}')
+        
+        self.assertEqual(expected, found)
 
+    
+    
     def test_four(self):
         res = magic_music_box(['DOWN', 'AMIDST', 'SOFA', 'FACTION'])
         self.assertEqual(res, ['DOWN'])
