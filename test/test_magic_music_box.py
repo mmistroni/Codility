@@ -83,5 +83,28 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(res, [])
 
+    def test_duplicates(self):
+        res = magic_music_box(['DOOR', 'DOOR', 'REPTILE', 'REPTILE', 'SIMILAR', 'SIMILAR', 'SOFA', 'SOFA', 'DISSOLVED', 'DISSOLVED', 'LAPTOP', 'LAPTOP', 'RESIST', 'RESIST'])
+        expected =  ['DOOR', 'REPTILE', 'SIMILAR', 'SOFA', 'DISSOLVED', 'LAPTOP', 'RESIST']
+        self.assertEquals(expected, res)
 
+    def test_otherusecase(self):
+        res = magic_music_box(['RECORD', 'LAPTOP', 'DOWN', 'CAR', 'MOUSE', 'DINNER', 'CORRECT'])
+        self.assertEquals(['DOWN', 'CORRECT'], res)
+
+    def test_otherusecases2(self):
+        res = magic_music_box(['RECORD', 'COMIC', 'LAPTOP', 'DOWN', 'CAR', 'MOUSE', 'DINNER', 'CORRECT'])
+        self.assertEquals( ['DOWN', 'CORRECT', 'COMIC'], res)
+
+    def test_otherusecases3(self):
+        res = magic_music_box(['RECORD', 'COMIC', 'LAPTOP', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DINNER', 'CORRECT']): 
+        self.assetEquals( ['DOWN', 'CORRECT', 'COMIC', 'FAMILY'], res)
+
+    def test_otherusecases4(self):
+        res = magic_music_box(['RECORD', 'COMIC', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DISSOLVED', 'DINNER', 'CORRECT'])
+        self.assertEquals(['DOWN', 'CORRECT', 'COMIC', 'FAMILY', 'DISSOLVED'], res)
+
+    def test_otherusecases5(self):
+        res = magic_music_box(['RECORD', 'COMIC', 'LAPTOP', 'SYLLABLE', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DISSOLVED', 'DINNER', 'CORRECT'])
+        self.assertEquals( ['DOWN', 'CORRECT', 'COMIC', 'FAMILY', 'DISSOLVED', 'LAPTOP'], res)
 

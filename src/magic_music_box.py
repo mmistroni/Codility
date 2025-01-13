@@ -32,9 +32,10 @@ def play(words):
                     note_found = True
                     words.pop(idx)   
             if not note_found:#
-                break        
-        if not found:
-            break
+                return found  
+            else:
+                continue     
+        
     return found
 
 
