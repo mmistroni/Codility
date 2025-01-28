@@ -40,11 +40,13 @@ def play(words):
                     else:
                         dupes.append(word)
                     note_found = True
-                    words.remove(word)   
+                    words.remove(word)
+                    break
+                       
             if not note_found:#
                 return found  
             else:
-                lookup_idx = idx if idx < len(words)-1 else 0
+                lookup_idx = idx if idx <= len(words)-1 else 0
                 continue     
     return found
 
