@@ -8,29 +8,40 @@ class Player:
     def __init__(self, note, idx):
         self.note = note
         self.next = next
-        self.words = []
+        self.seen_words = []
         self.idx = idx
 
     
     def handle(self, words):
-        # Need to esabilish how to end the loop
-        first = words[0]
-        if self.note in words:
-            if first not in self.words:
-                # duplicate
-                logging.info(f'{self.note} player handling:{first}')
-                self.words.append(first)
-            words.remove(first)
-        self.next.handle(words)
+        logging.info(f'{self.note} handling {words}')
+        for idx, word in enumerate(words):
+            if self.note in word:
+                if word not in self.seen_words:
+                    self.seen_words.append(word)
+                    # pass it on to the next player
+                    #  
+                    words.remove(word)
+                    # we pass to the next 
+                    if words:
+                        new_list = words[idx:] + words[0:idx]
+                        return self.next.handle(new_list)
+                    else:
 
+                        return True
+        # if we havent found a note we raise an exception
+        if not words:
+            return False
+        else:
+            raise Exception(f'Unable to find {self.note} in {words}')
+    
     def content(self):
         # if more than one we'll need to add increment
-        if len(self.words) == 1:
+        if len(self.seen_words) == 1:
             return [(self.words[0], self.idx)]
         else:
             holder = []
             counter = self.idx
-            for w in self.words:
+            for w in self.seen_words:
                 holder.append(w, counter)
                 counter += 7
             return holder
@@ -75,11 +86,15 @@ class MyTestCase(unittest.TestCase):
         for item in music_box:
             print(item)
 
-        return music_box
+
+        res = music_box[0].handle(words)
+
+        print(f'We got:{res}')
 
 
     def test_run_brain(self):
-        self.run_brain([])
+        samples = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']
+        self.run_brain(samples)
 
 
     def test_one(self):

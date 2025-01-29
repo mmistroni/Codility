@@ -19,6 +19,7 @@ def play(words):
     looping = 0
     ddict = defaultdict(list)
 
+    
     while True:
         # we exit either when array is empty or when we found all the notes
         # if a note is missing we should break and return what we have
@@ -26,6 +27,7 @@ def play(words):
             break
         lookup_idx = 0
         seen = []
+        # for loop. 
         for note in patterns:
             note_found = False
             for idx, word in enumerate(words[lookup_idx:]):
@@ -44,7 +46,8 @@ def play(words):
                     break
                        
             if not note_found:#
-                return found  
+                # start from beginning
+                idx = 0
             else:
                 lookup_idx = idx if idx <= len(words)-1 else 0
                 continue     
