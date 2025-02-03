@@ -3,6 +3,8 @@ import re
 import unittest
 from collections import defaultdict, OrderedDict
 import logging
+from itertools import chain
+
 
 class Player:
     def __init__(self, note, idx):
@@ -14,6 +16,7 @@ class Player:
     
     def handle(self, words):
         logging.info(f'{self.note} handling {words}')
+        found = False
         for idx, word in enumerate(words):
             if self.note in word:
                 if word not in self.seen_words:
@@ -22,27 +25,29 @@ class Player:
                     #  
                     words.remove(word)
                     # we pass to the next 
-                    if words:
-                        new_list = words[idx:] + words[0:idx]
-                        return self.next.handle(new_list)
-                    else:
-
-                        return True
-        # if we havent found a note we raise an exception
-        if not words:
-            return False
+                    
+                else:
+                    words.remove(word)
+                found = True
+                break
+        if not found:
+            return
+        if words:
+            new_list = words[idx:] + words[0:idx]
+            return self.next.handle(new_list)
         else:
-            raise Exception(f'Unable to find {self.note} in {words}')
-    
+            return
+        # if we havent found a note we raise an exception
+        
     def content(self):
         # if more than one we'll need to add increment
         if len(self.seen_words) == 1:
-            return [(self.words[0], self.idx)]
+            return [(self.seen_words[0], self.idx)]
         else:
             holder = []
             counter = self.idx
             for w in self.seen_words:
-                holder.append(w, counter)
+                holder.append((w, counter))
                 counter += 7
             return holder
     def __str__(self):
@@ -87,10 +92,17 @@ class MyTestCase(unittest.TestCase):
             print(item)
 
 
-        res = music_box[0].handle(words)
+        music_box[0].handle(words)
 
-        print(f'We got:{res}')
+        res = list(chain(*[p.content() for p in music_box]))
 
+        sorted_l = sorted(res, key=lambda x: (x[1]))
+
+        result = [tpl[0] for tpl in sorted_l]
+
+
+        print(f'We got:{result}')
+        return result
 
     def test_run_brain(self):
         samples = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']
@@ -100,18 +112,19 @@ class MyTestCase(unittest.TestCase):
     def test_one(self):
         words = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA'] # words
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']  # expected
-        result = magic_music_box(words)
+        result = self.run_brain(words)
         self.assertEqual(expected, result)
 
     def test_two(self):
         words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN'] # words
 
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
-        res = magic_music_box(words)
+        res = self.run_brain(words)
         self.assertEqual(expected, res)
 
     def test_four(self):
-        res = magic_music_box(['DOWN', 'AMIDST', 'SOFA', 'FACTION'])
+        words = ['DOWN', 'AMIDST', 'SOFA', 'FACTION']
+        res = self.run_brain(words)
         self.assertEqual(res, ['DOWN'])
 
 
