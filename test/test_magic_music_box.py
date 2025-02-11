@@ -27,7 +27,8 @@ class Player:
                     # we pass to the next 
                     
                 else:
-                    words.remove(word)
+                    words.remove(word) # problem here in usecase 2 we say found but it is not if it is a dupe
+                    # this is the only usecase failing
                 found = True
                 break
         if not found:
