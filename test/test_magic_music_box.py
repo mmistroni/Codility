@@ -25,12 +25,13 @@ class Player:
                     #  
                     words.remove(word)
                     # we pass to the next 
-                    
+                    found = True
+                    break    
                 else:
-                    words.remove(word) # problem here in usecase 2 we say found but it is not if it is a dupe
+                    pass
+                    
+                    #words.remove(word) # problem here in usecase 2 we say found but it is not if it is a dupe
                     # this is the only usecase failing
-                found = True
-                break
         if not found:
             return
         if words:
@@ -100,9 +101,6 @@ class MyTestCase(unittest.TestCase):
         sorted_l = sorted(res, key=lambda x: (x[1]))
 
         result = [tpl[0] for tpl in sorted_l]
-
-
-        print(f'We got:{result}')
         return result
 
     def test_run_brain(self):
@@ -115,48 +113,60 @@ class MyTestCase(unittest.TestCase):
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA']  # expected
         result = self.run_brain(words)
         self.assertEqual(expected, result)
+        r2 = magic_music_box(['DOWN', 'REPTILE', 'AMIDST', 'SOFA'])
+        self.assertEqual(expected, r2)
+        
 
     def test_two(self):
         words = ['DOWN', 'PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'SILENCE', 'DOWN', 'MARKDOWN'] # words
 
         expected = ['DOWN', 'REPTILE', 'AMIDST', 'SOFA', 'SOLAR', 'PLANE', 'SILENCE', 'MARKDOWN']  # expected
-        res = self.run_brain(words)
+        res = magic_music_box(words)
         self.assertEqual(expected, res)
 
     def test_four(self):
         words = ['DOWN', 'AMIDST', 'SOFA', 'FACTION']
-        res = self.run_brain(words)
+        res = magic_music_box(words)
         self.assertEqual(res, ['DOWN'])
 
 
     def test_five(self):
     
-        res = self.run_brain(['PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'FLOOR', 'SIMILAR'])         
+        res = magic_music_box(['PLANE', 'AMIDST', 'REPTILE', 'SOFA', 'SOLAR', 'FLOOR', 'SIMILAR'])         
 
         self.assertEqual(res, [])
 
     def test_duplicates(self):
-        res = self.run_brain(['DOOR', 'DOOR', 'REPTILE', 'REPTILE', 'SIMILAR', 'SIMILAR', 'SOFA', 'SOFA', 'DISSOLVED', 'DISSOLVED', 'LAPTOP', 'LAPTOP', 'RESIST', 'RESIST'])
+        res = magic_music_box(['DOOR', 'DOOR', 'REPTILE', 'REPTILE', 'SIMILAR', 'SIMILAR', 'SOFA', 'SOFA', 'DISSOLVED', 'DISSOLVED', 'LAPTOP', 'LAPTOP', 'RESIST', 'RESIST'])
         expected =  ['DOOR', 'REPTILE', 'SIMILAR', 'SOFA', 'DISSOLVED', 'LAPTOP', 'RESIST']
         self.assertEqual(expected, res)
 
     def test_otherusecase(self):
-        res = self.run_brain(['RECORD', 'LAPTOP', 'DOWN', 'CAR', 'MOUSE', 'DINNER', 'CORRECT'])
+        res = magic_music_box(['RECORD', 'LAPTOP', 'DOWN', 'CAR', 'MOUSE', 'DINNER', 'CORRECT'])
         self.assertEqual(['DOWN', 'CORRECT'], res)
 
     def test_otherusecases2(self):
-        res = self.run_brain(['RECORD', 'COMIC', 'LAPTOP', 'DOWN', 'CAR', 'MOUSE', 'DINNER', 'CORRECT'])
+        res = magic_music_box(['RECORD', 'COMIC', 'LAPTOP', 'DOWN', 'CAR', 'MOUSE', 'DINNER', 'CORRECT'])
         self.assertEqual( ['DOWN', 'CORRECT', 'COMIC'], res)
 
     def test_otherusecases3(self):
-        res = self.run_brain(['RECORD', 'COMIC', 'LAPTOP', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DINNER', 'CORRECT'])
+        res = magic_music_box(['RECORD', 'COMIC', 'LAPTOP', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DINNER', 'CORRECT'])
         self.assertEqual( ['DOWN', 'CORRECT', 'COMIC', 'FAMILY'], res)
 
     def test_otherusecases4(self):
-        res = self.run_brain(['RECORD', 'COMIC', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DISSOLVED', 'DINNER', 'CORRECT'])
+        res = magic_music_box(['RECORD', 'COMIC', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DISSOLVED', 'DINNER', 'CORRECT'])
         self.assertEqual(['DOWN', 'CORRECT', 'COMIC', 'FAMILY', 'DISSOLVED'], res)
 
     def test_otherusecases5(self):
-        res = self.run_brain(['RECORD', 'COMIC', 'LAPTOP', 'SYLLABLE', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DISSOLVED', 'DINNER', 'CORRECT'])
+        res = magic_music_box(['RECORD', 'COMIC', 'LAPTOP', 'SYLLABLE', 'DOWN', 'CAR', 'FAMILY', 'MOUSE', 'DISSOLVED', 'DINNER', 'CORRECT'])
         self.assertEqual( ['DOWN', 'CORRECT', 'COMIC', 'FAMILY', 'DISSOLVED', 'LAPTOP'], res)
+    
+    def test_usecaselast(self):
+        words = ['INNOVATION', 'RESIST', 'RELATE', 'EROSION', 'HOUSE', 'MINIMAL', 'ENDOW', 'DOCTOR', 'EROSION', 'COLLABORATE', 'PREPARE', 'FAITHFUL', 'MODIFY', 'RESOLUTE', 'CREDIBLE', 'FACTOR', 'BASIC', 'FOUNTAIN', 'RIVER', 'BUFFALO', 'CHAIR', 'MONTAIN', 'MONTAIN', 'REACTOR', 'DOLLY', 'MOUNTAIN', 'LANDSCAPE', 'ABSOLUTE', 'SINGULAR', 'MINIMAL', 'FACTOR', 'CONSISTENT', 'CREDIBLE', 'MOUNTAIN', 'GLACIAL', 'WINDOW', 'EROSION', 'GATE', 'DODGE', 'NIGHT', 'LIBRARY', 'INNOVATION', 'DREAMER', 'DESOLATE', 'INNOVATION', 'LANDSCAPE', 'SOLAR', 'FACTORIAL', 'HELICOPTER', 'GLACIAL', 'SADOMASOCHISM', 'LANDSCAPE', 'VISIBLE', 'COMMIT', 'HELICOPTER', 'EROSION', 'SOLAR', 'BEDROOM', 'BASIC', 'ADORABLE', 'COLLABORATE', 'DODGE', 'REMINDER', 'CORRECT', 'RESOLUTE', 'COMIC', 'CREDIBLE', 'SOLID', 'SUNSHINE', 'FISH', 'RESIST', 'SINGULAR', 'FAITHFUL', 'MONTAIN', 'SIMPLIFY', 'PREDOMINATE', 'DOCTOR', 'DOCTOR', 'LIBRARY', 'LATERAL', 'DREAMER', 'ABSOLUTE', 'DODGE', 'MINIMAL', 'FACTOR', 'CHAIR', 'COLLABORATE', 'CHAIR', 'COMIC', 'SILENT', 'CLOUD', 'ADORABLE', 'VISIBLE', 'ROW', 'BOOK', 'LANDSCAPE', 'NIGHT', 'RELATION', 'FANTASTIC', 'DREAMER'] 
+        expected =  ['ADORABLE', 'RELATE', 'COMIC', 'BUFFALO', 'SOLAR', 'GLACIAL', 'SITUATION', 'DODGE', 'RESIST', 'MIMICRY', 'FANTASTIC', 'SOLUBLE', 'LANDSCAPE', 'VISIBLE', 'WINDOW', 'CORRECT', 'COMMIT', 'FANATIC', 'CONSOLIDATE', 'CLARITY', 'SILENT', 'DOBLE', 'CREDIBLE', 'MIRACLE', 'FAIRYTALE', 'ABSOLUTE', 'SINGULAR', 'CONSISTENT', 'PREDOMINATE', 'REINFORCE', 'MINIMAL', 'FACTOR']
+
+        wrongs = ['CORRECT', 'PLATFORM', 'CONSISTENT', 'COMIC', 'HELICOPTER', 'DODGE', 'WINDOW', 'KITCHEN', 'ELABORATE', 'SADOMASOCHISM', 'SOLAR', 'CREDIBLE', 'BOOK', 'REINFORCE', 'HOUSE', 'SITUATION', 'CHAIR', 'SUNSHINE', 'FANATIC', 'BEDROOM', 'PERMITS', 'ADORABLE', 'FANTASTIC', 'PREDOMINATE', 'TREATMENT', 'GARDEN', 'MISTAKE', 'MIMICRY', 'EXAMPLE', 'GATE', 'PLATFORM', 'REINFORCE', 'REMINDER', 'ENVIRONMENT', 'MONTAIN', 'PREDOMINATE', 'PREDOMINATE', 'LIBRARY', 'FANTASTIC', 'EMIGRANT', 'GATE', 'PERMITS', 'FACILITATE', 'DOBLE', 'FAITHFUL', 'SISTER', 'MOUNTAIN', 'CHAIR', 'ADORABLE', 'ENVIRONMENT', 'PREDOMINATE', 'FISH', 'MIRACLE', 'RIVER', 'RESOLUTE', 'SISTER', 'REACTOR', 'BEDROOM', 'SOLSTICE', 'PREDOMINATE', 'EROSION', 'COLLABORATE', 'MISTAKE', 'FACTORIAL', 'DORMITORY', 'FACTOR', 'SITUATION', 'FACTOR', 'RESIST', 'DREAMER', 'HELICOPTER', 'SOLSTICE', 'ABSOLUTE', 'FREEDOM', 'RELATION', 'PARK', 'RELATION', 'SINGULAR', 'SOLUTION', 'DOLLY', 'SOLUBLE', 'ENVIRONMENT', 'CREDIBLE', 'EROSION', 'COLLABORATE', 'ELABORATE', 'ROW', 'ENVIRONMENT', 'TREATMENT', 'PLATFORM']
+
+        res = magic_music_box(words)
+        self.assertEqual(expected, res)
 

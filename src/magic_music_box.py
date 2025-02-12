@@ -8,59 +8,82 @@ pattern = r"\b\w*(DO|RE|MI|FA|SOL|LA|SI)\w*\b"
 
 notes_dict = {'DO' : 0, 'RE' : 1, 'MI' : 2,
                       'FA' : 3, 'SOL' : 4, 'LA' : 5, 'SI' : 6}
+from itertools import chain
 
 
-def play(words):
-    patterns = "DO|RE|MI|FA|SOL|LA|SI".split("|")
-        
-    found = []
-    dupes = []
-
-    looping = 0
-    ddict = defaultdict(list)
+class Player:
+    def __init__(self, note, idx):
+        self.note = note
+        self.next = next
+        self.seen_words = []
+        self.idx = idx
 
     
-    while True:
-        # we exit either when array is empty or when we found all the notes
-        # if a note is missing we should break and return what we have
-        if not words:
-            break
-        lookup_idx = 0
-        seen = []
-        # for loop. 
-        for note in patterns:
-            note_found = False
-            for idx, word in enumerate(words[lookup_idx:]):
-                if note in word:
-                    ddict[note].append(1)
-                    if word not in seen:
-                        nidx = notes_dict.get(note)
-                        if len(ddict[note]) > 1:
-                            nidx += 7
-                        found.append((word,nidx))
-                        seen.append(word)
-                    else:
-                        dupes.append(word)
-                    note_found = True
+    def handle(self, words):
+        found = False
+        for idx, word in enumerate(words):
+            if self.note in word:
+                if word not in self.seen_words:
+                    self.seen_words.append(word)
+                    # pass it on to the next player
+                    #  
                     words.remove(word)
-                    break
-                       
-            if not note_found:#
-                # start from beginning
-                idx = 0
-            else:
-                lookup_idx = idx if idx <= len(words)-1 else 0
-                continue     
-    return found
+                    # we pass to the next 
+                    found = True
+                    break    
+                else:
+                    pass
+                    
+                    #words.remove(word) # problem here in usecase 2 we say found but it is not if it is a dupe
+                    # this is the only usecase failing
+        if not found:
+            return
+        if words:
+            new_list = words[idx:] + words[0:idx]
+            return self.next.handle(new_list)
+        else:
+            return
+        # if we havent found a note we raise an exception
+        
+    def content(self):
+        # if more than one we'll need to add increment
+        if len(self.seen_words) == 1:
+            return [(self.seen_words[0], self.idx)]
+        else:
+            holder = []
+            counter = self.idx
+            for w in self.seen_words:
+                holder.append((w, counter))
+                counter += 7
+            return holder
+    def __str__(self):
+        return f'Idx={self.idx}, Nxt:{self.next.idx}'
 
 def magic_music_box(words):
 
-    if not words:
-        return []
-    found =  play(words)
-    sorted_l = sorted(found, key=lambda x: (x[1]))
+    NOTES = ["DO", "RE", "MI", "FA", "SOL", "LA", "SI"]
 
-    res = [t[0] for t in sorted_l]    
-    return res
+    music_box = []
+    # Init
+    for idx, note in enumerate(NOTES):
+        p = Player(note, idx)
+        music_box.append(p)
 
+    # populating next
+    for idx, item in enumerate(music_box):
+        nxt_idx = idx + 1 if idx < len(music_box) -1 else 0
+        item.next = music_box[nxt_idx]
+
+    music_box[0].handle(words)
+
+    res = list(chain(*[p.content() for p in music_box]))
+
+    sorted_l = sorted(res, key=lambda x: (x[1]))
+
+    result = [tpl[0] for tpl in sorted_l]
+    return result
+
+    
+
+        
     
