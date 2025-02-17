@@ -24,7 +24,7 @@ class Player:
         for idx, word in enumerate(words):
             if self.note in word:
                 if word not in self.seen_words:
-                    self.seen_words.append(word)
+                    self.seen_words.append(word)  #not quite, we need a global seen word to avoid this..
                     # pass it on to the next player
                     #  
                     words.remove(word)

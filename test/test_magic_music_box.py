@@ -170,3 +170,12 @@ class MyTestCase(unittest.TestCase):
         res = magic_music_box(words)
         self.assertEqual(expected, res)
 
+    def test_brokenagain(self):
+        w = ['BUFFALO', 'CLARITY', 'BUFFALO', 'BASIC', 'CONSISTENT', 'SILENT', 'CREDIBLE', 'DOBLE', 'SOLAR', 'KITCHEN', 'DREAMER', 'SOLAR', 'PLATFORM', 'MIRACLE']
+        expected = ['DOBLE', 'DREAMER', 'MIRACLE', 'BUFFALO', 'SOLAR', 'PLATFORM', 'BASIC']
+
+        res = magic_music_box(w)
+        self.assertEqual(expected, res)
+
+
+
