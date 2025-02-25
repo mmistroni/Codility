@@ -11,7 +11,7 @@ def bouncing_ball(h, bounce, window):
         n = 1 # first drop
         bounce_factor  = bounce
         while True:
-            h = h * (bounce_factor ** n)
+            h = h * bounce_factor 
             if h > window:
                 n +=2 # if its higher then she see it twice
             else:
