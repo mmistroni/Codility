@@ -45,3 +45,56 @@ class MyTestCase(unittest.TestCase):
             [1,0,4,0,6,0,4,0,1]
             ]
         self.assertEqual(expected, res)
+
+    def test_build_matrix(self):
+        import math
+        from itertools import combinations
+        #  https://en.wikipedia.org/wiki/Pascal_matrix
+
+        def binomial_coefficient(n, k):
+            return math.comb(n, k)
+        
+        for  i in range (0,3):
+            for j in range(0,3):
+                print(f'({i}, {j})= {binomial_coefficient(i,j)}')
+        
+    # Let's start to build a pascal triangle
+    def build_pascal_triangle(self, numrows):
+        # i need an array of array
+        
+
+        global_arr = []
+        for i in range(0, numrows):
+                if i == 0:
+                    global_arr.append([1])
+                else:
+                    curr = [0] * (i+1)
+                    for j in range(len(curr)):
+                        # need to sort out indexes 
+                        prev_row, prev_col, next_col =  i-1, j-1, j 
+                        prev_array = global_arr[prev_row]
+                        left, right = 0,0
+                        if prev_col < 0:
+                            left = 0
+                        else:
+                            left = prev_array[prev_col]
+                        if next_col >= len(prev_array):
+                            right = 0
+                        else:
+                            right = prev_array[next_col]
+                        curr[j] = left + right
+                    global_arr.append(curr)
+        return global_arr               
+                            
+    def test_triangle(self):
+        n = 5
+        res = self.build_pascal_triangle(2)
+        from pprint import pprint
+        pprint(res)
+
+
+
+
+
+
+
