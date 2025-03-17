@@ -86,11 +86,22 @@ class MyTestCase(unittest.TestCase):
                     global_arr.append(curr)
         return global_arr               
                             
+    def to_matrix(self, n, arr):
+        newholder = []
+        for item in arr:
+            extra = n-len(item)
+            refactored = item + [0] * extra
+            newholder.append(refactored)
+
+        return newholder
+
     def test_triangle(self):
         n = 5
         res = self.build_pascal_triangle(n)
         from pprint import pprint
-        pprint(res)
+        refactored = self.to_matrix(n, res)
+        for item in refactored:
+            print(item)
 
 
 
