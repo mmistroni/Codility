@@ -78,17 +78,17 @@ class MyTestCase(unittest.TestCase):
                             left = 0
                         else:
                             left = prev_array[prev_col]
-                        if next_col >= len(prev_array):
-                            right = 0
-                        else:
+                        if next_col < len(prev_array):
                             right = prev_array[next_col]
+                        else:
+                            right = 0
                         curr[j] = left + right
                     global_arr.append(curr)
         return global_arr               
                             
     def test_triangle(self):
         n = 5
-        res = self.build_pascal_triangle(2)
+        res = self.build_pascal_triangle(5)
         from pprint import pprint
         pprint(res)
 
