@@ -88,7 +88,7 @@ class MyTestCase(unittest.TestCase):
                             
     def test_triangle(self):
         n = 5
-        res = self.build_pascal_triangle(5)
+        res = self.build_pascal_triangle(n)
         from pprint import pprint
         pprint(res)
 
