@@ -95,11 +95,38 @@ class MyTestCase(unittest.TestCase):
 
         return newholder
 
+    def insert_zeros_respecting_length(self, matrix):
+        """Inserts zeros between non-zero elements, respecting the original row lengths."""
+        new_matrix = []
+        for row in matrix:
+            new_row = []
+            zero_count = 0  # Count of zeros inserted
+            for i in range(len(row)):
+                if row[i] != 0:
+                    new_row.append(row[i])
+                    if i < len(row) - 1 and row[i + 1] != 0:
+                        if len(new_row) < len(row):  # Check if there's space
+                            new_row.append(0)
+                            zero_count += 1
+                else:
+                    if len(new_row) < len(row): # only append if there is space.
+                        new_row.append(0)
+
+            # Pad the row with zeros if needed to match the original length
+            while len(new_row) < len(row):
+                new_row.append(0)
+
+            new_matrix.append(new_row)
+        return new_matrix    
+
     def test_triangle(self):
-        n = 5
+        n = 3
+
         res = self.build_pascal_triangle(n)
+        print(res)
         from pprint import pprint
-        refactored = self.to_matrix(n, res)
+        refactored = self.insert_zeros_respecting_length(res)
+        #refactored = self.to_matrix(n, res)
         for item in refactored:
             print(item)
 
