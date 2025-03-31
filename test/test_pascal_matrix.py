@@ -1,5 +1,6 @@
 from src.pascal_matrix import pascal_matrix
 import unittest
+import math
 
 
 def modified_pascal_matrix(n):
@@ -265,8 +266,135 @@ class MyTestCase(unittest.TestCase):
             return 0
 
         return (last_row_elements + 1) // 2
+    
+    def pascal_triangle_last_row_elements(self, last_row_elements):
+        """
+        Generates Pascal's Triangle based on the number of elements in the last row.
+
+        Args:
+            last_row_elements: The number of elements in the last row.
+
+        Returns:
+            A list of lists representing Pascal's Triangle, or None if invalid input.
+        """
+
+        if last_row_elements <= 0:
+            return None
+
+        rows = last_row_elements  # The number of rows is equal to the elements in the last row.
+
+        triangle = []
+        for i in range(rows):
+            row = [1]
+            if i > 0:
+                previous_row = triangle[i - 1]
+                for j in range(len(previous_row) - 1):
+                    row.append(previous_row[j] + previous_row[j + 1])
+                row.append(1)
+            triangle.append(row)
+
+        return triangle
+
+    def print_pascal_triangle(self, triangle):
+        """Prints the Pascal's Triangle in a formatted way."""
+        if triangle is None:
+            print("Invalid number of elements.")
+            return
+        max_width = len(str(triangle[-1])) * 3
+        for row in triangle:
+            formatted_row = " ".join(map(str, row)).center(max_width)
+            print(formatted_row)
 
 
+    def pascal_matrix_spaced_conditional(self, pascal_triangle):
+        """
+        Creates a Pascal's Matrix with zeros inserted between elements,
+        but only for rows with more than one element.
+
+        Args:
+            pascal_triangle: A list of lists representing Pascal's Triangle.
+
+        Returns:
+            A list of lists representing the spaced Pascal's Matrix.
+        """
+
+        if not pascal_triangle:
+            return []
+
+        spaced_matrix = []
+        for row in pascal_triangle:
+            if len(row) > 1:  # Check if the row has more than one element
+                spaced_row = []
+                for i, num in enumerate(row):
+                    spaced_row.append(num)
+                    if i < len(row) - 1:
+                        spaced_row.append(0)
+                spaced_matrix.append(spaced_row)
+            else:
+                spaced_matrix.append(row)  # Keep rows with one element as they are
+
+        return spaced_matrix
+
+    def pascal_matrix_spaced_padded_last_row(self, pascal_triangle):
+        """
+        Creates a Pascal's Matrix with zeros inserted between elements and padded
+        with zeros to make all rows the same length as the spaced last row.
+
+        Args:
+            pascal_triangle: A list of lists representing Pascal's Triangle.
+
+        Returns:
+            A list of lists representing the spaced and padded Pascal's Matrix.
+        """
+
+        if not pascal_triangle:
+            return []
+
+        spaced_matrix = []
+        last_row_len = 0  # To track the length of the spaced last row
+
+        # Space the rows
+        for row in pascal_triangle:
+            if len(row) > 1:
+                spaced_row = []
+                for i, num in enumerate(row):
+                    spaced_row.append(num)
+                    if i < len(row) - 1:
+                        spaced_row.append(0)
+                spaced_matrix.append(spaced_row)
+            else:
+                spaced_matrix.append(row)
+
+        # Calculate length of the spaced last row.
+        last_row_len = len(spaced_matrix[-1])
+
+        # Pad the rows with zeros
+        padded_matrix = []
+        for row in spaced_matrix:
+            pad_len = last_row_len - len(row)
+            padded_row = row + [0] * pad_len
+            padded_matrix.append(padded_row)
+
+        return padded_matrix
+
+    def test_triangle2(self):
+        #print(modified_pascal_matrix(3))
+        #print(modified_pascal_matrix(5))
+        #print(modified_pascal_matrix(9))
+        # we start fromm this to figure out how many element sin last row
+        # and from this we can generate the triangle
+        last_elems = 5
+        non_zero = self.count_nonzero_elements(last_elems)
+        pt = self.pascal_triangle_last_row_elements(non_zero)
+        self.print_pascal_triangle(pt)
+
+        p_matrix = self.pascal_matrix_spaced_conditional(pt)
+        self.print_pascal_triangle(p_matrix)
+
+        padded_matrix = self.pascal_matrix_spaced_padded_last_row(p_matrix)
+        self.print_pascal_triangle(padded_matrix)
+        
+        
 
 
 
