@@ -42,6 +42,41 @@ def modified_pascal_matrix(n):
 
     return triangle
 
+
+import math
+
+def pad_with_balanced_zeros(matrix):
+  """
+  Pads each row in a list of lists (representing a matrix) with zeros
+  at the beginning and end so that every row has the same length as the last row.
+
+  Args:
+    matrix: A list of lists, where each inner list represents a row.
+
+  Returns:
+    A new list of lists where all rows have the same length as the original
+    last row, with shorter rows padded with zeros at the beginning and end.
+  """
+  if not matrix:
+    return []
+
+  max_len = len(matrix[-1])  # Length of the last row
+  padded_matrix = []
+
+  for row in matrix:
+    row_len = len(row)
+    if row_len < max_len:
+      padding_needed = max_len - row_len
+      padding_left = math.floor(padding_needed / 2)
+      padding_right = math.ceil(padding_needed / 2)
+      padded_row = [0] * padding_left + row + [0] * padding_right
+      padded_matrix.append(padded_row)
+    else:
+      padded_matrix.append(list(row))  # Create a copy
+
+  return padded_matrix
+
+
 def pascal_triangle(n):
     """
     Calculates Pascal's triangle up to row n.
@@ -383,15 +418,15 @@ class MyTestCase(unittest.TestCase):
         #print(modified_pascal_matrix(9))
         # we start fromm this to figure out how many element sin last row
         # and from this we can generate the triangle
-        last_elems = 5
+        last_elems = 9#3#5
         non_zero = self.count_nonzero_elements(last_elems)
         pt = self.pascal_triangle_last_row_elements(non_zero)
         self.print_pascal_triangle(pt)
 
         p_matrix = self.pascal_matrix_spaced_conditional(pt)
-        self.print_pascal_triangle(p_matrix)
+        #self.print_pascal_triangle(p_matrix)
 
-        padded_matrix = self.pascal_matrix_spaced_padded_last_row(p_matrix)
+        padded_matrix =  pad_with_balanced_zeros(p_matrix)
         self.print_pascal_triangle(padded_matrix)
         
         
