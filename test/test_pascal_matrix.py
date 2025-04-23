@@ -429,7 +429,15 @@ class MyTestCase(unittest.TestCase):
         padded_matrix =  pad_with_balanced_zeros(p_matrix)
         self.print_pascal_triangle(padded_matrix)
         
-        
+    def test_triangle3(self):
+        #print(modified_pascal_matrix(3))
+        #print(modified_pascal_matrix(5))
+        #print(modified_pascal_matrix(9))
+        # we start fromm this to figure out how many element sin last row
+        # and from this we can generate the triangle
+        last_elems = 9#3#5
+        padded_matrix =  pascal_matrix(last_elems)
+        self.print_pascal_triangle(padded_matrix)
 
 
 
