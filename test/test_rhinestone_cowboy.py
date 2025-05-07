@@ -110,3 +110,5 @@ class MyTestCase(unittest.TestCase):
     `~~~~~~~~~~    ^'''
         boots = [left, right]
         self.assertEqual(cowboys_dollars(boots),'This Rhinestone Cowboy has 3 dollar bills in his right boot and 2 in the left' )
+
+    

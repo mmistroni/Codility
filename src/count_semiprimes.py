@@ -10,7 +10,7 @@ Query K requires you to find the number of semiprimes within the range (P[K], Q[
 Alternatively check https://en.wikipedia.org/wiki/Semiprime
 or use ifilters
 '''
-from itertools import combinations_with_replacement, ifilter
+from itertools import combinations_with_replacement
 
 def arrayF(n):
     F = [0] * (n + 1)
