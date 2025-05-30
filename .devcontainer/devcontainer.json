@@ -37,5 +37,19 @@
     },
 
     // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-    "remoteUser": "vscode"
+    "remoteUser": "vscode",
+    "postCreateCommand": "python3 -m venv .venv && source ./.venv/bin/activate && pip install --no-cache-dir -r requirements.txt",
+    // Optional: If you want the terminal to automatically activate the venv
+    "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest",
+      "installPipx": "false",
+      "installPoetry": "false",
+      "installPylint": "false",
+      "configureZsh": "false"
+    }
+  },
+  "containerEnv": {
+    "PYTHONPATH": "${containerWorkspaceFolder}/.venv/lib/python3.12/site-packages"
+  }
 }

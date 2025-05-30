@@ -31,9 +31,9 @@ COPY ../requirements.txt .
 
 # Create a virtual environment and install dependencies
 # This is done during the Docker image build time, leveraging caching.
-RUN python3 -m venv .venv && \
-    . ./.venv/bin/activate && \
-    pip install --no-cache-dir -r requirements.txt
+#RUN python3 -m venv .venv && \
+#    . ./.venv/bin/activate && \
+#    pip install --no-cache-dir -r requirements.txt
 
 # Add the virtual environment's bin directory to the PATH
 # This ensures that `python` and `pip` automatically refer to the venv's executables
