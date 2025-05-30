@@ -8,15 +8,20 @@ FROM python:3.12-slim-bookworm
 WORKDIR /workspaces/Codility 
 
 # Create a non-root user (good practice for security)
-ARG USERNAME=vscode
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
-RUN addgroup --gid $USER_GID $USERNAME \
-    && adduser --uid $USER_UID --gid $USER_GID --disabled-password --shell /bin/bash $USERNAME \
+# Add a user and set working directory (this part is already there in your logs)
+RUN addgroup --gid 1000 vscode \
+    && adduser --uid 1000 --gid 1000 --disabled-password --shell /bin/bash vscode \
     && apt-get update \
     && apt-get install -y --no-install-recommends git iproute2 procps \
     && rm -rf /var/lib/apt/lists/*
-USER $USERNAME
+
+WORKDIR /workspaces/Codility
+
+# Change ownership of the workspace directory to the vscode user
+RUN chown -R vscode:vscode /workspaces/Codility
+
+# Switch to the non-root user
+USER vscode
 
 # Copy requirements.txt from the repository root to the current working directory in the container
 # The `COPY ../requirements.txt .` means "copy `requirements.txt` from the parent directory
