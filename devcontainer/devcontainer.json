@@ -1,0 +1,41 @@
+{
+    "name": "Python Development Environment For Codility",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".." // This tells Docker to use the parent directory (your project root) as the build context.
+                        // This allows `COPY ../requirements.txt .` in the Dockerfile to work.
+    },
+    // The workspace folder within the container, typically your project root.
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // Consider adding the Python feature for additional tooling if needed,
+    // but the Dockerfile already handles the core venv creation.
+    // "features": {
+    //     "ghcr.io/devcontainers/features/python:1": {
+    //         "version": "3.9" // Match your Dockerfile Python version
+    //     }
+    // },
+
+    // Configure tool-specific settings.
+    "customizations": {
+        "vscode": {
+            "settings": {
+                // Point VS Code to the Python interpreter within the virtual environment
+                "python.defaultInterpreterPath": "/workspaces/${localWorkspaceFolderBasename}/.venv/bin/python",
+                // Tell VS Code where to find virtual environments
+                "python.venvPath": "/workspaces/${localWorkspaceFolderBasename}/.venv",
+                "python.analysis.autoSearchPaths": true, // Recommended for Pylance to find modules
+                "python.linting.pylintEnabled": true,
+                "python.formatting.provider": "black"
+            },
+            "extensions": [
+                "ms-python.python",       // Official Python extension
+                "ms-python.vscode-pylance" // Language server for better IntelliSense
+            ]
+        }
+    },
+
+    // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+    "remoteUser": "vscode"
+}
