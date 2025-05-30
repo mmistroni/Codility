@@ -5,7 +5,7 @@ FROM python:3.12-slim-bookworm
 
 # Set the working directory in the container
 # Use a specific path for consistency within the devcontainer
-WORKDIR /workspaces/Codility # Adjust 'your-project-name' to your actual project folder name
+WORKDIR /workspaces/Codility 
 
 # Create a non-root user (good practice for security)
 ARG USERNAME=vscode
