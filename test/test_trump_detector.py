@@ -42,7 +42,12 @@ class MyTestCase(unittest.TestCase):
 
         sampled = [t for t in grouped_letters if t[0].lower() in vowels]
 
-        print(sampled)
+        reduced = [t[1]-1 for t in sampled]]
+        print(f'Extras:{sampled}={sum(sampled)}')
+
+        numv = [t[0] for t in sampled]
+
+        print(f'NV:{numv}={len(numv)}')
 
 
     
