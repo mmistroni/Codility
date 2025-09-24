@@ -1,0 +1,4 @@
+#https://www.codewars.com/kata/57829376a1b8d576640000d6/train/python
+
+def solution(w):
+    return 0
