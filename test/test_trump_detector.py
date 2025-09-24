@@ -26,7 +26,17 @@ class MyTestCase(unittest.TestCase):
         letter_counts = {}
         for key, group in itertools.groupby(sorted_letters):
             letter_counts[key] = len(list(group))
-        print(letter_counts)
+        
+        dupes = 0
+        vowels = []
+        for k, l in letter_counts.items():
+            if l > 1:
+                dupes += (l-1)
+                vowels.append(k)
+
+        print(f'vowels:{len(vowels)}, extra:{dupes}, res:{dupes / len(vowels)}')
+
+
 
     
 

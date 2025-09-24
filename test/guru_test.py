@@ -1,5 +1,5 @@
 import unittest
-from Codility.src.guru import Guru, NlpEngine
+from src.guru import Guru, NlpEngine
 
 class TestGuru(unittest.TestCase):
 

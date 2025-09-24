@@ -1,5 +1,5 @@
 import unittest
-from climbing_leaderboard import solution
+from src.climbing_leaderboard import solution
 from heapq import  heappush, heapify, nlargest
 
 
