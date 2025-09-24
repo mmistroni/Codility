@@ -10,32 +10,39 @@ class MyTestCase(unittest.TestCase):
     def test_two(self):
         self.assertEquals(4, trump_detector("HUUUUUGEEEE WAAAAAALL"))
     
+    def test_three(self):
+        self.assertEquals(2.5, trump_detector("MEXICAAAAAAAANS GOOOO HOOOMEEEE"))
+
+    def test_four(self):
+        self.assertEquals(1.89, trump_detector("America NUUUUUKEEEE Oooobaaaamaaaaa"))
+
+    def test_five(self):
+        self.assertEquals(1.56, 
+                trump_detector("listen migrants: IIII KIIIDD YOOOUUU NOOOOOOTTT"))
+
+
     
     def test_something(self):
-        sentence = "HUUUUUGEEEE WAAAAAALL"
+
+        def group_consecutive_letters_itertools(sentence: str) -> list:
+            """
+            Groups consecutive identical letters using itertools.groupby.
+            """
+            return [(key, len(list(group))) for key, group in itertools.groupby(sentence)]        
+
+
+        sentence = "IIII KIIIDD YOOOUUU NOOOOOOTTT" #
+        # --> 14 extra vowels on 9 base ones give 1.55555555... which is rounded to 1.56
+        #"HUUUUUGEEEE WAAAAAALL"
 
         vowels = ['a', 'e', 'i', 'o', 'u']
 
-        # 1. Filter out non-alphabetic characters and convert to lowercase
-        letters = [char for char in sentence.lower() if char in vowels]
+        my_sentence = "IIII KIIIDD YOOOUUU NOOOOOOTTT"
+        grouped_letters = group_consecutive_letters_itertools(my_sentence)
 
-        # 2. Sort the list of letters
-        sorted_letters = sorted(letters)
-        
-        # 3. Use itertools.groupby to group and count
-        letter_counts = {}
-        for key, group in itertools.groupby(sorted_letters):
-            letter_counts[key] = len(list(group))
-        
-        dupes = 0
-        vowels = []
-        for k, l in letter_counts.items():
-            if l > 1:
-                dupes += (l-1)
-                vowels.append(k)
+        sampled = [t for t in grouped_letters if t[0].lower() in vowels]
 
-        print(f'vowels:{len(vowels)}, extra:{dupes}, res:{dupes / len(vowels)}')
-
+        print(sampled)
 
 
     

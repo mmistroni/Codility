@@ -1,5 +1,5 @@
 import unittest
-from carol_of_code import solution
+from src.carol_of_code import solution
 
 class MyTestCase(unittest.TestCase):
 
