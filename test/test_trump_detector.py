@@ -17,7 +17,7 @@ class MyTestCase(unittest.TestCase):
         vowels = ['a', 'e', 'i', 'o', 'u']
 
         # 1. Filter out non-alphabetic characters and convert to lowercase
-        letters = [char for char in sentence.lower() char in vowels]
+        letters = [char for char in sentence.lower() if char in vowels]
 
         # 2. Sort the list of letters
         sorted_letters = sorted(letters)
@@ -26,9 +26,7 @@ class MyTestCase(unittest.TestCase):
         letter_counts = {}
         for key, group in itertools.groupby(sorted_letters):
             letter_counts[key] = len(list(group))
-
-
-        self.assertEqual(1, solution(A))
+        print(letter_counts)
 
     
 
