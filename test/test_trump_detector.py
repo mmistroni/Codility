@@ -1,5 +1,5 @@
 import unittest
-
+import itertools
 from src.trumpness_detector import trump_detector
 
 class MyTestCase(unittest.TestCase):
@@ -17,6 +17,21 @@ class MyTestCase(unittest.TestCase):
     def test_five(self):
         self.assertEquals(1.56, 
                           trump_detector("listen migrants: IIII KIIIDD YOOOUUU NOOOOOOTTT"))
+    def test_mytester(self):
+        sentence = 'HUUUUUGEEEE WAAAAAALL'
+
+        letters = [char for char in sentence if char in ['A', 'E', 'I', 'O', 'U']]
+
+        # 2. Sort the list of letters
+        sorted_letters = sorted(letters)
+        
+        # 3. Use itertools.groupby to group and count
+        letter_counts = {}
+        for key, group in itertools.groupby(sorted_letters):
+            letter_counts[key] = len(list(group))
+            
+        print(letter_counts)
+
 
 
 
