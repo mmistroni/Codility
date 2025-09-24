@@ -1,6 +1,6 @@
 import unittest
 import logging
-from chocolates_by_numbers import solution
+from src.chocolates_by_numbers import solution
 
 '''
 24, 18   gcd = 6
