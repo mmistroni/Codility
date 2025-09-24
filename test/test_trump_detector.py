@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
 
     
     def test_something(self):
-
+        # https://www.codewars.com/kata/57829376a1b8d576640000d6/train/python
         def group_consecutive_letters_itertools(sentence: str) -> list:
             """
             Groups consecutive identical letters using itertools.groupby.
@@ -42,8 +42,8 @@ class MyTestCase(unittest.TestCase):
 
         sampled = [t for t in grouped_letters if t[0].lower() in vowels]
 
-        reduced = [t[1]-1 for t in sampled]]
-        print(f'Extras:{sampled}={sum(sampled)}')
+        reduced = [t[1]-1 for t in sampled]
+        print(f'Extras:{sampled}={sum(reduced)}')
 
         numv = [t[0] for t in sampled]
 
