@@ -11,7 +11,7 @@ def group_consecutive_letters_itertools(sentence: str) -> list:
 
 
 def trump_detector(sentence):
-    grouped_letters = group_consecutive_letters_itertools(sentence)
+    grouped_letters = group_consecutive_letters_itertools(sentence.lower())
     sampled = [t for t in grouped_letters if t[0].lower() in vowels]
     reduced = [t[1]-1 for t in sampled]
     numv = [t[0] for t in sampled]

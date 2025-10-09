@@ -31,13 +31,16 @@ class MyTestCase(unittest.TestCase):
             return [(key, len(list(group))) for key, group in itertools.groupby(sentence)]        
 
 
-        sentence = "listen migrants:IIII KIIIDD YOOOUUU NOOOOOOTTT" #
+        sentence = "America NUUUUUKEEEE Oooobaaaamaaaaa" #
+
+        # uniques = 9
+        # dupes =                                          
         # --> 14 extra vowels on 9 base ones give 1.55555555... which is rounded to 1.56
         #"HUUUUUGEEEE WAAAAAALL"
 
         vowels = ['a', 'e', 'i', 'o', 'u']
 
-        my_sentence = sentence #"IIII KIIIDD YOOOUUU NOOOOOOTTT"
+        my_sentence = sentence.lower() #"IIII KIIIDD YOOOUUU NOOOOOOTTT"
         grouped_letters = group_consecutive_letters_itertools(my_sentence)
 
         sampled = [t for t in grouped_letters if t[0].lower() in vowels]
