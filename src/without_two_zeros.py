@@ -15,5 +15,20 @@ Remember that n may be fairly big (up to 10^4). Good luck!
 
 '''
 
+import itertools
+
+symbols = ['0', '1']
+
+def _generate_combi(length):
+    combinations_tuples = list(itertools.product(symbols, repeat=length))
+    # Join the elements of each tuple into a single string for cleaner output
+    return [''.join(combo) for combo in combinations_tuples]
+
+
+
 def zeros(n: int) -> int:
-    pass
+    combis = _generate_combi(n)
+    if n == 1:
+        return len(combis)
+    filtered = [t for t in combis if '00' not in t and not t.startswith('0')]
+    return len(filtered)
