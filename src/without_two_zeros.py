@@ -38,6 +38,7 @@ def _generate_combi(length_n):
     return binary_list
 
 def zeros(n: int) -> int:
+    
     combis = _generate_combi(n)
     if n == 1:
         return len(combis)

@@ -11,6 +11,12 @@ class MyTestCase(unittest.TestCase):
     def test_three(self):
         self.assertEqual(zeros(3), 3)
     
+    def test_big_n(self):
+        n = 10**4
+        res = zeros(n)
+        print(f'{n} == {res}')
+        
+
 
 if __name__ == '__main__':
     unittest.main()
