@@ -1,10 +1,23 @@
-__pycache__
-.idea
-**/**/pytest_cache
-**/__pycache__**
-**venv*
-**.pyc
-**DS_Store   
-**/**/.*cpython*
-**cpython**
+### Python & Compiled Files ###
+# Bytecode files and directories
 *.pyc
+__pycache__/
+
+# Compiled files created by cpython (e.g., .cpython-312.pyc)
+# This handles your specific file name pattern
+*cpython*.pyc
+
+### Virtual Environment (venv) ###
+# Exclude the common venv directory names
+venv/
+.venv/
+env/
+
+### Testing, Build, and IDE Artifacts ###
+# Exclude pytest cache files
+.pytest_cache/
+
+# IDE/Editor files (VS Code, IntelliJ/PyCharm, macOS)
+.idea/
+.vscode/
+.DS_Store
