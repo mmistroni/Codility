@@ -37,10 +37,36 @@ def _generate_combi(length_n):
 
     return binary_list
 
-def zeros(n: int) -> int:
+def _zeros(n: int) -> int:
     
     combis = _generate_combi(n)
     if n == 1:
         return len(combis)
     filtered = [t for t in combis if '00' not in t and not t.startswith('0')]
     return len(filtered)
+
+
+def zeros(n: int) -> int:
+    """
+    Calculates the number of valid binary numbers of length n (no leading zeros, no '00').
+    Complexity: O(n) - Suitable for n up to 10^4.
+    """
+    if n <= 0:
+        return 0
+    if n == 1:
+        # Valid: '1'
+        return 2
+
+    # We are calculating V(n-1), where V(k) is the sequence 1, 2, 3, 5, 8, ...
+    # V_prev corresponds to V(k-2) -> initialized to V(0) = 1
+    # V_curr corresponds to V(k-1) -> initialized to V(1) = 2
+    V_prev = 1
+    V_curr = 2
+
+    # Loop runs n-2 times to calculate up to V(n-1).
+    for _ in range(2, n): 
+        V_next = V_prev + V_curr
+        V_prev = V_curr
+        V_curr = V_next
+        
+    return V_curr
