@@ -3,18 +3,22 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
 
+    def test_test(self):
+        assert compute_sum(1) == 1
+
+
     def test_one(self):
-        self.assert_equals(compute_sum(1), 1)
+        self.assertEqual(compute_sum(1), 1)
     
     def test_two(self):
-        self.assert_equals(compute_sum(2), 3)
-    def test_three(self)
-        self.assert_equals(compute_sum(3), 6)
+        self.assertEqual(compute_sum(2), 3)
+    def test_three(self):
+        self.assertEqual(compute_sum(3), 6)
 
     def test_four(self):    
-       self.assert_equals(compute_sum(4), 10)
+       self.assertEqual(compute_sum(4), 10)
     
     def test_five(self):
-        self.assert_equals(compute_sum(10), 46)
+        self.assertEqual(compute_sum(10), 46)
     def test_six(self):
-        self.assert_equals(compute_sum(12), 51)
+        self.assertEqual(compute_sum(12), 51)
