@@ -16,6 +16,38 @@ Examples
 
 '''
 
+def sum_digits_math(n):
+    total = 0
+    n = abs(n)
+    while n > 0:
+        total += n % 10
+        n //= 10
+    return total
+
 
 def compute_sum(n):
-    pass
+    total = 0
+
+
+    if n < 10:
+        total =  n * (n + 1) // 2
+        return total
+    else:
+        fixed_sum = 45
+        tmp = range(10, n + 1)
+        sums = [sum_digits_math(i) for i in tmp]
+        return fixed_sum + sum(sums)
+
+
+
+
+
+
+
+        
+
+        
+        
+        total = 45 + tmp * (tmp + 1) // 2
+    
+    return total
