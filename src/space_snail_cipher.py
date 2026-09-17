@@ -6,3 +6,10 @@ def encode(plaintext : str, key : int) -> str:
 
 def decode(cipher : str ,key : int) -> str:
     return ''
+
+
+def get_directionI(key : int) -> int:
+    if key > 0:
+        return 1
+    else:
+        return -1
