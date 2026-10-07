@@ -1,4 +1,4 @@
 # Codility
  Codility exercises
 
-checkpoint 11/5>:: test beautiful text
+checkpoint 6/10:: space snail cipher
