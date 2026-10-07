@@ -7,7 +7,10 @@ def parse_key(key: int) -> tuple[bool, int, int]:
       - orientation: Integer from 1 to 8
       - gap: Integer from 0 to 9
     """
-    pass
+    is_center_out = key > 0
+    orientation = abs(key) % 10
+    gap = abs(key) // 10 % 10
+    return is_center_out, orientation, gap
 
 
 def get_orientation_rules(orientation: int) -> tuple[tuple[int, int], str]:
