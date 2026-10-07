@@ -1,16 +1,15 @@
 # https://www.codewars.com/kata/6a37e118ef0c62f1772b6c6d
 
-ORIENTATIONS = [
-    (1, (0, 1), 'CW'),  # DownClockwise
-    (2, (0, 1), 'CCW'), # DownCounter-Clockwise
-    (3, (0, -1), 'CW'), # UpClockwise
-    (4, (0, -1), 'CCW'), # UpCounter-Clockwise
-    (5, (1, 0), 'CW'),  # RightClockwise
-    (6, (1, 0), 'CCW'), # RightCounter-Clockwise
-    (7, (-1, 0), 'CW'), # LeftClockwise
-    (8, (-1, 0), 'CCW') # LeftCounter-Clockwise
-]
-
+ORIENTATIONS = {
+    1: ((1, 0), 'CW'),   # Down, Clockwise
+    2: ((1, 0), 'CCW'),  # Down, Counter-Clockwise
+    3: ((-1, 0), 'CW'),  # Up, Clockwise
+    4: ((-1, 0), 'CCW'), # Up, Counter-Clockwise
+    5: ((0, 1), 'CW'),   # Right, Clockwise
+    6: ((0, 1), 'CCW'),  # Right, Counter-Clockwise
+    7: ((0, -1), 'CW'),  # Left, Clockwise
+    8: ((0, -1), 'CCW')  # Left, Counter-Clockwise
+}
 
 def parse_key(key: int) -> tuple[bool, int, int]:
     """
@@ -20,8 +19,10 @@ def parse_key(key: int) -> tuple[bool, int, int]:
       - gap: Integer from 0 to 9
     """
     is_center_out = key > 0
-    orientation = abs(key) % 10
-    gap = abs(key) // 10 % 10
+    key_str = str(abs(key))
+    
+    orientation = int(key_str[0])  # First digit
+    gap = int(key_str[1]) if len(key_str) > 1 else 0  # Second digit (defaults to 0 if missing)
     return is_center_out, orientation, gap
 
 
