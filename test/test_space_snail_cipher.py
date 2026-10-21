@@ -1,6 +1,7 @@
+from ast import In
 from modulefinder import test
 import unittest
-from src.space_snail_cipher import encode, decode, get_orientation_rules
+from src.space_snail_cipher import encode, decode, get_orientation_rules, parse_key
 
 """
 Description:
@@ -199,6 +200,22 @@ class MyTestCase(unittest.TestCase):
             
         with self.assertRaises((KeyError, ValueError)):
             get_orientation_rules(9)
+
+############# test parse key
+#############################
+    def test_standard_positive_key(self):
+        self.assertEqual(parse_key(62), (True, 6, 2))
+
+    def test_standard_negative_key(self):   #
+        self.assertEqual(parse_key(-10), (False, 1, 0))
+
+    def test_single_digit_positive_key(self):
+        self.assertEqual(parse_key(5), (True, 5, 0))    
+
+    def test_single_digit_negative_key(self):
+        self.assertEqual(parse_key(-3), (False, 3, 0))
+#
+
 
 
 if __name__ == '__main__':
