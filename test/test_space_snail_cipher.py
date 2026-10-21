@@ -214,13 +214,11 @@ class MyTestCase(unittest.TestCase):
 
     def test_single_digit_negative_key(self):
         self.assertEqual(parse_key(-3), (False, 3, 0))
-#
 
-
-
-if __name__ == '__main__':
-    unittest.main()
-            
+    def test_boundary_values(self):
+        # Boundary Values (Max Orientation and Max Gap)
+        self.assertEqual(parse_key(-89), (False, 8, 9))  # Tests the upper limits of the orientation (8) and gap (9) ranges.
+    
 
 if __name__ == '__main__':
     unittest.main()
