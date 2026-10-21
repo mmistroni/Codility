@@ -1,6 +1,6 @@
 # https://www.codewars.com/kata/6a37e118ef0c62f1772b6c6d
 
-ORIENTATIONS = {
+ORIENTATIONS = [
     1: ((1, 0), 'CW'),   # Down, Clockwise
     2: ((1, 0), 'CCW'),  # Down, Counter-Clockwise
     3: ((-1, 0), 'CW'),  # Up, Clockwise
@@ -9,7 +9,7 @@ ORIENTATIONS = {
     6: ((0, 1), 'CCW'),  # Right, Counter-Clockwise
     7: ((0, -1), 'CW'),  # Left, Clockwise
     8: ((0, -1), 'CCW')  # Left, Counter-Clockwise
-}
+
 
 def parse_key(key: int) -> tuple[bool, int, int]:
     """
@@ -32,10 +32,10 @@ def get_orientation_rules(orientation: int) -> tuple[tuple[int, int], str]:
       - initial_direction: (dr, dc)
       - turn_direction: 'CW' (clockwise) or 'CCW' (counter-clockwise)
     """
-    for orient, direction, turn in ORIENTATIONS:
-        if orient == orientation:
-            return direction, turn
-    raise ValueError("Invalid orientation")
+    orient_and_direction_tuple = ORIENTATIONS.get(orientation)
+    if not orient_and_direction_tuple:
+        raise ValueError("Invalid orientation")
+    return orient_and_direction_tuple
 
 
 def generate_spiral_path(length: int, orientation: int, gap: int) -> list[tuple[int, int]]:
