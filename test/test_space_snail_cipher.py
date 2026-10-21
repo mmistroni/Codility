@@ -1,6 +1,6 @@
 from modulefinder import test
 import unittest
-from src.space_snail_cipher import encode, decode
+from src.space_snail_cipher import encode, decode, get_orientation_rules
 
 """
 Description:
@@ -161,6 +161,48 @@ class MyTestCase(unittest.TestCase):
     def test_mix_decode(self):
         for expected,key,text in cipher_mix:
             self.assertEqual(decode(text,key),expected, msg=f'Input : "{text}", {key}')
+
+    import unittest
+##########################
+##  test get orientation
+#########################
+
+    def test_valid_orientations(self):
+        # Orientation 1: Down, Clockwise
+        self.assertEqual(get_orientation_rules(1), ((1, 0), 'CW'))
+        
+        # Orientation 2: Down, Counter-Clockwise
+        self.assertEqual(get_orientation_rules(2), ((1, 0), 'CCW'))
+        
+        # Orientation 3: Up, Clockwise
+        self.assertEqual(get_orientation_rules(3), ((-1, 0), 'CW'))
+        
+        # Orientation 4: Up, Counter-Clockwise
+        self.assertEqual(get_orientation_rules(4), ((-1, 0), 'CCW'))
+        
+        # Orientation 5: Right, Clockwise
+        self.assertEqual(get_orientation_rules(5), ((0, 1), 'CW'))
+        
+        # Orientation 6: Right, Counter-Clockwise
+        self.assertEqual(get_orientation_rules(6), ((0, 1), 'CCW'))
+        
+        # Orientation 7: Left, Clockwise
+        self.assertEqual(get_orientation_rules(7), ((0, -1), 'CW'))
+        
+        # Orientation 8: Left, Counter-Clockwise
+        self.assertEqual(get_orientation_rules(8), ((0, -1), 'CCW'))
+
+    def test_invalid_orientations(self):
+        """Ensure invalid orientations raise an exception (KeyError or ValueError)."""
+        with self.assertRaises((KeyError, ValueError)):
+            get_orientation_rules(0)
+            
+        with self.assertRaises((KeyError, ValueError)):
+            get_orientation_rules(9)
+
+
+if __name__ == '__main__':
+    unittest.main()
             
 
 if __name__ == '__main__':
