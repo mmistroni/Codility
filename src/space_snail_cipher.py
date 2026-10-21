@@ -1,6 +1,6 @@
 # https://www.codewars.com/kata/6a37e118ef0c62f1772b6c6d
 
-ORIENTATIONS = [
+ORIENTATIONS = {
     1: ((1, 0), 'CW'),   # Down, Clockwise
     2: ((1, 0), 'CCW'),  # Down, Counter-Clockwise
     3: ((-1, 0), 'CW'),  # Up, Clockwise
@@ -9,7 +9,7 @@ ORIENTATIONS = [
     6: ((0, 1), 'CCW'),  # Right, Counter-Clockwise
     7: ((0, -1), 'CW'),  # Left, Clockwise
     8: ((0, -1), 'CCW')  # Left, Counter-Clockwise
-
+}
 
 def parse_key(key: int) -> tuple[bool, int, int]:
     """
